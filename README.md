@@ -1,0 +1,1110 @@
+# Lộ Trình AI Engineer Full-Stack
+
+Theo dõi chi tiết từng ngày: Lý thuyết, Thực hành & Dự án
+
+## Giai đoạn 1: Toán – Python – Tư duy lập trình
+**Thời gian:** 6 Tuần | Tập trung 80% Thực hành
+**Mục tiêu:** Nắm vững Python, tư duy thuật toán và toán học nền tảng cho AI (Vector, Ma trận).
+**Công cụ:** VS Code, Git, Python 3.x
+
+### Tuần 1: Python Cơ Bản & Setup
+*Mục tiêu: Viết được script chạy logic cơ bản, quản lý code bằng Git.*
+
+#### Thứ 2
+- 📘 **LEARN**: Cài đặt VS Code, Python, Git. Biến (int, float, str), Kiểu dữ liệu.
+- 💻 **CODE**: Viết chương trình tính chỉ số BMI, đổi nhiệt độ C sang F.
+
+#### Thứ 3
+- 📘 **LEARN**: Câu lệnh điều kiện (if-else), Vòng lặp (for, while).
+- 💻 **CODE**: Giải phương trình bậc 2. Game đoán số (Random number guessing).
+
+#### Thứ 4
+- 📘 **LEARN**: List, Tuple, Set. Các method xử lý List.
+- 💻 **CODE**: Tìm số lớn nhất, sắp xếp list, xóa phần tử trùng lặp.
+
+#### Thứ 5
+- 📘 **LEARN**: Dictionary (Từ điển) - Cấu trúc quan trọng nhất.
+- 💻 **CODE**: Tạo từ điển Anh-Việt. Đếm số lần xuất hiện từ trong đoạn văn.
+
+#### Thứ 6
+- 📘 **LEARN**: Hàm (Function), Tham số, Return.
+- 💻 **CODE**: Refactor bài tập tuần trước thành các hàm riêng biệt.
+
+#### Thứ 7
+- 📘 **LEARN**: Git cơ bản: git init, add, commit, push.
+- 💻 **CODE**: Tạo repo GitHub và đẩy toàn bộ bài tập tuần này lên.
+
+### Tuần 2: Python Nâng cao & DSA
+*Mục tiêu: Hiểu cách xử lý dữ liệu phức tạp và tối ưu code.*
+
+#### Thứ 2
+- 📘 **LEARN**: List Comprehension, Lambda functions.
+- 💻 **CODE**: Viết lại các vòng lặp xử lý list chỉ bằng 1 dòng code.
+
+#### Thứ 3
+- 📘 **LEARN**: Xử lý chuỗi nâng cao: split, join, strip, replace.
+- 💻 **CODE**: Bài tập chuẩn hóa tên người dùng (viết hoa, xóa khoảng trắng).
+
+#### Thứ 4
+- 📘 **LEARN**: File Handling (Đọc/Ghi file .txt).
+- 💻 **CODE**: Đọc file log và lọc các dòng báo lỗi 'ERROR'.
+
+#### Thứ 5
+- 📘 **LEARN**: OOP cơ bản: Class, Object, __init__.
+- 💻 **CODE**: Tạo class SinhVien (tên, điểm, tính điểm trung bình).
+
+#### Thứ 6
+- 📘 **LEARN**: Exception Handling (try-except).
+- 💻 **CODE**: Bắt lỗi chia cho 0 và lỗi không tìm thấy file.
+
+#### Thứ 7
+- 📘 **LEARN**: Thuật toán: Linear Search vs Binary Search.
+- 💻 **CODE**: Cài đặt 2 thuật toán tìm kiếm, so sánh tốc độ.
+
+### Tuần 3: Toán cho AI (Học qua Code)
+*Mục tiêu: Hiểu Vector, Ma trận làm nền tảng cho Numpy/PyTorch.*
+
+#### Thứ 2
+- 📘 **LEARN**: Scalar & Vector. Phép toán cộng/trừ/nhân vector.
+- 💻 **CODE**: Dùng List Python biểu diễn Vector. Viết hàm cộng 2 vectors.
+
+#### Thứ 3
+- 📘 **LEARN**: Dot Product (Tích vô hướng) - Concept quan trọng nhất.
+- 💻 **CODE**: Viết hàm tính Dot Product không dùng thư viện.
+
+#### Thứ 4
+- 📘 **LEARN**: Matrix (Ma trận), Shape, Transpose.
+- 💻 **CODE**: Biểu diễn ma trận bằng List lồng nhau. Hàm lấy shape.
+
+#### Thứ 5
+- 📘 **LEARN**: Matrix Multiplication (Nhân ma trận).
+- 💻 **CODE**: Viết hàm nhân 2 ma trận bằng 3 vòng for lồng nhau.
+
+#### Thứ 6
+- 📘 **LEARN**: Thống kê: Mean, Median, Std (Độ lệch chuẩn).
+- 💻 **CODE**: Viết hàm tính mean, std cho list điểm số.
+
+#### Thứ 7
+- 📘 **LEARN**: Đạo hàm (Derivative) & Độ dốc (Slope).
+- 💻 **CODE**: Viết hàm tính đạo hàm xấp xỉ của f(x) = x^2.
+
+### Tuần 4: Dự án 1 - Mini Numpy
+*Mục tiêu: Tự viết thư viện toán học để hiểu sâu Numpy.*
+
+#### Thứ 2
+- 💻 **CODE**: Khởi tạo Project. Tạo class Matrix, hàm __init__, validate input.
+
+#### Thứ 3
+- 💻 **CODE**: Overload toán tử +, - (__add__, __sub__) cho Matrix.
+
+#### Thứ 4
+- 💻 **CODE**: Cài đặt Dot Product & Matrix Multiplication vào class.
+
+#### Thứ 5
+- 💻 **CODE**: Cài đặt hàm Transpose (chuyển vị) và Sum.
+
+#### Thứ 6
+- 📘 **LEARN**: Hàm Softmax (dùng trong phân loại).
+- 💻 **CODE**: Viết hàm Softmax trả về xác suất.
+
+#### Thứ 7
+- 💻 **CODE**: Đóng gói, viết main.py test thư viện, viết README.md.
+
+### Tuần 5: Data Structures & JSON
+*Mục tiêu: Chuẩn bị kỹ năng xử lý dữ liệu cho dự án quản lý.*
+
+#### Thứ 2
+- 📘 **LEARN**: JSON Format.
+- 💻 **CODE**: Serialize Dictionary sang JSON và lưu file.
+
+#### Thứ 3
+- 📘 **LEARN**: Pickle (Lưu object nhị phân).
+- 💻 **CODE**: Lưu/Load class SinhVien bằng pickle.
+
+#### Thứ 4
+- 📘 **LEARN**: Modules & Packages.
+- 💻 **CODE**: Tách code thành data.py, utils.py, main.py.
+
+#### Thứ 5
+- 📘 **LEARN**: Virtual Environment (venv) & pip.
+- 💻 **CODE**: Tạo venv, cài thử thư viện requests.
+
+#### Thứ 6, 7
+- 📘 **LEARN**: OOP Kế thừa (Inheritance).
+- 💻 **CODE**: Tạo class Person, kế thừa ra Student và Teacher.
+
+### Tuần 6: Dự án 2 - CLI Student Manager
+*Mục tiêu: App quản lý hoàn chỉnh: OOP, File, CRUD.*
+
+#### Thứ 2
+- 💻 **CODE**: Thiết kế class, vẽ sơ đồ, code khung sườn (Skeleton).
+
+#### Thứ 3
+- 💻 **CODE**: Tính năng Create: add_student(), validate dữ liệu.
+
+#### Thứ 4
+- 💻 **CODE**: Tính năng Read: show_all(), search_by_name().
+
+#### Thứ 5
+- 💻 **CODE**: Tính năng Update & Delete theo ID.
+
+#### Thứ 6
+- 💻 **CODE**: Lưu/Load dữ liệu tự động vào json khi tắt/mở app.
+
+#### Thứ 7
+- 💻 **CODE**: Hoàn thiện Menu, xử lý lỗi crash, viết README, push GitHub.
+
+---
+
+## Giai đoạn 2: Data Analysis
+**Thời gian:** 5 Tuần | Làm sạch dữ liệu
+**Mục tiêu:** Thành thạo Pandas/NumPy để làm sạch và hiểu dữ liệu (70-80% công việc AI).
+**Công cụ:** Jupyter Notebook, Google Colab, Pandas, NumPy, Matplotlib, SQL
+
+### Tuần 1: NumPy & SQL Cơ bản
+*Mục tiêu: Tư duy Vectorization và lấy dữ liệu Database.*
+
+#### Thứ 2
+- 📘 **LEARN**: NumPy Arrays vs List. Broadcasting.
+- 💻 **CODE**: Tính toán trên Array không dùng vòng for.
+
+#### Thứ 3
+- 📘 **LEARN**: Boolean Indexing & Slicing.
+- 💻 **CODE**: Lọc phần tử > 50, thay số âm bằng 0.
+
+#### Thứ 4
+- 📘 **LEARN**: Hàm thống kê NumPy (mean, median, std).
+- 💻 **CODE**: Tính thống kê lương nhân viên giả lập.
+
+#### Thứ 5
+- 📘 **LEARN**: SQL: SELECT, FROM, WHERE (SQLite).
+- 💻 **CODE**: Query sinh viên điểm > 8.
+
+#### Thứ 6
+- 📘 **LEARN**: SQL Aggregation: GROUP BY, AVG.
+- 💻 **CODE**: Tính điểm trung bình từng lớp.
+
+#### Thứ 7
+- 📘 **LEARN**: Thư viện sqlite3.
+- 💻 **CODE**: Script Python tự động query SQL chuyển thành List.
+
+### Tuần 2: Pandas Core
+*Mục tiêu: Làm chủ DataFrame - Trái tim của Data Science.*
+
+#### Thứ 2
+- 📘 **LEARN**: Series & DataFrame. Read CSV/Excel.
+- 💻 **CODE**: Load dataset Titanic/Iris. Dùng head(), info().
+
+#### Thứ 3
+- 📘 **LEARN**: Truy xuất loc & iloc.
+- 💻 **CODE**: Lấy dòng 10-20, lấy cột Name/Age.
+
+#### Thứ 4
+- 📘 **LEARN**: Filtering (Lọc).
+- 💻 **CODE**: Lọc khách Titanic: Nữ, >30 tuổi, Sống sót.
+
+#### Thứ 5
+- 📘 **LEARN**: Sorting & Ranking.
+- 💻 **CODE**: Tìm top 10 người giàu nhất trên tàu.
+
+#### Thứ 6
+- 📘 **LEARN**: Feature Creation.
+- 💻 **CODE**: Tạo cột FamilySize từ SibSp + Parch.
+
+#### Thứ 7
+- 💻 **CODE**: Lưu DataFrame đã xử lý ra CSV/Excel.
+
+### Tuần 3: Data Cleaning
+*Mục tiêu: Xử lý dữ liệu bẩn (Thiếu, sai, trùng).*
+
+#### Thứ 2
+- 📘 **LEARN**: Missing Values (NaN): isna, fillna.
+- 💻 **CODE**: Điền tuổi thiếu bằng tuổi trung bình.
+
+#### Thứ 3
+- 📘 **LEARN**: Duplicates & Datetime.
+- 💻 **CODE**: Xóa dòng trùng. Chuyển đổi String sang Datetime.
+
+#### Thứ 4
+- 📘 **LEARN**: GroupBy (Pandas).
+- 💻 **CODE**: Tính tỉ lệ sống sót theo Hạng vé.
+
+#### Thứ 5
+- 📘 **LEARN**: Merge & Concat.
+- 💻 **CODE**: Ghép bảng Khách hàng và Đơn hàng.
+
+#### Thứ 6
+- 📘 **LEARN**: Pivot Table.
+- 💻 **CODE**: Bảng tổng hợp chéo: Giới tính x Hạng vé.
+
+#### Thứ 7
+- 📘 **LEARN**: Apply & Map.
+- 💻 **CODE**: Viết hàm phân loại tuổi và apply vào cột.
+
+### Tuần 4: Dự án 3 - E-commerce Analysis
+*Mục tiêu: Phân tích số liệu kinh doanh thực tế.*
+
+#### Thứ 2
+- 💻 **CODE**: Setup & Cleaning: Load 12 file CSV, xử lý NaN, Datetime.
+
+#### Thứ 3
+- 💻 **CODE**: Hỏi: Tháng doanh thu cao nhất? Vẽ Bar Chart.
+
+#### Thứ 4
+- 💻 **CODE**: Hỏi: Thành phố mua nhiều nhất? Vẽ Horizontal Bar.
+
+#### Thứ 5
+- 💻 **CODE**: Hỏi: Giờ chạy quảng cáo? Vẽ Line Chart.
+
+#### Thứ 6
+- 💻 **CODE**: Hỏi: Sản phẩm thường mua cùng nhau? Xử lý Order ID.
+
+#### Thứ 7
+- 💻 **CODE**: Viết báo cáo Markdown nhận xét biểu đồ. Push GitHub.
+
+### Tuần 5: Dự án 4 - EDA Report
+*Mục tiêu: Phân tích sâu (EDA) chuẩn Data Scientist.*
+
+#### Thứ 2
+- 📘 **LEARN**: Univariate Analysis.
+- 💻 **CODE**: Vẽ Histogram (Phân phối), Boxplot (Outliers) giá nhà.
+
+#### Thứ 3
+- 📘 **LEARN**: Bivariate Analysis.
+- 💻 **CODE**: Scatter Plot: Diện tích vs Giá.
+
+#### Thứ 4
+- 📘 **LEARN**: Correlation Heatmap (Seaborn).
+- 💻 **CODE**: Tìm yếu tố ảnh hưởng nhất đến giá.
+
+#### Thứ 5
+- 📘 **LEARN**: Feature Engineering cơ bản.
+- 💻 **CODE**: One-hot encoding (biến chữ -> số).
+
+#### Thứ 6
+- 📘 **LEARN**: Automated EDA (ydata-profiling).
+- 💻 **CODE**: Tạo báo cáo tự động 1 dòng code.
+
+#### Thứ 7
+- 💻 **CODE**: Tổng hợp Insight, giả định trình bày cho sếp.
+
+---
+
+## Giai đoạn 3: Machine Learning Cổ điển
+**Thời gian:** 10 Tuần | Từ Phân tích sang Kỹ sư AI
+**Mục tiêu:** Hiểu bản chất model, quy trình Train/Test, đánh giá metrics.
+**Công cụ:** Scikit-learn, XGBoost, LightGBM
+
+### Tuần 1: Regression (Hồi quy)
+*Mục tiêu: Dự đoán con số (Giá nhà, Lương).*
+
+#### Thứ 2
+- 📘 **LEARN**: Supervised Learning. Train/Test Split.
+
+#### Thứ 3
+- 📘 **LEARN**: Linear Regression.
+- 💻 **CODE**: Dự đoán lương theo kinh nghiệm.
+
+#### Thứ 4
+- 📘 **LEARN**: Loss Function & Gradient Descent.
+- 💻 **CODE**: Tự code lại Linear Regression (bản chất).
+
+#### Thứ 5
+- 📘 **LEARN**: Logistic Regression (Phân loại).
+- 💻 **CODE**: Dự đoán mua bảo hiểm (Yes/No).
+
+#### Thứ 6
+- 📘 **LEARN**: Sigmoid & Decision Boundary.
+
+#### Thứ 7
+- 📘 **LEARN**: Feature Scaling (MinMax/Standard).
+- 💻 **CODE**: Áp dụng Scaling so sánh kết quả.
+
+### Tuần 2: Đánh giá Model
+*Mục tiêu: Hiểu Overfitting và các chỉ số đo lường.*
+
+#### Thứ 2
+- 📘 **LEARN**: Metrics Regression: MSE, RMSE, R2.
+
+#### Thứ 3
+- 📘 **LEARN**: Metrics Classification: Accuracy, Precision, Recall, F1.
+
+#### Thứ 4
+- 📘 **LEARN**: Confusion Matrix.
+- 💻 **CODE**: Vẽ ma trận nhầm lẫn.
+
+#### Thứ 5
+- 📘 **LEARN**: Bias vs Variance. Overfitting.
+- 💻 **CODE**: Tạo model overfitting.
+
+#### Thứ 6
+- 📘 **LEARN**: Regularization (L1, L2).
+- 💻 **CODE**: Dùng Ridge để giảm Overfitting.
+
+#### Thứ 7
+- 📘 **LEARN**: Cross-Validation (K-Fold).
+- 💻 **CODE**: Chia K=5 để đánh giá chuẩn.
+
+### Tuần 3: Non-linear Models
+*Mục tiêu: Xử lý dữ liệu phức tạp.*
+
+#### Thứ 2
+- 📘 **LEARN**: KNN (Láng giềng gần nhất).
+- 💻 **CODE**: Phân loại hoa Iris, thay đổi K.
+
+#### Thứ 3
+- 📘 **LEARN**: SVM (Support Vector Machine).
+- 💻 **CODE**: Phân loại dữ liệu hình tròn (Kernel trick).
+
+#### Thứ 4
+- 📘 **LEARN**: Decision Tree (Cây quyết định).
+- 💻 **CODE**: Vẽ cây plot_tree xem logic.
+
+#### Thứ 5
+- 📘 **LEARN**: Pruning (Cắt tỉa cây).
+- 💻 **CODE**: Chỉnh max_depth tránh overfitting.
+
+#### Thứ 6
+- 📘 **LEARN**: Random Forest (Rừng ngẫu nhiên).
+- 💻 **CODE**: So sánh 1 cây vs 100 cây.
+
+#### Thứ 7
+- 📘 **LEARN**: Feature Importance.
+- 💻 **CODE**: Xem đặc trưng nào quan trọng nhất.
+
+### Tuần 4: Dự án 1 - House Price
+*Mục tiêu: Dự án ML hoàn chỉnh A-Z (Regression).*
+
+#### Thứ 2
+- 💻 **CODE**: EDA & Cleaning (Xử lý thiếu, outliers).
+
+#### Thứ 3
+- 💻 **CODE**: Feature Eng: One-hot encoding, Tạo biến mới.
+
+#### Thứ 4
+- 💻 **CODE**: Model Selection: Chạy thử Linear, SVM, RF.
+
+#### Thứ 5
+- 💻 **CODE**: Hyperparameter Tuning (GridSearchCV).
+
+#### Thứ 6
+- 💻 **CODE**: Evaluation & Selection.
+
+#### Thứ 7
+- 💻 **CODE**: Đóng gói Pipeline. Viết báo cáo.
+
+### Tuần 5: Ensemble & Boosting
+*Mục tiêu: Học các thuật toán mạnh nhất (Kaggle Winners).*
+
+#### Thứ 2
+- 📘 **LEARN**: AdaBoost Concept.
+
+#### Thứ 3
+- 📘 **LEARN**: Gradient Boosting (GBM).
+
+#### Thứ 4
+- 📘 **LEARN**: XGBoost (King).
+- 💻 **CODE**: Cài XGBoost, Early Stopping.
+
+#### Thứ 5
+- 📘 **LEARN**: LightGBM & CatBoost.
+- 💻 **CODE**: So sánh tốc độ.
+
+#### Thứ 6
+- 📘 **LEARN**: Stacking Models.
+- 💻 **CODE**: Kết hợp Linear + SVM + XGB.
+
+#### Thứ 7
+- 📘 **LEARN**: Optuna (Auto Tuning).
+- 💻 **CODE**: Tối ưu tham số XGBoost bằng Optuna.
+
+### Tuần 6: Unsupervised Learning
+*Mục tiêu: Gom nhóm dữ liệu không nhãn.*
+
+#### Thứ 2
+- 📘 **LEARN**: K-Means Clustering.
+- 💻 **CODE**: Phân nhóm khách hàng.
+
+#### Thứ 3
+- 📘 **LEARN**: Elbow Method (Chọn K).
+
+#### Thứ 4
+- 📘 **LEARN**: Hierarchical Clustering.
+
+#### Thứ 5
+- 📘 **LEARN**: Dimensionality Reduction (Giảm chiều).
+
+#### Thứ 6
+- 📘 **LEARN**: PCA (Principal Component Analysis).
+- 💻 **CODE**: Giảm 30 cột xuống 2 cột.
+
+#### Thứ 7
+- 📘 **LEARN**: t-SNE.
+- 💻 **CODE**: Visual dataset MNIST.
+
+### Tuần 7: Dự án 2 - Churn Prediction
+*Mục tiêu: Classification dữ liệu lệch (Imbalanced).*
+
+#### Thứ 2
+- 💻 **CODE**: EDA: Phát hiện dữ liệu lệch (80/20).
+
+#### Thứ 3
+- 💻 **CODE**: Handling Imbalanced: SMOTE, Class Weights.
+
+#### Thứ 4
+- 💻 **CODE**: Training Logistic & Random Forest.
+
+#### Thứ 5
+- 💻 **CODE**: Metric: ROC-AUC Curve.
+
+#### Thứ 6
+- 💻 **CODE**: Winning Model: XGBoost + Class Weight.
+
+#### Thứ 7
+- 💻 **CODE**: Explainability (SHAP): Tại sao khách rời bỏ?
+
+### Tuần 8: Dự án 3 - Segmentation
+*Mục tiêu: Phân khúc khách hàng (Clustering).*
+
+#### Thứ 2
+- 💻 **CODE**: Preprocessing & Scaling (Bắt buộc).
+
+#### Thứ 3
+- 💻 **CODE**: Chạy K-Means với các K khác nhau.
+
+#### Thứ 4
+- 💻 **CODE**: Cluster Profiling: Đặc điểm từng cụm là gì?
+
+#### Thứ 5
+- 💻 **CODE**: Visualization 3D bằng PCA.
+
+#### Thứ 6
+- 💻 **CODE**: Đề xuất chiến lược Marketing.
+
+#### Thứ 7
+- 💻 **CODE**: Dựng App Streamlit phân nhóm tự động.
+
+### Tuần 9-10: Ôn tập & Deep Dive
+*Mục tiêu: Củng cố kiến thức, chuẩn bị cho Deep Learning.*
+
+#### Tuần 9
+- 💻 **CODE**: Tham gia 1 cuộc thi Kaggle Playground (Tabular).
+- 💻 **CODE**: Áp dụng Pipeline: EDA -> Feature Eng -> XGBoost -> Optuna.
+
+#### Tuần 10
+- 💻 **CODE**: Học cách Deploy cơ bản: Save model (joblib/pickle).
+- 💻 **CODE**: Viết script load model và dự đoán.
+
+---
+
+## Giai đoạn 4: Deep Learning (PyTorch)
+**Thời gian:** 10 Tuần | Toán trừu tượng & GPU
+**Mục tiêu:** Thành thạo PyTorch, CNN (Ảnh), RNN (Chuỗi) và Training Loop.
+**Công cụ:** Python, PyTorch, Google Colab (GPU)
+
+### Tuần 1: PyTorch Basics
+*Mục tiêu: Hiểu Tensor và Autograd.*
+
+#### Thứ 2
+- 📘 **LEARN**: Tensor vs NumPy.
+- 💻 **CODE**: Chuyển đổi, phép toán trên Tensor.
+
+#### Thứ 3
+- 📘 **LEARN**: Autograd (Đạo hàm tự động).
+- 💻 **CODE**: Tính backward() và xem grad.
+
+#### Thứ 4
+- 📘 **LEARN**: Perceptron.
+- 💻 **CODE**: Viết lớp Linear y=Wx+b.
+
+#### Thứ 5
+- 📘 **LEARN**: Activation: Sigmoid, ReLU.
+- 💻 **CODE**: Vẽ đồ thị hàm kích hoạt.
+
+#### Thứ 6
+- 📘 **LEARN**: Loss & Optimizer (SGD, Adam).
+
+#### Thứ 7
+- 📘 **LEARN**: GPU Acceleration.
+- 💻 **CODE**: Đẩy data sang .to('cuda') trên Colab.
+
+### Tuần 2: Neural Networks
+*Mục tiêu: Training Loop chuẩn và MLP.*
+
+#### Thứ 2
+- 📘 **LEARN**: MLP Architecture (nn.Sequential).
+
+#### Thứ 3
+- 💻 **CODE**: Viết Training Loop 5 bước (Forward -> Loss -> Zero -> Backward -> Step).
+
+#### Thứ 4
+- 📘 **LEARN**: Dataset & DataLoader (Batching).
+
+#### Thứ 5
+- 📘 **LEARN**: Backpropagation Theory.
+
+#### Thứ 6
+- 💻 **CODE**: Dự án nhỏ: Phân loại số viết tay MNIST (>95%).
+
+#### Thứ 7
+- 💻 **CODE**: Save (.pth) & Load Model.
+
+### Tuần 3: CNN - Computer Vision
+*Mục tiêu: Xử lý ảnh với Tích chập (Convolution).*
+
+#### Thứ 2
+- 📘 **LEARN**: Convolution Layer.
+- 💻 **CODE**: Xem Feature Map sau lớp Conv.
+
+#### Thứ 3
+- 📘 **LEARN**: Pooling Layer (Max Pool).
+
+#### Thứ 4
+- 📘 **LEARN**: LeNet-5 Architecture.
+- 💻 **CODE**: Cài đặt LeNet.
+
+#### Thứ 5
+- 📘 **LEARN**: Flatten Layer.
+- 💻 **CODE**: Ghép CNN vào MLP.
+
+#### Thứ 6
+- 💻 **CODE**: Train trên CIFAR-10 (Ảnh màu).
+
+#### Thứ 7
+- 💻 **CODE**: Visualizing CNN layers.
+
+### Tuần 4: CNN Nâng cao
+*Mục tiêu: Transfer Learning (Đứng trên vai người khổng lồ).*
+
+#### Thứ 2
+- 📘 **LEARN**: ResNet, VGG.
+- 💻 **CODE**: Load pretrained model.
+
+#### Thứ 3
+- 📘 **LEARN**: Transfer Learning & Fine-tuning.
+- 💻 **CODE**: Freeze layers.
+
+#### Thứ 4
+- 📘 **LEARN**: Data Augmentation.
+- 💻 **CODE**: Xoay, lật ảnh (transforms).
+
+#### Thứ 5, 6
+- 💻 **CODE**: Dự án 1: Phân loại Chó/Mèo (Kaggle). Train > 90%.
+
+#### Thứ 7
+- 📘 **LEARN**: Batch Norm & Dropout (Chống Overfit).
+
+### Tuần 5: RNN - Sequence
+*Mục tiêu: Xử lý dữ liệu chuỗi (Text, Time-series).*
+
+#### Thứ 2
+- 📘 **LEARN**: RNN Concept.
+
+#### Thứ 3
+- 📘 **LEARN**: Vanishing Gradient.
+
+#### Thứ 4
+- 📘 **LEARN**: LSTM & GRU (Cổng nhớ/quên).
+
+#### Thứ 5
+- 📘 **LEARN**: Input Shape (Batch, Time, Feat).
+
+#### Thứ 6
+- 📘 **LEARN**: Word Embeddings (Sơ khởi).
+
+#### Thứ 7
+- 💻 **CODE**: Dự án nhỏ: Dự đoán chuỗi Sin wave.
+
+### Tuần 6: NLP Cơ bản
+*Mục tiêu: Phân loại văn bản.*
+
+#### Thứ 2
+- 📘 **LEARN**: Tokenization, Padding.
+- 💻 **CODE**: Biến câu thành list số.
+
+#### Thứ 3, 4
+- 💻 **CODE**: Dự án 2: Sentiment Analysis (IMDB). Embedding -> LSTM -> Linear.
+
+#### Thứ 5
+- 📘 **LEARN**: Bidirectional LSTM.
+
+#### Thứ 6, 7
+- 💻 **CODE**: Tinh chỉnh: Thay LSTM bằng GRU, thêm Dropout.
+
+### Tuần 7: DL Tricks
+*Mục tiêu: Kỹ thuật giúp model học tốt hơn.*
+
+#### Thứ 2
+- 📘 **LEARN**: Learning Rate Scheduling.
+
+#### Thứ 3
+- 📘 **LEARN**: Early Stopping.
+
+#### Thứ 4
+- 📘 **LEARN**: Weight Initialization (Xavier/He).
+
+#### Thứ 5
+- 💻 **CODE**: Debugging: 'Overfit on a single batch'.
+
+#### Thứ 6, 7
+- 💻 **CODE**: Quay lại tối ưu các model cũ bằng tricks mới.
+
+### Tuần 8-9: Dự án lớn DL
+*Mục tiêu: Portfolio Project.*
+
+#### Lựa chọn
+- 💻 **CODE**: Option 1: Image Captioning (CNN + LSTM).
+- 💻 **CODE**: Option 2: Neural Style Transfer (VGG19).
+
+#### Tuần 8
+- 💻 **CODE**: Chuẩn bị dữ liệu, Viết Data Loader, Tìm hiểu kiến trúc.
+
+#### Tuần 9
+- 💻 **CODE**: Train model, Tuning, Viết script Demo.
+
+### Tuần 10: Review
+*Mục tiêu: Chuẩn bị cho GenAI.*
+
+#### Công việc
+- 💻 **CODE**: Viết báo cáo dự án lớn.
+- 📘 **LEARN**: Đọc paper 'Attention Is All You Need' (Concept).
+- 💻 **CODE**: Dọn dẹp GitHub, đảm bảo code chạy được trên Colab.
+
+---
+
+## Giai đoạn 5: LLM – Generative AI
+**Thời gian:** 12 Tuần | Hot & Yêu cầu GPU mạnh
+**Mục tiêu:** Fine-tune LLM, RAG system, Prompt Engineering.
+**Công cụ:** Hugging Face, LangChain, ChromaDB, Ollama/LM Studio
+
+### Tuần 1: Transformer
+*Mục tiêu: Hiểu trái tim của LLM.*
+
+#### Thứ 2
+- 📘 **LEARN**: Transformer Paper.
+- 💻 **CODE**: Xem code Encoder-Decoder.
+
+#### Thứ 3
+- 📘 **LEARN**: Self-Attention Mechanism.
+- 💻 **CODE**: Viết hàm scaled_dot_product_attention.
+
+#### Thứ 4
+- 📘 **LEARN**: Positional Encoding.
+
+#### Thứ 5
+- 📘 **LEARN**: Encoder (BERT) vs Decoder (GPT).
+
+#### Thứ 6
+- 📘 **LEARN**: Hugging Face Transformers.
+- 💻 **CODE**: Load model BERT pretrained.
+
+#### Thứ 7
+- 📘 **LEARN**: Tokenizer (BPE).
+
+### Tuần 2: BERT & Fine-tuning
+*Mục tiêu: Hiểu ngôn ngữ (Understanding).*
+
+#### Thứ 2
+- 📘 **LEARN**: Pre-training vs Fine-tuning. MLM.
+- 💻 **CODE**: Load PhoBERT.
+
+#### Thứ 3
+- 💻 **CODE**: Chuẩn bị data (HF Datasets).
+
+#### Thứ 4, 5
+- 💻 **CODE**: Fine-tune PhoBERT cho Sentiment Analysis (Trainer API).
+
+#### Thứ 6
+- 📘 **LEARN**: NER (Named Entity Recognition).
+
+#### Thứ 7
+- 📘 **LEARN**: Metrics NLP: BLEU, ROUGE.
+
+### Tuần 3: GPT & Prompt Eng
+*Mục tiêu: Sinh văn bản (Generation).*
+
+#### Thứ 2
+- 📘 **LEARN**: GPT Architecture.
+- 💻 **CODE**: Pipeline text-generation.
+
+#### Thứ 3
+- 📘 **LEARN**: Temp, Top-k, Top-p.
+
+#### Thứ 4
+- 📘 **LEARN**: Zero-shot, Few-shot.
+
+#### Thứ 5
+- 📘 **LEARN**: Chain-of-Thought (CoT).
+
+#### Thứ 6
+- 📘 **LEARN**: Local LLM.
+- 💻 **CODE**: Cài Ollama/LM Studio chạy Llama-3 local.
+
+#### Thứ 7
+- 💻 **CODE**: System Prompt vs User Prompt.
+
+### Tuần 4: Embeddings & Vector DB
+*Mục tiêu: Nền tảng cho RAG.*
+
+#### Thứ 2
+- 📘 **LEARN**: Text Embeddings.
+- 💻 **CODE**: Dùng sentence-transformers.
+
+#### Thứ 3
+- 📘 **LEARN**: Cosine Similarity.
+
+#### Thứ 4
+- 📘 **LEARN**: Vector Database (ChromaDB/FAISS).
+
+#### Thứ 5
+- 💻 **CODE**: Semantic Search: Tìm kiếm theo ngữ nghĩa.
+
+#### Thứ 6, 7
+- 💻 **CODE**: Xây dựng công cụ tìm kiếm tài liệu cá nhân (PDF -> Vector).
+
+### Tuần 5-6: Dự án 1 - RAG (Chat PDF)
+*Mục tiêu: Chat với dữ liệu riêng (LangChain).*
+
+#### Tuần 5
+- 📘 **LEARN**: RAG Concept.
+- 💻 **CODE**: Pipeline: PDF -> Splitter -> VectorStore -> Retriever.
+
+#### Tuần 6
+- 💻 **CODE**: Kết nối LLM.
+- 💻 **CODE**: Prompt Template.
+- 💻 **CODE**: UI Streamlit cho Chatbot.
+
+### Tuần 7: Fine-tuning LLM (PEFT)
+*Mục tiêu: Train model lớn trên GPU yếu.*
+
+#### Thứ 2
+- 📘 **LEARN**: Full Fine-tune vs PEFT.
+
+#### Thứ 3
+- 📘 **LEARN**: LoRA (Low-Rank Adaptation).
+
+#### Thứ 4
+- 📘 **LEARN**: Quantization (4-bit/8-bit).
+
+#### Thứ 5, 6
+- 💻 **CODE**: Fine-tune Llama-3/Mistral (Instruction Tuning) với data tiếng Việt.
+
+#### Thứ 7
+- 💻 **CODE**: Merge LoRA weights. Test model.
+
+### Tuần 8-9: Dự án 2 - Vertical Chatbot
+*Mục tiêu: Bot chuyên ngành (Luật/Y tế).*
+
+#### Tuần 8
+- 💻 **CODE**: Advanced RAG: Hybrid Search, Re-ranking.
+
+#### Tuần 9
+- 📘 **LEARN**: AI Agents.
+- 💻 **CODE**: LangChain Agent dùng Tools (Search, Calc).
+
+### Tuần 10: Deployment LLM
+*Mục tiêu: Đưa model ra production.*
+
+#### Thứ 2
+- 📘 **LEARN**: Formats: ONNX, GGUF.
+
+#### Thứ 3
+- 💻 **CODE**: Convert Llama sang GGUF.
+
+#### Thứ 4
+- 📘 **LEARN**: vLLM serving.
+
+#### Thứ 5
+- 💻 **CODE**: API Server (FastAPI) bọc vLLM.
+
+#### Thứ 6, 7
+- 📘 **LEARN**: LLM Evaluation (RAGAS).
+
+### Tuần 11-12: Capstone
+*Mục tiêu: Dự án cuối khóa.*
+
+#### Nhiệm vụ
+- 💻 **CODE**: Xây dựng Demo hoàn chỉnh.
+- 💻 **CODE**: Viết Blog kỹ thuật.
+- 💻 **CODE**: Quay video demo.
+
+---
+
+## Giai đoạn 6: Software & Data Eng
+**Thời gian:** 10 Tuần | Biến Code thành Sản phẩm
+**Mục tiêu:** Build API, Docker, Pipeline tự động.
+**Công cụ:** FastAPI, Docker, SQLALchemy, Prefect/Airflow
+
+### Tuần 1: FastAPI
+*Mục tiêu: Xây dựng API chuẩn mực.*
+
+#### Thứ 2
+- 📘 **LEARN**: RESTful API.
+- 💻 **CODE**: Hello World FastAPI.
+
+#### Thứ 3
+- 📘 **LEARN**: Pydantic (Validation).
+
+#### Thứ 4
+- 📘 **LEARN**: Path & Query Params.
+
+#### Thứ 5
+- 📘 **LEARN**: Dependency Injection.
+
+#### Thứ 6
+- 📘 **LEARN**: Async/Await.
+
+#### Thứ 7
+- 💻 **CODE**: Viết API /predict cho Model ML.
+
+### Tuần 2: Database & ORM
+*Mục tiêu: Lưu trữ lịch sử dự đoán.*
+
+#### Thứ 2
+- 📘 **LEARN**: ORM vs SQL thuần.
+- 💻 **CODE**: Setup SQLAlchemy.
+
+#### Thứ 3
+- 💻 **CODE**: Định nghĩa Models (Table).
+
+#### Thứ 4
+- 💻 **CODE**: CRUD Operations.
+
+#### Thứ 5
+- 📘 **LEARN**: Migrations (Alembic).
+
+#### Thứ 6
+- 📘 **LEARN**: PostgreSQL & Docker cơ bản.
+
+#### Thứ 7
+- 💻 **CODE**: Nâng cấp API: Lưu log vào DB.
+
+### Tuần 3: Docker
+*Mục tiêu: Containerization (Chạy mọi nơi).*
+
+#### Thứ 2
+- 📘 **LEARN**: Container vs VM.
+- 💻 **CODE**: Cài Docker Desktop.
+
+#### Thứ 3
+- 📘 **LEARN**: Dockerfile.
+- 💻 **CODE**: Viết Dockerfile cho FastAPI.
+
+#### Thứ 4
+- 📘 **LEARN**: Commands: build, run.
+
+#### Thứ 5
+- 📘 **LEARN**: Docker Compose.
+- 💻 **CODE**: Chạy App + DB cùng lúc.
+
+#### Thứ 6
+- 📘 **LEARN**: Volume & Network.
+
+#### Thứ 7
+- 💻 **CODE**: Tối ưu Image (Multi-stage build).
+
+### Tuần 4: Testing & Code Quality
+*Mục tiêu: Code sạch, ít lỗi.*
+
+#### Thứ 2
+- 📘 **LEARN**: Unit Test (pytest).
+
+#### Thứ 3
+- 📘 **LEARN**: TestClient (FastAPI).
+
+#### Thứ 4
+- 📘 **LEARN**: Mocking.
+
+#### Thứ 5
+- 📘 **LEARN**: Linting: Black, Ruff, MyPy.
+
+#### Thứ 6
+- 📘 **LEARN**: Pre-commit hooks.
+
+#### Thứ 7
+- 💻 **CODE**: Refactor dự án cũ & Viết Test.
+
+### Tuần 5: Git Collaboration
+*Mục tiêu: Làm việc nhóm.*
+
+#### Thứ 2
+- 📘 **LEARN**: Branching Strategy.
+
+#### Thứ 3
+- 📘 **LEARN**: Pull Request (PR) & Review.
+
+#### Thứ 4
+- 📘 **LEARN**: Merge Conflict.
+
+#### Thứ 5
+- 📘 **LEARN**: .gitignore.
+
+#### Thứ 6, 7
+- 📘 **LEARN**: GitHub Actions (CI cơ bản).
+
+### Tuần 6: ETL Pipeline
+*Mục tiêu: Tự động hóa dữ liệu.*
+
+#### Thứ 2
+- 📘 **LEARN**: ETL / ELT Concept.
+
+#### Thứ 3
+- 📘 **LEARN**: Web Scraping (BeautifulSoup).
+
+#### Thứ 4
+- 📘 **LEARN**: Prefect / Airflow Intro.
+
+#### Thứ 5
+- 📘 **LEARN**: DAG Concept.
+
+#### Thứ 6
+- 📘 **LEARN**: Scheduling (Cron).
+
+#### Thứ 7
+- 💻 **CODE**: Pipeline tự động Retrain Model.
+
+### Tuần 7: Big Data (Intro)
+*Mục tiêu: Biết khái niệm chém gió.*
+
+#### Thứ 2
+- 📘 **LEARN**: Distributed Computing.
+
+#### Thứ 3
+- 📘 **LEARN**: Apache Spark (PySpark).
+
+#### Thứ 4
+- 📘 **LEARN**: Apache Kafka (Pub/Sub).
+
+#### Thứ 5
+- 📘 **LEARN**: Data Lake vs Warehouse.
+
+#### Thứ 6, 7
+- 💻 **CODE**: Chuyển code Pandas sang PySpark.
+
+### Tuần 8-10: Capstone End-to-End
+*Mục tiêu: Dự án: AQI Prediction System.*
+
+#### Tuần 8
+- 💻 **CODE**: Data Pipeline (ETL) với Prefect.
+
+#### Tuần 9
+- 💻 **CODE**: Model Service (FastAPI).
+
+#### Tuần 10
+- 💻 **CODE**: Deployment (Docker Compose full stack).
+- 💻 **CODE**: Viết README xịn.
+
+---
+
+## Giai đoạn 7: MLOps
+**Thời gian:** 8 Tuần | Vận hành hệ thống
+**Mục tiêu:** Tự động hóa, Giám sát và Nuôi sống Model.
+**Công cụ:** WandB/MLflow, GitHub Actions, Cloud Run, Evidently AI
+
+### Tuần 1: Experiment Tracking
+*Mục tiêu: Quản lý thí nghiệm.*
+
+#### Thứ 2
+- 📘 **LEARN**: MLOps Lifecycle.
+
+#### Thứ 3
+- 📘 **LEARN**: WandB / MLflow.
+- 💻 **CODE**: Tích hợp Logging vào code.
+
+#### Thứ 4
+- 📘 **LEARN**: Artifacts (Lưu file).
+
+#### Thứ 5
+- 📘 **LEARN**: Hyperparameter Sweeps.
+
+#### Thứ 6, 7
+- 💻 **CODE**: Áp dụng WandB vào dự án cũ.
+
+### Tuần 2: Model Registry
+*Mục tiêu: Quản lý version model.*
+
+#### Thứ 2
+- 📘 **LEARN**: Model Registry Concept.
+
+#### Thứ 3
+- 📘 **LEARN**: Versioning.
+
+#### Thứ 4
+- 📘 **LEARN**: Staging vs Production.
+
+#### Thứ 5
+- 📘 **LEARN**: Dockerizing ML Models.
+
+#### Thứ 6, 7
+- 💻 **CODE**: Container tự load model từ Registry.
+
+### Tuần 3: CI/CD for ML (CML)
+*Mục tiêu: Tự động hóa quy trình.*
+
+#### Thứ 2
+- 📘 **LEARN**: CI/CD Intro.
+
+#### Thứ 3
+- 💻 **CODE**: Automated Testing (GitHub Actions).
+
+#### Thứ 4
+- 💻 **CODE**: Data Validation.
+
+#### Thứ 5
+- 📘 **LEARN**: CML (Report in PR).
+
+#### Thứ 6, 7
+- 💻 **CODE**: Full Pipeline: Push -> Train -> Report -> Build.
+
+### Tuần 4: Cloud Deployment
+*Mục tiêu: Đưa lên Internet.*
+
+#### Thứ 2
+- 📘 **LEARN**: Batch vs Realtime vs Edge.
+
+#### Thứ 3
+- 📘 **LEARN**: Serverless (Cloud Run).
+
+#### Thứ 4
+- 📘 **LEARN**: IaC (Terraform) - Intro.
+
+#### Thứ 5
+- 💻 **CODE**: Deploy Docker lên Cloud Run.
+
+#### Thứ 6
+- 📘 **LEARN**: Canary & Blue-Green Deployment.
+
+#### Thứ 7
+- 💻 **CODE**: Cấu hình Traffic splitting.
+
+### Tuần 5: Monitoring
+*Mục tiêu: Giám sát sức khỏe Model.*
+
+#### Thứ 2
+- 📘 **LEARN**: Data Drift & Concept Drift.
+
+#### Thứ 3
+- 📘 **LEARN**: Evidently AI.
+
+#### Thứ 4
+- 📘 **LEARN**: System Metrics.
+
+#### Thứ 5
+- 📘 **LEARN**: Alerting.
+
+#### Thứ 6, 7
+- 💻 **CODE**: Tích hợp Report Drift vào API.
+
+### Tuần 6-8: Capstone - Credit Scoring
+*Mục tiêu: Dự án MLOps Full-stack: Credit Scoring System.*
+
+#### Tuần 6
+- 💻 **CODE**: Pipeline Training (XGBoost + MLflow).
+
+#### Tuần 7
+- 💻 **CODE**: Automation (CI/CD -> Deploy Cloud).
+
+#### Tuần 8
+- 💻 **CODE**: Monitoring UI & Documentation.
+
+---
