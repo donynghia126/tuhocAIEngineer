@@ -1,0 +1,32 @@
+ Ngày 1: Setup & Biến số⏳ Thời gian: 1.5 - 2 tiếng🎯 Mục tiêu: Cài đặt môi trường code và viết được chương trình tính toán đơn giản.🛠️ Phần 1: Cài đặt môi trường (30 phút)Nếu máy bạn chưa có, hãy cài đặt ngay:Python: Tải bản mới nhất (3.10 trở lên) tại python.org.Lưu ý quan trọng khi cài trên Windows: Nhớ tích vào ô "Add Python to PATH" (cực kỳ quan trọng để chạy lệnh trong terminal).Visual Studio Code (VS Code): Trình soạn thảo code quốc dân.Extension Python cho VS Code: Mở VS Code -> Bấm vào biểu tượng mảnh ghép (Extensions) bên trái -> Tìm "Python" (của Microsoft) -> Install.Git: Tải tại git-scm.com.Kiểm tra: Mở Terminal (CMD hoặc PowerShell), gõ:Bashpython --version
+git --version
+Nếu nó hiện ra số phiên bản (ví dụ Python 3.11.5) là OK.📚 Phần 2: Lý thuyết cấp tốc (20 phút)Bạn cần nắm 3 khái niệm cốt lõi hôm nay:Biến (Variables): Là cái hộp để đựng dữ liệu.Ví dụ: ten = "Gemini", tuoi = 2Kiểu dữ liệu (Data Types):int: Số nguyên (1, 2, 100)float: Số thực (1.5, 3.14)str: Chuỗi ký tự ("Hello", 'Vietnam')bool: Logic (True, False)Nhập/Xuất (Input/Output):print("Nội dung"): In ra màn hình.input("Câu nhắc"): Nhập từ bàn phím. Lưu ý: input luôn trả về str. Muốn tính toán phải ép kiểu (int(), float()).💻 Phần 3: Bài tập thực hành (Code ngay!)Tạo một folder tên AI_Learning trên máy. Mở folder đó bằng VS Code.Bài 1: Hello World & Biến (Khởi động)Tạo file day1_hello.py:Python# Khai báo biến
+ho_ten = "Nguyen Van A"
+tuoi = 20
+truong_hoc = "Shimane IT College"
+
+# In ra màn hình dùng f-string (cách in hiện đại nhất)
+print(f"Xin chào, tôi là {ho_ten}.")
+print(f"Năm nay tôi {tuoi} tuổi và đang học tại {truong_hoc}.")
+Bài 2: Công cụ chuyển đổi nhiệt độ (C to F)Tạo file day1_temp.py.Công thức: $F = (C \times 1.8) + 32$Python# Nhập nhiệt độ C (Nhớ ép kiểu sang float vì nhiệt độ có thể lẻ)
+celsius = float(input("Nhập nhiệt độ C: "))
+
+# Tính toán
+fahrenheit = (celsius * 1.8) + 32
+
+# In kết quả
+print(f"{celsius} độ C tương đương với {fahrenheit} độ F")
+🔥 Bài 3: Máy tính chỉ số BMI (Bài tập chính)Tạo file day1_bmi.py.Công thức: $BMI = \frac{Cân nặng (kg)}{Chiều cao (m)^2}$Yêu cầu:Nhập cân nặng (kg).Nhập chiều cao (cm) -> Phải tự đổi sang mét trong code.Tính BMI và in ra (làm tròn 2 chữ số thập phân).Gợi ý code (Bạn hãy tự gõ, đừng copy paste):Pythonprint("--- CHƯƠNG TRÌNH TÍNH BMI ---")
+
+weight = float(input("Nhập cân nặng của bạn (kg): "))
+height_cm = float(input("Nhập chiều cao của bạn (cm): "))
+
+# Đổi cm sang m
+height_m = height_cm / 100
+
+# Tính BMI
+bmi = weight / (height_m ** 2)
+
+# In kết quả làm tròn 2 số lẻ -> :.2f
+print(f"Chỉ số BMI của bạn là: {bmi:.2f}")
+📝 Bài tập về nhà (Thử thách tư duy)Chưa học if-else nhưng thử search Google xem làm được không nhé.Nâng cấp bài BMI: Sau khi tính ra số BMI, hãy in ra thêm dòng đánh giá:Nếu BMI < 18.5: "Hơi gầy rồi nha!"Nếu 18.5 <= BMI < 25: "Body chuẩn!"Nếu BMI >= 25: "Cần giảm cân xíu!"
