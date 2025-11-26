@@ -29,8 +29,8 @@ _Mục tiêu: Viết được script chạy logic cơ bản, quản lý code b�
 
 #### Thứ 5
 
-- 📘 **LEARN**: Dictionary (Từ điển) - Cấu trúc quan trọng nhất.
-- 💻 **CODE**: Tạo từ điển Anh-Việt. Đếm số lần xuất hiện từ trong đoạn văn.
+- ✅ **LEARN**: Dictionary (Từ điển) - Cấu trúc quan trọng nhất.
+- ✅ **CODE**: Tạo từ điển Anh-Việt. Đếm số lần xuất hiện từ trong đoạn văn.
 
 #### Thứ 6
 
