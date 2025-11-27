@@ -1,0 +1,116 @@
+📅 Giai đoạn 1 - Tuần 1 - Ngày 7: Git & GitHub
+🎯 Mục tiêu:
+
+Hiểu quy trình 3 bước: add -> commit -> push.
+
+Tự tạo kho chứa (Repository) trên GitHub.
+
+Đẩy toàn bộ bài tập tuần qua lên đó làm Portfolio.
+
+📚 Phần 1: Lý thuyết 5 phút (Tư duy hình ảnh)
+Hãy tưởng tượng bạn đang chuyển nhà:
+
+git init: Mua một cái thùng các-tông mới. (Tạo kho chứa tại máy tính).
+
+git add .: Gom đồ đạc (file code) bỏ vào thùng.
+
+git commit -m "Ghi chú": Dán băng dính đóng thùng lại và dán nhãn "Đồ nhà bếp". (Lưu lại một phiên bản lịch sử).
+
+git push: Thuê xe tải chở cái thùng đó đến kho bãi (GitHub) để cất giữ.
+
+💻 Phần 2: Thực hành (Làm theo từng bước)
+Bước 0: Dọn dẹp nhà cửa
+Trước khi đẩy lên, hãy sắp xếp lại folder cho gọn gàng. Cấu trúc folder nên trông như thế này:
+
+Plaintext
+
+AI_Phase1_Week1/  <-- Folder tổng
+│
+├── Day1/
+│   ├── bmi.py
+│   └── hello.py
+├── Day2/
+│   └── game_doan_so.py
+├── Day3/
+│   └── xu_ly_list.py
+...
+└── Day6/
+    └── ham_bmi.py
+Hãy di chuyển các file bạn đã code mấy ngày nay vào đúng folder như trên.
+
+Bước 1: Khai báo danh tính (Chỉ làm 1 lần duy nhất trên máy mới)
+Mở Terminal (hoặc Git Bash) tại folder AI_Phase1_Week1, gõ:
+
+Bash
+
+git config --global user.name "Dony"
+git config --global user.email "email_cua_ban@gmail.com"
+(Để GitHub biết ai là người viết code này).
+
+Bước 2: Khởi tạo và Đóng gói (Tại máy tính của bạn)
+Gõ lần lượt các lệnh sau trong Terminal:
+
+Bash
+
+# 1. Biến folder hiện tại thành kho chứa Git
+git init
+
+# 2. Thêm tất cả các file vào "thùng chứa"
+git add .
+
+# 3. Đóng gói lại (Commit)
+git commit -m "Hoan thanh bai tap Tuan 1: Python co ban"
+Nếu nó hiện ra danh sách các file đã create mode... là thành công!
+
+Bước 3: Tạo kho chứa trên GitHub (Trên web)
+Đăng nhập GitHub.com.
+
+Bấm dấu + ở góc trên bên phải -> New repository.
+
+Đặt tên: Zero-to-Hero-AI-Phase1.
+
+Chọn Public.
+
+Bấm Create repository.
+
+Bước 4: Kết nối và Đẩy code (Push)
+Sau khi bấm Create, GitHub sẽ hiện ra một trang hướng dẫn. Bạn hãy tìm đoạn "…or push an existing repository from the command line".
+
+Copy 3 dòng code họ cho và paste vào Terminal của bạn. Nó thường trông như thế này:
+
+Bash
+
+# 1. Kết nối kho ở máy bạn với kho trên web (origin)
+git remote add origin https://github.com/Tên-Nick-Của-Bạn/Zero-to-Hero-AI-Phase1.git
+
+# 2. Đổi tên nhánh chính thành main (cho chuẩn quốc tế)
+git branch -M main
+
+# 3. Đẩy code lên (Sẽ yêu cầu đăng nhập nếu lần đầu)
+git push -u origin main
+🌟 Bonus: Làm đẹp GitHub (README.md)
+Một Repo chuyên nghiệp không thể thiếu file giới thiệu. Hãy tạo một file tên là README.md (ngay trong folder gốc) và viết nội dung sau:
+
+Markdown
+
+# 🚀 Hành trình Zero to Hero AI Engineer - Giai đoạn 1
+
+Đây là nơi lưu trữ bài tập Python tuần đầu tiên của tôi (Dony).
+
+## 📚 Nội dung đã học
+- **Day 1:** Biến & Kiểu dữ liệu (BMI Calculator).
+- **Day 2:** Câu lệnh điều kiện & Vòng lặp (Game đoán số).
+- **Day 3:** List, Set, Dictionary (Xử lý dữ liệu).
+- **Day 5:** Dictionary nâng cao (Đếm tần suất từ).
+- **Day 6:** Hàm (Functions) & Refactoring code.
+
+## 🛠️ Công nghệ sử dụng
+- Python 3.10+
+- VS Code
+Sau khi tạo xong file này, bạn làm lại quy trình cũ để cập nhật lên GitHub:
+
+Bash
+
+git add .
+git commit -m "Them file README"
+git push
