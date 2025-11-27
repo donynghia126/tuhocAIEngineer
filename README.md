@@ -34,13 +34,13 @@ _Mục tiêu: Viết được script chạy logic cơ bản, quản lý code b�
 
 #### Thứ 6
 
-- 📘 **LEARN**: Hàm (Function), Tham số, Return.
-- 💻 **CODE**: Refactor bài tập tuần trước thành các hàm riêng biệt.
+- ✅ **LEARN**: Hàm (Function), Tham số, Return.
+- ✅ **CODE**: Refactor bài tập tuần trước thành các hàm riêng biệt.
 
 #### Thứ 7
 
-- 📘 **LEARN**: Git cơ bản: git init, add, commit, push.
-- 💻 **CODE**: Tạo repo GitHub và đẩy toàn bộ bài tập tuần này lên.
+- ✅ **LEARN**: Git cơ bản: git init, add, commit, push.
+- ✅ **CODE**: Tạo repo GitHub và đẩy toàn bộ bài tập tuần này lên.
 
 ### Tuần 2: Python Nâng cao & DSA
 
