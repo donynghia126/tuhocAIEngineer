@@ -1,0 +1,263 @@
+🚀 LỘ TRÌNH 12 THÁNG – 1~2 TIẾNG / NGÀY CHO AI ENGINEER
+
+Mỗi giai đoạn mình đề xuất:
+
+Thời gian
+
+Việc học mỗi ngày
+
+Dự án thực tế bạn nên làm
+
+🏛️ Giai đoạn 1: Toán – Python – Tư duy lập trình
+
+⏳ Thời gian: 6 tuần
+📌 45–60 phút học + 30 phút code mỗi ngày
+
+🎯 Bạn sẽ học:
+
+Linear Algebra, Calculus cơ bản cho AI
+
+Python cơ bản–nâng cao
+
+Data structures & algorithms
+
+Git
+
+🧪 Dự án thực tế 1: “Mini Numpy from Scratch”
+
+Tự viết 5 hàm: dot product, mean, std, normalize, softmax
+
+Lưu thành 1 library nhỏ
+👉 Giúp bạn hiểu nền tảng toán + code tối ưu như thế nào.
+
+🧪 Dự án thực tế 2: “CLI Student Manager”
+
+Create/read/update/delete học sinh bằng Python
+
+Lưu JSON/Pickle
+
+Áp dụng OOP + file handling
+
+📊 Giai đoạn 2: Data Analysis – Xử lý dữ liệu
+
+⏳ Thời gian: 5 tuần
+📌 30–45 phút học + 45 phút làm bài tập/dự án mỗi ngày
+
+🎯 Bạn học:
+
+Pandas
+
+NumPy nâng cao
+
+Matplotlib
+
+SQL
+
+Feature Engineering
+
+🧪 Dự án thực tế 3: “Phân tích dữ liệu cửa hàng Starbucks / Shopee / Tiki”
+
+Dataset có sẵn online.
+Bạn làm:
+
+Làm sạch dữ liệu
+
+Vẽ biểu đồ
+
+Tìm insight
+
+Xuất báo cáo PDF
+
+🧪 Dự án thực tế 4: “EDA Data Science Report”
+
+Chọn 1 bộ dữ liệu Kaggle → viết full báo cáo EDA:
+
+Missing values
+
+Correlation
+
+Outliers
+
+Feature engineering
+
+🤖 Giai đoạn 3: Machine Learning cổ điển
+
+⏳ Thời gian: 10–12 tuần
+📌 Mỗi ngày 1–1.5 tiếng
+
+🎯 Bạn học:
+
+Linear/Logistic Regression
+
+Decision Trees, Random Forest, SVM
+
+K-Means, PCA
+
+XGBoost, CatBoost
+
+Cross-validation
+
+Hyperparameter tuning
+
+🧪 Dự án ML thực tế: (Chọn 2–3 cái)
+1) Dự án Dự đoán Giá Nhà (House Price Prediction)
+
+Train từ Regression → Random Forest → XGBoost
+
+Tuning Optuna
+
+Compare model
+👉 Đây là dự án ML “kinh điển”, cực dễ ghi trong CV.
+
+2) Dự đoán khách hàng rời bỏ (Customer Churn Prediction)
+
+Làm imbalance
+
+SMOTE
+
+ROC-AUC
+👉 Dataset cực phổ biến trong doanh nghiệp.
+
+3) Phân nhóm khách hàng (Customer Segmentation – KMeans)
+
+PCA
+
+Cluster visualization
+👉 Ứng dụng trong marketing thực tế.
+
+🧠 Giai đoạn 4: Deep Learning cơ bản → nâng cao
+
+⏳ Thời gian: 10–12 tuần
+📌 1–1.5 tiếng mỗi ngày
+
+🎯 Bạn học:
+
+Neural Networks
+
+Backpropagation
+
+CNN, RNN
+
+PyTorch
+
+Training tricks (Dropout, BatchNorm)
+
+🧪 Dự án DL thực tế:
+1) Phân loại chữ số MNIST (NN basic)
+
+→ Mục tiêu: nắm PyTorch + training loop
+
+2) Phân loại ảnh mèo/chó (CNN)
+
+→ Dùng Data Augmentation + Transfer Learning (ResNet)
+
+3) Dự đoán chuỗi (RNN/LSTM)
+
+→ Dự đoán giá Bitcoin (hoặc thời tiết)
+
+🎨 Giai đoạn 5: LLM – Generative AI – Chuyên ngành NLP
+
+⏳ Thời gian: 12 tuần
+📌 1–1.5 tiếng mỗi ngày
+
+🎯 Bạn học:
+
+Transformers
+
+Hugging Face
+
+Prompt Engineering
+
+RAG
+
+Fine-tuning (LoRA)
+
+Vector Databases
+
+🧪 Dự án GenAI thực tế:
+1) Build Chatbot LLM cho PDF công ty
+
+Llama 3 / Mistral
+
+Embeddings + vector DB
+
+RAG pipeline
+
+2) Fine-tune model phân loại văn bản tiếng Việt
+
+Tin tức → chính trị / kinh tế / xã hội / thể thao
+
+Model: BERT, PhoBERT, Llama 3 instruct
+
+3) Chatbot nghiên cứu + mô tả ảnh (Vision-Language)
+
+Dùng LLaVA hoặc Qwen-VL
+
+🛠️ Giai đoạn 6: Software Engineering + Data Engineering
+
+⏳ Thời gian: 8–10 tuần (song song)
+📌 1 tiếng/ngày là đủ
+
+🎯 Bạn học:
+
+FastAPI
+
+Git nâng cao
+
+Testing (pytest)
+
+Docker
+
+ETL basics
+
+Spark
+
+Kafka
+
+🧪 Dự án thực tế:
+1) Xây API FastAPI để phục vụ model ML/LLM
+
+/predict
+
+/health
+
+/metrics
+
+2) Pipeline ETL: lấy dữ liệu → làm sạch → lưu database
+
+Dùng Airflow hoặc Prefect (local)
+
+🚀 Giai đoạn 7: MLOps – Triển khai thực chiến
+
+⏳ Thời gian: 8 tuần
+
+🎯 Bạn học:
+
+MLflow
+
+WandB
+
+CI/CD
+
+vLLM / TGI / Ollama
+
+Cloud (AWS/GCP)
+
+🧪 Dự án MLOps thực tế:
+Dự án lớn cuối cùng (Capstone): “AI System End-to-End”
+
+Bạn triển khai toàn bộ:
+
+Pipeline data → Feature Store
+
+Train ML/DL model
+
+MLflow để track
+
+Deploy bằng FastAPI + Docker
+
+Monitoring (drift, logs)
+
+Một UI web nhỏ (Streamlit)
+
+🎯 Dự án này là “portfolio killshot”—tự tin nộp bất kỳ công ty nào.
