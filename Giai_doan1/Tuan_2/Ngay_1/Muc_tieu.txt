@@ -1,0 +1,59 @@
+📅 Giai đoạn 1 - Tuần 2 - Ngày 1: List Comprehension & Lambda
+⏳ Thời gian: 1.5 tiếng 🎯 Mục tiêu: Viết code Python "chuẩn cơm mẹ nấu" (Pythonic). Thay vì viết 5 dòng, giờ chỉ viết 1 dòng.
+
+📚 Phần 1: Lý thuyết "Võ công thượng thừa" (20 phút)
+1. List Comprehension (Tạo List siêu tốc)
+Đây là đặc sản của Python. Nó giúp bạn tạo một list mới từ list cũ chỉ trong 1 dòng.
+
+Cú pháp: [biểu_thức for biến in danh_sách if điều_kiện]
+
+Ví dụ: Tìm các số chẵn trong list.
+
+Python
+
+numbers = [1, 2, 3, 4, 5, 6]
+
+# Cách "Nông dân" (Cũ - 4 dòng)
+so_chan = []
+for x in numbers:
+    if x % 2 == 0:
+        so_chan.append(x)
+
+# Cách "Pythonic" (Mới - 1 dòng)
+so_chan = [x for x in numbers if x % 2 == 0]
+2. Hàm Lambda (Hàm vô danh)
+Dùng cho những hàm siêu nhỏ, chỉ dùng 1 lần rồi bỏ (thường dùng trong sort, map, filter).
+
+Cú pháp: lambda tham_số: kết_quả
+
+Ví dụ: Sắp xếp danh sách học sinh theo Tuổi (phần tử thứ 2).
+
+Python
+
+students = [("An", 20), ("Binh", 18), ("Cuong", 22)]
+
+# sort() mặc định xếp theo Tên (phần tử đầu). Muốn xếp theo Tuổi phải dùng key.
+students.sort(key=lambda item: item[1]) 
+# item[1] là lấy số tuổi ra để so sánh
+💻 Phần 2: Bài tập thực hành (Code ngay!)
+Hãy tạo file week2_day1.py và giải quyết các bài toán sau bằng 1 dòng code duy nhất cho mỗi bài.
+
+🟢 Bài 1: Bình phương (Transformation)
+Đề bài: Cho list: numbers = [1, 2, 3, 4, 5] Hãy tạo list mới squared_numbers chứa bình phương của các số đó ([1, 4, 9, 16, 25]) dùng List Comprehension.
+
+🟡 Bài 2: Lọc dữ liệu (Filtering) - Refactor bài Chẵn/Lẻ tuần trước
+Đề bài: Cho list hỗn hợp: data = [10, 3, 5, 8, 20, 7, 30] Hãy tạo list high_scores chỉ chứa các điểm số lớn hơn 10 và là số chẵn.
+
+🔴 Bài 3: Chuẩn hóa tên (String Processing)
+Đề bài: Bạn có danh sách tên nhập ẩu: names = [" hOa ", " bInH", "cUoNg "] Dùng List Comprehension để tạo list mới sạch đẹp: ["Hoa", "Binh", "Cuong"]. Gợi ý: Dùng .strip() để cắt khoảng trắng và .title() để viết hoa chữ cái đầu.
+
+⚫ Bài 4: Sắp xếp thông minh (Lambda)
+Đề bài: Cho danh sách sản phẩm (Tên, Giá):
+
+Python
+
+products = [("Laptop", 1500), ("Mouse", 20), ("Keyboard", 50), ("Monitor", 300)]
+Hãy sắp xếp danh sách này theo Giá giảm dần (Đắt nhất đứng đầu). Gợi ý: products.sort(key=lambda ..., reverse=True)
+
+
+

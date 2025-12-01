@@ -48,8 +48,8 @@ _Mục tiêu: Hiểu cách xử lý dữ liệu phức tạp và tối ưu code.
 
 #### Ngày 7
 
-- 📘 **LEARN**: List Comprehension, Lambda functions.
-- 💻 **CODE**: Viết lại các vòng lặp xử lý list chỉ bằng 1 dòng code.
+- ✅ **LEARN**: List Comprehension, Lambda functions.
+- ✅ **CODE**: Viết lại các vòng lặp xử lý list chỉ bằng 1 dòng code.
 
 #### Ngày 8
 
