@@ -53,8 +53,8 @@ _Mục tiêu: Hiểu cách xử lý dữ liệu phức tạp và tối ưu code.
 
 #### Ngày 8
 
-- 📘 **LEARN**: Xử lý chuỗi nâng cao: split, join, strip, replace.
-- 💻 **CODE**: Bài tập chuẩn hóa tên người dùng (viết hoa, xóa khoảng trắng).
+- ✅ **LEARN**: Xử lý chuỗi nâng cao: split, join, strip, replace.
+- ✅ **CODE**: Bài tập chuẩn hóa tên người dùng (viết hoa, xóa khoảng trắng).
 
 #### Ngày 9
 

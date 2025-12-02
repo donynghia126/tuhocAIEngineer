@@ -1,0 +1,90 @@
+📅 Giai đoạn 1 - Tuần 2 - Ngày 2: Xử lý chuỗi nâng cao (String Manipulation)
+⏳ Thời gian: 1.5 tiếng 🎯 Mục tiêu: Thành thạo split, join, strip, replace để làm sạch dữ liệu văn bản.
+
+📚 Phần 1: Bộ tứ "Siêu đẳng" (20 phút)
+1. strip() - Cắt tỉa đầu đuôi
+Dùng để xóa khoảng trắng (space, tab, xuống dòng) ở 2 đầu chuỗi.
+
+s.strip(): Cắt cả 2 đầu.
+
+s.lstrip(): Cắt bên trái (Left).
+
+s.rstrip(): Cắt bên phải (Right).
+
+Python
+
+s = "   Hello   "
+print(s.strip()) # "Hello" (Mất sạch khoảng trắng thừa 2 bên)
+2. split() - Chặt chuỗi thành List
+Cực quan trọng để tách câu thành từ, hoặc tách dữ liệu file CSV.
+
+Mẹo Senior: s.split() (không truyền tham số) sẽ tự động cắt bỏ tất cả khoảng trắng thừa (kể cả 2 dấu cách liền nhau).
+
+Python
+
+s = "Nguyen   Van    A"
+# Cách thường: s.split(" ") -> ['Nguyen', '', '', 'Van', '', '', '', 'A'] (Dính chuỗi rỗng)
+# Cách Pro: s.split() -> ['Nguyen', 'Van', 'A'] (Sạch bong)
+3. join() - Nối List thành Chuỗi (Ngược với split)
+Dùng một ký tự nối để ghép các phần tử lại.
+
+Python
+
+words = ['Nguyen', 'Van', 'A']
+ten = " ".join(words) # Nối bằng 1 dấu cách
+print(ten) # "Nguyen Van A"
+4. replace() - Tìm và thay thế
+Thay thế tất cả các từ tìm thấy.
+
+Python
+
+s = "Tôi thik học AI vì nó ko khó"
+s = s.replace("thik", "thích").replace("ko", "không")
+print(s) # "Tôi thích học AI vì nó không khó"
+💻 Phần 2: Bài tập thực hành (Code ngay!)
+Hãy tạo file week2_day2_string.py và giải quyết các bài toán thực tế sau.
+
+🟢 Bài 1: Chuẩn hóa tên người dùng (Bắt buộc)
+Đề bài: Người dùng nhập tên rất ẩu: name = " nGuyen vAN aNh " Yêu cầu:
+
+Xóa hết khoảng trắng thừa ở đầu, đuôi và ở giữa các từ.
+
+Viết hoa chữ cái đầu của từng từ (Title Case).
+
+Kết quả mong muốn: "Nguyen Van Anh".
+
+Gợi ý "Combo hủy diệt":
+
+split() để tách thành list các từ sạch sẽ.
+
+Dùng List Comprehension để title() từng từ.
+
+join() lại thành chuỗi.
+
+🟡 Bài 2: Làm sạch dữ liệu rác (Data Cleaning)
+Đề bài: Bạn crawl dữ liệu giá sản phẩm từ web về, nhưng nó bị dính ký tự lạ: prices = ["100.000đ", "20.500 VND", " 50000 ", "1.200.000 đ"]
+
+Yêu cầu: Viết hàm clean_price(price_str) để:
+
+Xóa bỏ chữ "đ", "VND", khoảng trắng.
+
+Xóa bỏ dấu chấm . ngăn cách hàng nghìn.
+
+Chuyển thành số nguyên (int).
+
+Ví dụ: clean_price("1.200.000 đ") -> trả về số 1200000.
+
+🔴 Bài 3: Phân tích Log Server (Giả lập thực tế)
+Đề bài: Server ghi lại log lỗi như sau: log = "ERROR:2025-12-02:Disconnection detected:User 123"
+
+Yêu cầu: Hãy dùng split để tách chuỗi trên và in ra một Dictionary thông tin:
+
+Python
+
+{
+    "type": "ERROR",
+    "date": "2025-12-02",
+    "message": "Disconnection detected", # Lưu ý phần này có thể chứa dấu :
+    "user_id": "User 123"
+}
+Gợi ý: split có tham số maxsplit. Hãy thử log.split(":", 2) xem điều gì xảy ra?
