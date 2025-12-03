@@ -1,0 +1,6 @@
+INFO:2024-01-01:Server started
+ERROR:2024-01-01:Database connection failed
+INFO:2024-01-02:User login success
+WARNING:2024-01-02:High memory usage
+ERROR:2024-01-03:Timeout error request 404
+INFO:2024-01-03:Logout success
