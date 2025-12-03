@@ -1,4 +1,4 @@
-# Lộ Trình AI Engineer Full-Stack
+# Lộ Trình 266 Ngày AI Engineer Full-Stack
 
 Theo dõi chi tiết từng ngày: Lý thuyết, Thực hành & Dự án
 
@@ -58,8 +58,8 @@ _Mục tiêu: Hiểu cách xử lý dữ liệu phức tạp và tối ưu code.
 
 #### Ngày 9
 
-- 📘 **LEARN**: File Handling (Đọc/Ghi file .txt).
-- 💻 **CODE**: Đọc file log và lọc các dòng báo lỗi 'ERROR'.
+- ✅ **LEARN**: File Handling (Đọc/Ghi file .txt).
+- ✅ **CODE**: Đọc file log và lọc các dòng báo lỗi 'ERROR'.
 
 #### Ngày 10
 
