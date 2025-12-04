@@ -1,0 +1,80 @@
+📅 Giai đoạn 1 - Tuần 2 - Ngày 4: Môi trường ảo (Virtual Environments)
+⏳ Thời gian: 1 tiếng 🎯 Mục tiêu: Biết tạo, kích hoạt và quản lý môi trường bằng venv (nhẹ, có sẵn) và conda (mạnh, chuẩn AI).
+
+📚 Phần 1: Tại sao cần Môi trường ảo? (Analogy 1 phút)
+Tưởng tượng máy tính của bạn là một Công trường xây dựng:
+
+Dự án A (Web): Cần cái búa to (Thư viện pandas v1.0).
+
+Dự án B (AI): Cần cái búa nhỏ (Thư viện pandas v2.0).
+
+Nếu cài hết vào máy thật, khi chạy Dự án A, nó cầm nhầm cái búa nhỏ -> Lỗi crash game. 👉 Môi trường ảo giống như việc xây 2 cái kho riêng biệt. Kho A chứa đồ A, Kho B chứa đồ B. Không ai đụng ai.
+
+🛠️ Phần 2: Công cụ 1 - venv (Built-in của Python)
+Dùng cho các dự án Web, Tool nhẹ nhàng.
+
+Các lệnh cốt lõi (Gõ trong Terminal/VS Code):
+
+Tạo môi trường (tên là env):
+
+Bash
+
+python -m venv my_env
+Kích hoạt (Chui vào kho):
+
+Windows: .\my_env\Scripts\activate (Thấy chữ (my_env) hiện lên đầu dòng là ok).
+
+Mac/Linux: source my_env/bin/activate
+
+Cài thư viện: pip install requests
+
+Thoát ra: deactivate
+
+🐍 Phần 3: Công cụ 2 - Miniconda (Chuẩn AI/Data Science)
+Dùng cho Deep Learning, PyTorch, TensorFlow. Nó quản lý được cả phiên bản Python (ví dụ máy bạn đang cài Python 3.12 nhưng dự án cần Python 3.8).
+
+Lưu ý: Bạn cần cài Miniconda hoặc Anaconda trước thì mới gõ được lệnh conda.
+
+Tạo môi trường (Chỉ định rõ python version):
+
+Bash
+
+conda create -n ai_pro python=3.9
+Kích hoạt:
+
+Bash
+
+conda activate ai_pro
+Cài thư viện: conda install numpy (hoặc pip install numpy đều được).
+
+Xóa môi trường: conda env remove -n ai_pro
+
+💻 Phần 4: Bài tập thực hành (Tôi ra đề cho bạn)
+Bạn hãy thực hiện 2 bài tập sau ngay trên máy và chụp màn hình terminal hoặc copy log kết quả dán vào đây để tôi kiểm tra xem bạn đã kích hoạt đúng chưa.
+
+🟢 Bài tập 1: Dùng venv làm Tool Web
+Tình huống: Bạn cần làm một tool cào dữ liệu web, cần thư viện requests. Nhiệm vụ:
+
+Tạo một folder tên Day4_Venv.
+
+Trong đó, tạo môi trường ảo tên là web_env.
+
+Kích hoạt nó lên (Terminal phải hiện (web_env)).
+
+Gõ lệnh cài đặt: pip install requests.
+
+Gõ lệnh kiểm tra: pip list -> Chụp ảnh hoặc copy list đó cho tôi xem có requests chưa.
+
+🔴 Bài tập 2: Dùng conda giả lập môi trường cũ
+Tình huống: Bạn nhận được code của một ông anh khóa trên viết từ năm 2020. Code này chỉ chạy được trên Python 3.8 (Giờ máy bạn toàn 3.10, 3.11). Nhiệm vụ:
+
+Dùng conda tạo một môi trường tên legacy_env chạy Python 3.8.
+
+Kích hoạt môi trường đó.
+
+Gõ lệnh kiểm tra phiên bản: python --version.
+
+Nếu kết quả hiện Python 3.8.x -> Bạn thành công! Copy kết quả đó cho tôi.
+
+💡 Mẹo nhỏ (Pro Tip)
+Khi làm việc với venv, đừng bao giờ đẩy folder my_env lên GitHub (vì nó chứa hàng nghìn file rác). Hãy tạo file .gitignore và viết dòng: my_env/ vào đó.

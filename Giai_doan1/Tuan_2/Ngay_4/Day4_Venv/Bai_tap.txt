@@ -1,0 +1,135 @@
+🟢 Bài tập 1: Dùng venv làm Tool Web
+Tình huống: Bạn cần làm một tool cào dữ liệu web, cần thư viện requests. Nhiệm vụ:
+
+Tạo một folder tên Day4_Venv.
+
+Trong đó, tạo môi trường ảo tên là web_env.
+
+Kích hoạt nó lên (Terminal phải hiện (web_env)).
+
+Gõ lệnh cài đặt: pip install requests.
+
+Gõ lệnh kiểm tra: pip list -> Chụp ảnh hoặc copy list đó cho tôi xem có requests chưa.
+
+----
+
+"PS D:\hoc_tap_JAV_IT\Hoc_AI\AI_Engineer\Giai_doan1\Tuan_2\Ngay_4\Day4_Venv> python -m venv web_env
+PS D:\hoc_tap_JAV_IT\Hoc_AI\AI_Engineer\Giai_doan1\Tuan_2\Ngay_4\Day4_Venv> web_env\Scripts\activate
+(web_env) PS D:\hoc_tap_JAV_IT\Hoc_AI\AI_Engineer\Giai_doan1\Tuan_2\Ngay_4\Day4_Venv> pip install requests
+Collecting requests
+  Using cached requests-2.32.5-py3-none-any.whl.metadata (4.9 kB)
+Collecting charset_normalizer<4,>=2 (from requests)
+  Downloading charset_normalizer-3.4.4-cp313-cp313-win_amd64.whl.metadata (38 kB)
+Collecting idna<4,>=2.5 (from requests)
+  Using cached idna-3.11-py3-none-any.whl.metadata (8.4 kB)
+Collecting urllib3<3,>=1.21.1 (from requests)
+  Using cached urllib3-2.5.0-py3-none-any.whl.metadata (6.5 kB)
+Collecting certifi>=2017.4.17 (from requests)
+  Downloading certifi-2025.11.12-py3-none-any.whl.metadata (2.5 kB)
+Using cached requests-2.32.5-py3-none-any.whl (64 kB)
+Downloading certifi-2025.11.12-py3-none-any.whl (159 kB)
+Downloading charset_normalizer-3.4.4-cp313-cp313-win_amd64.whl (107 kB)
+Using cached idna-3.11-py3-none-any.whl (71 kB)
+Using cached urllib3-2.5.0-py3-none-any.whl (129 kB)
+Installing collected packages: urllib3, idna, charset_normalizer, certifi, requests
+Successfully installed certifi-2025.11.12 charset_normalizer-3.4.4 idna-3.11 requests-2.32.5 urllib3-2.5.0
+
+[notice] A new release of pip is available: 24.3.1 -> 25.3
+[notice] To update, run: python.exe -m pip install --upgrade pip
+(web_env) PS D:\hoc_tap_JAV_IT\Hoc_AI\AI_Engineer\Giai_doan1\Tuan_2\Ngay_4\Day4_Venv> pip list
+Package            Version
+------------------ ----------
+certifi            2025.11.12
+charset-normalizer 3.4.4
+idna               3.11
+pip                24.3.1
+requests           2.32.5
+urllib3            2.5.0
+(web_env) PS D:\hoc_tap_JAV_IT\Hoc_AI\AI_Engineer\Giai_doan1\Tuan_2\Ngay_4\Day4_Venv> "
+
+-----------------------------------------------------------------------------------
+🔴 Bài tập 2: Dùng conda giả lập môi trường cũ
+Tình huống: Bạn nhận được code của một ông anh khóa trên viết từ năm 2020. Code này chỉ chạy được trên Python 3.8 (Giờ máy bạn toàn 3.10, 3.11). Nhiệm vụ:
+
+Dùng conda tạo một môi trường tên legacy_env chạy Python 3.8.
+
+Kích hoạt môi trường đó.
+
+Gõ lệnh kiểm tra phiên bản: python --version.
+
+Nếu kết quả hiện Python 3.8.x -> Bạn thành công! Copy kết quả đó cho tôi.
+-------------------------------------
+PS D:\hoc_tap_JAV_IT\Hoc_AI\AI_Engineer\Giai_doan1\Tuan_2\Ngay_4\Day4_Venv> conda create -n legacy_env python=3.8
+3 channel Terms of Service accepted
+Channels:
+ - defaults
+Platform: win-64
+Collecting package metadata (repodata.json): done
+Solving environment: done
+
+
+==> WARNING: A newer version of conda exists. <==
+    current version: 25.9.1
+    latest version: 25.11.0
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+
+
+## Package Plan ##
+
+  environment location: C:\Users\donyn\miniconda3\envs\legacy_env
+
+  added / updated specs:
+    - python=3.8
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    pip-24.2                   |   py38haa95532_0         2.4 MB
+    python-3.8.20              |       h8205438_0        19.4 MB
+    setuptools-75.1.0          |   py38haa95532_0         1.6 MB
+    wheel-0.44.0               |   py38haa95532_0         137 KB
+    ------------------------------------------------------------
+                                           Total:        23.5 MB
+
+The following NEW packages will be INSTALLED:
+
+  ca-certificates    pkgs/main/win-64::ca-certificates-2025.12.2-haa95532_0
+  libffi             pkgs/main/win-64::libffi-3.4.4-hd77b12b_1
+  openssl            pkgs/main/win-64::openssl-3.0.18-h543e019_0
+  pip                pkgs/main/win-64::pip-24.2-py38haa95532_0
+  python             pkgs/main/win-64::python-3.8.20-h8205438_0
+  setuptools         pkgs/main/win-64::setuptools-75.1.0-py38haa95532_0
+  sqlite             pkgs/main/win-64::sqlite-3.51.0-hda9a48d_0
+  ucrt               pkgs/main/win-64::ucrt-10.0.22621.0-haa95532_0
+  vc                 pkgs/main/win-64::vc-14.3-h2df5915_10
+  vc14_runtime       pkgs/main/win-64::vc14_runtime-14.44.35208-h4927774_10
+  vs2015_runtime     pkgs/main/win-64::vs2015_runtime-14.44.35208-ha6b5a95_10
+  wheel              pkgs/main/win-64::wheel-0.44.0-py38haa95532_0
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages:
+                                                                                                                                                                 
+Preparing transaction: done                                                                                                                                      
+Verifying transaction: done                                                                                                                                      
+Executing transaction: done                                                                                                                                      
+#
+# To activate this environment, use
+#
+#     $ conda activate legacy_env
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+PS D:\hoc_tap_JAV_IT\Hoc_AI\AI_Engineer\Giai_doan1\Tuan_2\Ngay_4\Day4_Venv> conda activate legacy_env
+(legacy_env) PS D:\hoc_tap_JAV_IT\Hoc_AI\AI_Engineer\Giai_doan1\Tuan_2\Ngay_4\Day4_Venv> python --version      
+Python 3.8.20
