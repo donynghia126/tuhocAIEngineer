@@ -1,0 +1,177 @@
+{
+  "stage_title": "Giai đoạn 7: MLOps & Production Optimization (Updated)",
+  "period": "Tuần 75 đến Tuần 86 (12 Tuần)",
+  "focus": "Triển khai model chuẩn chỉnh (IaC), tối ưu chi phí và giám sát an toàn hệ thống.",
+  "tools": [
+    "AWS (EC2, SageMaker, Lambda)",
+    "Terraform / AWS CDK (Infrastructure as Code)",
+    "vLLM / Triton Server",
+    "MLflow",
+    "Prometheus & Grafana",
+    "NVIDIA NeMo Guardrails (AI Security)"
+  ],
+  "schedule": [
+    {
+      "week": "75-76",
+      "focus_topic": "Model Serving Optimization",
+      "goal": "Tối ưu hóa độ trễ (Latency) và thông lượng (Throughput) cho LLM.",
+      "days": [
+        {
+          "day": 157,
+          "topic": "Inference Engines (vLLM)",
+          "learn": [
+            "PagedAttention & Continuous Batching",
+            "Thiết lập vLLM server cho Llama-3/Mistral"
+          ],
+          "code": "Triển khai vLLM server dockerized, expose API chuẩn OpenAI."
+        },
+        {
+          "day": 158,
+          "topic": "Triton Inference Server",
+          "learn": [
+            "Kiến trúc NVIDIA Triton",
+            "Model Ensemble (Kết hợp nhiều model: Preprocess -> Model -> Postprocess)"
+          ],
+          "code": "Cấu hình model repository cho Triton chạy model ONNX."
+        },
+        {
+          "day": 159,
+          "topic": "Load Testing (Stress Test)",
+          "learn": [
+            "Locust / JMeter",
+            "Đo đạc RPS (Requests per second) và P99 Latency"
+          ],
+          "code": "Viết script Locust giả lập 1000 user chat cùng lúc để tìm điểm chết của server."
+        }
+      ]
+    },
+    {
+      "week": "77-78",
+      "focus_topic": "Quantization & Cost Optimization",
+      "goal": "Chạy model lớn trên phần cứng rẻ tiền.",
+      "days": [
+        {
+          "day": 160,
+          "topic": "Quantization Techniques",
+          "learn": [
+            "GGUF (CPU Inference)",
+            "AWQ / GPTQ (GPU Inference tối ưu)",
+            "KV Cache Quantization"
+          ],
+          "code": "Convert model Llama-3-8B FP16 sang AWQ 4-bit giúp giảm 60% VRAM."
+        },
+        {
+          "day": 161,
+          "topic": "Distillation & Pruning",
+          "learn": [
+            "Teacher-Student Training (Model nhỏ học từ model to)",
+            "Structural Pruning (Cắt bỏ nơ-ron thừa)"
+          ],
+          "code": "Thực hành Distillation: Dạy model TinyLlama học theo GPT-4."
+        }
+      ]
+    },
+    {
+      "week": "79-81",
+      "focus_topic": "Cloud Infrastructure & IaC (Chuyên nghiệp)",
+      "goal": "Quản lý hạ tầng bằng Code (Không click tay).",
+      "days": [
+        {
+          "day": 162,
+          "topic": "AWS Compute for AI",
+          "learn": [
+            "EC2 G4dn/G5 instances (NVIDIA GPU)",
+            "AWS Spot Instances (Bid giá rẻ)",
+            "Deep Learning AMI (Setup sẵn driver)"
+          ],
+          "code": "Launch một Spot Instance giá rẻ để train model."
+        },
+        {
+          "day": 163,
+          "topic": "Infrastructure as Code (IaC)",
+          "learn": [
+            "Khái niệm IaC (Terraform hoặc AWS CDK)",
+            "Tại sao không nên config thủ công trên Console?"
+          ],
+          "code": "Viết file Terraform đơn giản để tự động tạo EC2 và Security Group."
+        },
+        {
+          "day": 164,
+          "topic": "Serverless Inference",
+          "learn": [
+            "AWS Lambda (Cho model nhỏ/CPU)",
+            "SageMaker Serverless Inference",
+            "RunPod / Modal (Alternative providers)"
+          ],
+          "code": "Deploy hàm xử lý ảnh đơn giản lên AWS Lambda + EFS."
+        }
+      ]
+    },
+    {
+      "week": "82-83",
+      "focus_topic": "MLOps Lifecycle (Tracking & CI/CD)",
+      "goal": "Tự động hóa quy trình huấn luyện và triển khai.",
+      "days": [
+        {
+          "day": 165,
+          "topic": "Experiment Tracking (MLflow)",
+          "learn": [
+            "Logging metrics/params",
+            "Artifact Storage (S3)",
+            "MLflow UI"
+          ],
+          "code": "Setup MLflow Server remote (trên EC2) kết nối với S3 bucket."
+        },
+        {
+          "day": 166,
+          "topic": "Model Registry & CD",
+          "learn": [
+            "Promote model (Staging -> Production)",
+            "Trigger deploy khi có model mới"
+          ],
+          "code": "GitHub Actions: Tự động deploy model khi chuyển trạng thái sang 'Production' trong MLflow."
+        }
+      ]
+    },
+    {
+      "week": "84-85",
+      "focus_topic": "Monitoring & AI Security (Guardrails)",
+      "goal": "Giám sát sức khỏe và đảm bảo an toàn cho AI.",
+      "days": [
+        {
+          "day": 167,
+          "topic": "AI Security (Guardrails)",
+          "learn": [
+            "Prompt Injection Attacks",
+            "Input/Output Filtering (Lọc nội dung độc hại/nhạy cảm)",
+            "NVIDIA NeMo Guardrails"
+          ],
+          "code": "Tích hợp Guardrails chặn chatbot nói bậy hoặc tiết lộ thông tin cá nhân."
+        },
+        {
+          "day": 168,
+          "topic": "System Monitoring",
+          "learn": [
+            "Prometheus (Thu thập metrics)",
+            "Grafana (Vẽ biểu đồ)",
+            "Drift Detection (Phát hiện model bị sai dần theo thời gian)"
+          ],
+          "code": "Setup Dashboard Grafana cảnh báo khi GPU > 90% hoặc API error rate > 1%."
+        }
+      ]
+    },
+    {
+      "week": "86",
+      "focus_topic": "CAPSTONE PROJECT GIAI ĐOẠN 7",
+      "project_name": "Production-Grade LLM Platform",
+      "description": "Xây dựng nền tảng LLM nội bộ hoàn chỉnh trên AWS.",
+      "tasks": [
+        "1. Infrastructure: Dùng Terraform dựng VPC, EC2 (vLLM), RDS (Database).",
+        "2. Deployment: Deploy model Llama-3 dạng Quantized (AWQ) trên Docker.",
+        "3. Security: Tích hợp NeMo Guardrails chặn Prompt Injection.",
+        "4. Pipeline: Auto-deploy khi update code mới (GitHub Actions).",
+        "5. Monitoring: Full dashboard Grafana theo dõi token/s, latency và chi phí ước tính."
+      ]
+    }
+  ]
+}
