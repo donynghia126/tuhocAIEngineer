@@ -68,9 +68,9 @@ _Hiểu cách xử lý dữ liệu phức tạp và tối ưu code._
 
 #### Ngày 11 (Học thêm)
 
-- 📘 **LEARN**: Python Package Manager (Pip & Conda)
-- 💻 **CODE**: Bài tập 1 (Terminal): Tạo môi trường ảo mới bằng conda (Python 3.9). Cài đặt thư viện pandas và matplotlib. Xuất danh sách thư viện ra file environment.yml (chuẩn Conda) hoặc requirements.txt (chuẩn Pip).
-- 💻 **CODE**: Bài tập 2 (Simulation): Xóa môi trường vừa tạo. Dùng lệnh để khôi phục lại toàn bộ môi trường chỉ từ file cấu hình vừa xuất.
+- ✅ **LEARN**: Python Package Manager (Pip & Conda)
+- ✅ **CODE**: Bài tập 1 (Terminal): Tạo môi trường ảo mới bằng conda (Python 3.9). Cài đặt thư viện pandas và matplotlib. Xuất danh sách thư viện ra file environment.yml (chuẩn Conda) hoặc requirements.txt (chuẩn Pip).
+- ✅ **CODE**: Bài tập 2 (Simulation): Xóa môi trường vừa tạo. Dùng lệnh để khôi phục lại toàn bộ môi trường chỉ từ file cấu hình vừa xuất.
 
 #### Ngày 12 (Học thêm)
 
@@ -93,7 +93,7 @@ _Chuyển tư duy từ viết hàm rời rạc sang kiến trúc Class (rất qu
 
 #### Ngày 15
 
-- 📘 **LEARN**: OOP Basic: Class & Object: Hiểu Class, Object, self, Hàm __init__ constructor
+- 📘 **LEARN**: OOP Basic: Class & Object: Hiểu Class, Object, self, Hàm **init** constructor
 - 💻 **CODE**: Tạo class Student với các thuộc tính name, age, grades
 
 #### Ngày 16
@@ -103,7 +103,7 @@ _Chuyển tư duy từ viết hàm rời rạc sang kiến trúc Class (rất qu
 
 #### Ngày 17
 
-- 📘 **LEARN**: OOP: Encapsulation (Đóng gói): Private variables (__var), Getter & Setter methods
+- 📘 **LEARN**: OOP: Encapsulation (Đóng gói): Private variables (\_\_var), Getter & Setter methods
 - 💻 **CODE**: Bảo mật điểm số sinh viên, chỉ cho sửa qua hàm setter có validation
 
 #### Ngày 18
@@ -147,7 +147,7 @@ _Hiểu cách máy tính nhìn dữ liệu (dưới dạng Vector và Matrix)._
 
 #### Ngày 25
 
-- 📘 **LEARN**: Matrix Multiplication (Nhân ma trận): Điều kiện nhân (mxn * nxp), Độ phức tạp tính toán
+- 📘 **LEARN**: Matrix Multiplication (Nhân ma trận): Điều kiện nhân (mxn \* nxp), Độ phức tạp tính toán
 - 💻 **CODE**: Viết hàm matrix_multiply(A, B) sử dụng 3 vòng for lồng nhau
 
 #### Ngày 26
@@ -650,7 +650,7 @@ _Code Deep Learning chuyên nghiệp & Quản lý thí nghiệm._
 
 #### Ngày 112
 
-- 📘 **LEARN**: Building Model: nn.Module: Hàm __init__ và forward(), nn.Linear, nn.Sequential
+- 📘 **LEARN**: Building Model: nn.Module: Hàm **init** và forward(), nn.Linear, nn.Sequential
 - 💻 **CODE**: Viết class ImageClassifier kế thừa nn.Module.
 
 #### Ngày 113
