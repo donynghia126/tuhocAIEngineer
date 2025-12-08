@@ -1,0 +1,55 @@
+📅 Ngày 11: Quản lý môi trường Conda (Conda Environment)
+Mục tiêu: Hiểu quy trình Tạo -> Dùng -> Đóng gói -> Khôi phục.
+
+🛠️ Bài tập 1: Tạo và Xuất môi trường
+Nhiệm vụ:
+
+Tạo môi trường ảo tên day11_env chạy Python 3.9.
+
+Cài đặt 2 thư viện pandas và matplotlib.
+
+Xuất file cấu hình environment.yml (Đây là "bản thiết kế" của môi trường).
+
+Hướng dẫn thực hiện (Gõ từng dòng vào Terminal):
+
+Bash
+
+# 1. Tạo môi trường (Bấm y nếu được hỏi)
+conda create --name day11_env python=3.9 -y
+
+# 2. Kích hoạt môi trường (Quan trọng!)
+conda activate day11_env
+
+# 3. Cài đặt thư viện
+conda install pandas matplotlib -y
+
+# 4. Xuất file cấu hình (Lưu "bản thiết kế" ra file)
+# Cách 1: Xuất đầy đủ (kèm các gói phụ thuộc hệ thống)
+conda env export > environment.yml
+
+# Cách 2 (Khuyên dùng): Chỉ xuất những gì mình cài (sạch hơn, dễ cài trên máy khác)
+conda env export --from-history > environment_clean.yml
+👉 Kết quả cần đạt: Trong thư mục hiện tại của bạn xuất hiện file environment.yml. Hãy mở nó ra xem nội dung bên trong.
+
+♻️ Bài tập 2: "Đập đi xây lại" (Simulation)
+Nhiệm vụ: Giả lập tình huống bạn đổi máy tính: Xóa sạch môi trường cũ đi và thử khôi phục lại nó chỉ từ file environment.yml.
+
+Hướng dẫn thực hiện:
+
+Bash
+
+# 1. Thoát khỏi môi trường hiện tại trước (Bắt buộc mới xóa được)
+conda deactivate
+
+# 2. Xóa môi trường vừa tạo (Giả vờ mất máy)
+conda env remove --name day11_env -y
+
+# 3. Kiểm tra xem đã xóa chưa (Nếu danh sách không còn day11_env là OK)
+conda env list
+
+# 4. KHÔI PHỤC: Tạo lại môi trường từ file thiết kế
+conda env create -f environment.yml
+
+# 5. Kích hoạt lại và kiểm tra
+conda activate day11_env
+conda list

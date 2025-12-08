@@ -275,2568 +275,2622 @@
        DỮ LIỆU CHI TIẾT (Trích xuất từ File Word)
        ========================================= */
       const roadmapData = [
-        {
-          title: "Giai đoạn 1: Toán – Python – Tư duy lập trình",
-          meta: "6 Tuần | Tập trung 80% Thực hành",
-          goals:
-            "Nắm vững Python, tư duy thuật toán và toán học nền tảng cho AI (Vector, Ma trận).",
-          tools: "VS Code, Git, Python 3.x",
-          weeks: [
-            {
-              name: "Tuần 1: Python Cơ Bản & Setup",
-              goal: "Viết được script chạy logic cơ bản, quản lý code bằng Git.",
-              days: [
-                {
-                  name: "Ngày 1",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Cài đặt VS Code, Python, Git. Biến (int, float, str), Kiểu dữ liệu.",
-                    },
-                    {
-                      type: "code",
-                      text: "Viết chương trình tính chỉ số BMI, đổi nhiệt độ C sang F.",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 2",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Câu lệnh điều kiện (if-else), Vòng lặp (for, while).",
-                    },
-                    {
-                      type: "code",
-                      text: "Giải phương trình bậc 2. Game đoán số (Random number guessing).",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 3",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "List, Tuple, Set. Các method xử lý List.",
-                    },
-                    {
-                      type: "code",
-                      text: "Tìm số lớn nhất, sắp xếp list, xóa phần tử trùng lặp.",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 4",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Dictionary (Từ điển) - Cấu trúc quan trọng nhất.",
-                    },
-                    {
-                      type: "code",
-                      text: "Tạo từ điển Anh-Việt. Đếm số lần xuất hiện từ trong đoạn văn.",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 5",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Hàm (Function), Tham số, Return.",
-                    },
-                    {
-                      type: "code",
-                      text: "Refactor bài tập tuần trước thành các hàm riêng biệt.",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 6",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Git cơ bản: git init, add, commit, push.",
-                    },
-                    {
-                      type: "code",
-                      text: "Tạo repo GitHub và đẩy toàn bộ bài tập tuần này lên.",
-                    },
-                  ],
-                },
-              ],
-            },
-            {
-              name: "Tuần 2: Python Nâng cao & DSA",
-              goal: "Hiểu cách xử lý dữ liệu phức tạp và tối ưu code.",
-              days: [
-                {
-                  name: "Ngày 7",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "List Comprehension, Lambda functions.",
-                    },
-                    {
-                      type: "code",
-                      text: "Viết lại các vòng lặp xử lý list chỉ bằng 1 dòng code.",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 8",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Xử lý chuỗi nâng cao: split, join, strip, replace.",
-                    },
-                    {
-                      type: "code",
-                      text: "Bài tập chuẩn hóa tên người dùng (viết hoa, xóa khoảng trắng).",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 9",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "File Handling (Đọc/Ghi file .txt).",
-                    },
-                    {
-                      type: "code",
-                      text: "Đọc file log và lọc các dòng báo lỗi 'ERROR'.",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 10",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Môi trường ảo (Virtual Environments)",
-                    },
-                    {
-                      type: "code",
-                      text: "Dùng venv làm Tool Web, Dùng conda giả lập môi trường cũ",
-                    },
-                  ],
-                },
-                ],
-            },
-            {
-              name: "Tuần 3: Python Hướng đối tượng (OOP) & Advanced",
-              goal: "Chuyển tư duy từ viết hàm rời rạc sang kiến trúc Class (rất quan trọng cho PyTorch sau này).",
-              days: [
-                {
-                  name: "Ngày 11",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "OOP Basic: Class & Object: Hiểu Class, Object, self, Hàm __init__ constructor",
-                    },
-                    {
-                      type: "code",
-                      text: "Tạo class Student với các thuộc tính name, age, grades",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 12",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "OOP: Inheritance (Kế thừa) & Polymorphism: Tạo class con kế thừa class cha, Override phương thức",
-                    },
-                    {
-                      type: "code",
-                      text: "Tạo class AI_Student kế thừa Student, thêm thuộc tính 'specialization'",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 13",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "OOP: Encapsulation (Đóng gói): Private variables (__var), Getter & Setter methods",
-                    },
-                    {
-                      type: "code",
-                      text: "Bảo mật điểm số sinh viên, chỉ cho sửa qua hàm setter có validation",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 14",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Python Advanced: Decorators: Hiểu First-class functions, Viết Wrapper function",
-                    },
-                    {
-                      type: "code",
-                      text: "Viết decorator @timer để đo thời gian chạy của một hàm (Quan trọng để tối ưu code AI)",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 15",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Python Advanced: Generators & Iterators: yield keyword vs return, Xử lý dữ liệu lớn bằng Generator",
-                    },
-                    {
-                      type: "code",
-                      text: "Viết hàm sinh số Fibonacci vô hạn bằng yield",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 16",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Exception Handling & Modules: try-except-finally custom, Tổ chức code thành modules/packages",
-                    },
-                    {
-                      type: "code",
-                      text: "Nâng cấp bài Student Manager: Xử lý lỗi nhập liệu, tách file main.py và student.py",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 17",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Review & Project OOP",
-                    },
-                    {
-                      type: "code",
-                      text: "Project: Upgrade CLI Student Manager. Chuyển toàn bộ code ngày 1-10 sang dạng Class. Lưu data vào JSON bằng method của Class.",
-                    },
-                  ],
-                },
-              ],
-            },
-            {
-              name: "Tuần 4: Đại số tuyến tính (Linear Algebra) & Code Ma trận",
-              goal: "Hiểu cách máy tính nhìn dữ liệu (dưới dạng Vector và Matrix).",
-              days: [
-                {
-                  name: "Ngày 18",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Scalar, Vector & Matrix: Khái niệm không gian vector, Biểu diễn ảnh dưới dạng ma trận",
-                    },
-                    {
-                      type: "code",
-                      text: "Dùng Python List of Lists để biểu diễn Ma trận 2x2, 3x3",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 19",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Các phép toán trên Ma trận (Cộng, Trừ, Scalar Multiply): Element-wise operations",
-                    },
-                    {
-                      type: "code",
-                      text: "Viết hàm matrix_add(A, B) và matrix_scalar_mul(A, k) không dùng thư viện",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 20",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Dot Product (Tích vô hướng) - QUAN TRỌNG NHẤT: Công thức nhân dòng x cột, Ý nghĩa hình học (góc giữa 2 vector)",
-                    },
-                    {
-                      type: "code",
-                      text: "Viết hàm dot_product(v1, v2) thủ công",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 21",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Matrix Multiplication (Nhân ma trận): Điều kiện nhân (mxn * nxp), Độ phức tạp tính toán",
-                    },
-                    {
-                      type: "code",
-                      text: "Viết hàm matrix_multiply(A, B) sử dụng 3 vòng for lồng nhau",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 22",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Transposition (Chuyển vị) & Reshape: Ma trận chuyển vị A.T, Thay đổi hình dạng ma trận (Flatten)",
-                    },
-                    {
-                      type: "code",
-                      text: "Viết hàm transpose(matrix)",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 23",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Broadcasting (Khái niệm): Cách NumPy cộng 1 vector vào 1 ma trận (lý thuyết trước khi dùng thư viện)",
-                    },
-                    {
-                      type: "code",
-                      text: "Mô phỏng broadcasting bằng Python thuần",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 24",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Project: Mini Numpy Part 1",
-                    },
-                    {
-                      type: "code",
-                      text: "Project: MyLinearAlgebra Library. Gói các hàm dot, multiply, transpose vào Class 'MyMatrix'. Test với dữ liệu mẫu.",
-                    },
-                  ],
-                },
-              ],
-            },
-            {
-              name: "Tuần 5: Giải tích (Calculus) & Xác suất cơ bản",
-              goal: "Hiểu Gradient Descent hoạt động thế nào (Đạo hàm).",
-              days: [
-                {
-                  name: "Ngày 25",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Đạo hàm (Derivative) cơ bản: Tốc độ thay đổi tức thời, Quy tắc chuỗi (Chain rule - Cốt lõi của Backpropagation)",
-                    },
-                    {
-                      type: "code",
-                      text: "Viết hàm tính đạo hàm x^2 tại điểm x=3 (numerical differentiation)",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 26",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Gradient & Partial Derivative (Đạo hàm riêng): Gradient là vector các đạo hàm riêng, Ý nghĩa trong tìm cực tiểu hàm số",
-                    },
-                    {
-                      type: "code",
-                      text: "Mô phỏng thuật toán Gradient Descent tìm điểm cực tiểu của y = x^2 - 4x",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 27",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Thống kê mô tả (Descriptive Stats): Mean (Trung bình), Median (Trung vị), Mode",
-                    },
-                    {
-                      type: "code",
-                      text: "Viết hàm calculate_mean(data), calculate_median(data)",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 28",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Variance & Standard Deviation (Phương sai & Độ lệch chuẩn): Đo độ phân tán của dữ liệu, Tại sao chia cho N hay N-1",
-                    },
-                    {
-                      type: "code",
-                      text: "Viết hàm calculate_std(data) từ con số 0",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 29",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Probability Distributions (Phân phối xác suất): Phân phối chuẩn (Gaussian/Normal Distribution), Hàm mật độ xác suất",
-                    },
-                    {
-                      type: "code",
-                      text: "Dùng random.gauss() để sinh dữ liệu giả lập chiều cao con người",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 30",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Softmax & Sigmoid Functions: Hàm kích hoạt (Activation function), Công thức Softmax chuyển đổi ra xác suất",
-                    },
-                    {
-                      type: "code",
-                      text: "Viết hàm sigmoid(x) và softmax(list_x)",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 31",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Project: Mini Numpy Part 2",
-                    },
-                    {
-                      type: "code",
-                      text: "Project: MyStats Library. Thêm các hàm mean, std, softmax vào thư viện Mini Numpy. Đóng gói thành module hoàn chỉnh.",
-                    },
-                  ],
-                },
-              ],
-            },
-            {
-              name: "Tuần 6: Data Structures & Algorithms (DSA) - Basic",
-              goal: "Viết code tối ưu hơn, chuẩn bị cho phỏng vấn.",
-              days: [
-                {
-                  name: "Ngày 32",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Độ phức tạp thuật toán (Big O Notation): O(1), O(n), O(n^2), Tại sao tránh vòng lặp lồng nhau",
-                    },
-                    {
-                      type: "code",
-                      text: "So sánh thời gian chạy hàm tìm kiếm O(n) vs O(1) (Dict lookup)",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 33",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Array & String Manipulation (Nâng cao): Two Pointers technique, Sliding Window",
-                    },
-                    {
-                      type: "code",
-                      text: "LeetCode bài Two Sum (phiên bản tối ưu)",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 34",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Hash Map / Dictionary (Deep Dive): Xử lý đụng độ (Collision), Khi nào dùng Hash Map",
-                    },
-                    {
-                      type: "code",
-                      text: "Giải bài toán đếm tần suất xuất hiện ký tự (dùng Dict)",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 35",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Stack & Queue: LIFO (Last In First Out), FIFO (First In First Out)",
-                    },
-                    {
-                      type: "code",
-                      text: "Implement Stack bằng List",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 36",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Recursion (Đệ quy): Điều kiện dừng, Stack overflow là gì",
-                    },
-                    {
-                      type: "code",
-                      text: "Tính giai thừa, dãy Fibonacci bằng đệ quy",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 37",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Sorting Algorithms: Bubble Sort (để biết), Quick Sort / Merge Sort (để dùng)",
-                    },
-                    {
-                      type: "code",
-                      text: "Implement Quick Sort đơn giản",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 38",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Binary Search (Tìm kiếm nhị phân): Tìm trong danh sách đã sắp xếp O(log n)",
-                    },
-                    {
-                      type: "code",
-                      text: "Viết hàm binary_search thủ công",
-                    },
-                  ],
-                },
-              ],
-            },
-            {
-              name: "Tuần 7: Tổng hợp & Capstone Project Stage 1",
-              days: [
-                {
-                  name: "Ngày 39",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Unit Testing: Tại sao cần test, Thư viện unittest/pytest cơ bản",
-                    },
-                    {
-                      type: "code",
-                      text: "Viết test case cho thư viện Mini Numpy đã làm",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 40-45",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "CAPSTONE PROJECT 1: Mini Numpy from Scratch (Final): Class Matrix: hỗ trợ cộng, nhân, chuyển vị., Module Stats: tính mean, std., Module Activation: softmax, sigmoid., Viết documentation (Readme.md) cách sử dụng., Push lên GitHub với cấu trúc thư mục chuẩn.",
-                    },
-                  ],
-                },
-              ],
-            },
-            {
-              name: "Tuần 8: Nghỉ ngơi & Review (Gap week)",
-              goal: "Ôn tập lại kiến thức 7 tuần qua, chuẩn bị sang Stage 2 (Data Science).",
-              days: [
-                {
-                  name: "Ngày 46-52",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Review code cũ, đọc sách 'Grokking Algorithms' hoặc nghỉ xả hơi.",
-                    },
-                  ],
-                },
-              ],
-            },
-          ],
-        },
-        {
-          title: "Giai đoạn 2: Data Analysis & Feature Engineering",
-          meta: "Tuần 9 đến Tuần 16 (8 Tuần)",
-          goals: "Biến dữ liệu thô thành thông tin giá trị (Insights) và đầu vào cho Model.",
-          tools: "Pandas, NumPy, Matplotlib/Seaborn, SQL, Scikit-learn (Preprocessing)",
-          weeks: [
-            {
-              name: "Tuần 9: NumPy & Pandas Foundation (Cốt lõi)",
-              goal: "Thao tác thành thạo DataFrame - Cấu trúc dữ liệu quan trọng nhất ngành Data.",
-              days: [
-                {
-                  name: "Ngày 53",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "NumPy to Real World: Broadcasting, Vectorization (Thay thế vòng for chậm chạp), Indexing & Slicing nâng cao",
-                    },
-                    {
-                      type: "code",
-                      text: "Tối ưu hóa bài toán nhân ma trận Stage 1 bằng NumPy (1 dòng code).",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 54",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Pandas Series & DataFrame: Cấu trúc DataFrame, Đọc dữ liệu (read_csv, read_excel, read_json)",
-                    },
-                    {
-                      type: "code",
-                      text: "Load file CSV 1 triệu dòng, kiểm tra .info(), .describe().",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 55",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Data Selection & Filtering: loc vs iloc, Boolean Indexing (Lọc theo điều kiện), Query method",
-                    },
-                    {
-                      type: "code",
-                      text: "Lọc danh sách khách hàng > 30 tuổi và mua hàng > 100$.",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 56",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Data Cleaning 1: Xử lý dữ liệu lỗi: Kiểm tra null (isna), Xóa null (dropna), Điền giá trị thiếu (fillna)",
-                    },
-                    {
-                      type: "code",
-                      text: "Xử lý dataset bị thiếu tuổi: điền bằng trung bình hoặc trung vị.",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 57",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Data Manipulation: Apply & Map: Hàm .apply() (Powerful but slow), Hàm .map(), Lambda functions trong Pandas",
-                    },
-                    {
-                      type: "code",
-                      text: "Tạo cột mới 'AgeGroup' từ cột 'Age' dùng apply.",
-                    },
-                  ],
-                },
-              ],
-            },
-            {
-              name: "Tuần 10: Advanced Pandas & Aggregation",
-              goal: "Trả lời các câu hỏi nghiệp vụ phức tạp (Business Questions).",
-              days: [
-                {
-                  name: "Ngày 58",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "GroupBy & Aggregation: Split-Apply-Combine strategy, Các hàm agg (sum, mean, count)",
-                    },
-                    {
-                      type: "code",
-                      text: "Tính doanh thu trung bình theo từng thành phố và từng tháng.",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 59",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Merge & Join: Inner, Outer, Left, Right Join (Giống SQL), Concat DataFrames",
-                    },
-                    {
-                      type: "code",
-                      text: "Ghép bảng 'Users' và bảng 'Orders' để tìm ai mua nhiều nhất.",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 60",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Pivot Tables & Crosstab: Tạo bảng tổng hợp nhiều chiều (Giống Excel Pivot), Stack/Unstack",
-                    },
-                    {
-                      type: "code",
-                      text: "Tạo Pivot Table so sánh doanh số theo Năm (cột) và Loại hàng (dòng).",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 61",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Time Series Data (Dữ liệu thời gian): datetime objects, Resampling (gom data theo ngày/tuần/tháng), Time shifts",
-                    },
-                    {
-                      type: "code",
-                      text: "Tính doanh thu theo từng tuần (Weekly Sales) từ data log từng giây.",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 62",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Mini Project Week 10",
-                    },
-                    {
-                      type: "code",
-                      text: "Project: Sales Analysis. Cho file sales.csv. Hỏi: Tháng nào bán tốt nhất? Thành phố nào mua nhiều nhất? Thời điểm nào trong ngày khách hay mua?",
-                    },
-                  ],
-                },
-              ],
-            },
-            {
-              name: "Tuần 11: Data Visualization & Storytelling",
-              goal: "Vẽ hình để tìm Insight (không phải vẽ cho đẹp).",
-              days: [
-                {
-                  name: "Ngày 63",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Matplotlib cơ bản: Figure, Axes structure, Line, Bar, Scatter plot",
-                    },
-                    {
-                      type: "code",
-                      text: "Vẽ biểu đồ đường doanh thu theo thời gian.",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 64",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Seaborn & Statistical Plots: Distplot (Phân phối), Boxplot (Phát hiện Outlier - Quan trọng), Violin plot",
-                    },
-                    {
-                      type: "code",
-                      text: "Dùng Boxplot tìm xem có đơn hàng nào giá trị cao bất thường không.",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 65",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Multivariate Analysis (Phân tích đa biến): Heatmap (Ma trận tương quan - Correlation Matrix), Pairplot",
-                    },
-                    {
-                      type: "code",
-                      text: "Vẽ Heatmap xem 'Giá nhà' tương quan thế nào với 'Diện tích' và 'Số phòng'.",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 66",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Visual Storytelling: Chọn đúng loại biểu đồ, Màu sắc, Tiêu đề, Label, Tránh biểu đồ gây hiểu lầm",
-                    },
-                    {
-                      type: "code",
-                      text: "Refactor lại các biểu đồ cũ cho chuyên nghiệp, sẵn sàng để báo cáo.",
-                    },
-                  ],
-                },
-              ],
-            },
-            {
-              name: "Tuần 12: SQL for Data Science",
-              goal: "Lấy dữ liệu từ Database (Kỹ năng bắt buộc khi đi làm).",
-              days: [
-                {
-                  name: "Ngày 67",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "SQL Basic Review: SELECT, FROM, WHERE, ORDER BY, LIMIT",
-                    },
-                    {
-                      type: "code",
-                      text: "Viết query lấy Top 10 khách hàng chi tiêu cao nhất.",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 68",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Joins & Unions: INNER vs LEFT JOIN, Xử lý NULL sau khi Join",
-                    },
-                    {
-                      type: "code",
-                      text: "Join 3 bảng: Customers, Orders, Products.",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 69",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Aggregation & Grouping: GROUP BY, HAVING (Lọc sau khi Group)",
-                    },
-                    {
-                      type: "code",
-                      text: "Tìm các danh mục sản phẩm có tổng doanh thu > 10.000$.",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 70",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Window Functions (Nâng cao - Cực quan trọng): ROW_NUMBER(), RANK(), LEAD/LAG (So sánh dòng trước/sau)",
-                    },
-                    {
-                      type: "code",
-                      text: "Tìm top 3 nhân viên xuất sắc nhất của TỪNG phòng ban (Partition By).",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 71",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "CTEs (Common Table Expressions): WITH clause, Viết query dễ đọc hơn",
-                    },
-                    {
-                      type: "code",
-                      text: "Viết CTE tính doanh thu tháng, sau đó query chính tính tăng trưởng so với tháng trước.",
-                    },
-                  ],
-                },
-              ],
-            },
-            {
-              name: "Tuần 13: Feature Engineering (Kỹ thuật đặc trưng)",
-              goal: "Biến dữ liệu thô thành dữ liệu mà Model hiểu được.",
-              days: [
-                {
-                  name: "Ngày 72",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Feature Scaling (Chuẩn hóa): Normalization (Min-Max), Standardization (Z-score), Khi nào dùng cái nào?",
-                    },
-                    {
-                      type: "code",
-                      text: "Dùng Scikit-learn StandardScaler để chuẩn hóa cột 'Salary'.",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 73",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Encoding Categorical Data (Mã hóa phân loại): One-Hot Encoding, Label Encoding, Target Encoding",
-                    },
-                    {
-                      type: "code",
-                      text: "Chuyển cột 'Màu sắc' (Đỏ, Xanh) thành vector số học.",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 74",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Handling Outliers (Xử lý ngoại lai): IQR Method, Z-score method, Capping/Flooring",
-                    },
-                    {
-                      type: "code",
-                      text: "Viết hàm tự động loại bỏ các giá trị ngoại lai trong Dataset.",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 75",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Feature Selection: Correlation filter, Variance threshold, Tại sao ít feature lại tốt hơn?",
-                    },
-                    {
-                      type: "code",
-                      text: "Loại bỏ các cột có độ tương quan > 0.9 (Dư thừa).",
-                    },
-                  ],
-                },
-              ],
-            },
-            {
-              name: "Tuần 14: Polars & Modern Tools (Optional but Recommended)",
-              goal: "Làm quen công cụ xử lý dữ liệu lớn tốc độ cao.",
-              days: [
-                {
-                  name: "Ngày 76",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Intro to Polars: Lazy Evaluation, So sánh tốc độ với Pandas",
-                    },
-                    {
-                      type: "code",
-                      text: "Viết lại bài toán GroupBy của Pandas bằng Polars.",
-                    },
-                  ],
-                },
-              ],
-            },
-            {
-              name: "Tuần 15-16: CAPSTONE PROJECT GIAI ĐOẠN 2",
-              days: [
-                {
-                  name: "Tuần 15-16",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Project: End-to-End Exploratory Data Analysis (EDA)",
-                    },
-                    {
-                      type: "learn",
-                      text: "Dataset: Shopee/Tiki E-commerce Dataset hoặc Kaggle Titanic (Advanced version)",
-                    },
-                    {
-                      type: "code",
-                      text: "1. Data Cleaning: Xử lý null, duplicate, sai format.",
-                    },
-                    {
-                      type: "code",
-                      text: "2. Feature Engineering: Tạo cột mới (VD: Tách 'Title' từ 'Name', nhóm tuổi).",
-                    },
-                    {
-                      type: "code",
-                      text: "3. Visualization: 5-7 biểu đồ trả lời các câu hỏi Insight.",
-                    },
-                    {
-                      type: "code",
-                      text: "4. Correlation Analysis: Tìm các yếu tố ảnh hưởng đến mục tiêu (VD: Giá vé ảnh hưởng thế nào đến tỷ lệ sống sót).",
-                    },
-                    {
-                      type: "code",
-                      text: "5. Report: Xuất file Jupyter Notebook (.ipynb) sạch đẹp, có chú thích Markdown giải thích từng bước.",
-                    },
-                  ],
-                },
-              ],
-            },
-          ],
-        },
-                {
-          title: "Giai đoạn 3: Machine Learning Thực chiến (Classical ML)",
-          meta: "Tuần 17 đến Tuần 26 (10 Tuần)",
-          goals: "Thành thạo các thuật toán ML cốt lõi cho dữ liệu bảng (Tabular Data).",
-          tools: "Scikit-learn, XGBoost, LightGBM, Optuna, SHAP, Imbalanced-learn",
-          weeks: [
-            {
-              name: "Tuần 17: ML Overview & Linear Regression",
-              goal: "Hiểu luồng đi của một bài toán ML: Train, Test, Predict.",
-              days: [
-                {
-                  name: "Ngày 77",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Machine Learning Workflow: Supervised vs Unsupervised, Train/Test Split (Tại sao phải chia data?)",
-                    },
-                    {
-                      type: "code",
-                      text: "Dùng sklearn.model_selection.train_test_split chia dữ liệu.",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 78",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Linear Regression (Hồi quy tuyến tính) - Lý thuyết: Phương trình đường thẳng y = ax + b, Loss Function (MSE), Gradient Descent (ôn lại)",
-                    },
-                    {
-                      type: "code",
-                      text: "Implement Linear Regression bằng Numpy (ôn lại) vs dùng Sklearn.",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 79",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Linear Regression - Thực hành: Hệ số (Coefficients), Intercept, Đa cộng tuyến (Multicollinearity)",
-                    },
-                    {
-                      type: "code",
-                      text: "Dự đoán giá nhà (Boston Housing/California Housing dataset).",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 80",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Polynomial Regression: Khi đường thẳng không đủ tốt (Underfitting), Tạo feature bậc cao",
-                    },
-                    {
-                      type: "code",
-                      text: "Dùng PolynomialFeatures của sklearn để fit đường cong.",
-                    },
-                  ],
-                },
-              ],
-            },
-            {
-              name: "Tuần 18: Classification (Phân loại) & Logistic Regression",
-              goal: "Giải quyết bài toán Yes/No (Spam hay không Spam).",
-              days: [
-                {
-                  name: "Ngày 81",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Logistic Regression: Sigmoid Function, Decision Boundary, Tại sao dùng Log Loss?",
-                    },
-                    {
-                      type: "code",
-                      text: "Phân loại hoa Iris (Binary Classification).",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 82",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Evaluation Metrics cho Phân loại (CỰC QUAN TRỌNG): Accuracy (dễ lừa), Precision & Recall (Quan trọng), F1-Score, Confusion Matrix",
-                    },
-                    {
-                      type: "code",
-                      text: "Tính tay Precision/Recall từ Confusion Matrix.",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 83",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "ROC Curve & AUC: True Positive Rate vs False Positive Rate, Threshold tuning (Chỉnh ngưỡng quyết định)",
-                    },
-                    {
-                      type: "code",
-                      text: "Vẽ đường ROC và tính diện tích AUC.",
-                    },
-                  ],
-                },
-              ],
-            },
-            {
-              name: "Tuần 19: KNN & SVM (Support Vector Machines)",
-              goal: "Hiểu các thuật toán dựa trên khoảng cách.",
-              days: [
-                {
-                  name: "Ngày 84",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "K-Nearest Neighbors (KNN): Euclidean distance, Chọn K thế nào?, Lời nguyền của số chiều (Curse of Dimensionality)",
-                    },
-                    {
-                      type: "code",
-                      text: "KNN classifier cho dataset chữ viết tay (MNIST nhỏ).",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 85",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Support Vector Machines (SVM): Hyperplane, Margin tối đa, Kernel Trick (biến không gian cong thành phẳng)",
-                    },
-                    {
-                      type: "code",
-                      text: "So sánh Linear SVM vs RBF Kernel SVM.",
-                    },
-                  ],
-                },
-              ],
-            },
-            {
-              name: "Tuần 20: Decision Trees & Bias-Variance Tradeoff",
-              goal: "Nền tảng của các thuật toán mạnh nhất hiện nay.",
-              days: [
-                {
-                  name: "Ngày 86",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Decision Trees (Cây quyết định): Entropy & Gini Impurity (Cách cây đặt câu hỏi), Pruning (Cắt tỉa cây để chống Overfitting)",
-                    },
-                    {
-                      type: "code",
-                      text: "Visual hóa cây quyết định bằng graphviz.",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 87",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Bias vs Variance (Độ lệch vs Phương sai): Overfitting (Học vẹt) vs Underfitting (Học kém), Cách phát hiện qua Learning Curve",
-                    },
-                    {
-                      type: "code",
-                      text: "Vẽ Learning Curve để chẩn đoán model.",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 88",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Cross-Validation (Kiểm định chéo): K-Fold CV, Stratified K-Fold (Giữ tỷ lệ nhãn)",
-                    },
-                    {
-                      type: "code",
-                      text: "Áp dụng cross_val_score thay vì chỉ train/test split.",
-                    },
-                  ],
-                },
-              ],
-            },
-            {
-              name: "Tuần 21: Ensemble Learning & Random Forest",
-              goal: "Sức mạnh của đám đông (Nhiều cây yếu gộp lại thành rừng mạnh).",
-              days: [
-                {
-                  name: "Ngày 89",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Bagging & Random Forest: Bootstrap Aggregating, Tại sao Random Forest khó bị Overfit?, Feature Importance",
-                    },
-                    {
-                      type: "code",
-                      text: "Train Random Forest Classifier. Xem feature nào quan trọng nhất.",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 90",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Ensemble Voting: Hard Voting vs Soft Voting",
-                    },
-                    {
-                      type: "code",
-                      text: "Kết hợp kết quả của Logistic Regression, KNN và Random Forest.",
-                    },
-                  ],
-                },
-              ],
-            },
-            {
-              name: "Tuần 22: Boosting Algorithms (Vũ khí tối thượng cho Tabular Data)",
-              goal: "Thành thạo XGBoost/LightGBM - Thứ doanh nghiệp dùng nhiều nhất.",
-              days: [
-                {
-                  name: "Ngày 91",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Boosting Concept: Học tuần tự (Sequential Learning), Sửa sai cho model trước",
-                    },
-                    {
-                      type: "code",
-                      text: "AdaBoost cơ bản.",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 92",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "XGBoost (Extreme Gradient Boosting): Tại sao XGBoost vô địch Kaggle?, Regularization tích hợp",
-                    },
-                    {
-                      type: "code",
-                      text: "Cài đặt XGBoost, train model và sử dụng early_stopping.",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 93",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "LightGBM & CatBoost: Tốc độ của LightGBM (Histogram-based), Xử lý category của CatBoost",
-                    },
-                    {
-                      type: "code",
-                      text: "So sánh tốc độ train giữa Random Forest vs XGBoost vs LightGBM.",
-                    },
-                  ],
-                },
-              ],
-            },
-            {
-              name: "Tuần 23: Unsupervised Learning",
-              goal: "Tìm ẩn số khi không có nhãn (Label).",
-              days: [
-                {
-                  name: "Ngày 94",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Clustering: K-Means: Elbow Method (Chọn K tối ưu), K-Means++ init",
-                    },
-                    {
-                      type: "code",
-                      text: "Phân nhóm khách hàng dựa trên hành vi mua sắm.",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 95",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Dimensionality Reduction: PCA: Giảm chiều dữ liệu, Giữ lại bao nhiêu thông tin (Variance explained)?",
-                    },
-                    {
-                      type: "code",
-                      text: "Giảm dataset từ 100 chiều xuống 2 chiều để vẽ biểu đồ.",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 96",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Clustering nâng cao: DBSCAN: Phát hiện cụm hình dạng bất kỳ, Xử lý nhiễu (Noise/Outliers)",
-                    },
-                    {
-                      type: "code",
-                      text: "So sánh kết quả K-Means vs DBSCAN trên dữ liệu hình trăng khuyết.",
-                    },
-                  ],
-                },
-              ],
-            },
-            {
-              name: "Tuần 24: Advanced ML Techniques",
-              goal: "Xử lý các vấn đề thực tế khó nhằn.",
-              days: [
-                {
-                  name: "Ngày 97",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Imbalanced Data (Dữ liệu mất cân bằng): Tại sao Accuracy vô dụng ở đây?, Undersampling vs Oversampling (SMOTE)",
-                    },
-                    {
-                      type: "code",
-                      text: "Dùng thư viện imbalanced-learn để sinh dữ liệu giả lập class hiếm.",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 98",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Hyperparameter Tuning: Grid Search vs Random Search, Bayesian Optimization (Optuna)",
-                    },
-                    {
-                      type: "code",
-                      text: "Dùng Optuna để tự động tìm tham số tốt nhất cho XGBoost.",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 99",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Explainable AI (SHAP): Black box model, SHAP values: Tại sao model dự đoán người này rủi ro cao?",
-                    },
-                    {
-                      type: "code",
-                      text: "Vẽ biểu đồ SHAP summary plot.",
-                    },
-                  ],
-                },
-              ],
-            },
-            {
-              name: "Tuần 25-26: CAPSTONE PROJECT GIAI ĐOẠN 3",
-              days: [
-                {
-                  name: "Tuần 25-26",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Project: Credit Scoring / Customer Churn Prediction",
-                    },
-                    {
-                      type: "learn",
-                      text: "Dataset: Telco Customer Churn (Kaggle) hoặc German Credit Data.",
-                    },
-                    {
-                      type: "code",
-                      text: "1. Pipeline: Xây dựng Sklearn Pipeline hoàn chỉnh (FillNA -> Scale -> Model).",
-                    },
-                    {
-                      type: "code",
-                      text: "2. Handling Imbalance: Áp dụng SMOTE vì số lượng khách rời bỏ thường ít.",
-                    },
-                    {
-                      type: "code",
-                      text: "3. Model Selection: Thử nghiệm Logistic Regression, Random Forest và XGBoost.",
-                    },
-                    {
-                      type: "code",
-                      text: "4. Tuning: Dùng Optuna tối ưu F1-Score (hoặc ROC-AUC).",
-                    },
-                    {
-                      type: "code",
-                      text: "5. Explain: Dùng SHAP để giải thích cho sếp biết: 'Yếu tố nào khiến khách hàng bỏ đi nhiều nhất?' (Giá cước? Dịch vụ CSKH?).",
-                    },
-                    {
-                      type: "code",
-                      text: "6. Save Model: Lưu model dạng .pkl hoặc .json để dùng sau này.",
-                    },
-                  ],
-                },
-              ],
-            },
-          ],
-        },
-                {
-          title: "Giai đoạn 4: Deep Learning Foundation (Updated)",
-          meta: "Tuần 27 đến Tuần 42 (16 Tuần)",
-          goals: "Xây dựng tư duy Deep Learning, thành thạo PyTorch và nắm vững kiến trúc CNN/RNN/Transformer.",
-          tools: "PyTorch, Torchvision, OpenCV, TensorBoard / Weights & Biases, Google Colab (GPU Free)",
-          weeks: [
-            {
-              name: "Tuần 27: Neural Networks (NN) - Từ con số 0",
-              goal: "Hiểu cấu tạo của một 'Brain cell' nhân tạo.",
-              days: [
-                {
-                  name: "Ngày 100",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Perceptron & Neuron: Mối liên hệ giữa Logistic Regression và 1 Neuron, Weights (Trọng số) & Bias",
-                    },
-                    {
-                      type: "code",
-                      text: "Code lại 1 Neuron bằng Python thuần.",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 101",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Activation Functions (Hàm kích hoạt): Tại sao cần phi tuyến tính?, Sigmoid vs Tanh vs ReLU (Rectified Linear Unit)",
-                    },
-                    {
-                      type: "code",
-                      text: "Vẽ đồ thị các hàm activation bằng Matplotlib.",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 102",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Multi-Layer Perceptron (MLP): Input Layer, Hidden Layers, Output Layer, Feed Forward (Lan truyền xuôi)",
-                    },
-                    {
-                      type: "code",
-                      text: "Xây dựng mạng MLP đơn giản phân loại dữ liệu XOR.",
-                    },
-                  ],
-                },
-              ],
-            },
-            {
-              name: "Tuần 28: Backpropagation (Trái tim của DL)",
-              goal: "Hiểu cách model tự sửa sai (Học).",
-              days: [
-                {
-                  name: "Ngày 103",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Loss Functions: MSE (cho Regression), Cross-Entropy Loss (cho Classification)",
-                    },
-                    {
-                      type: "code",
-                      text: "Tính tay Loss của một dự đoán sai.",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 104",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Backpropagation Theory: Chain Rule (Quy tắc chuỗi - Ôn lại Calculus), Đạo hàm của Loss theo Weight",
-                    },
-                    {
-                      type: "code",
-                      text: "Xem video 3Blue1Brown về Backpropagation (Bắt buộc).",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 105",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Optimization Algorithms: SGD (Stochastic Gradient Descent), Adam (Adaptive Moment Estimation - Dùng mặc định)",
-                    },
-                    {
-                      type: "code",
-                      text: "So sánh tốc độ hội tụ của SGD vs Adam.",
-                    },
-                  ],
-                },
-              ],
-            },
-            {
-              name: "Tuần 29-30: PyTorch Framework Mastery",
-              goal: "Code Deep Learning chuyên nghiệp & Quản lý thí nghiệm.",
-              days: [
-                {
-                  name: "Ngày 106",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Tensors & Autograd: Tensor là gì? (Khác gì NumPy array?), GPU acceleration (cuda), Autograd (Tự động tính đạo hàm)",
-                    },
-                    {
-                      type: "code",
-                      text: "Chuyển đổi qua lại giữa Numpy và Tensor. Tính đạo hàm tự động y.backward().",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 107",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "PyTorch Workflow: Dataset & DataLoader: Class Dataset (len, getitem), DataLoader (Batching, Shuffling)",
-                    },
-                    {
-                      type: "code",
-                      text: "Viết custom Dataset để load ảnh từ folder.",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 108",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Building Model: nn.Module: Hàm __init__ và forward(), nn.Linear, nn.Sequential",
-                    },
-                    {
-                      type: "code",
-                      text: "Viết class ImageClassifier kế thừa nn.Module.",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 109",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Training Loop & Visualization: 5 bước chuẩn: Forward -> Loss -> Zero_grad -> Backward -> Step, Sử dụng TensorBoard để vẽ biểu đồ Loss realtime",
-                    },
-                    {
-                      type: "code",
-                      text: "Tích hợp TensorBoardWriter vào vòng lặp train.",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 110",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Save/Load & Project MNIST: torch.save (state_dict), torch.load (Resume training)",
-                    },
-                    {
-                      type: "code",
-                      text: "Project: Handwritten Digit Recognition (Full pipeline: Train -> Save -> Load -> Predict).",
-                    },
-                  ],
-                },
-              ],
-            },
-            {
-              name: "Tuần 31-33: Computer Vision (CNN)",
-              goal: "Xử lý dữ liệu hình ảnh & Autoencoders.",
-              days: [
-                {
-                  name: "Ngày 111",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Convolution Operation (Tích chập): Kernel/Filter, Stride, Padding, Tại sao CNN tốt hơn MLP cho ảnh?",
-                    },
-                    {
-                      type: "code",
-                      text: "Tính tay kết quả tích chập của ma trận 5x5 với filter 3x3.",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 112",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Pooling Layers & Architecture: Max Pooling vs Average Pooling, Cấu trúc kinh điển: Conv -> Relu -> Pool",
-                    },
-                    {
-                      type: "code",
-                      text: "Xây dựng mô hình LeNet-5 cổ điển.",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 113",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Modern Architectures: ResNet: Vanishing Gradient Problem, Skip Connections (Residual Block), Tại sao ResNet sâu được?",
-                    },
-                    {
-                      type: "code",
-                      text: "Dùng torchvision.models.resnet18 (pretrained=True).",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 114",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Autoencoders (Intro to Generative): Encoder - Decoder Architecture, Latent Space (Không gian ẩn), Ứng dụng: Khử nhiễu ảnh (Denoising)",
-                    },
-                    {
-                      type: "code",
-                      text: "Xây dựng Autoencoder đơn giản để nén và giải nén ảnh MNIST.",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 115",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Transfer Learning & Object Detection Intro: Fine-tuning vs Feature Extraction, Khái niệm YOLO (You Only Look Once)",
-                    },
-                    {
-                      type: "code",
-                      text: "Dùng ResNet đã học ImageNet để phân loại Chó/Mèo.",
-                    },
-                  ],
-                },
-              ],
-            },
-            {
-              name: "Tuần 34-36: Sequence Models (RNN & NLP Foundation)",
-              goal: "Xử lý dữ liệu chuỗi (Text, Time Series).",
-              days: [
-                {
-                  name: "Ngày 116",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Text Preprocessing: Tokenization, Stopwords, Stemming/Lemmatization, One-hot encoding text",
-                    },
-                    {
-                      type: "code",
-                      text: "Dùng thư viện NLTK hoặc spaCy để xử lý câu văn.",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 117",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Word Embeddings: Tại sao One-hot tệ?, Word2Vec idea, Embedding Layer trong PyTorch",
-                    },
-                    {
-                      type: "code",
-                      text: "Visual hóa vector từ vựng (King - Man + Woman = Queen).",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 118",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "RNN (Recurrent Neural Networks): Hidden State (Trí nhớ ngắn hạn), Vấn đề Vanishing Gradient trong RNN",
-                    },
-                    {
-                      type: "code",
-                      text: "Viết RNN đơn giản dự đoán ký tự tiếp theo.",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 119",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "LSTM & GRU: Gates (Cổng quên, cổng nhập), Long Short-Term Memory",
-                    },
-                    {
-                      type: "code",
-                      text: "Phân loại cảm xúc bình luận phim (IMDB) dùng LSTM.",
-                    },
-                  ],
-                },
-              ],
-            },
-            {
-              name: "Tuần 37-38: Attention & Transformers (Cầu nối đến LLM)",
-              goal: "Hiểu kiến trúc đã thay đổi thế giới AI.",
-              days: [
-                {
-                  name: "Ngày 120",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Seq2Seq & Attention Mechanism: Encoder-Decoder Architecture, Bahdanau Attention (Tại sao phải focus vào từng phần?)",
-                    },
-                    {
-                      type: "code",
-                      text: "Minh họa cơ chế Attention bằng heatmap.",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 121",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Transformer Architecture (Paper: Attention is All You Need): Self-Attention, Multi-Head Attention, Positional Encoding",
-                    },
-                    {
-                      type: "code",
-                      text: "Đọc và chạy thử code Transformer PyTorch tutorial.",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 122",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "BERT vs GPT: Encoder-only (BERT - Hiểu ngữ cảnh), Decoder-only (GPT - Sinh văn bản)",
-                    },
-                    {
-                      type: "code",
-                      text: "Dùng HuggingFace transformers load thử BERT-base.",
-                    },
-                  ],
-                },
-              ],
-            },
-            {
-              name: "Tuần 39-40: Training Tricks & Optimization",
-              goal: "Làm sao để model hội tụ tốt hơn và tránh Overfitting.",
-              days: [
-                {
-                  name: "Ngày 123",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Regularization: Dropout (Tắt ngẫu nhiên nơ-ron), L1/L2 Regularization (Weight decay)",
-                    },
-                    {
-                      type: "code",
-                      text: "Thêm Dropout layer vào model và so sánh kết quả.",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 124",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Normalization: Batch Normalization (Chuẩn hóa theo batch), Layer Normalization (Dùng cho RNN/Transformer)",
-                    },
-                    {
-                      type: "code",
-                      text: "Thêm BatchNorm2d vào CNN model.",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 125",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Learning Rate Scheduling: Learning Rate Decay, Warm-up steps",
-                    },
-                    {
-                      type: "code",
-                      text: "Sử dụng StepLR scheduler trong PyTorch.",
-                    },
-                  ],
-                },
-              ],
-            },
-            {
-              name: "Tuần 41-42: CAPSTONE PROJECT GIAI ĐOẠN 4",
-              days: [
-              ],
-            },
-          ],
-        },
-                {
-          title: "Giai đoạn 5: LLM, RAG & AI Agents (Generative AI) - Updated",
-          meta: "Tuần 43 đến Tuần 62 (20 Tuần)",
-          goals: "Làm chủ công nghệ Generative AI: Từ RAG nâng cao, GraphRAG đến Fine-tuning và Multi-Agent Systems.",
-          tools: "LangChain, LangGraph, LlamaIndex, ChromaDB / Qdrant, Neo4j (Graph DB), HuggingFace PEFT (LoRA), Ollama (Local LLM), Ragas (Evaluation)",
-          weeks: [
-            {
-              name: "Tuần 43-44: LLM Fundamentals & Structured Output",
-              goal: "Hiểu cách giao tiếp và điều khiển mô hình trả về dữ liệu có cấu trúc.",
-              days: [
-                {
-                  name: "Ngày 126",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "LLM Architecture Recap: Pre-training vs Fine-tuning, Context Window & Tokens (Cách tính tiền), Temperature, Top-P (Tham số sinh văn bản)",
-                    },
-                    {
-                      type: "code",
-                      text: "Sử dụng Tiktoken để đếm số token của đoạn văn.",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 127",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Structured Output (JSON Mode): Tại sao LLM cần trả về JSON?, Function Calling để ép kiểu dữ liệu, Thư viện Instructor hoặc Pydantic OutputParser",
-                    },
-                    {
-                      type: "code",
-                      text: "Viết prompt ép model trích xuất thông tin từ CV ra file JSON đúng format.",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 128",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Running Local LLMs: Cài đặt Ollama / LM Studio, Quantization (GGUF) - Tại sao chạy được Llama 3 trên laptop?",
-                    },
-                    {
-                      type: "code",
-                      text: "Viết Python script gọi API tới localhost Ollama.",
-                    },
-                  ],
-                },
-              ],
-            },
-            {
-              name: "Tuần 45-47: RAG Foundation (Retrieval Augmented Generation)",
-              goal: "Cho LLM 'học' dữ liệu riêng của bạn mà không cần train lại.",
-              days: [
-                {
-                  name: "Ngày 129",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Vector Embeddings: Biến văn bản thành Vector số thực, Cosine Similarity (Đo độ tương đồng), Mô hình Embedding (OpenAI text-embedding-3 vs BGE-M3)",
-                    },
-                    {
-                      type: "code",
-                      text: "Viết hàm tìm kiếm ngữ nghĩa (Semantic Search) đơn giản.",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 130",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Vector Databases: Cấu trúc Vector DB (ChromaDB, Weaviate), CRUD operations trên Vector DB",
-                    },
-                    {
-                      type: "code",
-                      text: "Lưu 100 trang tài liệu PDF vào ChromaDB.",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 131",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "RAG Pipeline cơ bản: Quy trình: Load -> Split -> Embed -> Store -> Retrieve -> Generate, Chunking Strategies (Cắt nhỏ văn bản thế nào cho đúng?)",
-                    },
-                    {
-                      type: "code",
-                      text: "Xây dựng Chatbot hỏi đáp tài liệu đơn giản bằng LangChain.",
-                    },
-                  ],
-                },
-              ],
-            },
-            {
-              name: "Tuần 48-50: Advanced RAG & GraphRAG",
-              goal: "Khắc phục nhược điểm của RAG cơ bản bằng Semantic + Knowledge Graph.",
-              days: [
-                {
-                  name: "Ngày 132",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Hybrid Search: Kết hợp Keyword Search (BM25) + Vector Search, Tại sao Vector Search thất bại với từ khóa chính xác?",
-                    },
-                    {
-                      type: "code",
-                      text: "Implement Hybrid Search dùng Qdrant hoặc Weaviate.",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 133",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Re-ranking (Sắp xếp lại): Cross-Encoder models (Cohere Rerank / BGE-Reranker), Lọc kết quả rác trước khi gửi cho LLM",
-                    },
-                    {
-                      type: "code",
-                      text: "Thêm bước Re-ranking vào pipeline RAG để tăng độ chính xác.",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 134",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "GraphRAG (Knowledge Graph RAG): Hạn chế của Vector Search (Mất mối quan hệ thực thể), Knowledge Graph là gì? (Neo4j), Kết hợp Graph + Vector",
-                    },
-                    {
-                      type: "code",
-                      text: "Dùng LlamaIndex hoặc Microsoft GraphRAG để truy vấn mối quan hệ phức tạp.",
-                    },
-                  ],
-                },
-              ],
-            },
-            {
-              name: "Tuần 51-53: LangChain & LlamaIndex Deep Dive",
-              goal: "Thành thạo framework phát triển ứng dụng LLM số 1 hiện nay.",
-              days: [
-                {
-                  name: "Ngày 135",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "LangChain LCEL: LangChain Expression Language (Pipe syntax | ), Runnables & Chains",
-                    },
-                    {
-                      type: "code",
-                      text: "Viết Chain: Prompt | Model | OutputParser.",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 136",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Memory & History: Quản lý lịch sử chat (ConversationBufferMemory), Lưu history vào Redis/Postgres",
-                    },
-                    {
-                      type: "code",
-                      text: "Tạo Chatbot nhớ được tên người dùng qua nhiều lượt chat.",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 137",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "LlamaIndex for Data: Data Connectors (Lấy dữ liệu từ Notion, Slack, SQL), LlamaIndex Query Engine",
-                    },
-                    {
-                      type: "code",
-                      text: "Xây dựng hệ thống hỏi đáp trên cơ sở dữ liệu SQL (Text-to-SQL).",
-                    },
-                  ],
-                },
-              ],
-            },
-            {
-              name: "Tuần 54-56: AI Agents & Orchestration (LangGraph)",
-              goal: "Xây dựng AI chủ động thực hiện hành động (Tương lai của AI).",
-              days: [
-                {
-                  name: "Ngày 138",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Tool Calling (Function Calling): Dạy LLM cách dùng công cụ (Calculator, Google Search API), Định nghĩa Tools bằng Pydantic",
-                    },
-                    {
-                      type: "code",
-                      text: "Tạo Agent biết tự tính toán và search web.",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 139",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "LangGraph Basics: Stateful Agents (Agent có trạng thái), Nodes & Edges (Quy trình dạng đồ thị), Cyclic Graphs (Vòng lặp suy nghĩ)",
-                    },
-                    {
-                      type: "code",
-                      text: "Xây dựng luồng Agent: Plan -> Execute -> Reflect (Tự kiểm tra) -> Output.",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 140",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Multi-Agent Systems: Phân chia nhiệm vụ: Researcher Agent & Writer Agent, Supervisor Agent (Quản lý chung)",
-                    },
-                    {
-                      type: "code",
-                      text: "Xây dựng đội ngũ Agent tự động viết bài blog nghiên cứu.",
-                    },
-                  ],
-                },
-              ],
-            },
-            {
-              name: "Tuần 57-58: LLM Evaluation (Kiểm thử chất lượng)",
-              goal: "Làm sao biết Chatbot trả lời đúng hay sai?",
-              days: [
-                {
-                  name: "Ngày 141",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "RAG Evaluation Metrics: Faithfulness (Trung thực với dữ liệu nguồn), Answer Relevance (Trả lời đúng trọng tâm), Context Recall (Tìm đủ thông tin không)",
-                    },
-                    {
-                      type: "code",
-                      text: "Dùng thư viện Ragas để chấm điểm hệ thống RAG.",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 142",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Observability (Quan sát): Tracing với LangSmith hoặc Arize Phoenix, Debug từng bước chạy của Chain",
-                    },
-                    {
-                      type: "code",
-                      text: "Tích hợp LangSmith để theo dõi token usage và latency.",
-                    },
-                  ],
-                },
-              ],
-            },
-            {
-              name: "Tuần 59-60: Fine-tuning & Optimization (Nâng cao)",
-              goal: "Tùy biến Model cho tác vụ chuyên biệt.",
-              days: [
-                {
-                  name: "Ngày 143",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "PEFT & LoRA: Parameter-Efficient Fine-Tuning (Chỉ train < 1% tham số), Low-Rank Adaptation (LoRA)",
-                    },
-                    {
-                      type: "code",
-                      text: "Chuẩn bị dataset định dạng JSONL cho fine-tuning.",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 144",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Fine-tuning & Serving Optimization: Sử dụng thư viện Unsloth (Tối ưu tốc độ train x2), Quantization for Serving (AWQ / GPTQ) để giảm chi phí VRAM",
-                    },
-                    {
-                      type: "code",
-                      text: "Fine-tune model Llama-3 và export ra định dạng GGUF để chạy tiết kiệm.",
-                    },
-                  ],
-                },
-              ],
-            },
-            {
-              name: "Tuần 61-62: CAPSTONE PROJECT GIAI ĐOẠN 5",
-              days: [
-                {
-                  name: "Tuần 61-62",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Project: Intelligent Legal/Medical Assistant (Agentic RAG)",
-                    },
-                    {
-                      type: "code",
-                      text: "1. Data Pipeline: Crawl và xử lý sạch dữ liệu văn bản pháp luật/y khoa.",
-                    },
-                    {
-                      type: "code",
-                      text: "2. Hybrid RAG: Kết hợp Vector Search + Keyword Search + Re-ranking.",
-                    },
-                    {
-                      type: "code",
-                      text: "3. GraphRAG (Optional): Xây dựng Knowledge Graph cho các điều luật liên quan nhau.",
-                    },
-                    {
-                      type: "code",
-                      text: "4. Agent Workflow (LangGraph): Agent có khả năng hỏi lại user nếu thiếu thông tin (Human-in-the-loop).",
-                    },
-                    {
-                      type: "code",
-                      text: "5. Evaluation: Viết bộ test case gồm 50 câu hỏi khó để đánh giá độ chính xác.",
-                    },
-                    {
-                      type: "code",
-                      text: "6. UI: Giao diện Chat chuyên nghiệp (Streamlit/Chainlit).",
-                    },
-                  ],
-                },
-              ],
-            },
-          ],
-        },
-                {
-          title: "Giai đoạn 6: Software Engineering & Data Ops (Updated)",
-          meta: "Tuần 63 đến Tuần 74 (12 Tuần)",
-          goals: "Xây dựng Backend vững chắc, bảo mật, đóng gói ứng dụng tối ưu và tự động hóa quy trình (CI/CD).",
-          tools: "FastAPI, Uvicorn/Gunicorn, Docker & Docker Compose, Kubernetes (K8s Basic), GitHub Actions, PostgreSQL (pgvector), Redis, Celery / RabbitMQ",
-          weeks: [
-            {
-              name: "Tuần 63-64: Backend API Development & Security",
-              goal: "Viết API hiệu năng cao, bảo mật và chuẩn chỉnh.",
-              days: [
-                {
-                  name: "Ngày 145",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "FastAPI, Pydantic & Config Management: Pydantic Settings (Quản lý biến môi trường .env an toàn), Dependency Injection trong FastAPI (Clean Architecture), Middleware (CORS, Logging)",
-                    },
-                    {
-                      type: "code",
-                      text: "Viết API load config từ file .env và log mọi request vào file.",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 146",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Authentication & Security: OAuth2 với Password Flow, JWT (JSON Web Tokens) - Tạo và xác thực token, Rate Limiting (Chống DDOS đơn giản)",
-                    },
-                    {
-                      type: "code",
-                      text: "Tích hợp đăng nhập JWT vào API, bảo vệ route /admin.",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 147",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Asyncio & Streaming Response: Server-Sent Events (SSE) cho Chatbot, Websockets (Giao tiếp 2 chiều realtime), Xử lý tác vụ nền (Background Tasks)",
-                    },
-                    {
-                      type: "code",
-                      text: "Tạo API chat trả về từng token (Streaming) giống ChatGPT.",
-                    },
-                  ],
-                },
-              ],
-            },
-            {
-              name: "Tuần 65-66: Containerization (Docker Advanced)",
-              goal: "Tối ưu hóa Docker Image cho môi trường Production.",
-              days: [
-                {
-                  name: "Ngày 148",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Docker Best Practices: Multi-stage builds (Giảm size image từ 1GB -> 200MB), .dockerignore (Tránh copy file rác), Non-root user (Bảo mật container)",
-                    },
-                    {
-                      type: "code",
-                      text: "Viết Dockerfile multi-stage tối ưu cho ứng dụng Python.",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 149",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Docker for AI/GPU: NVIDIA Container Toolkit (Chạy model trên GPU docker), Caching pip packages để build nhanh hơn",
-                    },
-                    {
-                      type: "code",
-                      text: "Build image Docker hỗ trợ CUDA để chạy PyTorch.",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 150",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Docker Compose for Dev Environment: Orchestrate API + DB + Redis + Worker, Healthchecks (Đợi DB khởi động xong mới chạy API)",
-                    },
-                    {
-                      type: "code",
-                      text: "Setup docker-compose.yml chạy full stack local.",
-                    },
-                  ],
-                },
-              ],
-            },
-            {
-              name: "Tuần 67-68: Database & Async Workers",
-              goal: "Xử lý dữ liệu lớn và tác vụ nặng không làm treo API.",
-              days: [
-                {
-                  name: "Ngày 151",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "PostgreSQL & pgvector: Thiết kế Schema tối ưu cho Vector Search, Indexing (HNSW index) để tìm kiếm nhanh, Migrations với Alembic (Quản lý thay đổi DB)",
-                    },
-                    {
-                      type: "code",
-                      text: "Tạo bảng lưu Embeddings và query tìm kiếm vector tương đồng.",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 152",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Redis & Async Workers (Celery): Redis Caching strategy, Message Queue (RabbitMQ/Redis), Celery (Xử lý tác vụ nặng như parse PDF, train model)",
-                    },
-                    {
-                      type: "code",
-                      text: "Setup Worker xử lý việc upload file PDF ở background.",
-                    },
-                  ],
-                },
-              ],
-            },
-            {
-              name: "Tuần 69-70: Testing & CI/CD",
-              goal: "Tự động hóa quy trình kiểm thử và deploy.",
-              days: [
-                {
-                  name: "Ngày 153",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Automated Testing (Pytest): Unit Test vs Integration Test, Test Client (FastAPI) & Fixtures, Mocking External APIs (Không gọi OpenAI thật khi test)",
-                    },
-                    {
-                      type: "code",
-                      text: "Viết test case coverage > 80% cho module Auth.",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 154",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "GitHub Actions (CI/CD): Pipeline: Lint -> Test -> Build -> Push Docker Hub, Quản lý Secrets trên GitHub",
-                    },
-                    {
-                      type: "code",
-                      text: "Setup workflow tự động build image khi push vào nhánh main.",
-                    },
-                  ],
-                },
-              ],
-            },
-            {
-              name: "Tuần 71-72: Orchestration Intro (Kubernetes)",
-              goal: "Hiểu khái niệm để deploy lên Cloud (AWS EKS / GKE).",
-              days: [
-                {
-                  name: "Ngày 155",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Kubernetes Concepts: Pod, Deployment, Service, Ingress, ConfigMap & Secrets (Quản lý cấu hình K8s)",
-                    },
-                    {
-                      type: "code",
-                      text: "Viết manifest deployment.yaml và service.yaml.",
-                    },
-                  ],
-                },
-                {
-                  name: "Ngày 156",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Deploying & Scaling: Horizontal Pod Autoscaling (HPA), Rolling Updates (Deploy không downtime)",
-                    },
-                    {
-                      type: "code",
-                      text: "Deploy ứng dụng lên cụm K8s local (Minikube).",
-                    },
-                  ],
-                },
-              ],
-            },
-            {
-              name: "Tuần 73-74: CAPSTONE PROJECT GIAI ĐOẠN 6",
-              days: [
-                {
-                  name: "Tuần 73-74",
-                  tasks: [
-                    {
-                      type: "learn",
-                      text: "Project: Production-Grade GenAI Backend",
-                    },
-                    {
-                      type: "code",
-                      text: "1. Security: Tích hợp JWT Auth, Rate Limiting, CORS.",
-                    },
-                    {
-                      type: "code",
-                      text: "2. Async Architecture: API nhận request -> đẩy vào Queue -> Worker xử lý -> API trả kết quả (hoặc Webhook).",
-                    },
-                    {
-                      type: "code",
-                      text: "3. Database: Postgres (User/Data) + Qdrant (Vector) + Redis (Cache/Queue).",
-                    },
-                    {
-                      type: "code",
-                      text: "4. Docker: Multi-stage build, image size < 500MB (nếu không kèm model) hoặc tối ưu layer model.",
-                    },
-                    {
-                      type: "code",
-                      text: "5. CI/CD: Pipeline test và build tự động.",
-                    },
-                    {
-                      type: "code",
-                      text: "6. Monitoring: Tích hợp Prometheus/Grafana cơ bản để đo API latency.",
-                    },
-                  ],
-                },
-              ],
-            },
-          ],
-        },
-                    {
-              title: "Giai đoạn 7: MLOps & Production Optimization (Updated)",
-              meta: "Tuần 75 đến Tuần 86 (12 Tuần)",
-              goals: "Triển khai model chuẩn chỉnh (IaC), tối ưu chi phí và giám sát an toàn hệ thống.",
-              tools: "AWS (EC2, SageMaker, Lambda), Terraform / AWS CDK (Infrastructure as Code), vLLM / Triton Server, MLflow, Prometheus & Grafana, NVIDIA NeMo Guardrails (AI Security)",
-              weeks: [
-                {
-                  name: "Tuần 75-76: Model Serving Optimization",
-                  goal: "Tối ưu hóa độ trễ (Latency) và thông lượng (Throughput) cho LLM.",
-                  days: [
-                    {
-                      name: "Ngày 157",
-                      tasks: [
-                        {
-                          type: "learn",
-                          text: "Inference Engines (vLLM), PagedAttention & Continuous Batching, Thiết lập vLLM server cho Llama-3/Mistral",
-                        },
-                        {
-                          type: "code",
-                          text: "Triển khai vLLM server dockerized, expose API chuẩn OpenAI.",
-                        },
-                      ],
-                    },
-                    {
-                      name: "Ngày 158",
-                      tasks: [
-                        {
-                          type: "learn",
-                          text: "Triton Inference Server, Kiến trúc NVIDIA Triton, Model Ensemble (Kết hợp nhiều model: Preprocess -> Model -> Postprocess)",
-                        },
-                        {
-                          type: "code",
-                          text: "Cấu hình model repository cho Triton chạy model ONNX.",
-                        },
-                      ],
-                    },
-                    {
-                      name: "Ngày 159",
-                      tasks: [
-                        {
-                          type: "learn",
-                          text: "Load Testing (Stress Test), Locust / JMeter, Đo đạc RPS (Requests per second) và P99 Latency",
-                        },
-                        {
-                          type: "code",
-                          text: "Viết script Locust giả lập 1000 user chat cùng lúc để tìm điểm chết của server.",
-                        },
-                      ],
-                    },
-                  ],
-                },
-                {
-                  name: "Tuần 77-78: Quantization & Cost Optimization",
-                  goal: "Chạy model lớn trên phần cứng rẻ tiền.",
-                  days: [
-                    {
-                      name: "Ngày 160",
-                      tasks: [
-                        {
-                          type: "learn",
-                          text: "Quantization Techniques, GGUF (CPU Inference), AWQ / GPTQ (GPU Inference tối ưu), KV Cache Quantization",
-                        },
-                        {
-                          type: "code",
-                          text: "Convert model Llama-3-8B FP16 sang AWQ 4-bit giúp giảm 60% VRAM.",
-                        },
-                      ],
-                    },
-                    {
-                      name: "Ngày 161",
-                      tasks: [
-                        {
-                          type: "learn",
-                          text: "Distillation & Pruning, Teacher-Student Training (Model nhỏ học từ model to), Structural Pruning (Cắt bỏ nơ-ron thừa)",
-                        },
-                        {
-                          type: "code",
-                          text: "Thực hành Distillation: Dạy model TinyLlama học theo GPT-4.",
-                        },
-                      ],
-                    },
-                  ],
-                },
-                {
-                  name: "Tuần 79-81: Cloud Infrastructure & IaC (Chuyên nghiệp)",
-                  goal: "Quản lý hạ tầng bằng Code (Không click tay).",
-                  days: [
-                    {
-                      name: "Ngày 162",
-                      tasks: [
-                        {
-                          type: "learn",
-                          text: "AWS Compute for AI, EC2 G4dn/G5 instances (NVIDIA GPU), AWS Spot Instances (Bid giá rẻ), Deep Learning AMI (Setup sẵn driver)",
-                        },
-                        {
-                          type: "code",
-                          text: "Launch một Spot Instance giá rẻ để train model.",
-                        },
-                      ],
-                    },
-                    {
-                      name: "Ngày 163",
-                      tasks: [
-                        {
-                          type: "learn",
-                          text: "Infrastructure as Code (IaC), Khái niệm IaC (Terraform hoặc AWS CDK), Tại sao không nên config thủ công trên Console?",
-                        },
-                        {
-                          type: "code",
-                          text: "Viết file Terraform đơn giản để tự động tạo EC2 và Security Group.",
-                        },
-                      ],
-                    },
-                    {
-                      name: "Ngày 164",
-                      tasks: [
-                        {
-                          type: "learn",
-                          text: "Serverless Inference, AWS Lambda (Cho model nhỏ/CPU), SageMaker Serverless Inference, RunPod / Modal (Alternative providers)",
-                        },
-                        {
-                          type: "code",
-                          text: "Deploy hàm xử lý ảnh đơn giản lên AWS Lambda + EFS.",
-                        },
-                      ],
-                    },
-                  ],
-                },
-                {
-                  name: "Tuần 82-83: MLOps Lifecycle (Tracking & CI/CD)",
-                  goal: "Tự động hóa quy trình huấn luyện và triển khai.",
-                  days: [
-                    {
-                      name: "Ngày 165",
-                      tasks: [
-                        {
-                          type: "learn",
-                          text: "Experiment Tracking (MLflow), Logging metrics/params, Artifact Storage (S3), MLflow UI",
-                        },
-                        {
-                          type: "code",
-                          text: "Setup MLflow Server remote (trên EC2) kết nối với S3 bucket.",
-                        },
-                      ],
-                    },
-                    {
-                      name: "Ngày 166",
-                      tasks: [
-                        {
-                          type: "learn",
-                          text: "Model Registry & CD, Promote model (Staging -> Production), Trigger deploy khi có model mới",
-                        },
-                        {
-                          type: "code",
-                          text: "GitHub Actions: Tự động deploy model khi chuyển trạng thái sang 'Production' trong MLflow.",
-                        },
-                      ],
-                    },
-                  ],
-                },
-                {
-                  name: "Tuần 84-85: Monitoring & AI Security (Guardrails)",
-                  goal: "Giám sát sức khỏe và đảm bảo an toàn cho AI.",
-                  days: [
-                    {
-                      name: "Ngày 167",
-                      tasks: [
-                        {
-                          type: "learn",
-                          text: "AI Security (Guardrails), Prompt Injection Attacks, Input/Output Filtering (Lọc nội dung độc hại/nhạy cảm), NVIDIA NeMo Guardrails",
-                        },
-                        {
-                          type: "code",
-                          text: "Tích hợp Guardrails chặn chatbot nói bậy hoặc tiết lộ thông tin cá nhân.",
-                        },
-                      ],
-                    },
-                    {
-                      name: "Ngày 168",
-                      tasks: [
-                        {
-                          type: "learn",
-                          text: "System Monitoring, Prometheus (Thu thập metrics), Grafana (Vẽ biểu đồ), Drift Detection (Phát hiện model bị sai dần theo thời gian)",
-                        },
-                        {
-                          type: "code",
-                          text: "Setup Dashboard Grafana cảnh báo khi GPU > 90% hoặc API error rate > 1%.",
-                        },
-                      ],
-                    },
-                  ],
-                },
-                {
-                  name: "Tuần 86: CAPSTONE PROJECT GIAI ĐOẠN 7",
-                  goal: "Xây dựng nền tảng LLM nội bộ hoàn chỉnh trên AWS.",
-                  days: [
-                    {
-                      name: "Tuần 86",
-                      tasks: [
-                        {
-                          type: "learn",
-                          text: "Project: Production-Grade LLM Platform",
-                        },
-                        {
-                          type: "code",
-                          text: "1. Infrastructure: Dùng Terraform dựng VPC, EC2 (vLLM), RDS (Database).",
-                        },
-                        {
-                          type: "code",
-                          text: "2. Deployment: Deploy model Llama-3 dạng Quantized (AWQ) trên Docker.",
-                        },
-                        {
-                          type: "code",
-                          text: "3. Security: Tích hợp NeMo Guardrails chặn Prompt Injection.",
-                        },
-                        {
-                          type: "code",
-                          text: "4. Pipeline: Auto-deploy khi update code mới (GitHub Actions).",
-                        },
-                        {
-                          type: "code",
-                          text: "5. Monitoring: Full dashboard Grafana theo dõi token/s, latency và chi phí ước tính.",
-                        },
-                      ],
-                    },
-                  ],
-                },
-              ],
-            },
-      ];
+  {
+    title: "Giai đoạn 1: Toán – Python – Tư duy lập trình",
+    meta: "6 Tuần | Tập trung 80% Thực hành",
+    goals: "Nắm vững Python, tư duy thuật toán và toán học nền tảng cho AI (Vector, Ma trận).",
+    tools: "VS Code, Git, Python 3.x",
+    weeks: [
+      {
+        name: "Tuần 1: Python Cơ Bản & Setup",
+        goal: "Viết được script chạy logic cơ bản, quản lý code bằng Git.",
+        days: [
+          {
+            name: "Ngày 1",
+            tasks: [
+              {
+                type: "learn",
+                text: "Cài đặt VS Code, Python, Git. Biến (int, float, str), Kiểu dữ liệu."
+              },
+              {
+                type: "code",
+                text: "Viết chương trình tính chỉ số BMI, đổi nhiệt độ C sang F."
+              }
+            ]
+          },
+          {
+            name: "Ngày 2",
+            tasks: [
+              {
+                type: "learn",
+                text: "Câu lệnh điều kiện (if-else), Vòng lặp (for, while)."
+              },
+              {
+                type: "code",
+                text: "Giải phương trình bậc 2. Game đoán số (Random number guessing)."
+              }
+            ]
+          },
+          {
+            name: "Ngày 3",
+            tasks: [
+              {
+                type: "learn",
+                text: "List, Tuple, Set. Các method xử lý List."
+              },
+              {
+                type: "code",
+                text: "Tìm số lớn nhất, sắp xếp list, xóa phần tử trùng lặp."
+              }
+            ]
+          },
+          {
+            name: "Ngày 4",
+            tasks: [
+              {
+                type: "learn",
+                text: "Dictionary (Từ điển) - Cấu trúc quan trọng nhất."
+              },
+              {
+                type: "code",
+                text: "Tạo từ điển Anh-Việt. Đếm số lần xuất hiện từ trong đoạn văn."
+              }
+            ]
+          },
+          {
+            name: "Ngày 5",
+            tasks: [
+              {
+                type: "learn",
+                text: "Hàm (Function), Tham số, Return."
+              },
+              {
+                type: "code",
+                text: "Refactor bài tập tuần trước thành các hàm riêng biệt."
+              }
+            ]
+          },
+          {
+            name: "Ngày 6",
+            tasks: [
+              {
+                type: "learn",
+                text: "Git cơ bản: git init, add, commit, push."
+              },
+              {
+                type: "code",
+                text: "Tạo repo GitHub và đẩy toàn bộ bài tập tuần này lên."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: "Tuần 2: Python Nâng cao & DSA",
+        goal: "Hiểu cách xử lý dữ liệu phức tạp và tối ưu code.",
+        days: [
+          {
+            name: "Ngày 7",
+            tasks: [
+              {
+                type: "learn",
+                text: "List Comprehension, Lambda functions."
+              },
+              {
+                type: "code",
+                text: "Viết lại các vòng lặp xử lý list chỉ bằng 1 dòng code."
+              }
+            ]
+          },
+          {
+            name: "Ngày 8",
+            tasks: [
+              {
+                type: "learn",
+                text: "Xử lý chuỗi nâng cao: split, join, strip, replace."
+              },
+              {
+                type: "code",
+                text: "Bài tập chuẩn hóa tên người dùng (viết hoa, xóa khoảng trắng)."
+              }
+            ]
+          },
+          {
+            name: "Ngày 9",
+            tasks: [
+              {
+                type: "learn",
+                text: "File Handling (Đọc/Ghi file .txt)."
+              },
+              {
+                type: "code",
+                text: "Đọc file log và lọc các dòng báo lỗi 'ERROR'."
+              }
+            ]
+          },
+          {
+            name: "Ngày 10",
+            tasks: [
+              {
+                type: "learn",
+                text: "Môi trường ảo (Virtual Environments)"
+              },
+              {
+                type: "code",
+                text: "Dùng venv làm Tool Web, Dùng conda giả lập môi trường cũ"
+              }
+            ]
+          },
+          {
+            name: "Ngày 11 (Học thêm)",
+            tasks: [
+              {
+                type: "learn",
+                text: "Python Package Manager (Pip & Conda)"
+              },
+              {
+                type: "code",
+                text: "Bài tập 1 (Terminal): Tạo môi trường ảo mới bằng conda (Python 3.9). Cài đặt thư viện pandas và matplotlib. Xuất danh sách thư viện ra file environment.yml (chuẩn Conda) hoặc requirements.txt (chuẩn Pip)."
+              },
+              {
+                type: "code",
+                text: "Bài tập 2 (Simulation): Xóa môi trường vừa tạo. Dùng lệnh để khôi phục lại toàn bộ môi trường chỉ từ file cấu hình vừa xuất."
+              }
+            ]
+          },
+          {
+            name: "Ngày 12 (Học thêm)",
+            tasks: [
+              {
+                type: "learn",
+                text: "Python Type Errors - Các lỗi phổ biến trong Python"
+              },
+              {
+                type: "code",
+                text: "Bài tập (Bug Hunting): Chạy code để xem Python báo lỗi gì (IndexError, KeyError, TypeError, IndentationError, NameError). Giải thích tại sao lỗi. Sửa lại cho chạy đúng."
+              }
+            ]
+          },
+          {
+            name: "Ngày 13 (Học thêm)",
+            tasks: [
+              {
+                type: "learn",
+                text: "Exception Handling (Try-Except)"
+              },
+              {
+                type: "code",
+                text: "Máy tính an toàn, truy xuất dữ liệu an toàn"
+              }
+            ]
+          },
+          {
+            name: "Ngày 14 (Học thêm)",
+            tasks: [
+              {
+                type: "learn",
+                text: "Regular Expressions (Regex)"
+              },
+              {
+                type: "code",
+                text: "Trích xuất Email & SĐT, Làm sạch Password"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: "Tuần 3: Python Hướng đối tượng (OOP) & Advanced",
+        goal: "Chuyển tư duy từ viết hàm rời rạc sang kiến trúc Class (rất quan trọng cho PyTorch sau này).",
+        days: [
+          {
+            name: "Ngày 15",
+            tasks: [
+              {
+                type: "learn",
+                text: "OOP Basic: Class & Object: Hiểu Class, Object, self, Hàm __init__ constructor"
+              },
+              {
+                type: "code",
+                text: "Tạo class Student với các thuộc tính name, age, grades"
+              }
+            ]
+          },
+          {
+            name: "Ngày 16",
+            tasks: [
+              {
+                type: "learn",
+                text: "OOP: Inheritance (Kế thừa) & Polymorphism: Tạo class con kế thừa class cha, Override phương thức"
+              },
+              {
+                type: "code",
+                text: "Tạo class AI_Student kế thừa Student, thêm thuộc tính 'specialization'"
+              }
+            ]
+          },
+          {
+            name: "Ngày 17",
+            tasks: [
+              {
+                type: "learn",
+                text: "OOP: Encapsulation (Đóng gói): Private variables (__var), Getter & Setter methods"
+              },
+              {
+                type: "code",
+                text: "Bảo mật điểm số sinh viên, chỉ cho sửa qua hàm setter có validation"
+              }
+            ]
+          },
+          {
+            name: "Ngày 18",
+            tasks: [
+              {
+                type: "learn",
+                text: "Python Advanced: Decorators: Hiểu First-class functions, Viết Wrapper function"
+              },
+              {
+                type: "code",
+                text: "Viết decorator @timer để đo thời gian chạy của một hàm (Quan trọng để tối ưu code AI)"
+              }
+            ]
+          },
+          {
+            name: "Ngày 19",
+            tasks: [
+              {
+                type: "learn",
+                text: "Python Advanced: Generators & Iterators: yield keyword vs return, Xử lý dữ liệu lớn bằng Generator"
+              },
+              {
+                type: "code",
+                text: "Viết hàm sinh số Fibonacci vô hạn bằng yield"
+              }
+            ]
+          },
+          {
+            name: "Ngày 20",
+            tasks: [
+              {
+                type: "learn",
+                text: "Exception Handling & Modules: try-except-finally custom, Tổ chức code thành modules/packages"
+              },
+              {
+                type: "code",
+                text: "Nâng cấp bài Student Manager: Xử lý lỗi nhập liệu, tách file main.py và student.py"
+              }
+            ]
+          },
+          {
+            name: "Ngày 21",
+            tasks: [
+              {
+                type: "learn",
+                text: "Review & Project OOP"
+              },
+              {
+                type: "code",
+                text: "Project: Upgrade CLI Student Manager. Chuyển toàn bộ code ngày 1-10 sang dạng Class. Lưu data vào JSON bằng method của Class."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: "Tuần 4: Đại số tuyến tính (Linear Algebra) & Code Ma trận",
+        goal: "Hiểu cách máy tính nhìn dữ liệu (dưới dạng Vector và Matrix).",
+        days: [
+          {
+            name: "Ngày 22",
+            tasks: [
+              {
+                type: "learn",
+                text: "Scalar, Vector & Matrix: Khái niệm không gian vector, Biểu diễn ảnh dưới dạng ma trận"
+              },
+              {
+                type: "code",
+                text: "Dùng Python List of Lists để biểu diễn Ma trận 2x2, 3x3"
+              }
+            ]
+          },
+          {
+            name: "Ngày 23",
+            tasks: [
+              {
+                type: "learn",
+                text: "Các phép toán trên Ma trận (Cộng, Trừ, Scalar Multiply): Element-wise operations"
+              },
+              {
+                type: "code",
+                text: "Viết hàm matrix_add(A, B) và matrix_scalar_mul(A, k) không dùng thư viện"
+              }
+            ]
+          },
+          {
+            name: "Ngày 24",
+            tasks: [
+              {
+                type: "learn",
+                text: "Dot Product (Tích vô hướng) - QUAN TRỌNG NHẤT: Công thức nhân dòng x cột, Ý nghĩa hình học (góc giữa 2 vector)"
+              },
+              {
+                type: "code",
+                text: "Viết hàm dot_product(v1, v2) thủ công"
+              }
+            ]
+          },
+          {
+            name: "Ngày 25",
+            tasks: [
+              {
+                type: "learn",
+                text: "Matrix Multiplication (Nhân ma trận): Điều kiện nhân (mxn * nxp), Độ phức tạp tính toán"
+              },
+              {
+                type: "code",
+                text: "Viết hàm matrix_multiply(A, B) sử dụng 3 vòng for lồng nhau"
+              }
+            ]
+          },
+          {
+            name: "Ngày 26",
+            tasks: [
+              {
+                type: "learn",
+                text: "Transposition (Chuyển vị) & Reshape: Ma trận chuyển vị A.T, Thay đổi hình dạng ma trận (Flatten)"
+              },
+              {
+                type: "code",
+                text: "Viết hàm transpose(matrix)"
+              }
+            ]
+          },
+          {
+            name: "Ngày 27",
+            tasks: [
+              {
+                type: "learn",
+                text: "Broadcasting (Khái niệm): Cách NumPy cộng 1 vector vào 1 ma trận (lý thuyết trước khi dùng thư viện)"
+              },
+              {
+                type: "code",
+                text: "Mô phỏng broadcasting bằng Python thuần"
+              }
+            ]
+          },
+          {
+            name: "Ngày 28",
+            tasks: [
+              {
+                type: "learn",
+                text: "Project: Mini Numpy Part 1"
+              },
+              {
+                type: "code",
+                text: "Project: MyLinearAlgebra Library. Gói các hàm dot, multiply, transpose vào Class 'MyMatrix'. Test với dữ liệu mẫu."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: "Tuần 5: Giải tích (Calculus) & Xác suất cơ bản",
+        goal: "Hiểu Gradient Descent hoạt động thế nào (Đạo hàm).",
+        days: [
+          {
+            name: "Ngày 29",
+            tasks: [
+              {
+                type: "learn",
+                text: "Đạo hàm (Derivative) cơ bản: Tốc độ thay đổi tức thời, Quy tắc chuỗi (Chain rule - Cốt lõi của Backpropagation)"
+              },
+              {
+                type: "code",
+                text: "Viết hàm tính đạo hàm x^2 tại điểm x=3 (numerical differentiation)"
+              }
+            ]
+          },
+          {
+            name: "Ngày 30",
+            tasks: [
+              {
+                type: "learn",
+                text: "Gradient & Partial Derivative (Đạo hàm riêng): Gradient là vector các đạo hàm riêng, Ý nghĩa trong tìm cực tiểu hàm số"
+              },
+              {
+                type: "code",
+                text: "Mô phỏng thuật toán Gradient Descent tìm điểm cực tiểu của y = x^2 - 4x"
+              }
+            ]
+          },
+          {
+            name: "Ngày 31",
+            tasks: [
+              {
+                type: "learn",
+                text: "Thống kê mô tả (Descriptive Stats): Mean (Trung bình), Median (Trung vị), Mode"
+              },
+              {
+                type: "code",
+                text: "Viết hàm calculate_mean(data), calculate_median(data)"
+              }
+            ]
+          },
+          {
+            name: "Ngày 32",
+            tasks: [
+              {
+                type: "learn",
+                text: "Variance & Standard Deviation (Phương sai & Độ lệch chuẩn): Đo độ phân tán của dữ liệu, Tại sao chia cho N hay N-1"
+              },
+              {
+                type: "code",
+                text: "Viết hàm calculate_std(data) từ con số 0"
+              }
+            ]
+          },
+          {
+            name: "Ngày 33",
+            tasks: [
+              {
+                type: "learn",
+                text: "Probability Distributions (Phân phối xác suất): Phân phối chuẩn (Gaussian/Normal Distribution), Hàm mật độ xác suất"
+              },
+              {
+                type: "code",
+                text: "Dùng random.gauss() để sinh dữ liệu giả lập chiều cao con người"
+              }
+            ]
+          },
+          {
+            name: "Ngày 34",
+            tasks: [
+              {
+                type: "learn",
+                text: "Softmax & Sigmoid Functions: Hàm kích hoạt (Activation function), Công thức Softmax chuyển đổi ra xác suất"
+              },
+              {
+                type: "code",
+                text: "Viết hàm sigmoid(x) và softmax(list_x)"
+              }
+            ]
+          },
+          {
+            name: "Ngày 35",
+            tasks: [
+              {
+                type: "learn",
+                text: "Project: Mini Numpy Part 2"
+              },
+              {
+                type: "code",
+                text: "Project: MyStats Library. Thêm các hàm mean, std, softmax vào thư viện Mini Numpy. Đóng gói thành module hoàn chỉnh."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: "Tuần 6: Data Structures & Algorithms (DSA) - Basic",
+        goal: "Viết code tối ưu hơn, chuẩn bị cho phỏng vấn.",
+        days: [
+          {
+            name: "Ngày 36",
+            tasks: [
+              {
+                type: "learn",
+                text: "Độ phức tạp thuật toán (Big O Notation): O(1), O(n), O(n^2), Tại sao tránh vòng lặp lồng nhau"
+              },
+              {
+                type: "code",
+                text: "So sánh thời gian chạy hàm tìm kiếm O(n) vs O(1) (Dict lookup)"
+              }
+            ]
+          },
+          {
+            name: "Ngày 37",
+            tasks: [
+              {
+                type: "learn",
+                text: "Array & String Manipulation (Nâng cao): Two Pointers technique, Sliding Window"
+              },
+              {
+                type: "code",
+                text: "LeetCode bài Two Sum (phiên bản tối ưu)"
+              }
+            ]
+          },
+          {
+            name: "Ngày 38",
+            tasks: [
+              {
+                type: "learn",
+                text: "Hash Map / Dictionary (Deep Dive): Xử lý đụng độ (Collision), Khi nào dùng Hash Map"
+              },
+              {
+                type: "code",
+                text: "Giải bài toán đếm tần suất xuất hiện ký tự (dùng Dict)"
+              }
+            ]
+          },
+          {
+            name: "Ngày 39",
+            tasks: [
+              {
+                type: "learn",
+                text: "Stack & Queue: LIFO (Last In First Out), FIFO (First In First Out)"
+              },
+              {
+                type: "code",
+                text: "Implement Stack bằng List"
+              }
+            ]
+          },
+          {
+            name: "Ngày 40",
+            tasks: [
+              {
+                type: "learn",
+                text: "Recursion (Đệ quy): Điều kiện dừng, Stack overflow là gì"
+              },
+              {
+                type: "code",
+                text: "Tính giai thừa, dãy Fibonacci bằng đệ quy"
+              }
+            ]
+          },
+          {
+            name: "Ngày 41",
+            tasks: [
+              {
+                type: "learn",
+                text: "Sorting Algorithms: Bubble Sort (để biết), Quick Sort / Merge Sort (để dùng)"
+              },
+              {
+                type: "code",
+                text: "Implement Quick Sort đơn giản"
+              }
+            ]
+          },
+          {
+            name: "Ngày 42",
+            tasks: [
+              {
+                type: "learn",
+                text: "Binary Search (Tìm kiếm nhị phân): Tìm trong danh sách đã sắp xếp O(log n)"
+              },
+              {
+                type: "code",
+                text: "Viết hàm binary_search thủ công"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: "Tuần 7: Tổng hợp & Capstone Project Stage 1",
+        days: [
+          {
+            name: "Ngày 43",
+            tasks: [
+              {
+                type: "learn",
+                text: "Unit Testing: Tại sao cần test, Thư viện unittest/pytest cơ bản"
+              },
+              {
+                type: "code",
+                text: "Viết test case cho thư viện Mini Numpy đã làm"
+              }
+            ]
+          },
+          {
+            name: "Ngày 44-45",
+            tasks: [
+              {
+                type: "learn",
+                text: "CAPSTONE PROJECT 1: Mini Numpy from Scratch (Final): Class Matrix: hỗ trợ cộng, nhân, chuyển vị., Module Stats: tính mean, std., Module Activation: softmax, sigmoid., Viết documentation (Readme.md) cách sử dụng., Push lên GitHub với cấu trúc thư mục chuẩn."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: "Tuần 8: Nghỉ ngơi & Review (Gap week)",
+        goal: "Ôn tập lại kiến thức 7 tuần qua, chuẩn bị sang Stage 2 (Data Science).",
+        days: [
+          {
+            name: "Ngày 50-52",
+            tasks: [
+              {
+                type: "learn",
+                text: "Review code cũ, đọc sách 'Grokking Algorithms' hoặc nghỉ xả hơi."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    title: "Giai đoạn 2: Data Analysis & Feature Engineering",
+    meta: "Tuần 9 đến Tuần 16 (8 Tuần)",
+    goals: "Biến dữ liệu thô thành thông tin giá trị (Insights) và đầu vào cho Model.",
+    tools: "Pandas, NumPy, Matplotlib/Seaborn, SQL, Scikit-learn (Preprocessing)",
+    weeks: [
+      {
+        name: "Tuần 9: NumPy & Pandas Foundation (Cốt lõi)",
+        goal: "Thao tác thành thạo DataFrame - Cấu trúc dữ liệu quan trọng nhất ngành Data.",
+        days: [
+          {
+            name: "Ngày 57",
+            tasks: [
+              {
+                type: "learn",
+                text: "NumPy to Real World: Broadcasting, Vectorization (Thay thế vòng for chậm chạp), Indexing & Slicing nâng cao"
+              },
+              {
+                type: "code",
+                text: "Tối ưu hóa bài toán nhân ma trận Stage 1 bằng NumPy (1 dòng code)."
+              }
+            ]
+          },
+          {
+            name: "Ngày 58",
+            tasks: [
+              {
+                type: "learn",
+                text: "Pandas Series & DataFrame: Cấu trúc DataFrame, Đọc dữ liệu (read_csv, read_excel, read_json)"
+              },
+              {
+                type: "code",
+                text: "Load file CSV 1 triệu dòng, kiểm tra .info(), .describe()."
+              }
+            ]
+          },
+          {
+            name: "Ngày 59",
+            tasks: [
+              {
+                type: "learn",
+                text: "Data Selection & Filtering: loc vs iloc, Boolean Indexing (Lọc theo điều kiện), Query method"
+              },
+              {
+                type: "code",
+                text: "Lọc danh sách khách hàng > 30 tuổi và mua hàng > 100$."
+              }
+            ]
+          },
+          {
+            name: "Ngày 60",
+            tasks: [
+              {
+                type: "learn",
+                text: "Data Cleaning 1: Xử lý dữ liệu lỗi: Kiểm tra null (isna), Xóa null (dropna), Điền giá trị thiếu (fillna)"
+              },
+              {
+                type: "code",
+                text: "Xử lý dataset bị thiếu tuổi: điền bằng trung bình hoặc trung vị."
+              }
+            ]
+          },
+          {
+            name: "Ngày 61",
+            tasks: [
+              {
+                type: "learn",
+                text: "Data Manipulation: Apply & Map: Hàm .apply() (Powerful but slow), Hàm .map(), Lambda functions trong Pandas"
+              },
+              {
+                type: "code",
+                text: "Tạo cột mới 'AgeGroup' từ cột 'Age' dùng apply."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: "Tuần 10: Advanced Pandas & Aggregation",
+        goal: "Trả lời các câu hỏi nghiệp vụ phức tạp (Business Questions).",
+        days: [
+          {
+            name: "Ngày 62",
+            tasks: [
+              {
+                type: "learn",
+                text: "GroupBy & Aggregation: Split-Apply-Combine strategy, Các hàm agg (sum, mean, count)"
+              },
+              {
+                type: "code",
+                text: "Tính doanh thu trung bình theo từng thành phố và từng tháng."
+              }
+            ]
+          },
+          {
+            name: "Ngày 63",
+            tasks: [
+              {
+                type: "learn",
+                text: "Merge & Join: Inner, Outer, Left, Right Join (Giống SQL), Concat DataFrames"
+              },
+              {
+                type: "code",
+                text: "Ghép bảng 'Users' và bảng 'Orders' để tìm ai mua nhiều nhất."
+              }
+            ]
+          },
+          {
+            name: "Ngày 64",
+            tasks: [
+              {
+                type: "learn",
+                text: "Pivot Tables & Crosstab: Tạo bảng tổng hợp nhiều chiều (Giống Excel Pivot), Stack/Unstack"
+              },
+              {
+                type: "code",
+                text: "Tạo Pivot Table so sánh doanh số theo Năm (cột) và Loại hàng (dòng)."
+              }
+            ]
+          },
+          {
+            name: "Ngày 65",
+            tasks: [
+              {
+                type: "learn",
+                text: "Time Series Data (Dữ liệu thời gian): datetime objects, Resampling (gom data theo ngày/tuần/tháng), Time shifts"
+              },
+              {
+                type: "code",
+                text: "Tính doanh thu theo từng tuần (Weekly Sales) từ data log từng giây."
+              }
+            ]
+          },
+          {
+            name: "Ngày 66",
+            tasks: [
+              {
+                type: "learn",
+                text: "Mini Project Week 10"
+              },
+              {
+                type: "code",
+                text: "Project: Sales Analysis. Cho file sales.csv. Hỏi: Tháng nào bán tốt nhất? Thành phố nào mua nhiều nhất? Thời điểm nào trong ngày khách hay mua?"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: "Tuần 11: Data Visualization & Storytelling",
+        goal: "Vẽ hình để tìm Insight (không phải vẽ cho đẹp).",
+        days: [
+          {
+            name: "Ngày 67",
+            tasks: [
+              {
+                type: "learn",
+                text: "Matplotlib cơ bản: Figure, Axes structure, Line, Bar, Scatter plot"
+              },
+              {
+                type: "code",
+                text: "Vẽ biểu đồ đường doanh thu theo thời gian."
+              }
+            ]
+          },
+          {
+            name: "Ngày 68",
+            tasks: [
+              {
+                type: "learn",
+                text: "Seaborn & Statistical Plots: Distplot (Phân phối), Boxplot (Phát hiện Outlier - Quan trọng), Violin plot"
+              },
+              {
+                type: "code",
+                text: "Dùng Boxplot tìm xem có đơn hàng nào giá trị cao bất thường không."
+              }
+            ]
+          },
+          {
+            name: "Ngày 69",
+            tasks: [
+              {
+                type: "learn",
+                text: "Multivariate Analysis (Phân tích đa biến): Heatmap (Ma trận tương quan - Correlation Matrix), Pairplot"
+              },
+              {
+                type: "code",
+                text: "Vẽ Heatmap xem 'Giá nhà' tương quan thế nào với 'Diện tích' và 'Số phòng'."
+              }
+            ]
+          },
+          {
+            name: "Ngày 70",
+            tasks: [
+              {
+                type: "learn",
+                text: "Visual Storytelling: Chọn đúng loại biểu đồ, Màu sắc, Tiêu đề, Label, Tránh biểu đồ gây hiểu lầm"
+              },
+              {
+                type: "code",
+                text: "Refactor lại các biểu đồ cũ cho chuyên nghiệp, sẵn sàng để báo cáo."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: "Tuần 12: SQL for Data Science",
+        goal: "Lấy dữ liệu từ Database (Kỹ năng bắt buộc khi đi làm).",
+        days: [
+          {
+            name: "Ngày 71",
+            tasks: [
+              {
+                type: "learn",
+                text: "SQL Basic Review: SELECT, FROM, WHERE, ORDER BY, LIMIT"
+              },
+              {
+                type: "code",
+                text: "Viết query lấy Top 10 khách hàng chi tiêu cao nhất."
+              }
+            ]
+          },
+          {
+            name: "Ngày 72",
+            tasks: [
+              {
+                type: "learn",
+                text: "Joins & Unions: INNER vs LEFT JOIN, Xử lý NULL sau khi Join"
+              },
+              {
+                type: "code",
+                text: "Join 3 bảng: Customers, Orders, Products."
+              }
+            ]
+          },
+          {
+            name: "Ngày 73",
+            tasks: [
+              {
+                type: "learn",
+                text: "Aggregation & Grouping: GROUP BY, HAVING (Lọc sau khi Group)"
+              },
+              {
+                type: "code",
+                text: "Tìm các danh mục sản phẩm có tổng doanh thu > 10.000$."
+              }
+            ]
+          },
+          {
+            name: "Ngày 74",
+            tasks: [
+              {
+                type: "learn",
+                text: "Window Functions (Nâng cao - Cực quan trọng): ROW_NUMBER(), RANK(), LEAD/LAG (So sánh dòng trước/sau)"
+              },
+              {
+                type: "code",
+                text: "Tìm top 3 nhân viên xuất sắc nhất của TỪNG phòng ban (Partition By)."
+              }
+            ]
+          },
+          {
+            name: "Ngày 75",
+            tasks: [
+              {
+                type: "learn",
+                text: "CTEs (Common Table Expressions): WITH clause, Viết query dễ đọc hơn"
+              },
+              {
+                type: "code",
+                text: "Viết CTE tính doanh thu tháng, sau đó query chính tính tăng trưởng so với tháng trước."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: "Tuần 13: Feature Engineering (Kỹ thuật đặc trưng)",
+        goal: "Biến dữ liệu thô thành dữ liệu mà Model hiểu được.",
+        days: [
+          {
+            name: "Ngày 76",
+            tasks: [
+              {
+                type: "learn",
+                text: "Feature Scaling (Chuẩn hóa): Normalization (Min-Max), Standardization (Z-score), Khi nào dùng cái nào?"
+              },
+              {
+                type: "code",
+                text: "Dùng Scikit-learn StandardScaler để chuẩn hóa cột 'Salary'."
+              }
+            ]
+          },
+          {
+            name: "Ngày 77",
+            tasks: [
+              {
+                type: "learn",
+                text: "Encoding Categorical Data (Mã hóa phân loại): One-Hot Encoding, Label Encoding, Target Encoding"
+              },
+              {
+                type: "code",
+                text: "Chuyển cột 'Màu sắc' (Đỏ, Xanh) thành vector số học."
+              }
+            ]
+          },
+          {
+            name: "Ngày 78",
+            tasks: [
+              {
+                type: "learn",
+                text: "Handling Outliers (Xử lý ngoại lai): IQR Method, Z-score method, Capping/Flooring"
+              },
+              {
+                type: "code",
+                text: "Viết hàm tự động loại bỏ các giá trị ngoại lai trong Dataset."
+              }
+            ]
+          },
+          {
+            name: "Ngày 79",
+            tasks: [
+              {
+                type: "learn",
+                text: "Feature Selection: Correlation filter, Variance threshold, Tại sao ít feature lại tốt hơn?"
+              },
+              {
+                type: "code",
+                text: "Loại bỏ các cột có độ tương quan > 0.9 (Dư thừa)."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: "Tuần 14: Polars & Modern Tools (Optional but Recommended)",
+        goal: "Làm quen công cụ xử lý dữ liệu lớn tốc độ cao.",
+        days: [
+          {
+            name: "Ngày 80",
+            tasks: [
+              {
+                type: "learn",
+                text: "Intro to Polars: Lazy Evaluation, So sánh tốc độ với Pandas"
+              },
+              {
+                type: "code",
+                text: "Viết lại bài toán GroupBy của Pandas bằng Polars."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: "Tuần 15-16: CAPSTONE PROJECT GIAI ĐOẠN 2",
+        days: [
+          {
+            name: "Tuần 15-16",
+            tasks: [
+              {
+                type: "learn",
+                text: "Project: End-to-End Exploratory Data Analysis (EDA)"
+              },
+              {
+                type: "learn",
+                text: "Dataset: Shopee/Tiki E-commerce Dataset hoặc Kaggle Titanic (Advanced version)"
+              },
+              {
+                type: "code",
+                text: "1. Data Cleaning: Xử lý null, duplicate, sai format."
+              },
+              {
+                type: "code",
+                text: "2. Feature Engineering: Tạo cột mới (VD: Tách 'Title' từ 'Name', nhóm tuổi)."
+              },
+              {
+                type: "code",
+                text: "3. Visualization: 5-7 biểu đồ trả lời các câu hỏi Insight."
+              },
+              {
+                type: "code",
+                text: "4. Correlation Analysis: Tìm các yếu tố ảnh hưởng đến mục tiêu (VD: Giá vé ảnh hưởng thế nào đến tỷ lệ sống sót)."
+              },
+              {
+                type: "code",
+                text: "5. Report: Xuất file Jupyter Notebook (.ipynb) sạch đẹp, có chú thích Markdown giải thích từng bước."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    title: "Giai đoạn 3: Machine Learning Thực chiến (Classical ML)",
+    meta: "Tuần 17 đến Tuần 26 (10 Tuần)",
+    goals: "Thành thạo các thuật toán ML cốt lõi cho dữ liệu bảng (Tabular Data).",
+    tools: "Scikit-learn, XGBoost, LightGBM, Optuna, SHAP, Imbalanced-learn",
+    weeks: [
+      {
+        name: "Tuần 17: ML Overview & Linear Regression",
+        goal: "Hiểu luồng đi của một bài toán ML: Train, Test, Predict.",
+        days: [
+          {
+            name: "Ngày 81",
+            tasks: [
+              {
+                type: "learn",
+                text: "Machine Learning Workflow: Supervised vs Unsupervised, Train/Test Split (Tại sao phải chia data?)"
+              },
+              {
+                type: "code",
+                text: "Dùng sklearn.model_selection.train_test_split chia dữ liệu."
+              }
+            ]
+          },
+          {
+            name: "Ngày 82",
+            tasks: [
+              {
+                type: "learn",
+                text: "Linear Regression (Hồi quy tuyến tính) - Lý thuyết: Phương trình đường thẳng y = ax + b, Loss Function (MSE), Gradient Descent (ôn lại)"
+              },
+              {
+                type: "code",
+                text: "Implement Linear Regression bằng Numpy (ôn lại) vs dùng Sklearn."
+              }
+            ]
+          },
+          {
+            name: "Ngày 83",
+            tasks: [
+              {
+                type: "learn",
+                text: "Linear Regression - Thực hành: Hệ số (Coefficients), Intercept, Đa cộng tuyến (Multicollinearity)"
+              },
+              {
+                type: "code",
+                text: "Dự đoán giá nhà (Boston Housing/California Housing dataset)."
+              }
+            ]
+          },
+          {
+            name: "Ngày 84",
+            tasks: [
+              {
+                type: "learn",
+                text: "Polynomial Regression: Khi đường thẳng không đủ tốt (Underfitting), Tạo feature bậc cao"
+              },
+              {
+                type: "code",
+                text: "Dùng PolynomialFeatures của sklearn để fit đường cong."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: "Tuần 18: Classification (Phân loại) & Logistic Regression",
+        goal: "Giải quyết bài toán Yes/No (Spam hay không Spam).",
+        days: [
+          {
+            name: "Ngày 85",
+            tasks: [
+              {
+                type: "learn",
+                text: "Logistic Regression: Sigmoid Function, Decision Boundary, Tại sao dùng Log Loss?"
+              },
+              {
+                type: "code",
+                text: "Phân loại hoa Iris (Binary Classification)."
+              }
+            ]
+          },
+          {
+            name: "Ngày 86",
+            tasks: [
+              {
+                type: "learn",
+                text: "Evaluation Metrics cho Phân loại (CỰC QUAN TRỌNG): Accuracy (dễ lừa), Precision & Recall (Quan trọng), F1-Score, Confusion Matrix"
+              },
+              {
+                type: "code",
+                text: "Tính tay Precision/Recall từ Confusion Matrix."
+              }
+            ]
+          },
+          {
+            name: "Ngày 87",
+            tasks: [
+              {
+                type: "learn",
+                text: "ROC Curve & AUC: True Positive Rate vs False Positive Rate, Threshold tuning (Chỉnh ngưỡng quyết định)"
+              },
+              {
+                type: "code",
+                text: "Vẽ đường ROC và tính diện tích AUC."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: "Tuần 19: KNN & SVM (Support Vector Machines)",
+        goal: "Hiểu các thuật toán dựa trên khoảng cách.",
+        days: [
+          {
+            name: "Ngày 88",
+            tasks: [
+              {
+                type: "learn",
+                text: "K-Nearest Neighbors (KNN): Euclidean distance, Chọn K thế nào?, Lời nguyền của số chiều (Curse of Dimensionality)"
+              },
+              {
+                type: "code",
+                text: "KNN classifier cho dataset chữ viết tay (MNIST nhỏ)."
+              }
+            ]
+          },
+          {
+            name: "Ngày 89",
+            tasks: [
+              {
+                type: "learn",
+                text: "Support Vector Machines (SVM): Hyperplane, Margin tối đa, Kernel Trick (biến không gian cong thành phẳng)"
+              },
+              {
+                type: "code",
+                text: "So sánh Linear SVM vs RBF Kernel SVM."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: "Tuần 20: Decision Trees & Bias-Variance Tradeoff",
+        goal: "Nền tảng của các thuật toán mạnh nhất hiện nay.",
+        days: [
+          {
+            name: "Ngày 90",
+            tasks: [
+              {
+                type: "learn",
+                text: "Decision Trees (Cây quyết định): Entropy & Gini Impurity (Cách cây đặt câu hỏi), Pruning (Cắt tỉa cây để chống Overfitting)"
+              },
+              {
+                type: "code",
+                text: "Visual hóa cây quyết định bằng graphviz."
+              }
+            ]
+          },
+          {
+            name: "Ngày 91",
+            tasks: [
+              {
+                type: "learn",
+                text: "Bias vs Variance (Độ lệch vs Phương sai): Overfitting (Học vẹt) vs Underfitting (Học kém), Cách phát hiện qua Learning Curve"
+              },
+              {
+                type: "code",
+                text: "Vẽ Learning Curve để chẩn đoán model."
+              }
+            ]
+          },
+          {
+            name: "Ngày 92",
+            tasks: [
+              {
+                type: "learn",
+                text: "Cross-Validation (Kiểm định chéo): K-Fold CV, Stratified K-Fold (Giữ tỷ lệ nhãn)"
+              },
+              {
+                type: "code",
+                text: "Áp dụng cross_val_score thay vì chỉ train/test split."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: "Tuần 21: Ensemble Learning & Random Forest",
+        goal: "Sức mạnh của đám đông (Nhiều cây yếu gộp lại thành rừng mạnh).",
+        days: [
+          {
+            name: "Ngày 93",
+            tasks: [
+              {
+                type: "learn",
+                text: "Bagging & Random Forest: Bootstrap Aggregating, Tại sao Random Forest khó bị Overfit?, Feature Importance"
+              },
+              {
+                type: "code",
+                text: "Train Random Forest Classifier. Xem feature nào quan trọng nhất."
+              }
+            ]
+          },
+          {
+            name: "Ngày 94",
+            tasks: [
+              {
+                type: "learn",
+                text: "Ensemble Voting: Hard Voting vs Soft Voting"
+              },
+              {
+                type: "code",
+                text: "Kết hợp kết quả của Logistic Regression, KNN và Random Forest."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: "Tuần 22: Boosting Algorithms (Vũ khí tối thượng cho Tabular Data)",
+        goal: "Thành thạo XGBoost/LightGBM - Thứ doanh nghiệp dùng nhiều nhất.",
+        days: [
+          {
+            name: "Ngày 95",
+            tasks: [
+              {
+                type: "learn",
+                text: "Boosting Concept: Học tuần tự (Sequential Learning), Sửa sai cho model trước"
+              },
+              {
+                type: "code",
+                text: "AdaBoost cơ bản."
+              }
+            ]
+          },
+          {
+            name: "Ngày 96",
+            tasks: [
+              {
+                type: "learn",
+                text: "XGBoost (Extreme Gradient Boosting): Tại sao XGBoost vô địch Kaggle?, Regularization tích hợp"
+              },
+              {
+                type: "code",
+                text: "Cài đặt XGBoost, train model và sử dụng early_stopping."
+              }
+            ]
+          },
+          {
+            name: "Ngày 97",
+            tasks: [
+              {
+                type: "learn",
+                text: "LightGBM & CatBoost: Tốc độ của LightGBM (Histogram-based), Xử lý category của CatBoost"
+              },
+              {
+                type: "code",
+                text: "So sánh tốc độ train giữa Random Forest vs XGBoost vs LightGBM."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: "Tuần 23: Unsupervised Learning",
+        goal: "Tìm ẩn số khi không có nhãn (Label).",
+        days: [
+          {
+            name: "Ngày 98",
+            tasks: [
+              {
+                type: "learn",
+                text: "Clustering: K-Means: Elbow Method (Chọn K tối ưu), K-Means++ init"
+              },
+              {
+                type: "code",
+                text: "Phân nhóm khách hàng dựa trên hành vi mua sắm."
+              }
+            ]
+          },
+          {
+            name: "Ngày 99",
+            tasks: [
+              {
+                type: "learn",
+                text: "Dimensionality Reduction: PCA: Giảm chiều dữ liệu, Giữ lại bao nhiêu thông tin (Variance explained)?"
+              },
+              {
+                type: "code",
+                text: "Giảm dataset từ 100 chiều xuống 2 chiều để vẽ biểu đồ."
+              }
+            ]
+          },
+          {
+            name: "Ngày 100",
+            tasks: [
+              {
+                type: "learn",
+                text: "Clustering nâng cao: DBSCAN: Phát hiện cụm hình dạng bất kỳ, Xử lý nhiễu (Noise/Outliers)"
+              },
+              {
+                type: "code",
+                text: "So sánh kết quả K-Means vs DBSCAN trên dữ liệu hình trăng khuyết."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: "Tuần 24: Advanced ML Techniques",
+        goal: "Xử lý các vấn đề thực tế khó nhằn.",
+        days: [
+          {
+            name: "Ngày 101",
+            tasks: [
+              {
+                type: "learn",
+                text: "Imbalanced Data (Dữ liệu mất cân bằng): Tại sao Accuracy vô dụng ở đây?, Undersampling vs Oversampling (SMOTE)"
+              },
+              {
+                type: "code",
+                text: "Dùng thư viện imbalanced-learn để sinh dữ liệu giả lập class hiếm."
+              }
+            ]
+          },
+          {
+            name: "Ngày 102",
+            tasks: [
+              {
+                type: "learn",
+                text: "Hyperparameter Tuning: Grid Search vs Random Search, Bayesian Optimization (Optuna)"
+              },
+              {
+                type: "code",
+                text: "Dùng Optuna để tự động tìm tham số tốt nhất cho XGBoost."
+              }
+            ]
+          },
+          {
+            name: "Ngày 103",
+            tasks: [
+              {
+                type: "learn",
+                text: "Explainable AI (SHAP): Black box model, SHAP values: Tại sao model dự đoán người này rủi ro cao?"
+              },
+              {
+                type: "code",
+                text: "Vẽ biểu đồ SHAP summary plot."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: "Tuần 25-26: CAPSTONE PROJECT GIAI ĐOẠN 3",
+        days: [
+          {
+            name: "Tuần 25-26",
+            tasks: [
+              {
+                type: "learn",
+                text: "Project: Credit Scoring / Customer Churn Prediction"
+              },
+              {
+                type: "learn",
+                text: "Dataset: Telco Customer Churn (Kaggle) hoặc German Credit Data."
+              },
+              {
+                type: "code",
+                text: "1. Pipeline: Xây dựng Sklearn Pipeline hoàn chỉnh (FillNA -> Scale -> Model)."
+              },
+              {
+                type: "code",
+                text: "2. Handling Imbalance: Áp dụng SMOTE vì số lượng khách rời bỏ thường ít."
+              },
+              {
+                type: "code",
+                text: "3. Model Selection: Thử nghiệm Logistic Regression, Random Forest và XGBoost."
+              },
+              {
+                type: "code",
+                text: "4. Tuning: Dùng Optuna tối ưu F1-Score (hoặc ROC-AUC)."
+              },
+              {
+                type: "code",
+                text: "5. Explain: Dùng SHAP để giải thích cho sếp biết: 'Yếu tố nào khiến khách hàng bỏ đi nhiều nhất?' (Giá cước? Dịch vụ CSKH?)."
+              },
+              {
+                type: "code",
+                text: "6. Save Model: Lưu model dạng .pkl hoặc .json để dùng sau này."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    title: "Giai đoạn 4: Deep Learning Foundation (Updated)",
+    meta: "Tuần 27 đến Tuần 42 (16 Tuần)",
+    goals: "Xây dựng tư duy Deep Learning, thành thạo PyTorch và nắm vững kiến trúc CNN/RNN/Transformer.",
+    tools: "PyTorch, Torchvision, OpenCV, TensorBoard / Weights & Biases, Google Colab (GPU Free)",
+    weeks: [
+      {
+        name: "Tuần 27: Neural Networks (NN) - Từ con số 0",
+        goal: "Hiểu cấu tạo của một 'Brain cell' nhân tạo.",
+        days: [
+          {
+            name: "Ngày 104",
+            tasks: [
+              {
+                type: "learn",
+                text: "Perceptron & Neuron: Mối liên hệ giữa Logistic Regression và 1 Neuron, Weights (Trọng số) & Bias"
+              },
+              {
+                type: "code",
+                text: "Code lại 1 Neuron bằng Python thuần."
+              }
+            ]
+          },
+          {
+            name: "Ngày 105",
+            tasks: [
+              {
+                type: "learn",
+                text: "Activation Functions (Hàm kích hoạt): Tại sao cần phi tuyến tính?, Sigmoid vs Tanh vs ReLU (Rectified Linear Unit)"
+              },
+              {
+                type: "code",
+                text: "Vẽ đồ thị các hàm activation bằng Matplotlib."
+              }
+            ]
+          },
+          {
+            name: "Ngày 106",
+            tasks: [
+              {
+                type: "learn",
+                text: "Multi-Layer Perceptron (MLP): Input Layer, Hidden Layers, Output Layer, Feed Forward (Lan truyền xuôi)"
+              },
+              {
+                type: "code",
+                text: "Xây dựng mạng MLP đơn giản phân loại dữ liệu XOR."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: "Tuần 28: Backpropagation (Trái tim của DL)",
+        goal: "Hiểu cách model tự sửa sai (Học).",
+        days: [
+          {
+            name: "Ngày 107",
+            tasks: [
+              {
+                type: "learn",
+                text: "Loss Functions: MSE (cho Regression), Cross-Entropy Loss (cho Classification)"
+              },
+              {
+                type: "code",
+                text: "Tính tay Loss của một dự đoán sai."
+              }
+            ]
+          },
+          {
+            name: "Ngày 108",
+            tasks: [
+              {
+                type: "learn",
+                text: "Backpropagation Theory: Chain Rule (Quy tắc chuỗi - Ôn lại Calculus), Đạo hàm của Loss theo Weight"
+              },
+              {
+                type: "code",
+                text: "Xem video 3Blue1Brown về Backpropagation (Bắt buộc)."
+              }
+            ]
+          },
+          {
+            name: "Ngày 109",
+            tasks: [
+              {
+                type: "learn",
+                text: "Optimization Algorithms: SGD (Stochastic Gradient Descent), Adam (Adaptive Moment Estimation - Dùng mặc định)"
+              },
+              {
+                type: "code",
+                text: "So sánh tốc độ hội tụ của SGD vs Adam."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: "Tuần 29-30: PyTorch Framework Mastery",
+        goal: "Code Deep Learning chuyên nghiệp & Quản lý thí nghiệm.",
+        days: [
+          {
+            name: "Ngày 110",
+            tasks: [
+              {
+                type: "learn",
+                text: "Tensors & Autograd: Tensor là gì? (Khác gì NumPy array?), GPU acceleration (cuda), Autograd (Tự động tính đạo hàm)"
+              },
+              {
+                type: "code",
+                text: "Chuyển đổi qua lại giữa Numpy và Tensor. Tính đạo hàm tự động y.backward()."
+              }
+            ]
+          },
+          {
+            name: "Ngày 111",
+            tasks: [
+              {
+                type: "learn",
+                text: "PyTorch Workflow: Dataset & DataLoader: Class Dataset (len, getitem), DataLoader (Batching, Shuffling)"
+              },
+              {
+                type: "code",
+                text: "Viết custom Dataset để load ảnh từ folder."
+              }
+            ]
+          },
+          {
+            name: "Ngày 112",
+            tasks: [
+              {
+                type: "learn",
+                text: "Building Model: nn.Module: Hàm __init__ và forward(), nn.Linear, nn.Sequential"
+              },
+              {
+                type: "code",
+                text: "Viết class ImageClassifier kế thừa nn.Module."
+              }
+            ]
+          },
+          {
+            name: "Ngày 113",
+            tasks: [
+              {
+                type: "learn",
+                text: "Training Loop & Visualization: 5 bước chuẩn: Forward -> Loss -> Zero_grad -> Backward -> Step, Sử dụng TensorBoard để vẽ biểu đồ Loss realtime"
+              },
+              {
+                type: "code",
+                text: "Tích hợp TensorBoardWriter vào vòng lặp train."
+              }
+            ]
+          },
+          {
+            name: "Ngày 114",
+            tasks: [
+              {
+                type: "learn",
+                text: "Save/Load & Project MNIST: torch.save (state_dict), torch.load (Resume training)"
+              },
+              {
+                type: "code",
+                text: "Project: Handwritten Digit Recognition (Full pipeline: Train -> Save -> Load -> Predict)."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: "Tuần 31-33: Computer Vision (CNN)",
+        goal: "Xử lý dữ liệu hình ảnh & Autoencoders.",
+        days: [
+          {
+            name: "Ngày 115",
+            tasks: [
+              {
+                type: "learn",
+                text: "Convolution Operation (Tích chập): Kernel/Filter, Stride, Padding, Tại sao CNN tốt hơn MLP cho ảnh?"
+              },
+              {
+                type: "code",
+                text: "Tính tay kết quả tích chập của ma trận 5x5 với filter 3x3."
+              }
+            ]
+          },
+          {
+            name: "Ngày 116",
+            tasks: [
+              {
+                type: "learn",
+                text: "Pooling Layers & Architecture: Max Pooling vs Average Pooling, Cấu trúc kinh điển: Conv -> Relu -> Pool"
+              },
+              {
+                type: "code",
+                text: "Xây dựng mô hình LeNet-5 cổ điển."
+              }
+            ]
+          },
+          {
+            name: "Ngày 117",
+            tasks: [
+              {
+                type: "learn",
+                text: "Modern Architectures: ResNet: Vanishing Gradient Problem, Skip Connections (Residual Block), Tại sao ResNet sâu được?"
+              },
+              {
+                type: "code",
+                text: "Dùng torchvision.models.resnet18 (pretrained=True)."
+              }
+            ]
+          },
+          {
+            name: "Ngày 118",
+            tasks: [
+              {
+                type: "learn",
+                text: "Autoencoders (Intro to Generative): Encoder - Decoder Architecture, Latent Space (Không gian ẩn), Ứng dụng: Khử nhiễu ảnh (Denoising)"
+              },
+              {
+                type: "code",
+                text: "Xây dựng Autoencoder đơn giản để nén và giải nén ảnh MNIST."
+              }
+            ]
+          },
+          {
+            name: "Ngày 119",
+            tasks: [
+              {
+                type: "learn",
+                text: "Transfer Learning & Object Detection Intro: Fine-tuning vs Feature Extraction, Khái niệm YOLO (You Only Look Once)"
+              },
+              {
+                type: "code",
+                text: "Dùng ResNet đã học ImageNet để phân loại Chó/Mèo."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: "Tuần 34-36: Sequence Models (RNN & NLP Foundation)",
+        goal: "Xử lý dữ liệu chuỗi (Text, Time Series).",
+        days: [
+          {
+            name: "Ngày 120",
+            tasks: [
+              {
+                type: "learn",
+                text: "Text Preprocessing: Tokenization, Stopwords, Stemming/Lemmatization, One-hot encoding text"
+              },
+              {
+                type: "code",
+                text: "Dùng thư viện NLTK hoặc spaCy để xử lý câu văn."
+              }
+            ]
+          },
+          {
+            name: "Ngày 121",
+            tasks: [
+              {
+                type: "learn",
+                text: "Word Embeddings: Tại sao One-hot tệ?, Word2Vec idea, Embedding Layer trong PyTorch"
+              },
+              {
+                type: "code",
+                text: "Visual hóa vector từ vựng (King - Man + Woman = Queen)."
+              }
+            ]
+          },
+          {
+            name: "Ngày 122",
+            tasks: [
+              {
+                type: "learn",
+                text: "RNN (Recurrent Neural Networks): Hidden State (Trí nhớ ngắn hạn), Vấn đề Vanishing Gradient trong RNN"
+              },
+              {
+                type: "code",
+                text: "Viết RNN đơn giản dự đoán ký tự tiếp theo."
+              }
+            ]
+          },
+          {
+            name: "Ngày 123",
+            tasks: [
+              {
+                type: "learn",
+                text: "LSTM & GRU: Gates (Cổng quên, cổng nhập), Long Short-Term Memory"
+              },
+              {
+                type: "code",
+                text: "Phân loại cảm xúc bình luận phim (IMDB) dùng LSTM."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: "Tuần 37-38: Attention & Transformers (Cầu nối đến LLM)",
+        goal: "Hiểu kiến trúc đã thay đổi thế giới AI.",
+        days: [
+          {
+            name: "Ngày 124",
+            tasks: [
+              {
+                type: "learn",
+                text: "Seq2Seq & Attention Mechanism: Encoder-Decoder Architecture, Bahdanau Attention (Tại sao phải focus vào từng phần?)"
+              },
+              {
+                type: "code",
+                text: "Minh họa cơ chế Attention bằng heatmap."
+              }
+            ]
+          },
+          {
+            name: "Ngày 125",
+            tasks: [
+              {
+                type: "learn",
+                text: "Transformer Architecture (Paper: Attention is All You Need): Self-Attention, Multi-Head Attention, Positional Encoding"
+              },
+              {
+                type: "code",
+                text: "Đọc và chạy thử code Transformer PyTorch tutorial."
+              }
+            ]
+          },
+          {
+            name: "Ngày 126",
+            tasks: [
+              {
+                type: "learn",
+                text: "BERT vs GPT: Encoder-only (BERT - Hiểu ngữ cảnh), Decoder-only (GPT - Sinh văn bản)"
+              },
+              {
+                type: "code",
+                text: "Dùng HuggingFace transformers load thử BERT-base."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: "Tuần 39-40: Training Tricks & Optimization",
+        goal: "Làm sao để model hội tụ tốt hơn và tránh Overfitting.",
+        days: [
+          {
+            name: "Ngày 127",
+            tasks: [
+              {
+                type: "learn",
+                text: "Regularization: Dropout (Tắt ngẫu nhiên nơ-ron), L1/L2 Regularization (Weight decay)"
+              },
+              {
+                type: "code",
+                text: "Thêm Dropout layer vào model và so sánh kết quả."
+              }
+            ]
+          },
+          {
+            name: "Ngày 128",
+            tasks: [
+              {
+                type: "learn",
+                text: "Normalization: Batch Normalization (Chuẩn hóa theo batch), Layer Normalization (Dùng cho RNN/Transformer)"
+              },
+              {
+                type: "code",
+                text: "Thêm BatchNorm2d vào CNN model."
+              }
+            ]
+          },
+          {
+            name: "Ngày 129",
+            tasks: [
+              {
+                type: "learn",
+                text: "Learning Rate Scheduling: Learning Rate Decay, Warm-up steps"
+              },
+              {
+                type: "code",
+                text: "Sử dụng StepLR scheduler trong PyTorch."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: "Tuần 41-42: CAPSTONE PROJECT GIAI ĐOẠN 4",
+        days: []
+      }
+    ]
+  },
+  {
+    title: "Giai đoạn 5: LLM, RAG & AI Agents (Generative AI) - Updated",
+    meta: "Tuần 43 đến Tuần 62 (20 Tuần)",
+    goals: "Làm chủ công nghệ Generative AI: Từ RAG nâng cao, GraphRAG đến Fine-tuning và Multi-Agent Systems.",
+    tools: "LangChain, LangGraph, LlamaIndex, ChromaDB / Qdrant, Neo4j (Graph DB), HuggingFace PEFT (LoRA), Ollama (Local LLM), Ragas (Evaluation)",
+    weeks: [
+      {
+        name: "Tuần 43-44: LLM Fundamentals & Structured Output",
+        goal: "Hiểu cách giao tiếp và điều khiển mô hình trả về dữ liệu có cấu trúc.",
+        days: [
+          {
+            name: "Ngày 130",
+            tasks: [
+              {
+                type: "learn",
+                text: "LLM Architecture Recap: Pre-training vs Fine-tuning, Context Window & Tokens (Cách tính tiền), Temperature, Top-P (Tham số sinh văn bản)"
+              },
+              {
+                type: "code",
+                text: "Sử dụng Tiktoken để đếm số token của đoạn văn."
+              }
+            ]
+          },
+          {
+            name: "Ngày 131",
+            tasks: [
+              {
+                type: "learn",
+                text: "Structured Output (JSON Mode): Tại sao LLM cần trả về JSON?, Function Calling để ép kiểu dữ liệu, Thư viện Instructor hoặc Pydantic OutputParser"
+              },
+              {
+                type: "code",
+                text: "Viết prompt ép model trích xuất thông tin từ CV ra file JSON đúng format."
+              }
+            ]
+          },
+          {
+            name: "Ngày 132",
+            tasks: [
+              {
+                type: "learn",
+                text: "Running Local LLMs: Cài đặt Ollama / LM Studio, Quantization (GGUF) - Tại sao chạy được Llama 3 trên laptop?"
+              },
+              {
+                type: "code",
+                text: "Viết Python script gọi API tới localhost Ollama."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: "Tuần 45-47: RAG Foundation (Retrieval Augmented Generation)",
+        goal: "Cho LLM 'học' dữ liệu riêng của bạn mà không cần train lại.",
+        days: [
+          {
+            name: "Ngày 133",
+            tasks: [
+              {
+                type: "learn",
+                text: "Vector Embeddings: Biến văn bản thành Vector số thực, Cosine Similarity (Đo độ tương đồng), Mô hình Embedding (OpenAI text-embedding-3 vs BGE-M3)"
+              },
+              {
+                type: "code",
+                text: "Viết hàm tìm kiếm ngữ nghĩa (Semantic Search) đơn giản."
+              }
+            ]
+          },
+          {
+            name: "Ngày 134",
+            tasks: [
+              {
+                type: "learn",
+                text: "Vector Databases: Cấu trúc Vector DB (ChromaDB, Weaviate), CRUD operations trên Vector DB"
+              },
+              {
+                type: "code",
+                text: "Lưu 100 trang tài liệu PDF vào ChromaDB."
+              }
+            ]
+          },
+          {
+            name: "Ngày 135",
+            tasks: [
+              {
+                type: "learn",
+                text: "RAG Pipeline cơ bản: Quy trình: Load -> Split -> Embed -> Store -> Retrieve -> Generate, Chunking Strategies (Cắt nhỏ văn bản thế nào cho đúng?)"
+              },
+              {
+                type: "code",
+                text: "Xây dựng Chatbot hỏi đáp tài liệu đơn giản bằng LangChain."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: "Tuần 48-50: Advanced RAG & GraphRAG",
+        goal: "Khắc phục nhược điểm của RAG cơ bản bằng Semantic + Knowledge Graph.",
+        days: [
+          {
+            name: "Ngày 136",
+            tasks: [
+              {
+                type: "learn",
+                text: "Hybrid Search: Kết hợp Keyword Search (BM25) + Vector Search, Tại sao Vector Search thất bại với từ khóa chính xác?"
+              },
+              {
+                type: "code",
+                text: "Implement Hybrid Search dùng Qdrant hoặc Weaviate."
+              }
+            ]
+          },
+          {
+            name: "Ngày 137",
+            tasks: [
+              {
+                type: "learn",
+                text: "Re-ranking (Sắp xếp lại): Cross-Encoder models (Cohere Rerank / BGE-Reranker), Lọc kết quả rác trước khi gửi cho LLM"
+              },
+              {
+                type: "code",
+                text: "Thêm bước Re-ranking vào pipeline RAG để tăng độ chính xác."
+              }
+            ]
+          },
+          {
+            name: "Ngày 138",
+            tasks: [
+              {
+                type: "learn",
+                text: "GraphRAG (Knowledge Graph RAG): Hạn chế của Vector Search (Mất mối quan hệ thực thể), Knowledge Graph là gì? (Neo4j), Kết hợp Graph + Vector"
+              },
+              {
+                type: "code",
+                text: "Dùng LlamaIndex hoặc Microsoft GraphRAG để truy vấn mối quan hệ phức tạp."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: "Tuần 51-53: LangChain & LlamaIndex Deep Dive",
+        goal: "Thành thạo framework phát triển ứng dụng LLM số 1 hiện nay.",
+        days: [
+          {
+            name: "Ngày 139",
+            tasks: [
+              {
+                type: "learn",
+                text: "LangChain LCEL: LangChain Expression Language (Pipe syntax | ), Runnables & Chains"
+              },
+              {
+                type: "code",
+                text: "Viết Chain: Prompt | Model | OutputParser."
+              }
+            ]
+          },
+          {
+            name: "Ngày 140",
+            tasks: [
+              {
+                type: "learn",
+                text: "Memory & History: Quản lý lịch sử chat (ConversationBufferMemory), Lưu history vào Redis/Postgres"
+              },
+              {
+                type: "code",
+                text: "Tạo Chatbot nhớ được tên người dùng qua nhiều lượt chat."
+              }
+            ]
+          },
+          {
+            name: "Ngày 141",
+            tasks: [
+              {
+                type: "learn",
+                text: "LlamaIndex for Data: Data Connectors (Lấy dữ liệu từ Notion, Slack, SQL), LlamaIndex Query Engine"
+              },
+              {
+                type: "code",
+                text: "Xây dựng hệ thống hỏi đáp trên cơ sở dữ liệu SQL (Text-to-SQL)."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: "Tuần 54-56: AI Agents & Orchestration (LangGraph)",
+        goal: "Xây dựng AI chủ động thực hiện hành động (Tương lai của AI).",
+        days: [
+          {
+            name: "Ngày 142",
+            tasks: [
+              {
+                type: "learn",
+                text: "Tool Calling (Function Calling): Dạy LLM cách dùng công cụ (Calculator, Google Search API), Định nghĩa Tools bằng Pydantic"
+              },
+              {
+                type: "code",
+                text: "Tạo Agent biết tự tính toán và search web."
+              }
+            ]
+          },
+          {
+            name: "Ngày 143",
+            tasks: [
+              {
+                type: "learn",
+                text: "LangGraph Basics: Stateful Agents (Agent có trạng thái), Nodes & Edges (Quy trình dạng đồ thị), Cyclic Graphs (Vòng lặp suy nghĩ)"
+              },
+              {
+                type: "code",
+                text: "Xây dựng luồng Agent: Plan -> Execute -> Reflect (Tự kiểm tra) -> Output."
+              }
+            ]
+          },
+          {
+            name: "Ngày 144",
+            tasks: [
+              {
+                type: "learn",
+                text: "Multi-Agent Systems: Phân chia nhiệm vụ: Researcher Agent & Writer Agent, Supervisor Agent (Quản lý chung)"
+              },
+              {
+                type: "code",
+                text: "Xây dựng đội ngũ Agent tự động viết bài blog nghiên cứu."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: "Tuần 57-58: LLM Evaluation (Kiểm thử chất lượng)",
+        goal: "Làm sao biết Chatbot trả lời đúng hay sai?",
+        days: [
+          {
+            name: "Ngày 145",
+            tasks: [
+              {
+                type: "learn",
+                text: "RAG Evaluation Metrics: Faithfulness (Trung thực với dữ liệu nguồn), Answer Relevance (Trả lời đúng trọng tâm), Context Recall (Tìm đủ thông tin không)"
+              },
+              {
+                type: "code",
+                text: "Dùng thư viện Ragas để chấm điểm hệ thống RAG."
+              }
+            ]
+          },
+          {
+            name: "Ngày 146",
+            tasks: [
+              {
+                type: "learn",
+                text: "Observability (Quan sát): Tracing với LangSmith hoặc Arize Phoenix, Debug từng bước chạy của Chain"
+              },
+              {
+                type: "code",
+                text: "Tích hợp LangSmith để theo dõi token usage và latency."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: "Tuần 59-60: Fine-tuning & Optimization (Nâng cao)",
+        goal: "Tùy biến Model cho tác vụ chuyên biệt.",
+        days: [
+          {
+            name: "Ngày 147",
+            tasks: [
+              {
+                type: "learn",
+                text: "PEFT & LoRA: Parameter-Efficient Fine-Tuning (Chỉ train < 1% tham số), Low-Rank Adaptation (LoRA)"
+              },
+              {
+                type: "code",
+                text: "Chuẩn bị dataset định dạng JSONL cho fine-tuning."
+              }
+            ]
+          },
+          {
+            name: "Ngày 148",
+            tasks: [
+              {
+                type: "learn",
+                text: "Fine-tuning & Serving Optimization: Sử dụng thư viện Unsloth (Tối ưu tốc độ train x2), Quantization for Serving (AWQ / GPTQ) để giảm chi phí VRAM"
+              },
+              {
+                type: "code",
+                text: "Fine-tune model Llama-3 và export ra định dạng GGUF để chạy tiết kiệm."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: "Tuần 61-62: CAPSTONE PROJECT GIAI ĐOẠN 5",
+        days: [
+          {
+            name: "Tuần 61-62",
+            tasks: [
+              {
+                type: "learn",
+                text: "Project: Intelligent Legal/Medical Assistant (Agentic RAG)"
+              },
+              {
+                type: "code",
+                text: "1. Data Pipeline: Crawl và xử lý sạch dữ liệu văn bản pháp luật/y khoa."
+              },
+              {
+                type: "code",
+                text: "2. Hybrid RAG: Kết hợp Vector Search + Keyword Search + Re-ranking."
+              },
+              {
+                type: "code",
+                text: "3. GraphRAG (Optional): Xây dựng Knowledge Graph cho các điều luật liên quan nhau."
+              },
+              {
+                type: "code",
+                text: "4. Agent Workflow (LangGraph): Agent có khả năng hỏi lại user nếu thiếu thông tin (Human-in-the-loop)."
+              },
+              {
+                type: "code",
+                text: "5. Evaluation: Viết bộ test case gồm 50 câu hỏi khó để đánh giá độ chính xác."
+              },
+              {
+                type: "code",
+                text: "6. UI: Giao diện Chat chuyên nghiệp (Streamlit/Chainlit)."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    title: "Giai đoạn 6: Software Engineering & Data Ops (Updated)",
+    meta: "Tuần 63 đến Tuần 74 (12 Tuần)",
+    goals: "Xây dựng Backend vững chắc, bảo mật, đóng gói ứng dụng tối ưu và tự động hóa quy trình (CI/CD).",
+    tools: "FastAPI, Uvicorn/Gunicorn, Docker & Docker Compose, Kubernetes (K8s Basic), GitHub Actions, PostgreSQL (pgvector), Redis, Celery / RabbitMQ",
+    weeks: [
+      {
+        name: "Tuần 63-64: Backend API Development & Security",
+        goal: "Viết API hiệu năng cao, bảo mật và chuẩn chỉnh.",
+        days: [
+          {
+            name: "Ngày 149",
+            tasks: [
+              {
+                type: "learn",
+                text: "FastAPI, Pydantic & Config Management: Pydantic Settings (Quản lý biến môi trường .env an toàn), Dependency Injection trong FastAPI (Clean Architecture), Middleware (CORS, Logging)"
+              },
+              {
+                type: "code",
+                text: "Viết API load config từ file .env và log mọi request vào file."
+              }
+            ]
+          },
+          {
+            name: "Ngày 150",
+            tasks: [
+              {
+                type: "learn",
+                text: "Authentication & Security: OAuth2 với Password Flow, JWT (JSON Web Tokens) - Tạo và xác thực token, Rate Limiting (Chống DDOS đơn giản)"
+              },
+              {
+                type: "code",
+                text: "Tích hợp đăng nhập JWT vào API, bảo vệ route /admin."
+              }
+            ]
+          },
+          {
+            name: "Ngày 151",
+            tasks: [
+              {
+                type: "learn",
+                text: "Asyncio & Streaming Response: Server-Sent Events (SSE) cho Chatbot, Websockets (Giao tiếp 2 chiều realtime), Xử lý tác vụ nền (Background Tasks)"
+              },
+              {
+                type: "code",
+                text: "Tạo API chat trả về từng token (Streaming) giống ChatGPT."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: "Tuần 65-66: Containerization (Docker Advanced)",
+        goal: "Tối ưu hóa Docker Image cho môi trường Production.",
+        days: [
+          {
+            name: "Ngày 152",
+            tasks: [
+              {
+                type: "learn",
+                text: "Docker Best Practices: Multi-stage builds (Giảm size image từ 1GB -> 200MB), .dockerignore (Tránh copy file rác), Non-root user (Bảo mật container)"
+              },
+              {
+                type: "code",
+                text: "Viết Dockerfile multi-stage tối ưu cho ứng dụng Python."
+              }
+            ]
+          },
+          {
+            name: "Ngày 153",
+            tasks: [
+              {
+                type: "learn",
+                text: "Docker for AI/GPU: NVIDIA Container Toolkit (Chạy model trên GPU docker), Caching pip packages để build nhanh hơn"
+              },
+              {
+                type: "code",
+                text: "Build image Docker hỗ trợ CUDA để chạy PyTorch."
+              }
+            ]
+          },
+          {
+            name: "Ngày 154",
+            tasks: [
+              {
+                type: "learn",
+                text: "Docker Compose for Dev Environment: Orchestrate API + DB + Redis + Worker, Healthchecks (Đợi DB khởi động xong mới chạy API)"
+              },
+              {
+                type: "code",
+                text: "Setup docker-compose.yml chạy full stack local."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: "Tuần 67-68: Database & Async Workers",
+        goal: "Xử lý dữ liệu lớn và tác vụ nặng không làm treo API.",
+        days: [
+          {
+            name: "Ngày 155",
+            tasks: [
+              {
+                type: "learn",
+                text: "PostgreSQL & pgvector: Thiết kế Schema tối ưu cho Vector Search, Indexing (HNSW index) để tìm kiếm nhanh, Migrations với Alembic (Quản lý thay đổi DB)"
+              },
+              {
+                type: "code",
+                text: "Tạo bảng lưu Embeddings và query tìm kiếm vector tương đồng."
+              }
+            ]
+          },
+          {
+            name: "Ngày 156",
+            tasks: [
+              {
+                type: "learn",
+                text: "Redis & Async Workers (Celery): Redis Caching strategy, Message Queue (RabbitMQ/Redis), Celery (Xử lý tác vụ nặng như parse PDF, train model)"
+              },
+              {
+                type: "code",
+                text: "Setup Worker xử lý việc upload file PDF ở background."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: "Tuần 69-70: Testing & CI/CD",
+        goal: "Tự động hóa quy trình kiểm thử và deploy.",
+        days: [
+          {
+            name: "Ngày 157",
+            tasks: [
+              {
+                type: "learn",
+                text: "Automated Testing (Pytest): Unit Test vs Integration Test, Test Client (FastAPI) & Fixtures, Mocking External APIs (Không gọi OpenAI thật khi test)"
+              },
+              {
+                type: "code",
+                text: "Viết test case coverage > 80% cho module Auth."
+              }
+            ]
+          },
+          {
+            name: "Ngày 158",
+            tasks: [
+              {
+                type: "learn",
+                text: "GitHub Actions (CI/CD): Pipeline: Lint -> Test -> Build -> Push Docker Hub, Quản lý Secrets trên GitHub"
+              },
+              {
+                type: "code",
+                text: "Setup workflow tự động build image khi push vào nhánh main."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: "Tuần 71-72: Orchestration Intro (Kubernetes)",
+        goal: "Hiểu khái niệm để deploy lên Cloud (AWS EKS / GKE).",
+        days: [
+          {
+            name: "Ngày 159",
+            tasks: [
+              {
+                type: "learn",
+                text: "Kubernetes Concepts: Pod, Deployment, Service, Ingress, ConfigMap & Secrets (Quản lý cấu hình K8s)"
+              },
+              {
+                type: "code",
+                text: "Viết manifest deployment.yaml và service.yaml."
+              }
+            ]
+          },
+          {
+            name: "Ngày 160",
+            tasks: [
+              {
+                type: "learn",
+                text: "Deploying & Scaling: Horizontal Pod Autoscaling (HPA), Rolling Updates (Deploy không downtime)"
+              },
+              {
+                type: "code",
+                text: "Deploy ứng dụng lên cụm K8s local (Minikube)."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: "Tuần 73-74: CAPSTONE PROJECT GIAI ĐOẠN 6",
+        days: [
+          {
+            name: "Tuần 73-74",
+            tasks: [
+              {
+                type: "learn",
+                text: "Project: Production-Grade GenAI Backend"
+              },
+              {
+                type: "code",
+                text: "1. Security: Tích hợp JWT Auth, Rate Limiting, CORS."
+              },
+              {
+                type: "code",
+                text: "2. Async Architecture: API nhận request -> đẩy vào Queue -> Worker xử lý -> API trả kết quả (hoặc Webhook)."
+              },
+              {
+                type: "code",
+                text: "3. Database: Postgres (User/Data) + Qdrant (Vector) + Redis (Cache/Queue)."
+              },
+              {
+                type: "code",
+                text: "4. Docker: Multi-stage build, image size < 500MB (nếu không kèm model) hoặc tối ưu layer model."
+              },
+              {
+                type: "code",
+                text: "5. CI/CD: Pipeline test và build tự động."
+              },
+              {
+                type: "code",
+                text: "6. Monitoring: Tích hợp Prometheus/Grafana cơ bản để đo API latency."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    title: "Giai đoạn 7: MLOps & Production Optimization (Updated)",
+    meta: "Tuần 75 đến Tuần 86 (12 Tuần)",
+    goals: "Triển khai model chuẩn chỉnh (IaC), tối ưu chi phí và giám sát an toàn hệ thống.",
+    tools: "AWS (EC2, SageMaker, Lambda), Terraform / AWS CDK (Infrastructure as Code), vLLM / Triton Server, MLflow, Prometheus & Grafana, NVIDIA NeMo Guardrails (AI Security)",
+    weeks: [
+      {
+        name: "Tuần 75-76: Model Serving Optimization",
+        goal: "Tối ưu hóa độ trễ (Latency) và thông lượng (Throughput) cho LLM.",
+        days: [
+          {
+            name: "Ngày 161",
+            tasks: [
+              {
+                type: "learn",
+                text: "Inference Engines (vLLM), PagedAttention & Continuous Batching, Thiết lập vLLM server cho Llama-3/Mistral"
+              },
+              {
+                type: "code",
+                text: "Triển khai vLLM server dockerized, expose API chuẩn OpenAI."
+              }
+            ]
+          },
+          {
+            name: "Ngày 162",
+            tasks: [
+              {
+                type: "learn",
+                text: "Triton Inference Server, Kiến trúc NVIDIA Triton, Model Ensemble (Kết hợp nhiều model: Preprocess -> Model -> Postprocess)"
+              },
+              {
+                type: "code",
+                text: "Cấu hình model repository cho Triton chạy model ONNX."
+              }
+            ]
+          },
+          {
+            name: "Ngày 163",
+            tasks: [
+              {
+                type: "learn",
+                text: "Load Testing (Stress Test), Locust / JMeter, Đo đạc RPS (Requests per second) và P99 Latency"
+              },
+              {
+                type: "code",
+                text: "Viết script Locust giả lập 1000 user chat cùng lúc để tìm điểm chết của server."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: "Tuần 77-78: Quantization & Cost Optimization",
+        goal: "Chạy model lớn trên phần cứng rẻ tiền.",
+        days: [
+          {
+            name: "Ngày 164",
+            tasks: [
+              {
+                type: "learn",
+                text: "Quantization Techniques, GGUF (CPU Inference), AWQ / GPTQ (GPU Inference tối ưu), KV Cache Quantization"
+              },
+              {
+                type: "code",
+                text: "Convert model Llama-3-8B FP16 sang AWQ 4-bit giúp giảm 60% VRAM."
+              }
+            ]
+          },
+          {
+            name: "Ngày 165",
+            tasks: [
+              {
+                type: "learn",
+                text: "Distillation & Pruning, Teacher-Student Training (Model nhỏ học từ model to), Structural Pruning (Cắt bỏ nơ-ron thừa)"
+              },
+              {
+                type: "code",
+                text: "Thực hành Distillation: Dạy model TinyLlama học theo GPT-4."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: "Tuần 79-81: Cloud Infrastructure & IaC (Chuyên nghiệp)",
+        goal: "Quản lý hạ tầng bằng Code (Không click tay).",
+        days: [
+          {
+            name: "Ngày 166",
+            tasks: [
+              {
+                type: "learn",
+                text: "AWS Compute for AI, EC2 G4dn/G5 instances (NVIDIA GPU), AWS Spot Instances (Bid giá rẻ), Deep Learning AMI (Setup sẵn driver)"
+              },
+              {
+                type: "code",
+                text: "Launch một Spot Instance giá rẻ để train model."
+              }
+            ]
+          },
+          {
+            name: "Ngày 167",
+            tasks: [
+              {
+                type: "learn",
+                text: "Infrastructure as Code (IaC), Khái niệm IaC (Terraform hoặc AWS CDK), Tại sao không nên config thủ công trên Console?"
+              },
+              {
+                type: "code",
+                text: "Viết file Terraform đơn giản để tự động tạo EC2 và Security Group."
+              }
+            ]
+          },
+          {
+            name: "Ngày 168",
+            tasks: [
+              {
+                type: "learn",
+                text: "Serverless Inference, AWS Lambda (Cho model nhỏ/CPU), SageMaker Serverless Inference, RunPod / Modal (Alternative providers)"
+              },
+              {
+                type: "code",
+                text: "Deploy hàm xử lý ảnh đơn giản lên AWS Lambda + EFS."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: "Tuần 82-83: MLOps Lifecycle (Tracking & CI/CD)",
+        goal: "Tự động hóa quy trình huấn luyện và triển khai.",
+        days: [
+          {
+            name: "Ngày 169",
+            tasks: [
+              {
+                type: "learn",
+                text: "Experiment Tracking (MLflow), Logging metrics/params, Artifact Storage (S3), MLflow UI"
+              },
+              {
+                type: "code",
+                text: "Setup MLflow Server remote (trên EC2) kết nối với S3 bucket."
+              }
+            ]
+          },
+          {
+            name: "Ngày 170",
+            tasks: [
+              {
+                type: "learn",
+                text: "Model Registry & CD, Promote model (Staging -> Production), Trigger deploy khi có model mới"
+              },
+              {
+                type: "code",
+                text: "GitHub Actions: Tự động deploy model khi chuyển trạng thái sang 'Production' trong MLflow."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: "Tuần 84-85: Monitoring & AI Security (Guardrails)",
+        goal: "Giám sát sức khỏe và đảm bảo an toàn cho AI.",
+        days: [
+          {
+            name: "Ngày 171",
+            tasks: [
+              {
+                type: "learn",
+                text: "AI Security (Guardrails), Prompt Injection Attacks, Input/Output Filtering (Lọc nội dung độc hại/nhạy cảm), NVIDIA NeMo Guardrails"
+              },
+              {
+                type: "code",
+                text: "Tích hợp Guardrails chặn chatbot nói bậy hoặc tiết lộ thông tin cá nhân."
+              }
+            ]
+          },
+          {
+            name: "Ngày 172",
+            tasks: [
+              {
+                type: "learn",
+                text: "System Monitoring, Prometheus (Thu thập metrics), Grafana (Vẽ biểu đồ), Drift Detection (Phát hiện model bị sai dần theo thời gian)"
+              },
+              {
+                type: "code",
+                text: "Setup Dashboard Grafana cảnh báo khi GPU > 90% hoặc API error rate > 1%."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: "Tuần 86: CAPSTONE PROJECT GIAI ĐOẠN 7",
+        goal: "Xây dựng nền tảng LLM nội bộ hoàn chỉnh trên AWS.",
+        days: [
+          {
+            name: "Tuần 86",
+            tasks: [
+              {
+                type: "learn",
+                text: "Project: Production-Grade LLM Platform"
+              },
+              {
+                type: "code",
+                text: "1. Infrastructure: Dùng Terraform dựng VPC, EC2 (vLLM), RDS (Database)."
+              },
+              {
+                type: "code",
+                text: "2. Deployment: Deploy model Llama-3 dạng Quantized (AWQ) trên Docker."
+              },
+              {
+                type: "code",
+                text: "3. Security: Tích hợp NeMo Guardrails chặn Prompt Injection."
+              },
+              {
+                type: "code",
+                text: "4. Pipeline: Auto-deploy khi update code mới (GitHub Actions)."
+              },
+              {
+                type: "code",
+                text: "5. Monitoring: Full dashboard Grafana theo dõi token/s, latency và chi phí ước tính."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+];
 
       /* =========================================
        LOGIC ỨNG DỤNG

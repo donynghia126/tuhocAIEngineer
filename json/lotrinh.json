@@ -1,0 +1,199 @@
+{
+  "title": "Lộ trình AI Engineer 2025 (Refined Version)",
+  "description": "Lộ trình chuyên sâu (Extended) tối ưu hóa cho Generative AI, Agents và MLOps thực chiến.",
+  "target_daily_effort": "1.5 – 2 tiếng/ngày (linh hoạt theo tuần)",
+  "stages": [
+    {
+      "stage_id": 1,
+      "title": "Nền tảng: Toán – Python – Computer Science",
+      "duration": "8-9 tuần",
+      "daily_effort": "45–60 phút học + 30 phút code",
+      "topics": [
+        "Linear Algebra & Calculus (Học kiểu Just-in-time: cần gì học nấy)",
+        "Probability & Statistics cơ bản",
+        "Python nâng cao (Decorators, Generators, OOP)",
+        "Data Structures & Algorithms (tập trung Array, Hashmap, Graph cơ bản)",
+        "Git & GitHub flow"
+      ],
+      "projects": [
+        {
+          "name": "Mini Numpy from Scratch",
+          "description": "Tự viết 5 hàm: dot product, mean, std, normalize, softmax.",
+          "objective": "Hiểu bản chất tính toán ma trận."
+        },
+        {
+          "name": "CLI Student Manager",
+          "description": "CRUD học sinh, lưu trữ dữ liệu JSON/SQLite.",
+          "objective": "Rèn luyện tư duy lập trình và quản lý file."
+        }
+      ],
+      "updates_and_notes": "Tăng thời gian để thực sự ngấm tư duy lập trình và toán học."
+    },
+    {
+      "stage_id": 2,
+      "title": "Data Science & Feature Engineering",
+      "duration": "7-8 tuần",
+      "daily_effort": "1 tiếng học + 1 tiếng thực hành",
+      "topics": [
+        "Pandas & Polars (Polars đang trend vì nhanh hơn)",
+        "NumPy & Matplotlib/Seaborn",
+        "SQL (Window Functions, CTEs)",
+        "Feature Engineering (Imputation, Encoding, Scaling)"
+      ],
+      "projects": [
+        {
+          "name": "EDA E-commerce Dataset",
+          "description": "Phân tích dữ liệu Shopee/Tiki/Retail.",
+          "tasks": [
+            "Làm sạch dữ liệu (Data Cleaning)",
+            "Trực quan hóa (Visualization) tìm Insight",
+            "Viết báo cáo Storytelling"
+          ]
+        }
+      ],
+      "updates_and_notes": "Thêm thời gian cho SQL và rèn luyện kỹ năng xử lý dữ liệu bẩn (thực tế tốn 80% thời gian)."
+    },
+    {
+      "stage_id": 3,
+      "title": "Machine Learning cổ điển (Rút gọn & Thực tế)",
+      "duration": "10-12 tuần",
+      "daily_effort": "1.5 tiếng/ngày",
+      "topics": [
+        "Supervised: Linear/Logistic, Decision Trees",
+        "Ensemble Learning: Random Forest, XGBoost, LightGBM (Quan trọng)",
+        "Unsupervised: K-Means, DBSCAN, PCA",
+        "Model Evaluation: Confusion Matrix, ROC-AUC, F1-Score"
+      ],
+      "projects": [
+        {
+          "name": "Credit Scoring / Fraud Detection",
+          "tasks": [
+            "Xử lý Imbalanced Data (SMOTE)",
+            "Train XGBoost & LightGBM",
+            "Giải thích model bằng SHAP values (Quan trọng cho doanh nghiệp)"
+          ],
+          "note": "Thay thế dự án Giá nhà bằng bài toán tài chính thực tế hơn."
+        }
+      ],
+      "updates_and_notes": "Kéo dài để nắm vững các thuật toán Ensemble (XGBoost/LightGBM) - 'vũ khí' chủ lực cho dữ liệu bảng."
+    },
+    {
+      "stage_id": 4,
+      "title": "Deep Learning Foundation",
+      "duration": "14-16 tuần",
+      "daily_effort": "1.5 – 2 tiếng/ngày",
+      "topics": [
+        "Neural Networks & Backpropagation",
+        "PyTorch Framework (Thành thạo)",
+        "CNN (Computer Vision): ResNet, YOLO (Object Detection)",
+        "RNN/LSTM/GRU (Sequence Data)",
+        "Attention Mechanism & Transformers (Cốt lõi cho Stage 5)"
+      ],
+      "projects": [
+        {
+          "name": "Custom Object Detection",
+          "objective": "Fine-tune YOLOv8 hoặc YOLOv10 để nhận diện biển số xe/mũ bảo hiểm."
+        },
+        {
+          "name": "Sentiment Analysis với LSTM vs BERT",
+          "objective": "So sánh hiệu năng giữa model cổ điển và Transformer."
+        }
+      ],
+      "updates_and_notes": "Deep Learning rất khó, tăng thời gian để hiểu sâu bản chất Toán của Backprop và Architecture."
+    },
+    {
+      "stage_id": 5,
+      "title": "LLM, RAG & AI Agents (Trọng tâm mới)",
+      "duration": "18-20 tuần",
+      "daily_effort": "2 tiếng/ngày",
+      "topics": [
+        "Advanced RAG: Hybrid Search (Keyword + Vector), Re-ranking (Cohere/BGE)",
+        "Vector Databases: ChromaDB/Qdrant/Weaviate",
+        "Frameworks: LangChain & LlamaIndex",
+        "AI Agents: LangGraph (Stateful Agents), Tool calling, ReAct pattern",
+        "LLM Evaluation: Ragas, DeepEval (Đánh giá độ chính xác của RAG)",
+        "Prompt Engineering nâng cao: Chain-of-Thought, Tree-of-Thought"
+      ],
+      "projects": [
+        {
+          "name": "Advanced RAG Chatbot for Legal/Docs",
+          "tasks": [
+            "Implement Hybrid Search (BM25 + Vector)",
+            "Sử dụng Re-ranking model để lọc kết quả",
+            "Đánh giá chất lượng bằng Ragas (Context Recall/Precision)"
+          ]
+        },
+        {
+          "name": "AI Agent Personal Assistant",
+          "tasks": [
+            "Sử dụng LangGraph",
+            "Agent có khả năng: Search Google -> Tóm tắt -> Viết bài đăng LinkedIn -> Gửi email nháp",
+            "Quản lý State (trạng thái) của cuộc hội thoại"
+          ]
+        }
+      ],
+      "updates_and_notes": "Đây là giai đoạn quan trọng nhất hiện nay. Cần nhiều thời gian để thực hành LangGraph và RAG nâng cao."
+    },
+    {
+      "stage_id": 6,
+      "title": "Software Engineering & Data Ops",
+      "duration": "10-12 tuần",
+      "daily_effort": "1 tiếng/ngày",
+      "topics": [
+        "Backend for AI: FastAPI (Async, Websockets)",
+        "Containerization: Docker (Viết Dockerfile tối ưu cho GPU)",
+        "Orchestration: Kubernetes cơ bản (Khái niệm Pod, Service)",
+        "CI/CD: GitHub Actions (Automated testing)",
+        "Database: PostgreSQL (Lưu user data), Redis (Caching chat history)"
+      ],
+      "projects": [
+        {
+          "name": "Scalable AI API Service",
+          "tasks": [
+            "Xây dựng API chat có streaming response (Server-Sent Events)",
+            "Đóng gói Docker",
+            "Thiết lập GitHub Actions để auto-test code"
+          ]
+        }
+      ],
+      "updates_and_notes": "Tăng thời gian để làm quen với Docker/K8s, vốn là rào cản lớn với dân tay ngang."
+    },
+    {
+      "stage_id": 7,
+      "title": "MLOps & Production Optimization",
+      "duration": "10-12 tuần",
+      "daily_effort": "1.5 tiếng/ngày",
+      "topics": [
+        "Model Serving: vLLM, TGI (Text Generation Inference)",
+        "Quantization: GGUF, GPTQ, AWQ (Chạy LLM trên phần cứng yếu)",
+        "Experiment Tracking: MLflow / Weights & Biases",
+        "Cloud (AWS Focus): SageMaker, Lambda, EC2, S3",
+        "Monitoring: Prometheus + Grafana (Theo dõi latency, token/s)"
+      ],
+      "projects": [
+        {
+          "name": "End-to-End LLM System on Cloud",
+          "tasks": [
+            "Quantize model Llama-3 xuống 4-bit (GGUF)",
+            "Deploy lên AWS EC2 (hoặc free tier platform)",
+            "Xây dựng UI Streamlit",
+            "Setup Monitoring dashboard"
+          ],
+          "note": "Portfolio Killshot: Chứng minh khả năng tối ưu chi phí và triển khai thực tế."
+        }
+      ],
+      "updates_and_notes": "Dành thêm thời gian thực hành Cloud (AWS) và tối ưu hóa model."
+    },
+    {
+      "stage_id": 8,
+      "title": "Career Prep & Certifications (Song song tháng cuối)",
+      "duration": "Ongoing",
+      "topics": [
+        "Mock Interview (System Design cho AI)",
+        "LeetCode (Medium level - Array/String/DP)",
+        "Certifications (Optional): AWS Certified Machine Learning Specialty / TensorFlow Developer"
+      ],
+      "updates_and_notes": "Giai đoạn chuẩn bị hồ sơ và tâm lý phỏng vấn."
+    }
+  ]
+}

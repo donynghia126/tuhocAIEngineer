@@ -1,0 +1,8 @@
+name: day11_env
+channels:
+  - defaults
+dependencies:
+  - python=3.9
+  - pandas
+  - matplotlib
+prefix: C:\Users\donyn\miniconda3\envs\day11_env
