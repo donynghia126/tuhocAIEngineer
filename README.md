@@ -66,23 +66,23 @@ _Hiểu cách xử lý dữ liệu phức tạp và tối ưu code._
 - ✅ **LEARN**: Môi trường ảo (Virtual Environments)
 - ✅ **CODE**: Dùng venv làm Tool Web, Dùng conda giả lập môi trường cũ
 
-#### Ngày 11 (Học thêm)
+#### Ngày 11
 
 - ✅ **LEARN**: Python Package Manager (Pip & Conda)
 - ✅ **CODE**: Bài tập 1 (Terminal): Tạo môi trường ảo mới bằng conda (Python 3.9). Cài đặt thư viện pandas và matplotlib. Xuất danh sách thư viện ra file environment.yml (chuẩn Conda) hoặc requirements.txt (chuẩn Pip).
 - ✅ **CODE**: Bài tập 2 (Simulation): Xóa môi trường vừa tạo. Dùng lệnh để khôi phục lại toàn bộ môi trường chỉ từ file cấu hình vừa xuất.
 
-#### Ngày 12 (Học thêm)
+#### Ngày 12
 
-- 📘 **LEARN**: Python Type Errors - Các lỗi phổ biến trong Python
-- 💻 **CODE**: Bài tập (Bug Hunting): Chạy code để xem Python báo lỗi gì (IndexError, KeyError, TypeError, IndentationError, NameError). Giải thích tại sao lỗi. Sửa lại cho chạy đúng.
+- ✅ **LEARN**: Python Type Errors - Các lỗi phổ biến trong Python
+- ✅ **CODE**: Bài tập (Bug Hunting): Chạy code để xem Python báo lỗi gì (IndexError, KeyError, TypeError, IndentationError, NameError). Giải thích tại sao lỗi. Sửa lại cho chạy đúng.
 
-#### Ngày 13 (Học thêm)
+#### Ngày 13
 
 - 📘 **LEARN**: Exception Handling (Try-Except)
 - 💻 **CODE**: Máy tính an toàn, truy xuất dữ liệu an toàn
 
-#### Ngày 14 (Học thêm)
+#### Ngày 14
 
 - 📘 **LEARN**: Regular Expressions (Regex)
 - 💻 **CODE**: Trích xuất Email & SĐT, Làm sạch Password
@@ -250,7 +250,7 @@ _Viết code tối ưu hơn, chuẩn bị cho phỏng vấn._
 - 📘 **LEARN**: Unit Testing: Tại sao cần test, Thư viện unittest/pytest cơ bản
 - 💻 **CODE**: Viết test case cho thư viện Mini Numpy đã làm
 
-#### Ngày 44-45
+#### Ngày 44
 
 - 📘 **LEARN**: CAPSTONE PROJECT 1: Mini Numpy from Scratch (Final): Class Matrix: hỗ trợ cộng, nhân, chuyển vị., Module Stats: tính mean, std., Module Activation: softmax, sigmoid., Viết documentation (Readme.md) cách sử dụng., Push lên GitHub với cấu trúc thư mục chuẩn.
 
@@ -258,7 +258,7 @@ _Viết code tối ưu hơn, chuẩn bị cho phỏng vấn._
 
 _Ôn tập lại kiến thức 7 tuần qua, chuẩn bị sang Stage 2 (Data Science)._
 
-#### Ngày 50-52
+#### Ngày 45
 
 - 📘 **LEARN**: Review code cũ, đọc sách 'Grokking Algorithms' hoặc nghỉ xả hơi.
 
@@ -272,27 +272,27 @@ _Ôn tập lại kiến thức 7 tuần qua, chuẩn bị sang Stage 2 (Data Sci
 
 _Thao tác thành thạo DataFrame - Cấu trúc dữ liệu quan trọng nhất ngành Data._
 
-#### Ngày 57
+#### Ngày 46
 
 - 📘 **LEARN**: NumPy to Real World: Broadcasting, Vectorization (Thay thế vòng for chậm chạp), Indexing & Slicing nâng cao
 - 💻 **CODE**: Tối ưu hóa bài toán nhân ma trận Stage 1 bằng NumPy (1 dòng code).
 
-#### Ngày 58
+#### Ngày 47
 
 - 📘 **LEARN**: Pandas Series & DataFrame: Cấu trúc DataFrame, Đọc dữ liệu (read_csv, read_excel, read_json)
 - 💻 **CODE**: Load file CSV 1 triệu dòng, kiểm tra .info(), .describe().
 
-#### Ngày 59
+#### Ngày 48
 
 - 📘 **LEARN**: Data Selection & Filtering: loc vs iloc, Boolean Indexing (Lọc theo điều kiện), Query method
 - 💻 **CODE**: Lọc danh sách khách hàng > 30 tuổi và mua hàng > 100$.
 
-#### Ngày 60
+#### Ngày 49
 
 - 📘 **LEARN**: Data Cleaning 1: Xử lý dữ liệu lỗi: Kiểm tra null (isna), Xóa null (dropna), Điền giá trị thiếu (fillna)
 - 💻 **CODE**: Xử lý dataset bị thiếu tuổi: điền bằng trung bình hoặc trung vị.
 
-#### Ngày 61
+#### Ngày 50
 
 - 📘 **LEARN**: Data Manipulation: Apply & Map: Hàm .apply() (Powerful but slow), Hàm .map(), Lambda functions trong Pandas
 - 💻 **CODE**: Tạo cột mới 'AgeGroup' từ cột 'Age' dùng apply.
@@ -301,27 +301,27 @@ _Thao tác thành thạo DataFrame - Cấu trúc dữ liệu quan trọng nhất
 
 _Trả lời các câu hỏi nghiệp vụ phức tạp (Business Questions)._
 
-#### Ngày 62
+#### Ngày 51
 
 - 📘 **LEARN**: GroupBy & Aggregation: Split-Apply-Combine strategy, Các hàm agg (sum, mean, count)
 - 💻 **CODE**: Tính doanh thu trung bình theo từng thành phố và từng tháng.
 
-#### Ngày 63
+#### Ngày 52
 
 - 📘 **LEARN**: Merge & Join: Inner, Outer, Left, Right Join (Giống SQL), Concat DataFrames
 - 💻 **CODE**: Ghép bảng 'Users' và bảng 'Orders' để tìm ai mua nhiều nhất.
 
-#### Ngày 64
+#### Ngày 53
 
 - 📘 **LEARN**: Pivot Tables & Crosstab: Tạo bảng tổng hợp nhiều chiều (Giống Excel Pivot), Stack/Unstack
 - 💻 **CODE**: Tạo Pivot Table so sánh doanh số theo Năm (cột) và Loại hàng (dòng).
 
-#### Ngày 65
+#### Ngày 54
 
 - 📘 **LEARN**: Time Series Data (Dữ liệu thời gian): datetime objects, Resampling (gom data theo ngày/tuần/tháng), Time shifts
 - 💻 **CODE**: Tính doanh thu theo từng tuần (Weekly Sales) từ data log từng giây.
 
-#### Ngày 66
+#### Ngày 55
 
 - 📘 **LEARN**: Mini Project Week 10
 - 💻 **CODE**: Project: Sales Analysis. Cho file sales.csv. Hỏi: Tháng nào bán tốt nhất? Thành phố nào mua nhiều nhất? Thời điểm nào trong ngày khách hay mua?
@@ -330,22 +330,22 @@ _Trả lời các câu hỏi nghiệp vụ phức tạp (Business Questions)._
 
 _Vẽ hình để tìm Insight (không phải vẽ cho đẹp)._
 
-#### Ngày 67
+#### Ngày 56
 
 - 📘 **LEARN**: Matplotlib cơ bản: Figure, Axes structure, Line, Bar, Scatter plot
 - 💻 **CODE**: Vẽ biểu đồ đường doanh thu theo thời gian.
 
-#### Ngày 68
+#### Ngày 57
 
 - 📘 **LEARN**: Seaborn & Statistical Plots: Distplot (Phân phối), Boxplot (Phát hiện Outlier - Quan trọng), Violin plot
 - 💻 **CODE**: Dùng Boxplot tìm xem có đơn hàng nào giá trị cao bất thường không.
 
-#### Ngày 69
+#### Ngày 58
 
 - 📘 **LEARN**: Multivariate Analysis (Phân tích đa biến): Heatmap (Ma trận tương quan - Correlation Matrix), Pairplot
 - 💻 **CODE**: Vẽ Heatmap xem 'Giá nhà' tương quan thế nào với 'Diện tích' và 'Số phòng'.
 
-#### Ngày 70
+#### Ngày 59
 
 - 📘 **LEARN**: Visual Storytelling: Chọn đúng loại biểu đồ, Màu sắc, Tiêu đề, Label, Tránh biểu đồ gây hiểu lầm
 - 💻 **CODE**: Refactor lại các biểu đồ cũ cho chuyên nghiệp, sẵn sàng để báo cáo.
@@ -354,27 +354,27 @@ _Vẽ hình để tìm Insight (không phải vẽ cho đẹp)._
 
 _Lấy dữ liệu từ Database (Kỹ năng bắt buộc khi đi làm)._
 
-#### Ngày 71
+#### Ngày 60
 
 - 📘 **LEARN**: SQL Basic Review: SELECT, FROM, WHERE, ORDER BY, LIMIT
 - 💻 **CODE**: Viết query lấy Top 10 khách hàng chi tiêu cao nhất.
 
-#### Ngày 72
+#### Ngày 61
 
 - 📘 **LEARN**: Joins & Unions: INNER vs LEFT JOIN, Xử lý NULL sau khi Join
 - 💻 **CODE**: Join 3 bảng: Customers, Orders, Products.
 
-#### Ngày 73
+#### Ngày 62
 
 - 📘 **LEARN**: Aggregation & Grouping: GROUP BY, HAVING (Lọc sau khi Group)
 - 💻 **CODE**: Tìm các danh mục sản phẩm có tổng doanh thu > 10.000$.
 
-#### Ngày 74
+#### Ngày 63
 
 - 📘 **LEARN**: Window Functions (Nâng cao - Cực quan trọng): ROW_NUMBER(), RANK(), LEAD/LAG (So sánh dòng trước/sau)
 - 💻 **CODE**: Tìm top 3 nhân viên xuất sắc nhất của TỪNG phòng ban (Partition By).
 
-#### Ngày 75
+#### Ngày 64
 
 - 📘 **LEARN**: CTEs (Common Table Expressions): WITH clause, Viết query dễ đọc hơn
 - 💻 **CODE**: Viết CTE tính doanh thu tháng, sau đó query chính tính tăng trưởng so với tháng trước.
@@ -383,22 +383,22 @@ _Lấy dữ liệu từ Database (Kỹ năng bắt buộc khi đi làm)._
 
 _Biến dữ liệu thô thành dữ liệu mà Model hiểu được._
 
-#### Ngày 76
+#### Ngày 65
 
 - 📘 **LEARN**: Feature Scaling (Chuẩn hóa): Normalization (Min-Max), Standardization (Z-score), Khi nào dùng cái nào?
 - 💻 **CODE**: Dùng Scikit-learn StandardScaler để chuẩn hóa cột 'Salary'.
 
-#### Ngày 77
+#### Ngày 66
 
 - 📘 **LEARN**: Encoding Categorical Data (Mã hóa phân loại): One-Hot Encoding, Label Encoding, Target Encoding
 - 💻 **CODE**: Chuyển cột 'Màu sắc' (Đỏ, Xanh) thành vector số học.
 
-#### Ngày 78
+#### Ngày 67
 
 - 📘 **LEARN**: Handling Outliers (Xử lý ngoại lai): IQR Method, Z-score method, Capping/Flooring
 - 💻 **CODE**: Viết hàm tự động loại bỏ các giá trị ngoại lai trong Dataset.
 
-#### Ngày 79
+#### Ngày 68
 
 - 📘 **LEARN**: Feature Selection: Correlation filter, Variance threshold, Tại sao ít feature lại tốt hơn?
 - 💻 **CODE**: Loại bỏ các cột có độ tương quan > 0.9 (Dư thừa).
@@ -407,14 +407,72 @@ _Biến dữ liệu thô thành dữ liệu mà Model hiểu được._
 
 _Làm quen công cụ xử lý dữ liệu lớn tốc độ cao._
 
-#### Ngày 80
+#### Ngày 69
 
 - 📘 **LEARN**: Intro to Polars: Lazy Evaluation, So sánh tốc độ với Pandas
 - 💻 **CODE**: Viết lại bài toán GroupBy của Pandas bằng Polars.
 
+### Tuần 15 (Bổ sung): Big Data với Apache Spark & PySpark
+
+_Làm quen với xử lý dữ liệu lớn phân tán bằng Apache Spark/PySpark, chuẩn bị cho các hệ thống AI quy mô doanh nghiệp._
+
+#### Ngày 70
+
+- 📘 **LEARN**: Giới thiệu Big Data & Apache Spark: Cluster, Driver, Executor, RDD vs DataFrame. Tại sao Spark nhanh hơn chỉ dùng Pandas?
+- 💻 **CODE**: Cài đặt PySpark (local). Viết script đơn giản đọc file CSV lớn, gọi .count() và .show().
+
+#### Ngày 71
+
+- 📘 **LEARN**: Transformations & Actions trong Spark: select, filter, withColumn, groupBy, agg. Lazy evaluation là gì?
+- 💻 **CODE**: Dùng PySpark DataFrame để tính tổng doanh thu theo ngày/tháng trên dataset > 1GB (giả lập nếu cần).
+
+#### Ngày 72
+
+- 📘 **LEARN**: Joins trong Spark: inner, left, right, full outer. Khi nào cần repartition/broadcast join để tối ưu?
+- 💻 **CODE**: Ghép 2 bảng lớn (Users, Events) bằng PySpark, tính DAU/MAU, top 10 user có nhiều event nhất.
+
+#### Ngày 73
+
+- 📘 **LEARN**: Partitioning & Caching: partitionBy, coalesce, persist/cache. Đọc hiểu Spark UI và explain() để tối ưu query.
+- 💻 **CODE**: So sánh thời gian chạy: cùng một pipeline ETL nhưng có/không có cache(), có/không có partition hợp lý.
+
+#### Ngày 74
+
+- 📘 **LEARN**: Spark trên Cloud (high-level): Databricks, EMR, GCP Dataproc. Khái niệm job, cluster size, autoscaling.
+- 💻 **CODE**: Đóng gói notebook/py script ETL bằng PySpark: đọc dữ liệu raw → làm sạch → aggregate → ghi ra Parquet/Delta. Viết README mô tả pipeline.
+
+### Tuần 15 (Bổ sung): Big Data với Apache Spark & PySpark
+
+_Làm quen với xử lý dữ liệu lớn phân tán bằng Apache Spark/PySpark, chuẩn bị cho các hệ thống AI quy mô doanh nghiệp._
+
+#### Ngày 75
+
+- 📘 **LEARN**: Giới thiệu Big Data & Apache Spark: Cluster, Driver, Executor, RDD vs DataFrame. Tại sao Spark nhanh hơn chỉ dùng Pandas?
+- 💻 **CODE**: Cài đặt PySpark (local). Viết script đơn giản đọc file CSV lớn, gọi .count() và .show().
+
+#### Ngày 76
+
+- 📘 **LEARN**: Transformations & Actions trong Spark: select, filter, withColumn, groupBy, agg. Lazy evaluation là gì?
+- 💻 **CODE**: Dùng PySpark DataFrame để tính tổng doanh thu theo ngày/tháng trên dataset > 1GB (giả lập nếu cần).
+
+#### Ngày 77
+
+- 📘 **LEARN**: Joins trong Spark: inner, left, right, full outer. Khi nào cần repartition/broadcast join để tối ưu?
+- 💻 **CODE**: Ghép 2 bảng lớn (Users, Events) bằng PySpark, tính DAU/MAU, top 10 user có nhiều event nhất.
+
+#### Ngày 78
+
+- 📘 **LEARN**: Partitioning & Caching: partitionBy, coalesce, persist/cache. Đọc hiểu Spark UI và explain() để tối ưu query.
+- 💻 **CODE**: So sánh thời gian chạy: cùng một pipeline ETL nhưng có/không có cache(), có/không có partition hợp lý.
+
+#### Ngày 79
+
+- 📘 **LEARN**: Spark trên Cloud (high-level): Databricks, EMR, GCP Dataproc. Khái niệm job, cluster size, autoscaling.
+- 💻 **CODE**: Đóng gói notebook/py script ETL bằng PySpark: đọc dữ liệu raw → làm sạch → aggregate → ghi ra Parquet/Delta. Viết README mô tả pipeline.
+
 ### Tuần 15-16: CAPSTONE PROJECT GIAI ĐOẠN 2
 
-#### Tuần 15-16
+#### Ngày 80
 
 - 📘 **LEARN**: Project: End-to-End Exploratory Data Analysis (EDA)
 - 📘 **LEARN**: Dataset: Shopee/Tiki E-commerce Dataset hoặc Kaggle Titanic (Advanced version)
@@ -579,7 +637,7 @@ _Xử lý các vấn đề thực tế khó nhằn._
 
 ### Tuần 25-26: CAPSTONE PROJECT GIAI ĐOẠN 3
 
-#### Tuần 25-26
+#### Ngày 104
 
 - 📘 **LEARN**: Project: Credit Scoring / Customer Churn Prediction
 - 📘 **LEARN**: Dataset: Telco Customer Churn (Kaggle) hoặc German Credit Data.
@@ -600,17 +658,17 @@ _Xử lý các vấn đề thực tế khó nhằn._
 
 _Hiểu cấu tạo của một 'Brain cell' nhân tạo._
 
-#### Ngày 104
+#### Ngày 105
 
 - 📘 **LEARN**: Perceptron & Neuron: Mối liên hệ giữa Logistic Regression và 1 Neuron, Weights (Trọng số) & Bias
 - 💻 **CODE**: Code lại 1 Neuron bằng Python thuần.
 
-#### Ngày 105
+#### Ngày 106
 
 - 📘 **LEARN**: Activation Functions (Hàm kích hoạt): Tại sao cần phi tuyến tính?, Sigmoid vs Tanh vs ReLU (Rectified Linear Unit)
 - 💻 **CODE**: Vẽ đồ thị các hàm activation bằng Matplotlib.
 
-#### Ngày 106
+#### Ngày 107
 
 - 📘 **LEARN**: Multi-Layer Perceptron (MLP): Input Layer, Hidden Layers, Output Layer, Feed Forward (Lan truyền xuôi)
 - 💻 **CODE**: Xây dựng mạng MLP đơn giản phân loại dữ liệu XOR.
@@ -619,17 +677,17 @@ _Hiểu cấu tạo của một 'Brain cell' nhân tạo._
 
 _Hiểu cách model tự sửa sai (Học)._
 
-#### Ngày 107
+#### Ngày 108
 
 - 📘 **LEARN**: Loss Functions: MSE (cho Regression), Cross-Entropy Loss (cho Classification)
 - 💻 **CODE**: Tính tay Loss của một dự đoán sai.
 
-#### Ngày 108
+#### Ngày 109
 
 - 📘 **LEARN**: Backpropagation Theory: Chain Rule (Quy tắc chuỗi - Ôn lại Calculus), Đạo hàm của Loss theo Weight
 - 💻 **CODE**: Xem video 3Blue1Brown về Backpropagation (Bắt buộc).
 
-#### Ngày 109
+#### Ngày 110
 
 - 📘 **LEARN**: Optimization Algorithms: SGD (Stochastic Gradient Descent), Adam (Adaptive Moment Estimation - Dùng mặc định)
 - 💻 **CODE**: So sánh tốc độ hội tụ của SGD vs Adam.
@@ -638,27 +696,27 @@ _Hiểu cách model tự sửa sai (Học)._
 
 _Code Deep Learning chuyên nghiệp & Quản lý thí nghiệm._
 
-#### Ngày 110
+#### Ngày 111
 
 - 📘 **LEARN**: Tensors & Autograd: Tensor là gì? (Khác gì NumPy array?), GPU acceleration (cuda), Autograd (Tự động tính đạo hàm)
 - 💻 **CODE**: Chuyển đổi qua lại giữa Numpy và Tensor. Tính đạo hàm tự động y.backward().
 
-#### Ngày 111
+#### Ngày 112
 
 - 📘 **LEARN**: PyTorch Workflow: Dataset & DataLoader: Class Dataset (len, getitem), DataLoader (Batching, Shuffling)
 - 💻 **CODE**: Viết custom Dataset để load ảnh từ folder.
 
-#### Ngày 112
+#### Ngày 113
 
 - 📘 **LEARN**: Building Model: nn.Module: Hàm **init** và forward(), nn.Linear, nn.Sequential
 - 💻 **CODE**: Viết class ImageClassifier kế thừa nn.Module.
 
-#### Ngày 113
+#### Ngày 114
 
 - 📘 **LEARN**: Training Loop & Visualization: 5 bước chuẩn: Forward -> Loss -> Zero_grad -> Backward -> Step, Sử dụng TensorBoard để vẽ biểu đồ Loss realtime
 - 💻 **CODE**: Tích hợp TensorBoardWriter vào vòng lặp train.
 
-#### Ngày 114
+#### Ngày 115
 
 - 📘 **LEARN**: Save/Load & Project MNIST: torch.save (state_dict), torch.load (Resume training)
 - 💻 **CODE**: Project: Handwritten Digit Recognition (Full pipeline: Train -> Save -> Load -> Predict).
@@ -667,27 +725,27 @@ _Code Deep Learning chuyên nghiệp & Quản lý thí nghiệm._
 
 _Xử lý dữ liệu hình ảnh & Autoencoders._
 
-#### Ngày 115
+#### Ngày 116
 
 - 📘 **LEARN**: Convolution Operation (Tích chập): Kernel/Filter, Stride, Padding, Tại sao CNN tốt hơn MLP cho ảnh?
 - 💻 **CODE**: Tính tay kết quả tích chập của ma trận 5x5 với filter 3x3.
 
-#### Ngày 116
+#### Ngày 117
 
 - 📘 **LEARN**: Pooling Layers & Architecture: Max Pooling vs Average Pooling, Cấu trúc kinh điển: Conv -> Relu -> Pool
 - 💻 **CODE**: Xây dựng mô hình LeNet-5 cổ điển.
 
-#### Ngày 117
+#### Ngày 118
 
 - 📘 **LEARN**: Modern Architectures: ResNet: Vanishing Gradient Problem, Skip Connections (Residual Block), Tại sao ResNet sâu được?
 - 💻 **CODE**: Dùng torchvision.models.resnet18 (pretrained=True).
 
-#### Ngày 118
+#### Ngày 119
 
 - 📘 **LEARN**: Autoencoders (Intro to Generative): Encoder - Decoder Architecture, Latent Space (Không gian ẩn), Ứng dụng: Khử nhiễu ảnh (Denoising)
 - 💻 **CODE**: Xây dựng Autoencoder đơn giản để nén và giải nén ảnh MNIST.
 
-#### Ngày 119
+#### Ngày 120
 
 - 📘 **LEARN**: Transfer Learning & Object Detection Intro: Fine-tuning vs Feature Extraction, Khái niệm YOLO (You Only Look Once)
 - 💻 **CODE**: Dùng ResNet đã học ImageNet để phân loại Chó/Mèo.
@@ -696,22 +754,22 @@ _Xử lý dữ liệu hình ảnh & Autoencoders._
 
 _Xử lý dữ liệu chuỗi (Text, Time Series)._
 
-#### Ngày 120
+#### Ngày 121
 
 - 📘 **LEARN**: Text Preprocessing: Tokenization, Stopwords, Stemming/Lemmatization, One-hot encoding text
 - 💻 **CODE**: Dùng thư viện NLTK hoặc spaCy để xử lý câu văn.
 
-#### Ngày 121
+#### Ngày 122
 
 - 📘 **LEARN**: Word Embeddings: Tại sao One-hot tệ?, Word2Vec idea, Embedding Layer trong PyTorch
 - 💻 **CODE**: Visual hóa vector từ vựng (King - Man + Woman = Queen).
 
-#### Ngày 122
+#### Ngày 123
 
 - 📘 **LEARN**: RNN (Recurrent Neural Networks): Hidden State (Trí nhớ ngắn hạn), Vấn đề Vanishing Gradient trong RNN
 - 💻 **CODE**: Viết RNN đơn giản dự đoán ký tự tiếp theo.
 
-#### Ngày 123
+#### Ngày 124
 
 - 📘 **LEARN**: LSTM & GRU: Gates (Cổng quên, cổng nhập), Long Short-Term Memory
 - 💻 **CODE**: Phân loại cảm xúc bình luận phim (IMDB) dùng LSTM.
@@ -720,17 +778,17 @@ _Xử lý dữ liệu chuỗi (Text, Time Series)._
 
 _Hiểu kiến trúc đã thay đổi thế giới AI._
 
-#### Ngày 124
+#### Ngày 125
 
 - 📘 **LEARN**: Seq2Seq & Attention Mechanism: Encoder-Decoder Architecture, Bahdanau Attention (Tại sao phải focus vào từng phần?)
 - 💻 **CODE**: Minh họa cơ chế Attention bằng heatmap.
 
-#### Ngày 125
+#### Ngày 126
 
 - 📘 **LEARN**: Transformer Architecture (Paper: Attention is All You Need): Self-Attention, Multi-Head Attention, Positional Encoding
 - 💻 **CODE**: Đọc và chạy thử code Transformer PyTorch tutorial.
 
-#### Ngày 126
+#### Ngày 127
 
 - 📘 **LEARN**: BERT vs GPT: Encoder-only (BERT - Hiểu ngữ cảnh), Decoder-only (GPT - Sinh văn bản)
 - 💻 **CODE**: Dùng HuggingFace transformers load thử BERT-base.
@@ -739,22 +797,79 @@ _Hiểu kiến trúc đã thay đổi thế giới AI._
 
 _Làm sao để model hội tụ tốt hơn và tránh Overfitting._
 
-#### Ngày 127
+#### Ngày 128
 
 - 📘 **LEARN**: Regularization: Dropout (Tắt ngẫu nhiên nơ-ron), L1/L2 Regularization (Weight decay)
 - 💻 **CODE**: Thêm Dropout layer vào model và so sánh kết quả.
 
-#### Ngày 128
+#### Ngày 129
 
 - 📘 **LEARN**: Normalization: Batch Normalization (Chuẩn hóa theo batch), Layer Normalization (Dùng cho RNN/Transformer)
 - 💻 **CODE**: Thêm BatchNorm2d vào CNN model.
 
-#### Ngày 129
+#### Ngày 130
 
 - 📘 **LEARN**: Learning Rate Scheduling: Learning Rate Decay, Warm-up steps
 - 💻 **CODE**: Sử dụng StepLR scheduler trong PyTorch.
 
-### Tuần 41-42: CAPSTONE PROJECT GIAI ĐOẠN 4
+### Tuần X (Bổ sung): Multimodal AI – Audio, Video & CLIP
+
+_Làm quen với xử lý Audio/Video và mô hình đa phương thức (kết hợp Text + Image), mở rộng khả năng làm dự án AI thực tế._
+
+#### Ngày 131
+
+- 📘 **LEARN**: Nhập môn xử lý Audio: sóng âm, sampling rate, spectrogram, Mel-spectrogram. Thư viện librosa/torchaudio.
+- 💻 **CODE**: Dùng librosa để đọc file .wav, hiển thị waveform và Mel-spectrogram. Lưu hình ra file PNG.
+
+#### Ngày 132
+
+- 📘 **LEARN**: Speech-to-Text (STT): tổng quan mô hình Whisper (OpenAI) và các pipeline STT phổ biến.
+- 💻 **CODE**: Dùng thư viện/CLI Whisper (hoặc model STT trên HuggingFace) để chuyển 1 file audio ngắn thành text. So sánh chất lượng với transcript chuẩn.
+
+#### Ngày 133
+
+- 📘 **LEARN**: Xử lý Video bằng OpenCV + Deep Learning: đọc video, trích frame, basic object detection/tracking.
+- 💻 **CODE**: Viết script: đọc video, trích frame mỗi 1s, chạy sẵn một model object detection (VD: YOLO pre-trained) trên từng frame, vẽ bounding box và lưu video output.
+
+#### Ngày 134
+
+- 📘 **LEARN**: Multimodal Models: kiến trúc CLIP (Contrastive Language-Image Pretraining). Ý tưởng embedding chung cho Text & Image.
+- 💻 **CODE**: Dùng CLIP (OpenAI/HF) để: (1) Encode một list caption và một list hình; (2) Tìm caption phù hợp nhất cho mỗi hình (image-text retrieval).
+
+#### Ngày 135
+
+- 📘 **LEARN**: Thiết kế bài toán Multimodal thực tế: recommendation dựa trên cả ảnh + mô tả, tìm kiếm hình ảnh bằng câu tự nhiên.
+- 💻 **CODE**: Mini Project: Xây một demo simple search – nhập câu tiếng Việt/Anh, dùng CLIP để tìm ra top-k hình ảnh phù hợp nhất trong một thư viện ảnh nhỏ. Viết README mô tả kiến trúc.
+
+### Tuần 41-42: CAPSTONE PROJECT: Multimodal Content Search & Understanding Platform
+
+_Xây dựng nền tảng tìm kiếm nội dung đa phương thức, có thể xử lý và tích hợp Text, Image, Audio, Video, từ đó nâng cao khả năng làm dự án lớn và thực chiến._
+
+#### Ngày 136
+
+- 📝 **DEFINE**: Xác định bài toán cụ thể (ví dụ: Visual Search, Video Analysis, Content Recommendation hoặc Interview Analysis).
+- 🗂️ **DATA**: Thu thập dataset phù hợp (ít nhất 300-500 items), có thể dùng dữ liệu mở hoặc tự tạo.
+
+#### Ngày 137
+
+- ⚙️ **PREPROCESS**: Tiền xử lý dữ liệu: chuyển đổi audio thành spectrogram, trích xuất ảnh, chuẩn bị text.
+- 🔢 **EMBED**: Encode dữ liệu bằng các mô hình phù hợp: CLIP cho ảnh + text, Wav2Vec2 cho audio, ViT cho ảnh, speech models cho audio.
+
+#### Ngày 138
+
+- 📘 **LEARN**: Huấn luyện hoặc fine-tune mô hình multimodal fusion (ví dụ: dùng CLIP hoặc mô hình fusion custom).
+
+#### Ngày 139
+
+- 📘 **LEARN**: Đánh giá hệ thống: recall@K, precision, visualization bằng t-SNE hoặc UMAP.
+
+#### Ngày 140
+
+- 📘 **LEARN**: Xây dựng API (FastAPI), đóng gói bằng Docker, triển khai thử trên cloud hoặc local.
+
+#### Ngày 141
+
+- 📘 **LEARN**: Viết tài liệu hướng dẫn, design architecture, kết quả, và demo trực tuyến (ví dụ: Streamlit).
 
 ## Giai đoạn 5: LLM, RAG & AI Agents (Generative AI) - Updated
 
@@ -766,17 +881,17 @@ _Làm sao để model hội tụ tốt hơn và tránh Overfitting._
 
 _Hiểu cách giao tiếp và điều khiển mô hình trả về dữ liệu có cấu trúc._
 
-#### Ngày 130
+#### Ngày 148
 
 - 📘 **LEARN**: LLM Architecture Recap: Pre-training vs Fine-tuning, Context Window & Tokens (Cách tính tiền), Temperature, Top-P (Tham số sinh văn bản)
 - 💻 **CODE**: Sử dụng Tiktoken để đếm số token của đoạn văn.
 
-#### Ngày 131
+#### Ngày 149
 
 - 📘 **LEARN**: Structured Output (JSON Mode): Tại sao LLM cần trả về JSON?, Function Calling để ép kiểu dữ liệu, Thư viện Instructor hoặc Pydantic OutputParser
 - 💻 **CODE**: Viết prompt ép model trích xuất thông tin từ CV ra file JSON đúng format.
 
-#### Ngày 132
+#### Ngày 150
 
 - 📘 **LEARN**: Running Local LLMs: Cài đặt Ollama / LM Studio, Quantization (GGUF) - Tại sao chạy được Llama 3 trên laptop?
 - 💻 **CODE**: Viết Python script gọi API tới localhost Ollama.
@@ -785,17 +900,17 @@ _Hiểu cách giao tiếp và điều khiển mô hình trả về dữ liệu c
 
 _Cho LLM 'học' dữ liệu riêng của bạn mà không cần train lại._
 
-#### Ngày 133
+#### Ngày 151
 
 - 📘 **LEARN**: Vector Embeddings: Biến văn bản thành Vector số thực, Cosine Similarity (Đo độ tương đồng), Mô hình Embedding (OpenAI text-embedding-3 vs BGE-M3)
 - 💻 **CODE**: Viết hàm tìm kiếm ngữ nghĩa (Semantic Search) đơn giản.
 
-#### Ngày 134
+#### Ngày 152
 
 - 📘 **LEARN**: Vector Databases: Cấu trúc Vector DB (ChromaDB, Weaviate), CRUD operations trên Vector DB
 - 💻 **CODE**: Lưu 100 trang tài liệu PDF vào ChromaDB.
 
-#### Ngày 135
+#### Ngày 153
 
 - 📘 **LEARN**: RAG Pipeline cơ bản: Quy trình: Load -> Split -> Embed -> Store -> Retrieve -> Generate, Chunking Strategies (Cắt nhỏ văn bản thế nào cho đúng?)
 - 💻 **CODE**: Xây dựng Chatbot hỏi đáp tài liệu đơn giản bằng LangChain.
@@ -804,17 +919,17 @@ _Cho LLM 'học' dữ liệu riêng của bạn mà không cần train lại._
 
 _Khắc phục nhược điểm của RAG cơ bản bằng Semantic + Knowledge Graph._
 
-#### Ngày 136
+#### Ngày 154
 
 - 📘 **LEARN**: Hybrid Search: Kết hợp Keyword Search (BM25) + Vector Search, Tại sao Vector Search thất bại với từ khóa chính xác?
 - 💻 **CODE**: Implement Hybrid Search dùng Qdrant hoặc Weaviate.
 
-#### Ngày 137
+#### Ngày 155
 
 - 📘 **LEARN**: Re-ranking (Sắp xếp lại): Cross-Encoder models (Cohere Rerank / BGE-Reranker), Lọc kết quả rác trước khi gửi cho LLM
 - 💻 **CODE**: Thêm bước Re-ranking vào pipeline RAG để tăng độ chính xác.
 
-#### Ngày 138
+#### Ngày 156
 
 - 📘 **LEARN**: GraphRAG (Knowledge Graph RAG): Hạn chế của Vector Search (Mất mối quan hệ thực thể), Knowledge Graph là gì? (Neo4j), Kết hợp Graph + Vector
 - 💻 **CODE**: Dùng LlamaIndex hoặc Microsoft GraphRAG để truy vấn mối quan hệ phức tạp.
@@ -823,17 +938,17 @@ _Khắc phục nhược điểm của RAG cơ bản bằng Semantic + Knowledge 
 
 _Thành thạo framework phát triển ứng dụng LLM số 1 hiện nay._
 
-#### Ngày 139
+#### Ngày 157
 
 - 📘 **LEARN**: LangChain LCEL: LangChain Expression Language (Pipe syntax | ), Runnables & Chains
 - 💻 **CODE**: Viết Chain: Prompt | Model | OutputParser.
 
-#### Ngày 140
+#### Ngày 158
 
 - 📘 **LEARN**: Memory & History: Quản lý lịch sử chat (ConversationBufferMemory), Lưu history vào Redis/Postgres
 - 💻 **CODE**: Tạo Chatbot nhớ được tên người dùng qua nhiều lượt chat.
 
-#### Ngày 141
+#### Ngày 159
 
 - 📘 **LEARN**: LlamaIndex for Data: Data Connectors (Lấy dữ liệu từ Notion, Slack, SQL), LlamaIndex Query Engine
 - 💻 **CODE**: Xây dựng hệ thống hỏi đáp trên cơ sở dữ liệu SQL (Text-to-SQL).
@@ -842,17 +957,17 @@ _Thành thạo framework phát triển ứng dụng LLM số 1 hiện nay._
 
 _Xây dựng AI chủ động thực hiện hành động (Tương lai của AI)._
 
-#### Ngày 142
+#### Ngày 160
 
 - 📘 **LEARN**: Tool Calling (Function Calling): Dạy LLM cách dùng công cụ (Calculator, Google Search API), Định nghĩa Tools bằng Pydantic
 - 💻 **CODE**: Tạo Agent biết tự tính toán và search web.
 
-#### Ngày 143
+#### Ngày 161
 
 - 📘 **LEARN**: LangGraph Basics: Stateful Agents (Agent có trạng thái), Nodes & Edges (Quy trình dạng đồ thị), Cyclic Graphs (Vòng lặp suy nghĩ)
 - 💻 **CODE**: Xây dựng luồng Agent: Plan -> Execute -> Reflect (Tự kiểm tra) -> Output.
 
-#### Ngày 144
+#### Ngày 162
 
 - 📘 **LEARN**: Multi-Agent Systems: Phân chia nhiệm vụ: Researcher Agent & Writer Agent, Supervisor Agent (Quản lý chung)
 - 💻 **CODE**: Xây dựng đội ngũ Agent tự động viết bài blog nghiên cứu.
@@ -861,12 +976,12 @@ _Xây dựng AI chủ động thực hiện hành động (Tương lai của AI)
 
 _Làm sao biết Chatbot trả lời đúng hay sai?_
 
-#### Ngày 145
+#### Ngày 163
 
 - 📘 **LEARN**: RAG Evaluation Metrics: Faithfulness (Trung thực với dữ liệu nguồn), Answer Relevance (Trả lời đúng trọng tâm), Context Recall (Tìm đủ thông tin không)
 - 💻 **CODE**: Dùng thư viện Ragas để chấm điểm hệ thống RAG.
 
-#### Ngày 146
+#### Ngày 164
 
 - 📘 **LEARN**: Observability (Quan sát): Tracing với LangSmith hoặc Arize Phoenix, Debug từng bước chạy của Chain
 - 💻 **CODE**: Tích hợp LangSmith để theo dõi token usage và latency.
@@ -875,19 +990,48 @@ _Làm sao biết Chatbot trả lời đúng hay sai?_
 
 _Tùy biến Model cho tác vụ chuyên biệt._
 
-#### Ngày 147
+#### Ngày 165
 
 - 📘 **LEARN**: PEFT & LoRA: Parameter-Efficient Fine-Tuning (Chỉ train < 1% tham số), Low-Rank Adaptation (LoRA)
 - 💻 **CODE**: Chuẩn bị dataset định dạng JSONL cho fine-tuning.
 
-#### Ngày 148
+#### Ngày 166
 
 - 📘 **LEARN**: Fine-tuning & Serving Optimization: Sử dụng thư viện Unsloth (Tối ưu tốc độ train x2), Quantization for Serving (AWQ / GPTQ) để giảm chi phí VRAM
 - 💻 **CODE**: Fine-tune model Llama-3 và export ra định dạng GGUF để chạy tiết kiệm.
 
+### Tuần Y (Bổ sung): Advanced LLM Training – RLHF & DPO
+
+_Hiểu và thực hành các kỹ thuật tối ưu LLM hiện đại dựa trên phản hồi con người: RLHF và DPO._
+
+#### Ngày 167
+
+- 📘 **LEARN**: Tổng quan RLHF (Reinforcement Learning from Human Feedback): pipeline 3 bước – (1) SFT, (2) Reward Model, (3) RL (PPO).
+- 📘 **LEARN**: Đọc tóm tắt paper InstructGPT hoặc RLHF overview, ghi chú lại flow dữ liệu và mục tiêu của từng bước.
+
+#### Ngày 168
+
+- 📘 **LEARN**: Reward Model: cách huấn luyện model phân biệt giữa câu trả lời tốt/xấu dựa trên cặp preference (A tốt hơn B).
+- 💻 **CODE**: Chuẩn bị một mini-dataset gồm các cặp (prompt, answer_good, answer_bad) dạng JSON/CSV để dùng cho reward model hoặc DPO.
+
+#### Ngày 169
+
+- 📘 **LEARN**: Giới thiệu thư viện TRL (HuggingFace) – hỗ trợ PPO, DPO. So sánh high-level RLHF vs DPO (Direct Preference Optimization).
+- 💻 **CODE**: Dùng TRL hoặc thư viện tương tự để chạy thử một vòng PPO rất nhỏ trên model nhỏ (VD: distilGPT2) với 5–10 mẫu preference (demo).
+
+#### Ngày 170
+
+- 📘 **LEARN**: DPO (Direct Preference Optimization): động lực ra đời, ưu điểm so với RLHF cổ điển (đơn giản hơn, ổn định hơn).
+- 💻 **CODE**: Áp dụng DPO trên chính dataset preference nhỏ ở trên để tinh chỉnh một model nhỏ. So sánh output trước/sau DPO trên vài prompt.
+
+#### Ngày 171
+
+- 📘 **LEARN**: Các vấn đề thực tế của RLHF/DPO: chất lượng dữ liệu human feedback, bias, over-optimization, chi phí compute.
+- 💻 **CODE**: Viết báo cáo ngắn (Markdown/Jupyter): mô tả pipeline RLHF/DPO bạn đã thử, các hạn chế do dataset nhỏ, và kế hoạch mở rộng nếu có GPU + dữ liệu thật.
+
 ### Tuần 61-62: CAPSTONE PROJECT GIAI ĐOẠN 5
 
-#### Tuần 61-62
+#### Ngày 172
 
 - 📘 **LEARN**: Project: Intelligent Legal/Medical Assistant (Agentic RAG)
 - 💻 **CODE**: 1. Data Pipeline: Crawl và xử lý sạch dữ liệu văn bản pháp luật/y khoa.
@@ -907,17 +1051,17 @@ _Tùy biến Model cho tác vụ chuyên biệt._
 
 _Viết API hiệu năng cao, bảo mật và chuẩn chỉnh._
 
-#### Ngày 149
+#### Ngày 173
 
 - 📘 **LEARN**: FastAPI, Pydantic & Config Management: Pydantic Settings (Quản lý biến môi trường .env an toàn), Dependency Injection trong FastAPI (Clean Architecture), Middleware (CORS, Logging)
 - 💻 **CODE**: Viết API load config từ file .env và log mọi request vào file.
 
-#### Ngày 150
+#### Ngày 174
 
 - 📘 **LEARN**: Authentication & Security: OAuth2 với Password Flow, JWT (JSON Web Tokens) - Tạo và xác thực token, Rate Limiting (Chống DDOS đơn giản)
 - 💻 **CODE**: Tích hợp đăng nhập JWT vào API, bảo vệ route /admin.
 
-#### Ngày 151
+#### Ngày 175
 
 - 📘 **LEARN**: Asyncio & Streaming Response: Server-Sent Events (SSE) cho Chatbot, Websockets (Giao tiếp 2 chiều realtime), Xử lý tác vụ nền (Background Tasks)
 - 💻 **CODE**: Tạo API chat trả về từng token (Streaming) giống ChatGPT.
@@ -926,17 +1070,17 @@ _Viết API hiệu năng cao, bảo mật và chuẩn chỉnh._
 
 _Tối ưu hóa Docker Image cho môi trường Production._
 
-#### Ngày 152
+#### Ngày 176
 
 - 📘 **LEARN**: Docker Best Practices: Multi-stage builds (Giảm size image từ 1GB -> 200MB), .dockerignore (Tránh copy file rác), Non-root user (Bảo mật container)
 - 💻 **CODE**: Viết Dockerfile multi-stage tối ưu cho ứng dụng Python.
 
-#### Ngày 153
+#### Ngày 177
 
 - 📘 **LEARN**: Docker for AI/GPU: NVIDIA Container Toolkit (Chạy model trên GPU docker), Caching pip packages để build nhanh hơn
 - 💻 **CODE**: Build image Docker hỗ trợ CUDA để chạy PyTorch.
 
-#### Ngày 154
+#### Ngày 178
 
 - 📘 **LEARN**: Docker Compose for Dev Environment: Orchestrate API + DB + Redis + Worker, Healthchecks (Đợi DB khởi động xong mới chạy API)
 - 💻 **CODE**: Setup docker-compose.yml chạy full stack local.
@@ -945,12 +1089,12 @@ _Tối ưu hóa Docker Image cho môi trường Production._
 
 _Xử lý dữ liệu lớn và tác vụ nặng không làm treo API._
 
-#### Ngày 155
+#### Ngày 179
 
 - 📘 **LEARN**: PostgreSQL & pgvector: Thiết kế Schema tối ưu cho Vector Search, Indexing (HNSW index) để tìm kiếm nhanh, Migrations với Alembic (Quản lý thay đổi DB)
 - 💻 **CODE**: Tạo bảng lưu Embeddings và query tìm kiếm vector tương đồng.
 
-#### Ngày 156
+#### Ngày 180
 
 - 📘 **LEARN**: Redis & Async Workers (Celery): Redis Caching strategy, Message Queue (RabbitMQ/Redis), Celery (Xử lý tác vụ nặng như parse PDF, train model)
 - 💻 **CODE**: Setup Worker xử lý việc upload file PDF ở background.
@@ -959,12 +1103,12 @@ _Xử lý dữ liệu lớn và tác vụ nặng không làm treo API._
 
 _Tự động hóa quy trình kiểm thử và deploy._
 
-#### Ngày 157
+#### Ngày 181
 
 - 📘 **LEARN**: Automated Testing (Pytest): Unit Test vs Integration Test, Test Client (FastAPI) & Fixtures, Mocking External APIs (Không gọi OpenAI thật khi test)
 - 💻 **CODE**: Viết test case coverage > 80% cho module Auth.
 
-#### Ngày 158
+#### Ngày 182
 
 - 📘 **LEARN**: GitHub Actions (CI/CD): Pipeline: Lint -> Test -> Build -> Push Docker Hub, Quản lý Secrets trên GitHub
 - 💻 **CODE**: Setup workflow tự động build image khi push vào nhánh main.
@@ -973,19 +1117,19 @@ _Tự động hóa quy trình kiểm thử và deploy._
 
 _Hiểu khái niệm để deploy lên Cloud (AWS EKS / GKE)._
 
-#### Ngày 159
+#### Ngày 183
 
 - 📘 **LEARN**: Kubernetes Concepts: Pod, Deployment, Service, Ingress, ConfigMap & Secrets (Quản lý cấu hình K8s)
 - 💻 **CODE**: Viết manifest deployment.yaml và service.yaml.
 
-#### Ngày 160
+#### Ngày 184
 
 - 📘 **LEARN**: Deploying & Scaling: Horizontal Pod Autoscaling (HPA), Rolling Updates (Deploy không downtime)
 - 💻 **CODE**: Deploy ứng dụng lên cụm K8s local (Minikube).
 
 ### Tuần 73-74: CAPSTONE PROJECT GIAI ĐOẠN 6
 
-#### Tuần 73-74
+#### Ngày 185
 
 - 📘 **LEARN**: Project: Production-Grade GenAI Backend
 - 💻 **CODE**: 1. Security: Tích hợp JWT Auth, Rate Limiting, CORS.
@@ -1005,17 +1149,17 @@ _Hiểu khái niệm để deploy lên Cloud (AWS EKS / GKE)._
 
 _Tối ưu hóa độ trễ (Latency) và thông lượng (Throughput) cho LLM._
 
-#### Ngày 161
+#### Ngày 186
 
 - 📘 **LEARN**: Inference Engines (vLLM), PagedAttention & Continuous Batching, Thiết lập vLLM server cho Llama-3/Mistral
 - 💻 **CODE**: Triển khai vLLM server dockerized, expose API chuẩn OpenAI.
 
-#### Ngày 162
+#### Ngày 187
 
 - 📘 **LEARN**: Triton Inference Server, Kiến trúc NVIDIA Triton, Model Ensemble (Kết hợp nhiều model: Preprocess -> Model -> Postprocess)
 - 💻 **CODE**: Cấu hình model repository cho Triton chạy model ONNX.
 
-#### Ngày 163
+#### Ngày 188
 
 - 📘 **LEARN**: Load Testing (Stress Test), Locust / JMeter, Đo đạc RPS (Requests per second) và P99 Latency
 - 💻 **CODE**: Viết script Locust giả lập 1000 user chat cùng lúc để tìm điểm chết của server.
@@ -1024,12 +1168,12 @@ _Tối ưu hóa độ trễ (Latency) và thông lượng (Throughput) cho LLM._
 
 _Chạy model lớn trên phần cứng rẻ tiền._
 
-#### Ngày 164
+#### Ngày 189
 
 - 📘 **LEARN**: Quantization Techniques, GGUF (CPU Inference), AWQ / GPTQ (GPU Inference tối ưu), KV Cache Quantization
 - 💻 **CODE**: Convert model Llama-3-8B FP16 sang AWQ 4-bit giúp giảm 60% VRAM.
 
-#### Ngày 165
+#### Ngày 190
 
 - 📘 **LEARN**: Distillation & Pruning, Teacher-Student Training (Model nhỏ học từ model to), Structural Pruning (Cắt bỏ nơ-ron thừa)
 - 💻 **CODE**: Thực hành Distillation: Dạy model TinyLlama học theo GPT-4.
@@ -1038,17 +1182,17 @@ _Chạy model lớn trên phần cứng rẻ tiền._
 
 _Quản lý hạ tầng bằng Code (Không click tay)._
 
-#### Ngày 166
+#### Ngày 191
 
 - 📘 **LEARN**: AWS Compute for AI, EC2 G4dn/G5 instances (NVIDIA GPU), AWS Spot Instances (Bid giá rẻ), Deep Learning AMI (Setup sẵn driver)
 - 💻 **CODE**: Launch một Spot Instance giá rẻ để train model.
 
-#### Ngày 167
+#### Ngày 192
 
 - 📘 **LEARN**: Infrastructure as Code (IaC), Khái niệm IaC (Terraform hoặc AWS CDK), Tại sao không nên config thủ công trên Console?
 - 💻 **CODE**: Viết file Terraform đơn giản để tự động tạo EC2 và Security Group.
 
-#### Ngày 168
+#### Ngày 193
 
 - 📘 **LEARN**: Serverless Inference, AWS Lambda (Cho model nhỏ/CPU), SageMaker Serverless Inference, RunPod / Modal (Alternative providers)
 - 💻 **CODE**: Deploy hàm xử lý ảnh đơn giản lên AWS Lambda + EFS.
@@ -1057,12 +1201,12 @@ _Quản lý hạ tầng bằng Code (Không click tay)._
 
 _Tự động hóa quy trình huấn luyện và triển khai._
 
-#### Ngày 169
+#### Ngày 194
 
 - 📘 **LEARN**: Experiment Tracking (MLflow), Logging metrics/params, Artifact Storage (S3), MLflow UI
 - 💻 **CODE**: Setup MLflow Server remote (trên EC2) kết nối với S3 bucket.
 
-#### Ngày 170
+#### Ngày 195
 
 - 📘 **LEARN**: Model Registry & CD, Promote model (Staging -> Production), Trigger deploy khi có model mới
 - 💻 **CODE**: GitHub Actions: Tự động deploy model khi chuyển trạng thái sang 'Production' trong MLflow.
@@ -1071,12 +1215,12 @@ _Tự động hóa quy trình huấn luyện và triển khai._
 
 _Giám sát sức khỏe và đảm bảo an toàn cho AI._
 
-#### Ngày 171
+#### Ngày 196
 
 - 📘 **LEARN**: AI Security (Guardrails), Prompt Injection Attacks, Input/Output Filtering (Lọc nội dung độc hại/nhạy cảm), NVIDIA NeMo Guardrails
 - 💻 **CODE**: Tích hợp Guardrails chặn chatbot nói bậy hoặc tiết lộ thông tin cá nhân.
 
-#### Ngày 172
+#### Ngày 197
 
 - 📘 **LEARN**: System Monitoring, Prometheus (Thu thập metrics), Grafana (Vẽ biểu đồ), Drift Detection (Phát hiện model bị sai dần theo thời gian)
 - 💻 **CODE**: Setup Dashboard Grafana cảnh báo khi GPU > 90% hoặc API error rate > 1%.
@@ -1085,7 +1229,7 @@ _Giám sát sức khỏe và đảm bảo an toàn cho AI._
 
 _Xây dựng nền tảng LLM nội bộ hoàn chỉnh trên AWS._
 
-#### Tuần 86
+#### Ngày 198
 
 - 📘 **LEARN**: Project: Production-Grade LLM Platform
 - 💻 **CODE**: 1. Infrastructure: Dùng Terraform dựng VPC, EC2 (vLLM), RDS (Database).
@@ -1093,3 +1237,78 @@ _Xây dựng nền tảng LLM nội bộ hoàn chỉnh trên AWS._
 - 💻 **CODE**: 3. Security: Tích hợp NeMo Guardrails chặn Prompt Injection.
 - 💻 **CODE**: 4. Pipeline: Auto-deploy khi update code mới (GitHub Actions).
 - 💻 **CODE**: 5. Monitoring: Full dashboard Grafana theo dõi token/s, latency và chi phí ước tính.
+
+## Giai đoạn 8 (Bổ sung): ML System Design & Scalable AI Engineering
+
+**Thời gian:** 3–4 Tuần | Tập trung System Design, Distributed Training & Production
+**Mục tiêu:** Xây dựng tư duy kiến trúc hệ thống AI end-to-end, chịu tải cao, dễ mở rộng; hiểu cách train/serve model lớn trên nhiều GPU/máy.
+**Công cụ:** AWS/GCP/Azure (hoặc Local + Docker), Kubernetes (cơ bản), Torch DDP/FSDP hoặc DeepSpeed, Prometheus/Grafana (hoặc tương đương)
+
+### Tuần n: ML System Design Fundamentals
+
+_Nắm được các thành phần chính của một hệ thống ML end-to-end từ Data đến Monitoring._
+
+#### Ngày 199
+
+- 📘 **LEARN**: ML System Lifecycle: Data → ETL → Training → Evaluation → Deployment → Monitoring → Feedback Loop.
+- 💻 **CODE**: Vẽ sơ đồ kiến trúc (bằng draw.io, Excalidraw hoặc Mermaid) cho một hệ thống recommendation đơn giản (offline batch prediction).
+
+#### Ngày 200
+
+- 📘 **LEARN**: Batch vs Online vs Streaming Inference: ưu/nhược điểm, ví dụ use-case cho từng loại.
+- 💻 **CODE**: Thiết kế 2 biến thể cho cùng một bài toán (VD: fraud detection): (1) Batch inference hằng ngày; (2) Real-time API. Viết README so sánh.
+
+#### Ngày 201
+
+- 📘 **LEARN**: Feature Store & Data Contract: quản lý feature dùng chung cho training & serving, đảm bảo không bị training-serving skew.
+- 💻 **CODE**: Thiết kế (dạng JSON/YAML) schema cho một bộ feature dùng lại được (user_features, item_features, interaction_features) và mô tả cách cập nhật.
+
+#### Ngày 202
+
+- 📘 **LEARN**: System Design Interview cho ML/AI: cách phân tích yêu cầu, vẽ kiến trúc, chọn trade-off.
+- 💻 **CODE**: Viết một bản design doc ngắn (1–2 trang) cho hệ thống AI bất kỳ bạn đã làm ở Capstone trước: mục tiêu, kiến trúc, trade-off.
+
+### Tuần n: Distributed Training & Large-scale Serving
+
+_Hiểu cách huấn luyện và phục vụ model lớn trên nhiều GPU/máy, giảm lỗi Out-Of-Memory và tăng throughput._
+
+#### Ngày 203
+
+- 📘 **LEARN**: Tổng quan Distributed Training: Data Parallel, Model Parallel, Pipeline Parallel. Các thư viện: PyTorch DDP, FSDP, DeepSpeed.
+- 💻 **CODE**: Đọc và chạy ví dụ official PyTorch DDP trên 2 GPU (hoặc mô phỏng multi-process trên 1 GPU/CPU nếu máy yếu). Ghi chú lại cấu trúc code.
+
+#### Ngày 204
+
+- 📘 **LEARN**: Memory Optimization: gradient checkpointing, mixed precision (FP16/BF16), offloading parameter sang CPU/disk.
+- 💻 **CODE**: Lấy một model tương đối lớn (VD: LLM nhỏ, Vision Transformer), so sánh sử dụng bộ nhớ khi: (1) FP32 full; (2) mixed precision; (3) gradient checkpointing.
+
+#### Ngày 205
+
+- 📘 **LEARN**: Model Serving: so sánh REST vs gRPC, single model server vs model gateway. Khái niệm autoscaling, load balancing.
+- 💻 **CODE**: Đóng gói một model đã huấn luyện thành service (FastAPI/Flask + Docker). Đo latency khi gọi nhiều request song song (dùng locust/ab).
+
+#### Ngày 206
+
+- 📘 **LEARN**: Monitoring & Observability cho hệ thống AI: metrics (latency, error rate), model metrics (drift, data quality), logging.
+- 💻 **CODE**: Thêm logging cơ bản và thu thập metric (VD: bằng Prometheus client hoặc custom logs) cho service model. Vẽ bảng/đồ thị đơn giản từ log.
+
+### Tuần n–n+1: Capstone – Thiết kế & triển khai hệ thống AI lớn
+
+_Tổng hợp toàn bộ kiến thức để thiết kế một hệ thống AI gần với sản phẩm thực tế, có khả năng mở rộng._
+
+#### Ngày 207
+
+- 📘 **LEARN**: Chọn bài toán: recommendation, search, chatbot LLM, hoặc fraud detection… theo sở thích của bạn.
+- 💻 **CODE**: Viết Problem Statement & Requirement rõ ràng: loại data, SLA (latency, throughput), constraint (ngân sách, số GPU).
+
+#### Ngày 208
+
+- 💻 **CODE**: Thiết kế kiến trúc end-to-end chi tiết: (1) Data pipeline (batch/streaming), (2) Training pipeline, (3) Serving architecture, (4) Monitoring. Vẽ sơ đồ, mô tả từng component.
+
+#### Ngày 209
+
+- 💻 **CODE**: Triển khai một bản MVP: dữ liệu nhỏ + 1–2 microservice (model API, data preprocessor). Dùng Docker để chạy toàn bộ trên cùng một máy hoặc cloud rẻ.
+
+#### Ngày 210
+
+- 💻 **CODE**: Thực hiện load test nhỏ (giả lập 100–1000 request/phút tùy tài nguyên), ghi lại kết quả, bottleneck, và đề xuất hướng tối ưu (scale up/out, cache, batching). Viết Design Doc/Report hoàn chỉnh đưa lên GitHub.

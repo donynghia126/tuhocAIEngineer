@@ -1,0 +1,83 @@
+📅 Ngày 12: Các lỗi Python phổ biến (Common Errors)
+Mục tiêu: Nhìn thông báo lỗi (Error Message) -> Hiểu nguyên nhân -> Sửa được ngay.
+
+🐛 Bài tập Bug Hunting
+Hãy tạo một file tên là debug.py. Copy từng đoạn code dưới đây vào, chạy thử, và điền vào báo cáo cho tôi.
+
+(Lưu ý: Vì gặp lỗi là chương trình dừng ngay, nên bạn hãy chạy từng Case một, comment các Case khác lại nhé).
+
+Case 1: Danh sách bí ẩn
+Python
+
+trai_cay = ["Táo", "Cam", "Xoài"]
+print(f"Món yêu thích của tôi là: {trai_cay[3]}")
+Case 2: Từ điển thiếu sót
+Python
+
+profile = {
+    "ten": "Dony",
+    "tuoi": 25,
+    "truong": "Shimane IT"
+}
+print(f"Địa chỉ: {profile['dia_chi']}")
+Case 3: Phép cộng ngang trái
+Python
+
+luong_co_ban = 1000
+thuong = "500"
+tong_luong = luong_co_ban + thuong
+print(f"Tổng lương: {tong_luong}")
+Case 4: Lỗi thụt đầu dòng (Lỗi ngớ ngẩn nhất)
+Python
+
+def chao_mung():
+print("Xin chào Dony!")
+    
+chao_mung()
+Case 5: Biến chưa sinh ra đã đòi dùng
+Python
+
+print(f"Kết quả là: {ket_qua}")
+ket_qua = 10 + 5
+📝 Mẫu báo cáo nộp bài (Điền vào đây)
+Bạn hãy chạy code, xem Terminal báo lỗi gì (chữ màu đỏ), và điền vào mẫu này cho từng Case:
+
+1. Case 1:
+
+Tên lỗi: ... (Ví dụ: ValueError)
+
+Tại sao lỗi: ...
+
+Code sửa lại: ...
+
+2. Case 2:
+
+Tên lỗi: ...
+
+Tại sao lỗi: ...
+
+Code sửa lại: ...
+
+3. Case 3:
+
+Tên lỗi: ...
+
+Tại sao lỗi: ...
+
+Code sửa lại: ...
+
+4. Case 4:
+
+Tên lỗi: ...
+
+Tại sao lỗi: ...
+
+Code sửa lại: ...
+
+5. Case 5:
+
+Tên lỗi: ...
+
+Tại sao lỗi: ...
+
+Code sửa lại: ...

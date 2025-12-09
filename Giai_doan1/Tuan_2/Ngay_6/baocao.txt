@@ -1,0 +1,33 @@
+BÁO CÁO LỖI !! 
+----------
+
+Lỗi số: 1. 
+Tên lỗi: IndexError.
+Tại sao lỗi: cái index đó vượt quá số lượng index mất rồi. có 3 phần tử nhưng index lại quá rồi
+Code sửa như thế nào: cho thêm cái if vào nếu lớn hơn hoặc bằng 3 thì print cái đó ra còn không thì thôi
+----------
+
+Lỗi số: 2. 
+Tên lỗi: KeyError.
+Tại sao lỗi: Địa chỉ đào đâu ra za
+Code sửa như thế nào: Thêm cái địa chỉ vào cái list đó hoặc sử dụng cái get('dia_chi', 'Ở Ngoài Đường')  vào
+----------
+
+Lỗi số: 3. 
+Tên lỗi: TypeError.
+Tại sao lỗi: thằng là int còn thằng kia là string thì sao + nhỉ
+Code sửa như thế nào: thêm cái int() vào cái thuong nhỉ
+----------
+
+Lỗi số: 4. 
+Tên lỗi: IndentationError.
+Tại sao lỗi: làm con mà đòi ngang hàng với cha. không chịu thụt đầu dòng vào
+Code sửa như thế nào: thêm 'tab' ở print('xin chào Dony')
+----------
+
+Lỗi số: 5. 
+Tên lỗi: NameError.
+Tại sao lỗi: ket_qua còn chưa có mà đã sử dụng rồi. 
+Code sửa như thế nào: cho cái ket_qua  lên trên nào
+----------
+
