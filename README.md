@@ -79,8 +79,8 @@ _Hiểu cách xử lý dữ liệu phức tạp và tối ưu code._
 
 #### Ngày 13
 
-- 📘 **LEARN**: Exception Handling (Try-Except)
-- 💻 **CODE**: Máy tính an toàn, truy xuất dữ liệu an toàn
+- ✅ **LEARN**: Exception Handling (Try-Except)
+- ✅ **CODE**: Máy tính an toàn, truy xuất dữ liệu an toàn
 
 #### Ngày 14
 
