@@ -84,8 +84,8 @@ _Hiểu cách xử lý dữ liệu phức tạp và tối ưu code._
 
 #### Ngày 14
 
-- 📘 **LEARN**: Regular Expressions (Regex)
-- 💻 **CODE**: Trích xuất Email & SĐT, Làm sạch Password
+- ✅ **LEARN**: Regular Expressions (Regex)
+- ✅ **CODE**: Trích xuất Email & SĐT, Làm sạch Password
 
 ### Tuần 3: Python Hướng đối tượng (OOP) & Advanced
 
@@ -93,7 +93,7 @@ _Chuyển tư duy từ viết hàm rời rạc sang kiến trúc Class (rất qu
 
 #### Ngày 15
 
-- 📘 **LEARN**: OOP Basic: Class & Object: Hiểu Class, Object, self, Hàm **init** constructor
+- 📘 **LEARN**: OOP Basic: Class & Object: Hiểu Class, Object, self, Hàm __init__ constructor
 - 💻 **CODE**: Tạo class Student với các thuộc tính name, age, grades
 
 #### Ngày 16
@@ -103,7 +103,7 @@ _Chuyển tư duy từ viết hàm rời rạc sang kiến trúc Class (rất qu
 
 #### Ngày 17
 
-- 📘 **LEARN**: OOP: Encapsulation (Đóng gói): Private variables (\_\_var), Getter & Setter methods
+- 📘 **LEARN**: OOP: Encapsulation (Đóng gói): Private variables (__var), Getter & Setter methods
 - 💻 **CODE**: Bảo mật điểm số sinh viên, chỉ cho sửa qua hàm setter có validation
 
 #### Ngày 18
@@ -143,26 +143,30 @@ _Hiểu cách máy tính nhìn dữ liệu (dưới dạng Vector và Matrix)._
 #### Ngày 24
 
 - 📘 **LEARN**: Dot Product (Tích vô hướng) - QUAN TRỌNG NHẤT: Công thức nhân dòng x cột, Ý nghĩa hình học (góc giữa 2 vector)
+- 📘 **LEARN**: Norm (L1/L2), Distance & Cosine Similarity: liên hệ với Dot Product và ứng dụng trong similarity/search.
 - 💻 **CODE**: Viết hàm dot_product(v1, v2) thủ công
 
 #### Ngày 25
 
-- 📘 **LEARN**: Matrix Multiplication (Nhân ma trận): Điều kiện nhân (mxn \* nxp), Độ phức tạp tính toán
+- 📘 **LEARN**: Matrix Multiplication (Nhân ma trận): Điều kiện nhân (mxn * nxp), Độ phức tạp tính toán
 - 💻 **CODE**: Viết hàm matrix_multiply(A, B) sử dụng 3 vòng for lồng nhau
 
 #### Ngày 26
 
 - 📘 **LEARN**: Transposition (Chuyển vị) & Reshape: Ma trận chuyển vị A.T, Thay đổi hình dạng ma trận (Flatten)
+- 📘 **LEARN**: Vector Space, Basis & Orthonormal; Projection (chiếu vector) – trực giác dùng trong least squares/PCA.
 - 💻 **CODE**: Viết hàm transpose(matrix)
 
 #### Ngày 27
 
 - 📘 **LEARN**: Broadcasting (Khái niệm): Cách NumPy cộng 1 vector vào 1 ma trận (lý thuyết trước khi dùng thư viện)
+- 📘 **LEARN**: Eigenvalues/Eigenvectors (trực giác): vì sao 'hướng riêng' quan trọng trong ổn định, PCA, và dynamics của gradient.
 - 💻 **CODE**: Mô phỏng broadcasting bằng Python thuần
 
 #### Ngày 28
 
 - 📘 **LEARN**: Project: Mini Numpy Part 1
+- 📘 **LEARN**: SVD & PCA (trực giác): giảm chiều, nén thông tin; liên hệ embeddings và curse of dimensionality.
 - 💻 **CODE**: Project: MyLinearAlgebra Library. Gói các hàm dot, multiply, transpose vào Class 'MyMatrix'. Test với dữ liệu mẫu.
 
 ### Tuần 5: Giải tích (Calculus) & Xác suất cơ bản
@@ -182,16 +186,19 @@ _Hiểu Gradient Descent hoạt động thế nào (Đạo hàm)._
 #### Ngày 31
 
 - 📘 **LEARN**: Thống kê mô tả (Descriptive Stats): Mean (Trung bình), Median (Trung vị), Mode
+- 📘 **LEARN**: Expectation, Variance, Covariance/Correlation: cách đọc tương quan, phân biệt correlation vs causation.
 - 💻 **CODE**: Viết hàm calculate_mean(data), calculate_median(data)
 
 #### Ngày 32
 
 - 📘 **LEARN**: Variance & Standard Deviation (Phương sai & Độ lệch chuẩn): Đo độ phân tán của dữ liệu, Tại sao chia cho N hay N-1
+- 📘 **LEARN**: Sampling, Standard Error & Confidence Interval (CI): trực giác 'độ chắc chắn' khi ước lượng từ mẫu.
 - 💻 **CODE**: Viết hàm calculate_std(data) từ con số 0
 
 #### Ngày 33
 
 - 📘 **LEARN**: Probability Distributions (Phân phối xác suất): Phân phối chuẩn (Gaussian/Normal Distribution), Hàm mật độ xác suất
+- 📘 **LEARN**: Conditional Probability & Bayes Theorem; các phân phối hay gặp: Bernoulli/Binomial/Poisson/Exponential (ý nghĩa + khi nào dùng).
 - 💻 **CODE**: Dùng random.gauss() để sinh dữ liệu giả lập chiều cao con người
 
 #### Ngày 34
@@ -202,6 +209,7 @@ _Hiểu Gradient Descent hoạt động thế nào (Đạo hàm)._
 #### Ngày 35
 
 - 📘 **LEARN**: Project: Mini Numpy Part 2
+- 📘 **LEARN**: Hypothesis Testing & p-value (trực giác, không sa đà công thức); A/B testing: power, sample size, tránh kết luận sai.
 - 💻 **CODE**: Project: MyStats Library. Thêm các hàm mean, std, softmax vào thư viện Mini Numpy. Đóng gói thành module hoàn chỉnh.
 
 ### Tuần 6: Data Structures & Algorithms (DSA) - Basic
@@ -441,36 +449,38 @@ _Làm quen với xử lý dữ liệu lớn phân tán bằng Apache Spark/PySpa
 - 📘 **LEARN**: Spark trên Cloud (high-level): Databricks, EMR, GCP Dataproc. Khái niệm job, cluster size, autoscaling.
 - 💻 **CODE**: Đóng gói notebook/py script ETL bằng PySpark: đọc dữ liệu raw → làm sạch → aggregate → ghi ra Parquet/Delta. Viết README mô tả pipeline.
 
-### Tuần 15 (Bổ sung): Big Data với Apache Spark & PySpark
+### Tuần 16 (Bổ sung): Data Modeling, Data Quality & Lakehouse Basics
 
-_Làm quen với xử lý dữ liệu lớn phân tán bằng Apache Spark/PySpark, chuẩn bị cho các hệ thống AI quy mô doanh nghiệp._
+_Nắm tư duy hệ dữ liệu để xây pipeline ML/analytics bền vững: modeling, định dạng lưu trữ, chất lượng dữ liệu, versioning/lineage._
 
 #### Ngày 75
 
-- 📘 **LEARN**: Giới thiệu Big Data & Apache Spark: Cluster, Driver, Executor, RDD vs DataFrame. Tại sao Spark nhanh hơn chỉ dùng Pandas?
-- 💻 **CODE**: Cài đặt PySpark (local). Viết script đơn giản đọc file CSV lớn, gọi .count() và .show().
+- 📘 **LEARN**: Data Modeling 101: OLTP vs OLAP, Fact/Dimension, grain; Star schema (tư duy thiết kế bảng).
+- 💻 **CODE**: Chọn 1 dataset (e-commerce) và phác thảo star schema: dim_date, dim_user, dim_product, fact_orders (viết markdown + tạo dataframe mẫu).
 
 #### Ngày 76
 
-- 📘 **LEARN**: Transformations & Actions trong Spark: select, filter, withColumn, groupBy, agg. Lazy evaluation là gì?
-- 💻 **CODE**: Dùng PySpark DataFrame để tính tổng doanh thu theo ngày/tháng trên dataset > 1GB (giả lập nếu cần).
+- 📘 **LEARN**: File Formats & Storage: CSV vs Parquet; row vs columnar, compression, predicate pushdown; partitioning theo time/key.
+- 💻 **CODE**: Lưu dữ liệu sang Parquet và so sánh kích thước/ tốc độ đọc; thử partition theo date (local).
 
 #### Ngày 77
 
-- 📘 **LEARN**: Joins trong Spark: inner, left, right, full outer. Khi nào cần repartition/broadcast join để tối ưu?
-- 💻 **CODE**: Ghép 2 bảng lớn (Users, Events) bằng PySpark, tính DAU/MAU, top 10 user có nhiều event nhất.
+- 📘 **LEARN**: Lakehouse basics: ACID, schema evolution, time travel; table formats (Delta Lake / Iceberg / Hudi) – khái niệm & trade-off.
+- 💻 **CODE**: Viết note 1 trang: khi nào dùng warehouse vs lake vs lakehouse; nếu có môi trường: demo ghi 2 phiên bản Parquet + lưu checksum/version.
 
 #### Ngày 78
 
-- 📘 **LEARN**: Partitioning & Caching: partitionBy, coalesce, persist/cache. Đọc hiểu Spark UI và explain() để tối ưu query.
-- 💻 **CODE**: So sánh thời gian chạy: cùng một pipeline ETL nhưng có/không có cache(), có/không có partition hợp lý.
+- 📘 **LEARN**: Data Quality & Validation: profiling, schema checks, range/uniqueness, null/duplicate rules; Great Expectations / Pandera (khái niệm).
+- 💻 **CODE**: Viết 5–10 rule kiểm tra dữ liệu bằng Pandera (hoặc Great Expectations) và xuất report lỗi.
 
 #### Ngày 79
 
-- 📘 **LEARN**: Spark trên Cloud (high-level): Databricks, EMR, GCP Dataproc. Khái niệm job, cluster size, autoscaling.
-- 💻 **CODE**: Đóng gói notebook/py script ETL bằng PySpark: đọc dữ liệu raw → làm sạch → aggregate → ghi ra Parquet/Delta. Viết README mô tả pipeline.
+- 📘 **LEARN**: Data Versioning & Lineage: vì sao ML cần reproducibility; data lineage, metadata; giới thiệu DVC/lakeFS (khái niệm).
+- 💻 **CODE**: Tạo pipeline mini: validate -> save cleaned dataset -> log metadata (hash, rows, columns) vào file JSON/YAML; fail nếu vi phạm rules.
 
-### Tuần 15-16: CAPSTONE PROJECT GIAI ĐOẠN 2
+### CAPSTONE PROJECT GIAI ĐOẠN 2
+
+_Tổng hợp toàn bộ kiến thức Data Analysis & Feature Engineering để làm 1 mini-project end-to-end._
 
 #### Ngày 80
 
@@ -495,6 +505,7 @@ _Hiểu luồng đi của một bài toán ML: Train, Test, Predict._
 #### Ngày 81
 
 - 📘 **LEARN**: Machine Learning Workflow: Supervised vs Unsupervised, Train/Test Split (Tại sao phải chia data?)
+- 📘 **LEARN**: Data Leakage & Split đúng cách: stratified split cho classification; fit scaler/encoder chỉ trên train; pipeline để tránh leakage.
 - 💻 **CODE**: Dùng sklearn.model_selection.train_test_split chia dữ liệu.
 
 #### Ngày 82
@@ -524,6 +535,7 @@ _Giải quyết bài toán Yes/No (Spam hay không Spam)._
 #### Ngày 86
 
 - 📘 **LEARN**: Evaluation Metrics cho Phân loại (CỰC QUAN TRỌNG): Accuracy (dễ lừa), Precision & Recall (Quan trọng), F1-Score, Confusion Matrix
+- 📘 **LEARN**: Calibration & Thresholding: xác suất dự đoán có 'đúng xác suất' không? (Platt/Isotonic); chọn threshold theo cost/precision-recall.
 - 💻 **CODE**: Tính tay Precision/Recall từ Confusion Matrix.
 
 #### Ngày 87
@@ -562,6 +574,7 @@ _Nền tảng của các thuật toán mạnh nhất hiện nay._
 #### Ngày 92
 
 - 📘 **LEARN**: Cross-Validation (Kiểm định chéo): K-Fold CV, Stratified K-Fold (Giữ tỷ lệ nhãn)
+- 📘 **LEARN**: Split theo ngữ cảnh: TimeSeriesSplit, GroupKFold (tránh rò rỉ theo user/session); Nested CV khi tuning hyperparameters.
 - 💻 **CODE**: Áp dụng cross_val_score thay vì chỉ train/test split.
 
 ### Tuần 21: Ensemble Learning & Random Forest
@@ -671,6 +684,7 @@ _Hiểu cấu tạo của một 'Brain cell' nhân tạo._
 #### Ngày 107
 
 - 📘 **LEARN**: Multi-Layer Perceptron (MLP): Input Layer, Hidden Layers, Output Layer, Feed Forward (Lan truyền xuôi)
+- 📘 **LEARN**: Computational Graph (trực giác) & shapes: forward pass tạo graph, backprop là lan truyền gradient theo graph.
 - 💻 **CODE**: Xây dựng mạng MLP đơn giản phân loại dữ liệu XOR.
 
 ### Tuần 28: Backpropagation (Trái tim của DL)
@@ -680,6 +694,7 @@ _Hiểu cách model tự sửa sai (Học)._
 #### Ngày 108
 
 - 📘 **LEARN**: Loss Functions: MSE (cho Regression), Cross-Entropy Loss (cho Classification)
+- 📘 **LEARN**: Jacobian/Hessian (trực giác): Jacobian là 'đạo hàm của vector'; Hessian nói về độ cong – giúp hiểu tối ưu và learning rate.
 - 💻 **CODE**: Tính tay Loss của một dự đoán sai.
 
 #### Ngày 109
@@ -690,6 +705,7 @@ _Hiểu cách model tự sửa sai (Học)._
 #### Ngày 110
 
 - 📘 **LEARN**: Optimization Algorithms: SGD (Stochastic Gradient Descent), Adam (Adaptive Moment Estimation - Dùng mặc định)
+- 📘 **LEARN**: Thực chiến Optimization: Momentum/Nesterov, Weight Decay vs L2, Learning Rate Schedules, Gradient Clipping; khi nào dùng và dấu hiệu cần.
 - 💻 **CODE**: So sánh tốc độ hội tụ của SGD vs Adam.
 
 ### Tuần 29-30: PyTorch Framework Mastery
@@ -708,7 +724,7 @@ _Code Deep Learning chuyên nghiệp & Quản lý thí nghiệm._
 
 #### Ngày 113
 
-- 📘 **LEARN**: Building Model: nn.Module: Hàm **init** và forward(), nn.Linear, nn.Sequential
+- 📘 **LEARN**: Building Model: nn.Module: Hàm __init__ và forward(), nn.Linear, nn.Sequential
 - 💻 **CODE**: Viết class ImageClassifier kế thừa nn.Module.
 
 #### Ngày 114
@@ -847,29 +863,29 @@ _Xây dựng nền tảng tìm kiếm nội dung đa phương thức, có thể 
 
 #### Ngày 136
 
-- 📝 **DEFINE**: Xác định bài toán cụ thể (ví dụ: Visual Search, Video Analysis, Content Recommendation hoặc Interview Analysis).
-- 🗂️ **DATA**: Thu thập dataset phù hợp (ít nhất 300-500 items), có thể dùng dữ liệu mở hoặc tự tạo.
+- 💻 **DEFINE**: Xác định bài toán cụ thể (ví dụ: Visual Search, Video Analysis, Content Recommendation hoặc Interview Analysis).
+- 💻 **COLLECT_DATA**: Thu thập dataset phù hợp (ít nhất 300-500 items), có thể dùng dữ liệu mở hoặc tự tạo.
 
 #### Ngày 137
 
-- ⚙️ **PREPROCESS**: Tiền xử lý dữ liệu: chuyển đổi audio thành spectrogram, trích xuất ảnh, chuẩn bị text.
-- 🔢 **EMBED**: Encode dữ liệu bằng các mô hình phù hợp: CLIP cho ảnh + text, Wav2Vec2 cho audio, ViT cho ảnh, speech models cho audio.
+- 💻 **PREPROCESS**: Tiền xử lý dữ liệu: chuyển đổi audio thành spectrogram, trích xuất ảnh, chuẩn bị text.
+- 💻 **EMBED**: Encode dữ liệu bằng các mô hình phù hợp: CLIP cho ảnh + text, Wav2Vec2 cho audio, ViT cho ảnh, speech models cho audio.
 
 #### Ngày 138
 
-- 📘 **LEARN**: Huấn luyện hoặc fine-tune mô hình multimodal fusion (ví dụ: dùng CLIP hoặc mô hình fusion custom).
+- 💻 **BUILD_MODEL**: Huấn luyện hoặc fine-tune mô hình multimodal fusion (ví dụ: dùng CLIP hoặc mô hình fusion custom).
 
 #### Ngày 139
 
-- 📘 **LEARN**: Đánh giá hệ thống: recall@K, precision, visualization bằng t-SNE hoặc UMAP.
+- 💻 **EVALUATE**: Đánh giá hệ thống: recall@K, precision, visualization bằng t-SNE hoặc UMAP.
 
 #### Ngày 140
 
-- 📘 **LEARN**: Xây dựng API (FastAPI), đóng gói bằng Docker, triển khai thử trên cloud hoặc local.
+- 💻 **DEPLOY**: Xây dựng API (FastAPI), đóng gói bằng Docker, triển khai thử trên cloud hoặc local.
 
 #### Ngày 141
 
-- 📘 **LEARN**: Viết tài liệu hướng dẫn, design architecture, kết quả, và demo trực tuyến (ví dụ: Streamlit).
+- 💻 **DOCUMENT**: Viết tài liệu hướng dẫn, design architecture, kết quả, và demo trực tuyến (ví dụ: Streamlit).
 
 ## Giai đoạn 5: LLM, RAG & AI Agents (Generative AI) - Updated
 
@@ -884,16 +900,20 @@ _Hiểu cách giao tiếp và điều khiển mô hình trả về dữ liệu c
 #### Ngày 148
 
 - 📘 **LEARN**: LLM Architecture Recap: Pre-training vs Fine-tuning, Context Window & Tokens (Cách tính tiền), Temperature, Top-P (Tham số sinh văn bản)
+- 📘 **LEARN**: Tokenization 101: BPE/SentencePiece, token vs word, OOV; vì sao token count ảnh hưởng chi phí và giới hạn context.
 - 💻 **CODE**: Sử dụng Tiktoken để đếm số token của đoạn văn.
 
 #### Ngày 149
 
 - 📘 **LEARN**: Structured Output (JSON Mode): Tại sao LLM cần trả về JSON?, Function Calling để ép kiểu dữ liệu, Thư viện Instructor hoặc Pydantic OutputParser
+- 📘 **LEARN**: Attention & Positional Encoding (trực giác): vì sao transformer 'nhớ' được ngữ cảnh; context window và KV cache (high-level).
 - 💻 **CODE**: Viết prompt ép model trích xuất thông tin từ CV ra file JSON đúng format.
 
 #### Ngày 150
 
 - 📘 **LEARN**: Running Local LLMs: Cài đặt Ollama / LM Studio, Quantization (GGUF) - Tại sao chạy được Llama 3 trên laptop?
+- 📘 **LEARN**: Decoding Strategies: temperature/top-k/top-p, repetition penalty, stop sequences; deterministic vs sampling.
+- 📘 **LEARN**: LLM Security intro: Prompt Injection patterns, data exfiltration risks; nguyên tắc system prompt, input/output filtering cơ bản.
 - 💻 **CODE**: Viết Python script gọi API tới localhost Ollama.
 
 ### Tuần 45-47: RAG Foundation (Retrieval Augmented Generation)

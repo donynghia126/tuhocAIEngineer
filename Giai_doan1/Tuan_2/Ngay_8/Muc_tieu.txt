@@ -1,0 +1,83 @@
+📅 Ngày 14: Regular Expressions (Biểu thức chính quy)
+Mục tiêu: Nhìn vào một đống văn bản lộn xộn và trích xuất được đúng thứ mình cần (Email, SĐT, Ngày tháng...) chỉ bằng 1 dòng code.
+
+📚 Lý thuyết "Mì ăn liền" (5 phút)
+Để dùng Regex trong Python, ta cần: import re.
+
+1. Các ký tự đại diện (Tokens)
+\d: Số (digit) [0-9].
+
+\w: Chữ cái hoặc số (word).
+
+\s: Khoảng trắng (space, tab).
+
+.: Bất kỳ ký tự nào (trừ xuống dòng).
+
+2. Số lượng (Quantifiers)
++: Xuất hiện 1 lần trở lên (Ví dụ \d+ là tìm chuỗi số liên tiếp).
+
+*: Xuất hiện 0 lần trở lên.
+
+{n}: Xuất hiện đúng n lần (Ví dụ \d{10} là tìm đúng 10 số).
+
+3. Các hàm trong thư viện re
+re.findall(pattern, text): Tìm tất cả, trả về một List (Dùng nhiều nhất).
+
+re.search(pattern, text): Tìm cái đầu tiên thấy, trả về Object (hoặc None).
+
+re.sub(pattern, thay_the, text): Tìm và thay thế (Giống replace nhưng xịn hơn).
+
+💻 Bài tập thực hành
+Hãy tạo file day14_regex.py.
+
+🟢 Bài 1: "Thám tử" dữ liệu (Data Extraction)
+Tình huống: Bạn cào dữ liệu từ một trang web tuyển dụng, nhưng thông tin liên hệ nằm lẫn lộn trong văn bản mô tả.
+
+Đề bài: Cho đoạn văn bản:
+
+Python
+
+text = """
+Chào các bạn, liên hệ admin qua email: support@gmail.com hoặc admin.hr@company.vn.
+Số điện thoại nóng: 0987654321 hoặc gọi 0123456789.
+Địa chỉ fake: 9999 (không phải sđt).
+"""
+Yêu cầu:
+
+Dùng re.findall trích xuất danh sách tất cả Email.
+
+Gợi ý Pattern: [\w\.-]+@[\w\.-]+ (Dịch: Chữ/số/chấm/gạch ngang + @ + Chữ/số/chấm/gạch ngang).
+
+Dùng re.findall trích xuất danh sách Số điện thoại VN.
+
+Quy tắc SĐT: Bắt đầu bằng số 0 và theo sau là 9 chữ số nữa (Tổng 10 số).
+
+Gợi ý Pattern: 0\d{9}.
+
+🔴 Bài 2: Kiểm tra mật khẩu (Password Validator)
+Tình huống: Khi làm web, bạn cần bắt người dùng đặt mật khẩu mạnh.
+
+Yêu cầu: Viết hàm check_password(password) trả về True nếu mạnh, False nếu yếu. Quy tắc "Mạnh":
+
+Dài ít nhất 8 ký tự.
+
+Có ít nhất 1 số (\d).
+
+Có ít nhất 1 chữ in hoa (Dùng pattern [A-Z]).
+
+Gợi ý: Thay vì viết 1 regex siêu phức tạp, hãy dùng re.search để kiểm tra từng điều kiện nhỏ:
+
+Python
+
+if len(password) < 8: return False
+if not re.search(r"\d", password): return False # Nếu không tìm thấy số -> False
+# ... kiểm tra tiếp chữ hoa ...
+return True
+Test Case:
+
+Python
+
+print(check_password("123456"))         # False (Ngắn)
+print(check_password("abcdefgh"))       # False (Thiếu số, thiếu hoa)
+print(check_password("Abcdefgh"))       # False (Thiếu số)
+print(check_password("Abcdef12"))       # True

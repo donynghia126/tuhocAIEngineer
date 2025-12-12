@@ -338,6 +338,10 @@
                 "text": "Dot Product (Tích vô hướng) - QUAN TRỌNG NHẤT: Công thức nhân dòng x cột, Ý nghĩa hình học (góc giữa 2 vector)"
               },
               {
+                "type": "learn",
+                "text": "Norm (L1/L2), Distance & Cosine Similarity: liên hệ với Dot Product và ứng dụng trong similarity/search."
+              },
+              {
                 "type": "code",
                 "text": "Viết hàm dot_product(v1, v2) thủ công"
               }
@@ -364,6 +368,10 @@
                 "text": "Transposition (Chuyển vị) & Reshape: Ma trận chuyển vị A.T, Thay đổi hình dạng ma trận (Flatten)"
               },
               {
+                "type": "learn",
+                "text": "Vector Space, Basis & Orthonormal; Projection (chiếu vector) – trực giác dùng trong least squares/PCA."
+              },
+              {
                 "type": "code",
                 "text": "Viết hàm transpose(matrix)"
               }
@@ -377,6 +385,10 @@
                 "text": "Broadcasting (Khái niệm): Cách NumPy cộng 1 vector vào 1 ma trận (lý thuyết trước khi dùng thư viện)"
               },
               {
+                "type": "learn",
+                "text": "Eigenvalues/Eigenvectors (trực giác): vì sao 'hướng riêng' quan trọng trong ổn định, PCA, và dynamics của gradient."
+              },
+              {
                 "type": "code",
                 "text": "Mô phỏng broadcasting bằng Python thuần"
               }
@@ -388,6 +400,10 @@
               {
                 "type": "learn",
                 "text": "Project: Mini Numpy Part 1"
+              },
+              {
+                "type": "learn",
+                "text": "SVD & PCA (trực giác): giảm chiều, nén thông tin; liên hệ embeddings và curse of dimensionality."
               },
               {
                 "type": "code",
@@ -435,6 +451,10 @@
                 "text": "Thống kê mô tả (Descriptive Stats): Mean (Trung bình), Median (Trung vị), Mode"
               },
               {
+                "type": "learn",
+                "text": "Expectation, Variance, Covariance/Correlation: cách đọc tương quan, phân biệt correlation vs causation."
+              },
+              {
                 "type": "code",
                 "text": "Viết hàm calculate_mean(data), calculate_median(data)"
               }
@@ -448,6 +468,10 @@
                 "text": "Variance & Standard Deviation (Phương sai & Độ lệch chuẩn): Đo độ phân tán của dữ liệu, Tại sao chia cho N hay N-1"
               },
               {
+                "type": "learn",
+                "text": "Sampling, Standard Error & Confidence Interval (CI): trực giác 'độ chắc chắn' khi ước lượng từ mẫu."
+              },
+              {
                 "type": "code",
                 "text": "Viết hàm calculate_std(data) từ con số 0"
               }
@@ -459,6 +483,10 @@
               {
                 "type": "learn",
                 "text": "Probability Distributions (Phân phối xác suất): Phân phối chuẩn (Gaussian/Normal Distribution), Hàm mật độ xác suất"
+              },
+              {
+                "type": "learn",
+                "text": "Conditional Probability & Bayes Theorem; các phân phối hay gặp: Bernoulli/Binomial/Poisson/Exponential (ý nghĩa + khi nào dùng)."
               },
               {
                 "type": "code",
@@ -485,6 +513,10 @@
               {
                 "type": "learn",
                 "text": "Project: Mini Numpy Part 2"
+              },
+              {
+                "type": "learn",
+                "text": "Hypothesis Testing & p-value (trực giác, không sa đà công thức); A/B testing: power, sample size, tránh kết luận sai."
               },
               {
                 "type": "code",
@@ -1061,19 +1093,19 @@
         ]
       },
       {
-        "name": "Tuần 15 (Bổ sung): Big Data với Apache Spark & PySpark",
-        "goal": "Làm quen với xử lý dữ liệu lớn phân tán bằng Apache Spark/PySpark, chuẩn bị cho các hệ thống AI quy mô doanh nghiệp.",
+        "name": "Tuần 16 (Bổ sung): Data Modeling, Data Quality & Lakehouse Basics",
+        "goal": "Nắm tư duy hệ dữ liệu để xây pipeline ML/analytics bền vững: modeling, định dạng lưu trữ, chất lượng dữ liệu, versioning/lineage.",
         "days": [
           {
             "name": "Ngày 75",
             "tasks": [
               {
                 "type": "learn",
-                "text": "Giới thiệu Big Data & Apache Spark: Cluster, Driver, Executor, RDD vs DataFrame. Tại sao Spark nhanh hơn chỉ dùng Pandas?"
+                "text": "Data Modeling 101: OLTP vs OLAP, Fact/Dimension, grain; Star schema (tư duy thiết kế bảng)."
               },
               {
                 "type": "code",
-                "text": "Cài đặt PySpark (local). Viết script đơn giản đọc file CSV lớn, gọi .count() và .show()."
+                "text": "Chọn 1 dataset (e-commerce) và phác thảo star schema: dim_date, dim_user, dim_product, fact_orders (viết markdown + tạo dataframe mẫu)."
               }
             ]
           },
@@ -1082,11 +1114,11 @@
             "tasks": [
               {
                 "type": "learn",
-                "text": "Transformations & Actions trong Spark: select, filter, withColumn, groupBy, agg. Lazy evaluation là gì?"
+                "text": "File Formats & Storage: CSV vs Parquet; row vs columnar, compression, predicate pushdown; partitioning theo time/key."
               },
               {
                 "type": "code",
-                "text": "Dùng PySpark DataFrame để tính tổng doanh thu theo ngày/tháng trên dataset > 1GB (giả lập nếu cần)."
+                "text": "Lưu dữ liệu sang Parquet và so sánh kích thước/ tốc độ đọc; thử partition theo date (local)."
               }
             ]
           },
@@ -1095,11 +1127,11 @@
             "tasks": [
               {
                 "type": "learn",
-                "text": "Joins trong Spark: inner, left, right, full outer. Khi nào cần repartition/broadcast join để tối ưu?"
+                "text": "Lakehouse basics: ACID, schema evolution, time travel; table formats (Delta Lake / Iceberg / Hudi) – khái niệm & trade-off."
               },
               {
                 "type": "code",
-                "text": "Ghép 2 bảng lớn (Users, Events) bằng PySpark, tính DAU/MAU, top 10 user có nhiều event nhất."
+                "text": "Viết note 1 trang: khi nào dùng warehouse vs lake vs lakehouse; nếu có môi trường: demo ghi 2 phiên bản Parquet + lưu checksum/version."
               }
             ]
           },
@@ -1108,11 +1140,11 @@
             "tasks": [
               {
                 "type": "learn",
-                "text": "Partitioning & Caching: partitionBy, coalesce, persist/cache. Đọc hiểu Spark UI và explain() để tối ưu query."
+                "text": "Data Quality & Validation: profiling, schema checks, range/uniqueness, null/duplicate rules; Great Expectations / Pandera (khái niệm)."
               },
               {
                 "type": "code",
-                "text": "So sánh thời gian chạy: cùng một pipeline ETL nhưng có/không có cache(), có/không có partition hợp lý."
+                "text": "Viết 5–10 rule kiểm tra dữ liệu bằng Pandera (hoặc Great Expectations) và xuất report lỗi."
               }
             ]
           },
@@ -1121,18 +1153,18 @@
             "tasks": [
               {
                 "type": "learn",
-                "text": "Spark trên Cloud (high-level): Databricks, EMR, GCP Dataproc. Khái niệm job, cluster size, autoscaling."
+                "text": "Data Versioning & Lineage: vì sao ML cần reproducibility; data lineage, metadata; giới thiệu DVC/lakeFS (khái niệm)."
               },
               {
                 "type": "code",
-                "text": "Đóng gói notebook/py script ETL bằng PySpark: đọc dữ liệu raw → làm sạch → aggregate → ghi ra Parquet/Delta. Viết README mô tả pipeline."
+                "text": "Tạo pipeline mini: validate -> save cleaned dataset -> log metadata (hash, rows, columns) vào file JSON/YAML; fail nếu vi phạm rules."
               }
             ]
           }
         ]
       },
       {
-        "name": "Tuần 15-16: CAPSTONE PROJECT GIAI ĐOẠN 2",
+        "name": "CAPSTONE PROJECT GIAI ĐOẠN 2",
         "days": [
           {
             "name": "Ngày 80",
@@ -1167,7 +1199,8 @@
               }
             ]
           }
-        ]
+        ],
+        "goal": "Tổng hợp toàn bộ kiến thức Data Analysis & Feature Engineering để làm 1 mini-project end-to-end."
       }
     ]
   },
@@ -1187,6 +1220,10 @@
               {
                 "type": "learn",
                 "text": "Machine Learning Workflow: Supervised vs Unsupervised, Train/Test Split (Tại sao phải chia data?)"
+              },
+              {
+                "type": "learn",
+                "text": "Data Leakage & Split đúng cách: stratified split cho classification; fit scaler/encoder chỉ trên train; pipeline để tránh leakage."
               },
               {
                 "type": "code",
@@ -1258,6 +1295,10 @@
               {
                 "type": "learn",
                 "text": "Evaluation Metrics cho Phân loại (CỰC QUAN TRỌNG): Accuracy (dễ lừa), Precision & Recall (Quan trọng), F1-Score, Confusion Matrix"
+              },
+              {
+                "type": "learn",
+                "text": "Calibration & Thresholding: xác suất dự đoán có 'đúng xác suất' không? (Platt/Isotonic); chọn threshold theo cost/precision-recall."
               },
               {
                 "type": "code",
@@ -1348,6 +1389,10 @@
               {
                 "type": "learn",
                 "text": "Cross-Validation (Kiểm định chéo): K-Fold CV, Stratified K-Fold (Giữ tỷ lệ nhãn)"
+              },
+              {
+                "type": "learn",
+                "text": "Split theo ngữ cảnh: TimeSeriesSplit, GroupKFold (tránh rò rỉ theo user/session); Nested CV khi tuning hyperparameters."
               },
               {
                 "type": "code",
@@ -1612,6 +1657,10 @@
                 "text": "Multi-Layer Perceptron (MLP): Input Layer, Hidden Layers, Output Layer, Feed Forward (Lan truyền xuôi)"
               },
               {
+                "type": "learn",
+                "text": "Computational Graph (trực giác) & shapes: forward pass tạo graph, backprop là lan truyền gradient theo graph."
+              },
+              {
                 "type": "code",
                 "text": "Xây dựng mạng MLP đơn giản phân loại dữ liệu XOR."
               }
@@ -1629,6 +1678,10 @@
               {
                 "type": "learn",
                 "text": "Loss Functions: MSE (cho Regression), Cross-Entropy Loss (cho Classification)"
+              },
+              {
+                "type": "learn",
+                "text": "Jacobian/Hessian (trực giác): Jacobian là 'đạo hàm của vector'; Hessian nói về độ cong – giúp hiểu tối ưu và learning rate."
               },
               {
                 "type": "code",
@@ -1655,6 +1708,10 @@
               {
                 "type": "learn",
                 "text": "Optimization Algorithms: SGD (Stochastic Gradient Descent), Adam (Adaptive Moment Estimation - Dùng mặc định)"
+              },
+              {
+                "type": "learn",
+                "text": "Thực chiến Optimization: Momentum/Nesterov, Weight Decay vs L2, Learning Rate Schedules, Gradient Clipping; khi nào dùng và dấu hiệu cần."
               },
               {
                 "type": "code",
@@ -2113,6 +2170,10 @@
                 "text": "LLM Architecture Recap: Pre-training vs Fine-tuning, Context Window & Tokens (Cách tính tiền), Temperature, Top-P (Tham số sinh văn bản)"
               },
               {
+                "type": "learn",
+                "text": "Tokenization 101: BPE/SentencePiece, token vs word, OOV; vì sao token count ảnh hưởng chi phí và giới hạn context."
+              },
+              {
                 "type": "code",
                 "text": "Sử dụng Tiktoken để đếm số token của đoạn văn."
               }
@@ -2126,6 +2187,10 @@
                 "text": "Structured Output (JSON Mode): Tại sao LLM cần trả về JSON?, Function Calling để ép kiểu dữ liệu, Thư viện Instructor hoặc Pydantic OutputParser"
               },
               {
+                "type": "learn",
+                "text": "Attention & Positional Encoding (trực giác): vì sao transformer 'nhớ' được ngữ cảnh; context window và KV cache (high-level)."
+              },
+              {
                 "type": "code",
                 "text": "Viết prompt ép model trích xuất thông tin từ CV ra file JSON đúng format."
               }
@@ -2137,6 +2202,14 @@
               {
                 "type": "learn",
                 "text": "Running Local LLMs: Cài đặt Ollama / LM Studio, Quantization (GGUF) - Tại sao chạy được Llama 3 trên laptop?"
+              },
+              {
+                "type": "learn",
+                "text": "Decoding Strategies: temperature/top-k/top-p, repetition penalty, stop sequences; deterministic vs sampling."
+              },
+              {
+                "type": "learn",
+                "text": "LLM Security intro: Prompt Injection patterns, data exfiltration risks; nguyên tắc system prompt, input/output filtering cơ bản."
               },
               {
                 "type": "code",
