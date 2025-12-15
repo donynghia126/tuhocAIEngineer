@@ -1,0 +1,66 @@
+📅 Ngày 15: Class & Object - Tư duy hướng đối tượng
+🎯 Mục tiêu: Hiểu sự khác biệt giữa "Bản vẽ" (Class) và "Ngôi nhà thật" (Object). Hiểu tại sao phải dùng self.
+
+📚 1. Lý thuyết cốt lõi (Tư duy hình ảnh)
+Để dễ hiểu nhất, hãy tưởng tượng bạn là Kiến trúc sư:
+
+Class (Lớp): Là Bản vẽ thiết kế (Blueprint).
+
+Trên giấy ghi: Nhà có 2 cửa, sơn màu xanh.
+
+Đặc điểm: Bản vẽ thì không ở được.
+
+Object (Đối tượng): Là Ngôi nhà thực tế xây từ bản vẽ đó.
+
+Bạn có thể xây 100 ngôi nhà (100 Objects) từ 1 bản vẽ (1 Class).
+
+Mỗi ngôi nhà có địa chỉ riêng, dù cấu trúc giống hệt nhau.
+
+__init__ (Constructor): Là Đội thi công.
+
+Ngay khi bạn hô "Xây nhà!", đội này sẽ chạy đầu tiên để dựng cột, sơn tường (thiết lập các giá trị ban đầu như tên, tuổi).
+
+self (Quan trọng nhất): Là từ khóa ám chỉ "Của chính tôi".
+
+Khi nhà A nói self.mau_son, nó hiểu là "Màu sơn của nhà A".
+
+Khi nhà B nói self.mau_son, nó hiểu là "Màu sơn của nhà B".
+
+💻 2. Bài tập thực hành
+Bạn hãy tạo file day15_oop.py và viết code theo yêu cầu sau:
+
+Yêu cầu:
+
+Khai báo class Student.
+
+Viết hàm __init__(self, name, age):
+
+Gán tham số name vào thuộc tính self.name.
+
+Gán tham số age vào thuộc tính self.age.
+
+Tạo thêm thuộc tính self.grades và gán mặc định là một list rỗng [] (để chứa điểm sau này).
+
+Test thử (Bên ngoài class):
+
+Tạo một học viên tên "Dony", 25 tuổi.
+
+In ra màn hình: Tên: Dony - Tuổi: 25 - Điểm: [].
+
+Mẫu code gợi ý (Bạn điền vào chỗ ...):
+
+Python
+
+class Student:
+    def __init__(self, name, age):
+        self.name = ...
+        self.age = ...
+        self.grades = []  # Mặc định chưa có điểm
+
+# --- Chương trình chính ---
+# Tạo Object (Instance) từ Class
+hoc_vien_1 = Student("Dony", 25)
+
+# Truy cập thuộc tính dùng dấu chấm (.)
+print(f"Tên: {hoc_vien_1.name}")
+# ... bạn in tiếp tuổi và grades nhé ...
