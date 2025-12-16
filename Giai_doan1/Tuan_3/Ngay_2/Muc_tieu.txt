@@ -1,0 +1,77 @@
+📅 Ngày 16: OOP Encapsulation (Tính Đóng Gói)
+🎯 Mục tiêu: Hiểu cách "giấu" dữ liệu đi để người ngoài không sửa lung tung được (__private). Chỉ cho phép sửa qua cổng chính thống (Setter) có kiểm tra đàng hoàng.
+
+📚 1. Lý thuyết (Tư duy hình ảnh)
+Hãy tưởng tượng cái Két sắt:
+
+Biến Public (self.name): Như đồ để trên mặt bàn, ai đi qua cũng cầm lên xem hoặc tráo đổi được.
+
+Biến Private (self.__grades): Như tiền để trong két sắt. Người ngoài không nhìn thấy, không thò tay vào lấy được.
+
+Trong Python, thêm 2 dấu gạch dưới __ trước tên biến để biến nó thành "Private".
+
+Getter (Hàm xem): Giống như cái màn hình hiển thị số dư bên ngoài. Chỉ cho xem, không cho sửa.
+
+Setter (Hàm sửa): Giống như khe nhét tiền vào. Muốn nhét tiền giả (điểm số âm, điểm > 10) vào? Cái máy sẽ chặn lại ngay (Validation).
+
+💻 2. Bài tập thực hành
+Hãy tạo file day16_encapsulation.py và thực hiện yêu cầu sau.
+
+Đề bài:
+
+Tạo class Student.
+
+Trong __init__, khai báo:
+
+self.name: Public (để công khai).
+
+self.__grades: Private (thêm 2 dấu gạch dưới) là một list rỗng.
+
+Viết hàm Setter tên là add_grade(self, score):
+
+Nhận vào điểm số.
+
+Validation (Kiểm tra): Nếu điểm < 0 hoặc > 10 -> In ra "Điểm không hợp lệ!".
+
+Nếu điểm hợp lệ -> Thêm vào list __grades.
+
+Viết hàm Getter tên là get_average(self):
+
+Tính và trả về điểm trung bình từ list __grades. (Trả về 0 nếu chưa có điểm).
+
+Test (Quan trọng):
+
+Tạo sinh viên.
+
+Thử thêm điểm 8.0, 15.0 (lỗi), -2.0 (lỗi).
+
+Thử in điểm trung bình.
+
+Thử thách: Cố tình truy cập trực tiếp sv.__grades xem Python có báo lỗi không?
+
+Mẫu code gợi ý:
+
+Python
+
+class Student:
+    def __init__(self, name):
+        self.name = name
+        self.__grades = []  # <-- Private variable
+
+    def add_grade(self, score):
+        if 0 <= score <= 10:
+            self.__grades.append(score)
+            print(f"Đã thêm điểm {score}")
+        else:
+            print(f"Lỗi: Điểm {score} không hợp lệ!")
+
+    def get_average(self):
+        # ... Viết logic tính trung bình ở đây ...
+        pass
+
+# --- Test ---
+sv = Student("Dony")
+sv.add_grade(9.5)
+sv.add_grade(105) # Sẽ bị chặn
+
+# print(sv.__grades) # <--- Dòng này sẽ gây lỗi AttributeError nếu bỏ comment

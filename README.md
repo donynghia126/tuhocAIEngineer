@@ -93,8 +93,8 @@ _Chuyển tư duy từ viết hàm rời rạc sang kiến trúc Class (rất qu
 
 #### Ngày 15
 
-- 📘 **LEARN**: OOP Basic: Class & Object: Hiểu Class, Object, self, Hàm __init__ constructor
-- 💻 **CODE**: Tạo class Student với các thuộc tính name, age, grades
+- ✅ **LEARN**: OOP Basic: Class & Object: Hiểu Class, Object, self, Hàm **init** constructor
+- ✅ **CODE**: Tạo class Student với các thuộc tính name, age, grades
 
 #### Ngày 16
 
@@ -103,8 +103,8 @@ _Chuyển tư duy từ viết hàm rời rạc sang kiến trúc Class (rất qu
 
 #### Ngày 17
 
-- 📘 **LEARN**: OOP: Encapsulation (Đóng gói): Private variables (__var), Getter & Setter methods
-- 💻 **CODE**: Bảo mật điểm số sinh viên, chỉ cho sửa qua hàm setter có validation
+- ✅ **LEARN**: OOP: Encapsulation (Đóng gói): Private variables (\_\_var), Getter & Setter methods
+- ✅ **CODE**: Bảo mật điểm số sinh viên, chỉ cho sửa qua hàm setter có validation
 
 #### Ngày 18
 
@@ -148,7 +148,7 @@ _Hiểu cách máy tính nhìn dữ liệu (dưới dạng Vector và Matrix)._
 
 #### Ngày 25
 
-- 📘 **LEARN**: Matrix Multiplication (Nhân ma trận): Điều kiện nhân (mxn * nxp), Độ phức tạp tính toán
+- 📘 **LEARN**: Matrix Multiplication (Nhân ma trận): Điều kiện nhân (mxn \* nxp), Độ phức tạp tính toán
 - 💻 **CODE**: Viết hàm matrix_multiply(A, B) sử dụng 3 vòng for lồng nhau
 
 #### Ngày 26
@@ -724,7 +724,7 @@ _Code Deep Learning chuyên nghiệp & Quản lý thí nghiệm._
 
 #### Ngày 113
 
-- 📘 **LEARN**: Building Model: nn.Module: Hàm __init__ và forward(), nn.Linear, nn.Sequential
+- 📘 **LEARN**: Building Model: nn.Module: Hàm **init** và forward(), nn.Linear, nn.Sequential
 - 💻 **CODE**: Viết class ImageClassifier kế thừa nn.Module.
 
 #### Ngày 114
