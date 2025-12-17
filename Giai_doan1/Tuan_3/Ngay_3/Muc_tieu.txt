@@ -1,0 +1,79 @@
+📅 Ngày 17: Kế thừa (Inheritance) & Đa hình (Polymorphism)
+🎯 Mục tiêu:
+
+Kế thừa: Tận dụng lại code cũ (Class Cha) để xây dựng Class mới (Class Con) -> Không phải code lại từ đầu.
+
+Ghi đè (Override): Class Con sửa lại hành vi của Class Cha cho phù hợp với đặc thù riêng.
+
+📚 1. Lý thuyết cốt lõi
+Inheritance (Kế thừa):
+
+Cú pháp: class Con(Cha):
+
+super().__init__(...): Gọi hàm khởi tạo của Cha để Cha lo phần việc cơ bản (như gán tên).
+
+Polymorphism (Đa hình) - Override:
+
+Khi Cha có hàm gioi_thieu(), Con cũng viết lại hàm gioi_thieu() nhưng nội dung khác.
+
+Khi gọi hàm, Python sẽ tự biết ưu tiên dùng hàm của Con.
+
+💻 2. Bài tập thực hành
+Hãy tạo file day17_inheritance.py.
+
+Yêu cầu:
+
+Class Cha (Student):
+
+Sử dụng lại code của Ngày 16 (có __grades private).
+
+Thêm một hàm introduce(self): In ra "Tôi là sinh viên [tên]".
+
+Class Con (AI_Student):
+
+Kế thừa từ Student.
+
+Hàm __init__: Nhận thêm tham số specialization (Chuyên ngành, ví dụ: NLP, Computer Vision).
+
+Dùng super() để gán name.
+
+Tự gán self.specialization.
+
+Override hàm introduce(self): Sửa lại để in ra: "Tôi là sinh viên [tên], chuyên ngành [specialization]".
+
+Test:
+
+Tạo một Student thường -> Gọi introduce().
+
+Tạo một AI_Student (tên "Dony", chuyên ngành "NLP") -> Gọi introduce().
+
+Thử dùng AI_Student để thêm điểm và tính trung bình (Để chứng minh con vẫn dùng được tiền của cha).
+
+Mẫu code gợi ý:
+
+Python
+
+class Student:
+    def __init__(self, name):
+        self.name = name
+        self.__grades = [] # Private
+
+    def introduce(self):
+        print(f"Tôi là sinh viên {self.name}")
+
+    # ... (Copy hàm add_grade và get_average của bài cũ vào đây) ...
+
+class AI_Student(Student):
+    def __init__(self, name, specialization):
+        # Gọi hàm init của cha để lo vụ tên và tạo list điểm
+        super().__init__(name)
+        # Tự lo phần chuyên ngành
+        self.specialization = specialization
+
+    # Override (Ghi đè) phương thức giới thiệu
+    def introduce(self):
+        # Viết lại nội dung mới ở đây
+        pass
+
+# --- Test ---
+# ...
