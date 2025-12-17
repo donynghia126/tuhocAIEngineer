@@ -1,0 +1,84 @@
+📅 Ngày 17 (Mở rộng): Trừu tượng (Abstraction) & Đa hình (Polymorphism)
+📚 1. Lý thuyết: Tại sao cần 2 ông này?
+🅰️ Trừu tượng (Abstraction) - "Hợp đồng bắt buộc"
+Tưởng tượng bạn là Sếp tổng. Bạn muốn tuyển 2 nhân viên: một ông làm Chatbot, một ông làm Nhận diện khuôn mặt. Bạn không biết code chi tiết, nhưng bạn ra lệnh: "Dù là model gì, tụi bay bắt buộc phải có cái nút tên là predict (dự đoán) cho tao!".
+
+Nếu class con không viết hàm predict -> Chương trình báo lỗi ngay lập tức (Không cho chạy).
+
+Trong Python, dùng thư viện abc (Abstract Base Classes) để làm việc này.
+
+🅱️ Đa hình (Polymorphism) - "Một lệnh gọi, vạn cách chạy"
+Sau khi ép các class con đều có hàm predict. Bạn (Sếp) chỉ cần hô: "Tất cả chạy hàm predict đi!".
+
+Ông Chatbot sẽ chạy kiểu Chatbot (xử lý chữ).
+
+Ông Nhận diện sẽ chạy kiểu Nhận diện (xử lý ảnh). -> Bạn không cần quan tâm nó là ai, chỉ cần biết nó có hàm predict là gọi được.
+
+💻 Bài tập thực hành: "Sở thú AI" (AI Model Zoo)
+Hãy tạo file day17_advanced.py.
+
+Yêu cầu:
+
+Bước 1: Tạo Abstract Class (Lớp trừu tượng)
+
+Import thư viện: from abc import ABC, abstractmethod.
+
+Tạo class AI_Model kế thừa từ ABC.
+
+Tạo hàm load_data(self, data): Hàm thường (không trừu tượng), in ra "Đang nạp dữ liệu...". (Hàm này cho con dùng chung).
+
+Tạo hàm @abstractmethod def predict(self, input_data): Đây là hàm trừu tượng, chỉ khai báo tên, bên trong để pass. (Bắt buộc con phải viết lại).
+
+Bước 2: Tạo các Class con
+
+Class ChatBot kế thừa AI_Model:
+
+Viết lại (Override) hàm predict: In ra "Chatbot đang trả lời: [input_data]".
+
+Class FaceRec (Nhận diện mặt) kế thừa AI_Model:
+
+Viết lại hàm predict: In ra "Đang quét khuôn mặt trong ảnh... Phát hiện: Dony".
+
+Bước 3: Đa hình (Polymorphism)
+
+Tạo một list chứa lộn xộn các model: models = [ChatBot(), FaceRec(), ChatBot()].
+
+Dùng vòng lặp for duyệt qua list này.
+
+Với mỗi model, gọi hàm predict("Test Data").
+
+Mục tiêu: Bạn sẽ thấy dù gọi cùng 1 tên hàm predict, nhưng mỗi con lại chạy ra kết quả khác nhau.
+
+Mẫu code gợi ý:
+
+Python
+
+from abc import ABC, abstractmethod
+
+# 1. Class Trừu tượng (Cha)
+class AI_Model(ABC):
+    def load_data(self):
+        print("📥 Đang nạp dữ liệu vào RAM...")
+
+    @abstractmethod
+    def predict(self, input_data):
+        pass  # Không viết code gì ở đây, chỉ là cái khung
+
+# 2. Class Con (Thực thi)
+class ChatBot(AI_Model):
+    def predict(self, input_data):
+        print(f"🤖 ChatBot: Xin chào, tôi hiểu bạn nói '{input_data}'")
+
+class FaceRec(AI_Model):
+    def predict(self, input_data):
+        print(f"📸 FaceRec: Đang phân tích ảnh... Tìm thấy khuôn mặt!")
+
+# 3. Chạy Đa hình
+# Tạo danh sách các model khác nhau
+my_models = [ChatBot(), FaceRec(), ChatBot()]
+
+print("--- BẮT ĐẦU CHẠY HỆ THỐNG ---")
+for model in my_models:
+    model.load_data() # Dùng chung hàm cha
+    model.predict("Hello") # Dùng hàm riêng (Đa hình)
+    print("-" * 20)

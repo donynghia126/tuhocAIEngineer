@@ -98,17 +98,20 @@ _Chuyển tư duy từ viết hàm rời rạc sang kiến trúc Class (rất qu
 
 #### Ngày 16
 
-- 📘 **LEARN**: OOP: Inheritance (Kế thừa) & Polymorphism: Tạo class con kế thừa class cha, Override phương thức
-- 💻 **CODE**: Tạo class AI_Student kế thừa Student, thêm thuộc tính 'specialization'
+- ✅ **LEARN**: OOP: Inheritance (Kế thừa) & Polymorphism: Tạo class con kế thừa class cha, Override phương thức
+- ✅ **CODE**: Tạo class AI_Student kế thừa Student, thêm thuộc tính 'specialization'
 
 #### Ngày 17
 
 - ✅ **LEARN**: OOP: Encapsulation (Đóng gói): Private variables (\_\_var), Getter & Setter methods
 - ✅ **CODE**: Bảo mật điểm số sinh viên, chỉ cho sửa qua hàm setter có validation
+- ✅ **LEARN**: Trừu tượng (Abstraction) & Đa hình (Polymorphism)
+- ✅ **CODE**: "Sở thú AI" (AI Model Zoo)
 
 #### Ngày 18
 
-- 📘 **LEARN**: Python Advanced: Decorators: Hiểu First-class functions, Viết Wrapper function
+- 📘 **LEARN**: Python Advanced: Decorators: Hiểu First-class functions,Higher-order Function, Viết Wrapper function, decorator
+- 💻 **CODE**: Higher-Order Function(Bước đệm),Wrapper Function (Cơ chế lõi),Decorator @debug (Thử thách)
 - 💻 **CODE**: Viết decorator @timer để đo thời gian chạy của một hàm (Quan trọng để tối ưu code AI)
 
 #### Ngày 19
