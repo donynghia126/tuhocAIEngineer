@@ -110,9 +110,9 @@ _Chuyển tư duy từ viết hàm rời rạc sang kiến trúc Class (rất qu
 
 #### Ngày 18
 
-- 📘 **LEARN**: Python Advanced: Decorators: Hiểu First-class functions,Higher-order Function, Viết Wrapper function, decorator
-- 💻 **CODE**: Higher-Order Function(Bước đệm),Wrapper Function (Cơ chế lõi),Decorator @debug (Thử thách)
-- 💻 **CODE**: Viết decorator @timer để đo thời gian chạy của một hàm (Quan trọng để tối ưu code AI)
+- ✅ **LEARN**: Python Advanced: Decorators: Hiểu First-class functions,Higher-order Function, Viết Wrapper function, decorator
+- ✅ **CODE**: Higher-Order Function(Bước đệm),Wrapper Function (Cơ chế lõi),Decorator @debug (Thử thách)
+- ✅ **CODE**: Viết decorator @timer để đo thời gian chạy của một hàm (Quan trọng để tối ưu code AI)
 
 #### Ngày 19
 

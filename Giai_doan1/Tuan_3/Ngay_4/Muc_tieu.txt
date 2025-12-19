@@ -1,0 +1,98 @@
+📅 Ngày 18: Decorators - "Độ" hàm mà không sửa code
+Mục tiêu: Viết được hàm bao bọc (Wrapper) và dùng cú pháp @ để đo thời gian chạy code.
+
+📝 Bài tập thực hành
+Hãy tạo file day18_decorators.py và giải quyết 4 bài tập sau theo thứ tự từ dễ đến khó.
+
+🟢 Bài 1: Higher-Order Function (Bước đệm)
+Mục tiêu: Hiểu rằng hàm có thể được truyền đi như một biến số.
+
+Yêu cầu:
+
+Viết 2 hàm con:
+
+nhan_doi(x): Trả về x * 2.
+
+binh_phuong(x): Trả về x * x.
+
+Viết hàm cấp cao ap_dung(func, danh_sach):
+
+Nhận vào một hàm func và một list số.
+
+Tạo ra list mới bằng cách áp dụng func vào từng số.
+
+Test:
+
+Input: [1, 2, 3] và nhan_doi -> Output: [2, 4, 6].
+
+Input: [1, 2, 3] và binh_phuong -> Output: [1, 4, 9].
+
+🟡 Bài 2: Wrapper Function (Cơ chế lõi)
+Mục tiêu: Hiểu cách "gói" một hàm lại để chạy thêm code trước và sau nó.
+
+Yêu cầu:
+
+Viết hàm ham_goc(): Chỉ in ra "Tôi là hàm gốc".
+
+Viết hàm trang_tri(func):
+
+Bên trong định nghĩa hàm wrapper():
+
+In: "--- Bắt đầu trang trí ---"
+
+Gọi func() (Hàm gốc).
+
+In: "--- Kết thúc trang trí ---"
+
+return wrapper (Trả về cái hàm bọc ngoài).
+
+Test (Thủ công):
+
+Gán: ham_moi = trang_tri(ham_goc).
+
+Gọi: ham_moi().
+
+🔴 Bài 3: Decorator @timer (Quan trọng cho AI)
+Mục tiêu: Đo xem code chạy nhanh hay chậm. Đây là bài tập kinh điển trong lộ trình.
+
+Yêu cầu:
+
+Import thư viện time.
+
+Viết decorator timer(func):
+
+Hàm wrapper bên trong phải nhận *args, **kwargs (để cân được mọi loại tham số).
+
+Lấy giờ bắt đầu: t1 = time.time().
+
+Chạy hàm gốc và lưu kết quả: result = func(*args, **kwargs).
+
+Lấy giờ kết thúc: t2 = time.time().
+
+In ra: f"Hàm {func.__name__} chạy mất: {t2 - t1} giây".
+
+return result.
+
+Áp dụng:
+
+Dùng @timer cho hàm train_model_fake(): Cho ngủ 2 giây (time.sleep(2)).
+
+Test: Gọi train_model_fake() và xem nó có báo giờ không.
+
+⚫ Bài 4: Decorator @debug (Thử thách)
+Mục tiêu: In ra chi tiết tham số đầu vào và kết quả đầu ra để debug lỗi.
+
+Yêu cầu: Viết decorator @debug sao cho khi gắn vào hàm cộng:
+
+Python
+
+@debug
+def add(a, b):
+    return a + b
+Khi gọi add(5, 10), nó sẽ tự động in ra màn hình:
+
+Plaintext
+
+[Debug] Đang gọi hàm: add
+[Debug] Tham số: (5, 10) {}
+[Debug] Kết quả: 15
