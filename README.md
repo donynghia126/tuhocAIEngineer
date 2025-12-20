@@ -116,8 +116,8 @@ _Chuyển tư duy từ viết hàm rời rạc sang kiến trúc Class (rất qu
 
 #### Ngày 19
 
-- 📘 **LEARN**: Python Advanced: Generators & Iterators: yield keyword vs return, Xử lý dữ liệu lớn bằng Generator
-- 💻 **CODE**: Viết hàm sinh số Fibonacci vô hạn bằng yield
+- ✅ **LEARN**: Python Advanced: Generators & Iterators: yield keyword vs return, Xử lý dữ liệu lớn bằng Generator
+- ✅ **CODE**: Viết hàm sinh số Fibonacci vô hạn bằng yield
 
 #### Ngày 20
 

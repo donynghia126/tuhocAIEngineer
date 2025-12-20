@@ -1,0 +1,73 @@
+📅 Ngày 19: Generators & yield
+🎯 Mục tiêu: Hiểu cơ chế "Sinh dữ liệu lười" (Lazy Evaluation) và viết hàm sinh số vô tận.
+
+📚 1. Lý thuyết: return vs yield
+Hãy tưởng tượng bạn đi ăn Pizza:
+
+return (List thường): Bạn gọi 100 cái bánh. Bếp làm xong cả 100 cái, bê ra bàn cùng lúc. -> Hết chỗ để (Tràn RAM), Bánh nguội.
+
+yield (Generator): Bạn gọi "Cho 1 cái". Bếp làm 1 cái, bê ra. Bạn ăn xong, gọi tiếp "Cho cái nữa". Bếp làm tiếp cái thứ 2. -> Luôn nóng hổi, tốn ít chỗ.
+
+Cơ chế yield: Khi gặp từ khóa yield, hàm sẽ TRẢ VỀ giá trị nhưng KHÔNG KẾT THÚC hàm. Nó chỉ TẠM DỪNG (Pause) và nhớ trạng thái ở đó. Lần sau gọi, nó chạy tiếp từ chỗ đó.
+
+💻 Bài tập thực hành
+Hãy tạo file day19_generator.py.
+
+🟢 Bài 1: Fibonacci Vô Tận (Infinite Generator)
+Yêu cầu:
+
+Viết hàm fibonacci_gen():
+
+Khởi tạo 2 số đầu: a = 0, b = 1.
+
+Dùng vòng lặp vô tận while True.
+
+yield a (Trả về số hiện tại và tạm dừng).
+
+Cập nhật a, b theo công thức Fibonacci: a mới = b cũ, b mới = a cũ + b cũ.
+
+Cách dùng (Cẩn thận treo máy):
+
+Vì hàm này vô tận, TUYỆT ĐỐI KHÔNG được list(fibonacci_gen()) hoặc for loop không có điểm dừng.
+
+Hãy dùng hàm next() để lấy từng số.
+
+Mẫu code (Bạn điền tiếp):
+
+Python
+
+def fibonacci_gen():
+    a, b = 0, 1
+    while True:
+        # ... yield cái gì đó ...
+        # ... tính toán a, b mới ...
+        pass
+
+# Sử dụng
+fibo = fibonacci_gen() # Khởi tạo generator (Chưa chạy đâu!)
+
+print(next(fibo)) # Lấy số thứ 1
+print(next(fibo)) # Lấy số thứ 2
+print(next(fibo)) # Lấy số thứ 3
+# ... Muốn lấy bao nhiêu tùy thích ...
+🔴 Bài 2: Giả lập Data Loader (AI Context)
+Tình huống: Giả sử bạn có 10.000 file ảnh cần xử lý. Viết một generator để chỉ load từng batch (lô) nhỏ (ví dụ 3 ảnh/lần).
+
+Yêu cầu:
+
+Viết hàm batch_loader(data, batch_size).
+
+Dùng vòng lặp range bước nhảy batch_size để cắt list data thành từng đoạn nhỏ.
+
+yield từng đoạn nhỏ đó.
+
+Test:
+
+Python
+
+my_data = ["Ảnh 1", "Ảnh 2", "Ảnh 3", "Ảnh 4", "Ảnh 5", "Ảnh 6", "Ảnh 7"]
+loader = batch_loader(my_data, batch_size=3)
+
+for batch in loader:
+    print(f"Đang train với batch: {batch}")
+Kết quả mong muốn: Nó in ra 3 dòng, mỗi dòng chứa 1 list nhỏ tối đa 3 phần tử.
