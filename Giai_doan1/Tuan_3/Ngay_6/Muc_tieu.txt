@@ -1,0 +1,133 @@
+📅 Ngày 20: Modules & Tổ chức Code
+🎯 Mục tiêu:
+
+Modules: Tách code thành 2 file riêng biệt: student.py (Chứa logic xử lý) và main.py (Chứa giao diện chạy).
+
+Custom Exception: Tự tạo ra lỗi riêng (ví dụ InvalidAgeError) thay vì dùng lỗi chung chung.
+
+📚 1. Lý thuyết: Tại sao phải tách file?
+Nếu dự án có 10.000 dòng code, để hết trong 1 file thì kéo chuột mỏi tay, sửa chỗ này hỏng chỗ kia.
+
+student.py (Module): Là "Hậu cần". Chứa Class, Hàm xử lý dữ liệu. Nó nằm im đó chờ người gọi.
+
+main.py (Entry Point): Là "Mặt tiền". Chứa vòng lặp Menu, nhập liệu từ bàn phím. Nó sẽ import hậu cần để dùng.
+
+💻 2. Bài tập thực hành
+Bạn hãy tạo cùng lúc 2 file trong cùng 1 thư mục.
+
+📄 File 1: student.py (Chứa Logic & Class)
+File này tuyệt đối không có lệnh input() hay print() menu. Chỉ xử lý dữ liệu.
+
+Python
+
+import json
+
+# 1. Tự chế ra một cái lỗi riêng (Custom Exception)
+class InvalidAgeError(Exception):
+    """Lỗi khi tuổi không hợp lệ (< 0 hoặc > 150)"""
+    pass
+
+class Student:
+    def __init__(self, uid, name, age):
+        self.uid = uid
+        self.name = name
+        self.age = age
+
+    def to_dict(self):
+        return {"id": self.uid, "name": self.name, "age": self.age}
+
+class StudentManager:
+    def __init__(self, filename="students.json"):
+        self.filename = filename
+        self.students = self.load_data()
+
+    def load_data(self):
+        try:
+            with open(self.filename, "r", encoding="utf-8") as f:
+                data = json.load(f)
+                return [Student(d["id"], d["name"], d["age"]) for d in data]
+        except (FileNotFoundError, json.JSONDecodeError):
+            return []
+
+    def save_data(self):
+        data = [s.to_dict() for s in self.students]
+        with open(self.filename, "w", encoding="utf-8") as f:
+            json.dump(data, f, ensure_ascii=False, indent=4)
+
+    def add_student(self, name, age):
+        # Validate tuổi ở tầng Logic (ném ra lỗi Custom)
+        if age < 0 or age > 150:
+            raise InvalidAgeError(f"Tuổi {age} không hợp lý!")
+        
+        # Tạo ID tự động (Lấy ID cuối + 1, hoặc 1 nếu list rỗng)
+        new_id = self.students[-1].uid + 1 if self.students else 1
+        new_sv = Student(new_id, name, age)
+        self.students.append(new_sv)
+        self.save_data()
+        return new_sv
+    
+    def get_all(self):
+        return self.students
+📄 File 2: main.py (Chạy chương trình)
+File này sẽ import file kia và xử lý nhập liệu an toàn.
+
+Python
+
+# Import class từ file student.py
+from student import StudentManager, InvalidAgeError
+
+manager = StudentManager()
+
+while True:
+    print("\n--- QUẢN LÝ SINH VIÊN (MODULAR) ---")
+    print("1. Thêm sinh viên")
+    print("2. Xem danh sách")
+    print("3. Thoát")
+    
+    choice = input("Chọn chức năng: ")
+
+    if choice == "1":
+        try:
+            # Nhập liệu an toàn
+            name = input("Nhập tên: ").strip()
+            if not name:
+                raise ValueError("Tên không được để trống!")
+                
+            age_input = input("Nhập tuổi: ")
+            if not age_input.isdigit():
+                raise ValueError("Tuổi phải là số nguyên!")
+            
+            age = int(age_input)
+            
+            # Gọi logic bên kia (có thể bắn ra lỗi InvalidAgeError)
+            sv = manager.add_student(name, age)
+            print(f"✅ Thêm thành công: {sv.name} (ID: {sv.uid})")
+
+        except InvalidAgeError as e:
+            print(f"❌ Lỗi Logic: {e}")
+        except ValueError as e:
+            print(f"❌ Lỗi Nhập liệu: {e}")
+        except Exception as e:
+            print(f"❌ Lỗi không xác định: {e}")
+
+    elif choice == "2":
+        lst = manager.get_all()
+        if not lst:
+            print("📭 Danh sách trống.")
+        else:
+            print(f"{'ID':<5} {'Tên':<20} {'Tuổi':<5}")
+            print("-" * 30)
+            for s in lst:
+                print(f"{s.uid:<5} {s.name:<20} {s.age:<5}")
+
+    elif choice == "3":
+        print("Tạm biệt!")
+        break
+    else:
+        print("❌ Chọn sai rồi, nhập lại đi!")
+📝 Nhiệm vụ Day 20
+Bạn hãy tạo 2 file code trên, sau đó chạy file main.py. Thử các trường hợp sau để test khả năng bắt lỗi:
+
+Nhập tuổi là chữ "abc" -> Code main.py phải bắt được ValueError.
+
+Nhập tuổi là -5 hoặc 200 -> Code student.py sẽ ném ra InvalidAgeError, và main.py phải bắt được nó.

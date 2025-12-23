@@ -121,8 +121,8 @@ _Chuyển tư duy từ viết hàm rời rạc sang kiến trúc Class (rất qu
 
 #### Ngày 20
 
-- 📘 **LEARN**: Exception Handling & Modules: try-except-finally custom, Tổ chức code thành modules/packages
-- 💻 **CODE**: Nâng cấp bài Student Manager: Xử lý lỗi nhập liệu, tách file main.py và student.py
+- ✅ **LEARN**: Exception Handling & Modules: try-except-finally custom, Tổ chức code thành modules/packages
+- ✅ **CODE**: Nâng cấp bài Student Manager: Xử lý lỗi nhập liệu, tách file main.py và student.py
 
 #### Ngày 21
 
