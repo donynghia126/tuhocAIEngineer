@@ -126,8 +126,8 @@ _Chuyển tư duy từ viết hàm rời rạc sang kiến trúc Class (rất qu
 
 #### Ngày 21
 
-- 📘 **LEARN**: Review & Project OOP
-- 💻 **CODE**: Project: Upgrade CLI Student Manager. Chuyển toàn bộ code ngày 1-10 sang dạng Class. Lưu data vào JSON bằng method của Class.
+- ✅ **LEARN**: Review & Project OOP
+- ✅ **CODE**: Project: Upgrade CLI Student Manager. Chuyển toàn bộ code ngày 1-10 sang dạng Class. Lưu data vào JSON bằng method của Class.
 
 ### Tuần 4: Đại số tuyến tính (Linear Algebra) & Code Ma trận
 
