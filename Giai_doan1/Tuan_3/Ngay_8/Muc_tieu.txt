@@ -1,0 +1,109 @@
+🟢 Bước 1: Chuẩn bị "Nguyên liệu"
+Đầu tiên, chương trình này cần làm việc với file JSON để lưu dữ liệu lâu dài và hệ điều hành để kiểm tra file.
+
+Gợi ý: Hãy import 2 thư viện cần thiết ở dòng đầu tiên.
+
+Một cái để xử lý dữ liệu dạng JSON.
+
+Một cái để tương tác với hệ điều hành (thường dùng os, dù bài mẫu chưa dùng nhiều nhưng rất tốt cho thói quen sau này).
+
+🟡 Bước 2: Thiết kế "Khuôn mẫu" Sinh viên (Class Student)
+Hãy tưởng tượng bạn đang tạo ra một tờ khai lý lịch trích ngang. Mỗi khi có sinh viên mới, bạn chỉ cần điền vào tờ khai này.
+
+Định nghĩa Class: Đặt tên là Student.
+
+Hàm khởi tạo (__init__):
+
+Cần nhận vào 3 thông tin: student_id (mã số), name (tên), score (điểm).
+
+Gán 3 thông tin này vào self (ví dụ: self.name = name) để nó trở thành tài sản riêng của đối tượng đó.
+
+Hàm chuyển đổi (to_dict):
+
+Tại sao cần? Máy tính không hiểu trực tiếp Class Student để lưu vào file JSON. Bạn cần viết hàm này để biến thông tin sinh viên thành một Dictionary bình thường.
+
+Logic: Trả về (return) một dictionary có các key như "id", "name", "score" và value lấy từ self.
+
+Hàm hiển thị (__str__):
+
+Tại sao cần? Để khi bạn print(sinh_vien_A), máy tính không in ra dòng mã loằng ngoằng, mà in ra dòng chữ đẹp đẽ.
+
+Logic: Trả về chuỗi f-string (ví dụ: f"[ID: {self.id}]...").
+
+🟠 Bước 3: Thiết kế "Người quản lý" (Class StudentManager)
+Đây là bộ não của chương trình, nơi chứa danh sách sinh viên và các hành động (Thêm, Xóa, Lưu).
+
+Hàm khởi tạo (__init__):
+
+Tạo một list rỗng (ví dụ: self.students = []) để chứa các sinh viên sau này.
+
+Tạo một biến lưu tên file (ví dụ: self.filename = "data.json") để dùng đi dùng lại.
+
+Hành động 1: Thêm sinh viên (add_student):
+
+Nhận vào một đối tượng student.
+
+Logic kiểm tra trùng:
+
+Dùng vòng lặp for duyệt qua danh sách self.students.
+
+Dùng if để so sánh: Nếu id của sinh viên cũ == id của sinh viên mới -> Báo lỗi và return (dừng hàm) ngay.
+
+Nếu không trùng: Dùng lệnh append để thêm vào list.
+
+Hành động 2: Xóa sinh viên (remove_student):
+
+Nhận vào student_id cần xóa.
+
+Ý tưởng hay: Thay vì tìm và xóa, hãy tạo ra một list mới chỉ giữ lại những người KHÔNG bị xóa.
+
+Logic: Dùng List Comprehension: [s for s in ... if s.id != id_can_xoa].
+
+Gán list mới đè lên list cũ.
+
+Hành động 3: Hiển thị (show_all):
+
+Kiểm tra if not ... danh sách có rỗng không.
+
+Nếu có người: Dùng vòng lặp for để print từng sinh viên. (Lúc này hàm __str__ ở Bước 2 sẽ tự động chạy).
+
+Hành động 4: Lưu file (save_to_json):
+
+Thử thách: List self.students đang chứa các Object (Class), nhưng JSON chỉ hiểu Dictionary.
+
+Logic: Dùng List Comprehension để duyệt qua danh sách sinh viên, với mỗi sinh viên gọi hàm .to_dict() (đã viết ở Bước 2) để biến nó thành dictionary. Kết quả là bạn có một list các dictionary.
+
+Mở file với with open(..., 'w', encoding='utf-8') as f.
+
+Dùng json.dump(...) để ghi dữ liệu vào file. Nhớ thêm indent=4 cho đẹp và ensure_ascii=False để không bị lỗi font tiếng Việt.
+
+🔴 Bước 4: Viết chương trình chính (Hàm main)
+Đây là nơi giao tiếp với người dùng (Menu).
+
+Tạo hàm main().
+
+Khởi tạo đối tượng quản lý (ví dụ: manager = StudentManager("danh_sach.json")).
+
+Tạo vòng lặp vô tận while True để hiện Menu liên tục.
+
+In ra các lựa chọn (1. Thêm, 2. Xóa...).
+
+Dùng input() để nhận lựa chọn.
+
+Xử lý Logic từng lựa chọn (Dùng if/elif/else):
+
+Khi chọn Thêm:
+
+Nhập ID: Nhớ dùng .strip() để cắt khoảng trắng thừa.
+
+Nhập Tên: Nhớ dùng .strip().title() để tên đẹp (viết hoa chữ cái đầu).
+
+Nhập Điểm:
+
+Kỹ thuật: Dùng try...except ValueError để bọc lệnh nhập điểm. Nếu người dùng nhập chữ "abc", chương trình sẽ không bị crash mà báo lỗi nhẹ nhàng.
+
+Quan trọng: Sau khi có đủ ID, Tên, Điểm -> Tạo một đối tượng Student mới -> Gọi hàm manager.add_student(...).
+
+Khi chọn Lưu: Gọi hàm manager.save_to_json().
+
+Khi chọn Thoát: Dùng break.

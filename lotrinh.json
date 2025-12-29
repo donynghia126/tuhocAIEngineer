@@ -309,6 +309,24 @@
                 "text": "Project: Upgrade CLI Student Manager. Chuyển toàn bộ code ngày 1-10 sang dạng Class. Lưu data vào JSON bằng method của Class."
               }
             ]
+          },
+          {
+            "name": "Ngày 22",
+            "tasks": [
+              {
+                "type": "code",
+                "text": "Ôn Tập: Tự code danh sách học sinh mà không nhìn code"
+              }
+            ]
+          },
+          {
+            "name": "Ngày 23",
+            "tasks": [
+              {
+                "type": "learn",
+                "text": "Ôn Tập: Tự ôn tập"
+              }
+            ]
           }
         ]
       },
@@ -317,7 +335,7 @@
         "goal": "Hiểu cách máy tính nhìn dữ liệu (dưới dạng Vector và Matrix).",
         "days": [
           {
-            "name": "Ngày 22",
+            "name": "Ngày 24",
             "tasks": [
               {
                 "type": "learn",
@@ -330,7 +348,7 @@
             ]
           },
           {
-            "name": "Ngày 23",
+            "name": "Ngày 25",
             "tasks": [
               {
                 "type": "learn",
@@ -343,7 +361,7 @@
             ]
           },
           {
-            "name": "Ngày 24",
+            "name": "Ngày 26",
             "tasks": [
               {
                 "type": "learn",
@@ -360,7 +378,7 @@
             ]
           },
           {
-            "name": "Ngày 25",
+            "name": "Ngày 27",
             "tasks": [
               {
                 "type": "learn",
@@ -373,7 +391,7 @@
             ]
           },
           {
-            "name": "Ngày 26",
+            "name": "Ngày 28",
             "tasks": [
               {
                 "type": "learn",
@@ -390,7 +408,7 @@
             ]
           },
           {
-            "name": "Ngày 27",
+            "name": "Ngày 29",
             "tasks": [
               {
                 "type": "learn",
@@ -407,7 +425,7 @@
             ]
           },
           {
-            "name": "Ngày 28",
+            "name": "Ngày 30",
             "tasks": [
               {
                 "type": "learn",
@@ -430,7 +448,7 @@
         "goal": "Hiểu Gradient Descent hoạt động thế nào (Đạo hàm).",
         "days": [
           {
-            "name": "Ngày 29",
+            "name": "Ngày 31",
             "tasks": [
               {
                 "type": "learn",
@@ -443,7 +461,7 @@
             ]
           },
           {
-            "name": "Ngày 30",
+            "name": "Ngày 32",
             "tasks": [
               {
                 "type": "learn",
@@ -456,7 +474,7 @@
             ]
           },
           {
-            "name": "Ngày 31",
+            "name": "Ngày 33",
             "tasks": [
               {
                 "type": "learn",
@@ -473,7 +491,7 @@
             ]
           },
           {
-            "name": "Ngày 32",
+            "name": "Ngày 34",
             "tasks": [
               {
                 "type": "learn",
@@ -490,7 +508,7 @@
             ]
           },
           {
-            "name": "Ngày 33",
+            "name": "Ngày 35",
             "tasks": [
               {
                 "type": "learn",
@@ -507,7 +525,7 @@
             ]
           },
           {
-            "name": "Ngày 34",
+            "name": "Ngày 36",
             "tasks": [
               {
                 "type": "learn",
@@ -520,7 +538,7 @@
             ]
           },
           {
-            "name": "Ngày 35",
+            "name": "Ngày 37",
             "tasks": [
               {
                 "type": "learn",
@@ -543,7 +561,7 @@
         "goal": "Viết code tối ưu hơn, chuẩn bị cho phỏng vấn.",
         "days": [
           {
-            "name": "Ngày 36",
+            "name": "Ngày 38",
             "tasks": [
               {
                 "type": "learn",
@@ -556,7 +574,7 @@
             ]
           },
           {
-            "name": "Ngày 37",
+            "name": "Ngày 39",
             "tasks": [
               {
                 "type": "learn",
@@ -569,7 +587,7 @@
             ]
           },
           {
-            "name": "Ngày 38",
+            "name": "Ngày 40",
             "tasks": [
               {
                 "type": "learn",
@@ -582,7 +600,7 @@
             ]
           },
           {
-            "name": "Ngày 39",
+            "name": "Ngày 41",
             "tasks": [
               {
                 "type": "learn",
@@ -595,7 +613,7 @@
             ]
           },
           {
-            "name": "Ngày 40",
+            "name": "Ngày 42",
             "tasks": [
               {
                 "type": "learn",
@@ -608,7 +626,7 @@
             ]
           },
           {
-            "name": "Ngày 41",
+            "name": "Ngày 43",
             "tasks": [
               {
                 "type": "learn",
@@ -621,7 +639,7 @@
             ]
           },
           {
-            "name": "Ngày 42",
+            "name": "Ngày 44",
             "tasks": [
               {
                 "type": "learn",
@@ -639,7 +657,7 @@
         "name": "Tuần 7: Tổng hợp & Capstone Project Stage 1",
         "days": [
           {
-            "name": "Ngày 43",
+            "name": "Ngày 45",
             "tasks": [
               {
                 "type": "learn",
@@ -652,7 +670,7 @@
             ]
           },
           {
-            "name": "Ngày 44",
+            "name": "Ngày 46",
             "tasks": [
               {
                 "type": "learn",
@@ -667,7 +685,7 @@
         "goal": "Ôn tập lại kiến thức 7 tuần qua, chuẩn bị sang Stage 2 (Data Science).",
         "days": [
           {
-            "name": "Ngày 45",
+            "name": "Ngày 47",
             "tasks": [
               {
                 "type": "learn",
@@ -690,7 +708,7 @@
         "goal": "Thao tác thành thạo DataFrame - Cấu trúc dữ liệu quan trọng nhất ngành Data.",
         "days": [
           {
-            "name": "Ngày 46",
+            "name": "Ngày 48",
             "tasks": [
               {
                 "type": "learn",
@@ -703,7 +721,7 @@
             ]
           },
           {
-            "name": "Ngày 47",
+            "name": "Ngày 49",
             "tasks": [
               {
                 "type": "learn",
@@ -716,7 +734,7 @@
             ]
           },
           {
-            "name": "Ngày 48",
+            "name": "Ngày 50",
             "tasks": [
               {
                 "type": "learn",
@@ -729,7 +747,7 @@
             ]
           },
           {
-            "name": "Ngày 49",
+            "name": "Ngày 51",
             "tasks": [
               {
                 "type": "learn",
@@ -742,7 +760,7 @@
             ]
           },
           {
-            "name": "Ngày 50",
+            "name": "Ngày 52",
             "tasks": [
               {
                 "type": "learn",
@@ -761,7 +779,7 @@
         "goal": "Trả lời các câu hỏi nghiệp vụ phức tạp (Business Questions).",
         "days": [
           {
-            "name": "Ngày 51",
+            "name": "Ngày 53",
             "tasks": [
               {
                 "type": "learn",
@@ -774,7 +792,7 @@
             ]
           },
           {
-            "name": "Ngày 52",
+            "name": "Ngày 54",
             "tasks": [
               {
                 "type": "learn",
@@ -787,7 +805,7 @@
             ]
           },
           {
-            "name": "Ngày 53",
+            "name": "Ngày 55",
             "tasks": [
               {
                 "type": "learn",
@@ -800,7 +818,7 @@
             ]
           },
           {
-            "name": "Ngày 54",
+            "name": "Ngày 56",
             "tasks": [
               {
                 "type": "learn",
@@ -813,7 +831,7 @@
             ]
           },
           {
-            "name": "Ngày 55",
+            "name": "Ngày 57",
             "tasks": [
               {
                 "type": "learn",
@@ -832,7 +850,7 @@
         "goal": "Vẽ hình để tìm Insight (không phải vẽ cho đẹp).",
         "days": [
           {
-            "name": "Ngày 56",
+            "name": "Ngày 58",
             "tasks": [
               {
                 "type": "learn",
@@ -845,7 +863,7 @@
             ]
           },
           {
-            "name": "Ngày 57",
+            "name": "Ngày 59",
             "tasks": [
               {
                 "type": "learn",
@@ -858,7 +876,7 @@
             ]
           },
           {
-            "name": "Ngày 58",
+            "name": "Ngày 60",
             "tasks": [
               {
                 "type": "learn",
@@ -871,7 +889,7 @@
             ]
           },
           {
-            "name": "Ngày 59",
+            "name": "Ngày 61",
             "tasks": [
               {
                 "type": "learn",
@@ -890,7 +908,7 @@
         "goal": "Lấy dữ liệu từ Database (Kỹ năng bắt buộc khi đi làm).",
         "days": [
           {
-            "name": "Ngày 60",
+            "name": "Ngày 62",
             "tasks": [
               {
                 "type": "learn",
@@ -903,7 +921,7 @@
             ]
           },
           {
-            "name": "Ngày 61",
+            "name": "Ngày 63",
             "tasks": [
               {
                 "type": "learn",
@@ -916,7 +934,7 @@
             ]
           },
           {
-            "name": "Ngày 62",
+            "name": "Ngày 64",
             "tasks": [
               {
                 "type": "learn",
@@ -929,7 +947,7 @@
             ]
           },
           {
-            "name": "Ngày 63",
+            "name": "Ngày 65",
             "tasks": [
               {
                 "type": "learn",
@@ -942,7 +960,7 @@
             ]
           },
           {
-            "name": "Ngày 64",
+            "name": "Ngày 66",
             "tasks": [
               {
                 "type": "learn",
@@ -961,7 +979,7 @@
         "goal": "Biến dữ liệu thô thành dữ liệu mà Model hiểu được.",
         "days": [
           {
-            "name": "Ngày 65",
+            "name": "Ngày 67",
             "tasks": [
               {
                 "type": "learn",
@@ -974,7 +992,7 @@
             ]
           },
           {
-            "name": "Ngày 66",
+            "name": "Ngày 68",
             "tasks": [
               {
                 "type": "learn",
@@ -987,7 +1005,7 @@
             ]
           },
           {
-            "name": "Ngày 67",
+            "name": "Ngày 69",
             "tasks": [
               {
                 "type": "learn",
@@ -1000,7 +1018,7 @@
             ]
           },
           {
-            "name": "Ngày 68",
+            "name": "Ngày 70",
             "tasks": [
               {
                 "type": "learn",
@@ -1019,7 +1037,7 @@
         "goal": "Làm quen công cụ xử lý dữ liệu lớn tốc độ cao.",
         "days": [
           {
-            "name": "Ngày 69",
+            "name": "Ngày 71",
             "tasks": [
               {
                 "type": "learn",
@@ -1038,7 +1056,7 @@
         "goal": "Làm quen với xử lý dữ liệu lớn phân tán bằng Apache Spark/PySpark, chuẩn bị cho các hệ thống AI quy mô doanh nghiệp.",
         "days": [
           {
-            "name": "Ngày 70",
+            "name": "Ngày 72",
             "tasks": [
               {
                 "type": "learn",
@@ -1051,7 +1069,7 @@
             ]
           },
           {
-            "name": "Ngày 71",
+            "name": "Ngày 73",
             "tasks": [
               {
                 "type": "learn",
@@ -1064,7 +1082,7 @@
             ]
           },
           {
-            "name": "Ngày 72",
+            "name": "Ngày 74",
             "tasks": [
               {
                 "type": "learn",
@@ -1077,7 +1095,7 @@
             ]
           },
           {
-            "name": "Ngày 73",
+            "name": "Ngày 75",
             "tasks": [
               {
                 "type": "learn",
@@ -1090,7 +1108,7 @@
             ]
           },
           {
-            "name": "Ngày 74",
+            "name": "Ngày 76",
             "tasks": [
               {
                 "type": "learn",
@@ -1109,7 +1127,7 @@
         "goal": "Nắm tư duy hệ dữ liệu để xây pipeline ML/analytics bền vững: modeling, định dạng lưu trữ, chất lượng dữ liệu, versioning/lineage.",
         "days": [
           {
-            "name": "Ngày 75",
+            "name": "Ngày 77",
             "tasks": [
               {
                 "type": "learn",
@@ -1122,7 +1140,7 @@
             ]
           },
           {
-            "name": "Ngày 76",
+            "name": "Ngày 78",
             "tasks": [
               {
                 "type": "learn",
@@ -1135,7 +1153,7 @@
             ]
           },
           {
-            "name": "Ngày 77",
+            "name": "Ngày 79",
             "tasks": [
               {
                 "type": "learn",
@@ -1148,7 +1166,7 @@
             ]
           },
           {
-            "name": "Ngày 78",
+            "name": "Ngày 80",
             "tasks": [
               {
                 "type": "learn",
@@ -1161,7 +1179,7 @@
             ]
           },
           {
-            "name": "Ngày 79",
+            "name": "Ngày 81",
             "tasks": [
               {
                 "type": "learn",
@@ -1179,7 +1197,7 @@
         "name": "CAPSTONE PROJECT GIAI ĐOẠN 2",
         "days": [
           {
-            "name": "Ngày 80",
+            "name": "Ngày 82",
             "tasks": [
               {
                 "type": "learn",
@@ -1227,7 +1245,7 @@
         "goal": "Hiểu luồng đi của một bài toán ML: Train, Test, Predict.",
         "days": [
           {
-            "name": "Ngày 81",
+            "name": "Ngày 83",
             "tasks": [
               {
                 "type": "learn",
@@ -1244,7 +1262,7 @@
             ]
           },
           {
-            "name": "Ngày 82",
+            "name": "Ngày 84",
             "tasks": [
               {
                 "type": "learn",
@@ -1257,7 +1275,7 @@
             ]
           },
           {
-            "name": "Ngày 83",
+            "name": "Ngày 85",
             "tasks": [
               {
                 "type": "learn",
@@ -1270,7 +1288,7 @@
             ]
           },
           {
-            "name": "Ngày 84",
+            "name": "Ngày 86",
             "tasks": [
               {
                 "type": "learn",
@@ -1289,7 +1307,7 @@
         "goal": "Giải quyết bài toán Yes/No (Spam hay không Spam).",
         "days": [
           {
-            "name": "Ngày 85",
+            "name": "Ngày 87",
             "tasks": [
               {
                 "type": "learn",
@@ -1302,7 +1320,7 @@
             ]
           },
           {
-            "name": "Ngày 86",
+            "name": "Ngày 88",
             "tasks": [
               {
                 "type": "learn",
@@ -1319,7 +1337,7 @@
             ]
           },
           {
-            "name": "Ngày 87",
+            "name": "Ngày 89",
             "tasks": [
               {
                 "type": "learn",
@@ -1338,7 +1356,7 @@
         "goal": "Hiểu các thuật toán dựa trên khoảng cách.",
         "days": [
           {
-            "name": "Ngày 88",
+            "name": "Ngày 90",
             "tasks": [
               {
                 "type": "learn",
@@ -1351,7 +1369,7 @@
             ]
           },
           {
-            "name": "Ngày 89",
+            "name": "Ngày 91",
             "tasks": [
               {
                 "type": "learn",
@@ -1370,7 +1388,7 @@
         "goal": "Nền tảng của các thuật toán mạnh nhất hiện nay.",
         "days": [
           {
-            "name": "Ngày 90",
+            "name": "Ngày 92",
             "tasks": [
               {
                 "type": "learn",
@@ -1383,7 +1401,7 @@
             ]
           },
           {
-            "name": "Ngày 91",
+            "name": "Ngày 93",
             "tasks": [
               {
                 "type": "learn",
@@ -1396,7 +1414,7 @@
             ]
           },
           {
-            "name": "Ngày 92",
+            "name": "Ngày 94",
             "tasks": [
               {
                 "type": "learn",
@@ -1419,7 +1437,7 @@
         "goal": "Sức mạnh của đám đông (Nhiều cây yếu gộp lại thành rừng mạnh).",
         "days": [
           {
-            "name": "Ngày 93",
+            "name": "Ngày 95",
             "tasks": [
               {
                 "type": "learn",
@@ -1432,7 +1450,7 @@
             ]
           },
           {
-            "name": "Ngày 94",
+            "name": "Ngày 96",
             "tasks": [
               {
                 "type": "learn",
@@ -1451,7 +1469,7 @@
         "goal": "Thành thạo XGBoost/LightGBM - Thứ doanh nghiệp dùng nhiều nhất.",
         "days": [
           {
-            "name": "Ngày 95",
+            "name": "Ngày 97",
             "tasks": [
               {
                 "type": "learn",
@@ -1464,7 +1482,7 @@
             ]
           },
           {
-            "name": "Ngày 96",
+            "name": "Ngày 98",
             "tasks": [
               {
                 "type": "learn",
@@ -1477,7 +1495,7 @@
             ]
           },
           {
-            "name": "Ngày 97",
+            "name": "Ngày 99",
             "tasks": [
               {
                 "type": "learn",
@@ -1496,7 +1514,7 @@
         "goal": "Tìm ẩn số khi không có nhãn (Label).",
         "days": [
           {
-            "name": "Ngày 98",
+            "name": "Ngày 100",
             "tasks": [
               {
                 "type": "learn",
@@ -1509,7 +1527,7 @@
             ]
           },
           {
-            "name": "Ngày 99",
+            "name": "Ngày 101",
             "tasks": [
               {
                 "type": "learn",
@@ -1522,7 +1540,7 @@
             ]
           },
           {
-            "name": "Ngày 100",
+            "name": "Ngày 102",
             "tasks": [
               {
                 "type": "learn",
@@ -1541,7 +1559,7 @@
         "goal": "Xử lý các vấn đề thực tế khó nhằn.",
         "days": [
           {
-            "name": "Ngày 101",
+            "name": "Ngày 103",
             "tasks": [
               {
                 "type": "learn",
@@ -1554,7 +1572,7 @@
             ]
           },
           {
-            "name": "Ngày 102",
+            "name": "Ngày 104",
             "tasks": [
               {
                 "type": "learn",
@@ -1567,7 +1585,7 @@
             ]
           },
           {
-            "name": "Ngày 103",
+            "name": "Ngày 105",
             "tasks": [
               {
                 "type": "learn",
@@ -1585,7 +1603,7 @@
         "name": "Tuần 25-26: CAPSTONE PROJECT GIAI ĐOẠN 3",
         "days": [
           {
-            "name": "Ngày 104",
+            "name": "Ngày 106",
             "tasks": [
               {
                 "type": "learn",
@@ -1636,7 +1654,7 @@
         "goal": "Hiểu cấu tạo của một 'Brain cell' nhân tạo.",
         "days": [
           {
-            "name": "Ngày 105",
+            "name": "Ngày 107",
             "tasks": [
               {
                 "type": "learn",
@@ -1649,7 +1667,7 @@
             ]
           },
           {
-            "name": "Ngày 106",
+            "name": "Ngày 108",
             "tasks": [
               {
                 "type": "learn",
@@ -1662,7 +1680,7 @@
             ]
           },
           {
-            "name": "Ngày 107",
+            "name": "Ngày 109",
             "tasks": [
               {
                 "type": "learn",
@@ -1685,7 +1703,7 @@
         "goal": "Hiểu cách model tự sửa sai (Học).",
         "days": [
           {
-            "name": "Ngày 108",
+            "name": "Ngày 110",
             "tasks": [
               {
                 "type": "learn",
@@ -1702,7 +1720,7 @@
             ]
           },
           {
-            "name": "Ngày 109",
+            "name": "Ngày 111",
             "tasks": [
               {
                 "type": "learn",
@@ -1715,7 +1733,7 @@
             ]
           },
           {
-            "name": "Ngày 110",
+            "name": "Ngày 112",
             "tasks": [
               {
                 "type": "learn",
@@ -1738,7 +1756,7 @@
         "goal": "Code Deep Learning chuyên nghiệp & Quản lý thí nghiệm.",
         "days": [
           {
-            "name": "Ngày 111",
+            "name": "Ngày 113",
             "tasks": [
               {
                 "type": "learn",
@@ -1751,7 +1769,7 @@
             ]
           },
           {
-            "name": "Ngày 112",
+            "name": "Ngày 114",
             "tasks": [
               {
                 "type": "learn",
@@ -1764,7 +1782,7 @@
             ]
           },
           {
-            "name": "Ngày 113",
+            "name": "Ngày 115",
             "tasks": [
               {
                 "type": "learn",
@@ -1777,7 +1795,7 @@
             ]
           },
           {
-            "name": "Ngày 114",
+            "name": "Ngày 116",
             "tasks": [
               {
                 "type": "learn",
@@ -1790,7 +1808,7 @@
             ]
           },
           {
-            "name": "Ngày 115",
+            "name": "Ngày 117",
             "tasks": [
               {
                 "type": "learn",
@@ -2028,7 +2046,7 @@
         "goal": "Làm quen với xử lý Audio/Video và mô hình đa phương thức (kết hợp Text + Image), mở rộng khả năng làm dự án AI thực tế.",
         "days": [
           {
-            "name": "Ngày 131",
+            "name": "Ngày 133",
             "tasks": [
               {
                 "type": "learn",
@@ -2041,7 +2059,7 @@
             ]
           },
           {
-            "name": "Ngày 132",
+            "name": "Ngày 134",
             "tasks": [
               {
                 "type": "learn",
@@ -2054,7 +2072,7 @@
             ]
           },
           {
-            "name": "Ngày 133",
+            "name": "Ngày 135",
             "tasks": [
               {
                 "type": "learn",
@@ -2067,7 +2085,7 @@
             ]
           },
           {
-            "name": "Ngày 134",
+            "name": "Ngày 136",
             "tasks": [
               {
                 "type": "learn",
@@ -2080,7 +2098,7 @@
             ]
           },
           {
-            "name": "Ngày 135",
+            "name": "Ngày 137",
             "tasks": [
               {
                 "type": "learn",
@@ -2098,7 +2116,7 @@
         "name": "Tuần 41-42: CAPSTONE PROJECT: Multimodal Content Search & Understanding Platform",
         "days": [
           {
-            "name": "Ngày 136",
+            "name": "Ngày 138",
             "tasks": [
               {
                 "type": "define",
@@ -2111,7 +2129,7 @@
             ]
           },
           {
-            "name": "Ngày 137",
+            "name": "Ngày 139",
             "tasks": [
               {
                 "type": "preprocess",
@@ -2124,7 +2142,7 @@
             ]
           },
           {
-            "name": "Ngày 138",
+            "name": "Ngày 140",
             "tasks": [
               {
                 "type": "build_model",
@@ -2133,7 +2151,7 @@
             ]
           },
           {
-            "name": "Ngày 139",
+            "name": "Ngày 141",
             "tasks": [
               {
                 "type": "evaluate",
@@ -2142,7 +2160,7 @@
             ]
           },
           {
-            "name": "Ngày 140",
+            "name": "Ngày 142",
             "tasks": [
               {
                 "type": "deploy",
@@ -2151,7 +2169,7 @@
             ]
           },
           {
-            "name": "Ngày 141",
+            "name": "Ngày 143",
             "tasks": [
               {
                 "type": "document",
@@ -2175,7 +2193,7 @@
         "goal": "Hiểu cách giao tiếp và điều khiển mô hình trả về dữ liệu có cấu trúc.",
         "days": [
           {
-            "name": "Ngày 148",
+            "name": "Ngày 150",
             "tasks": [
               {
                 "type": "learn",
@@ -2192,7 +2210,7 @@
             ]
           },
           {
-            "name": "Ngày 149",
+            "name": "Ngày 151",
             "tasks": [
               {
                 "type": "learn",
@@ -2209,7 +2227,7 @@
             ]
           },
           {
-            "name": "Ngày 150",
+            "name": "Ngày 152",
             "tasks": [
               {
                 "type": "learn",
@@ -2236,7 +2254,7 @@
         "goal": "Cho LLM 'học' dữ liệu riêng của bạn mà không cần train lại.",
         "days": [
           {
-            "name": "Ngày 151",
+            "name": "Ngày 153",
             "tasks": [
               {
                 "type": "learn",
@@ -2249,7 +2267,7 @@
             ]
           },
           {
-            "name": "Ngày 152",
+            "name": "Ngày 154",
             "tasks": [
               {
                 "type": "learn",
@@ -2262,7 +2280,7 @@
             ]
           },
           {
-            "name": "Ngày 153",
+            "name": "Ngày 155",
             "tasks": [
               {
                 "type": "learn",
@@ -2281,7 +2299,7 @@
         "goal": "Khắc phục nhược điểm của RAG cơ bản bằng Semantic + Knowledge Graph.",
         "days": [
           {
-            "name": "Ngày 154",
+            "name": "Ngày 156",
             "tasks": [
               {
                 "type": "learn",
@@ -2294,7 +2312,7 @@
             ]
           },
           {
-            "name": "Ngày 155",
+            "name": "Ngày 157",
             "tasks": [
               {
                 "type": "learn",
@@ -2307,7 +2325,7 @@
             ]
           },
           {
-            "name": "Ngày 156",
+            "name": "Ngày 158",
             "tasks": [
               {
                 "type": "learn",
@@ -2326,7 +2344,7 @@
         "goal": "Thành thạo framework phát triển ứng dụng LLM số 1 hiện nay.",
         "days": [
           {
-            "name": "Ngày 157",
+            "name": "Ngày 159",
             "tasks": [
               {
                 "type": "learn",
@@ -2339,7 +2357,7 @@
             ]
           },
           {
-            "name": "Ngày 158",
+            "name": "Ngày 160",
             "tasks": [
               {
                 "type": "learn",
@@ -2352,7 +2370,7 @@
             ]
           },
           {
-            "name": "Ngày 159",
+            "name": "Ngày 161",
             "tasks": [
               {
                 "type": "learn",
@@ -2371,7 +2389,7 @@
         "goal": "Xây dựng AI chủ động thực hiện hành động (Tương lai của AI).",
         "days": [
           {
-            "name": "Ngày 160",
+            "name": "Ngày 162",
             "tasks": [
               {
                 "type": "learn",
@@ -2384,7 +2402,7 @@
             ]
           },
           {
-            "name": "Ngày 161",
+            "name": "Ngày 163",
             "tasks": [
               {
                 "type": "learn",
@@ -2397,7 +2415,7 @@
             ]
           },
           {
-            "name": "Ngày 162",
+            "name": "Ngày 164",
             "tasks": [
               {
                 "type": "learn",
@@ -2416,7 +2434,7 @@
         "goal": "Làm sao biết Chatbot trả lời đúng hay sai?",
         "days": [
           {
-            "name": "Ngày 163",
+            "name": "Ngày 165",
             "tasks": [
               {
                 "type": "learn",
@@ -2429,7 +2447,7 @@
             ]
           },
           {
-            "name": "Ngày 164",
+            "name": "Ngày 166",
             "tasks": [
               {
                 "type": "learn",
@@ -2448,7 +2466,7 @@
         "goal": "Tùy biến Model cho tác vụ chuyên biệt.",
         "days": [
           {
-            "name": "Ngày 165",
+            "name": "Ngày 167",
             "tasks": [
               {
                 "type": "learn",
@@ -2461,7 +2479,7 @@
             ]
           },
           {
-            "name": "Ngày 166",
+            "name": "Ngày 168",
             "tasks": [
               {
                 "type": "learn",
@@ -2480,7 +2498,7 @@
         "goal": "Hiểu và thực hành các kỹ thuật tối ưu LLM hiện đại dựa trên phản hồi con người: RLHF và DPO.",
         "days": [
           {
-            "name": "Ngày 167",
+            "name": "Ngày 169",
             "tasks": [
               {
                 "type": "learn",
@@ -2493,7 +2511,7 @@
             ]
           },
           {
-            "name": "Ngày 168",
+            "name": "Ngày 170",
             "tasks": [
               {
                 "type": "learn",
@@ -2506,7 +2524,7 @@
             ]
           },
           {
-            "name": "Ngày 169",
+            "name": "Ngày 171",
             "tasks": [
               {
                 "type": "learn",
@@ -2519,7 +2537,7 @@
             ]
           },
           {
-            "name": "Ngày 170",
+            "name": "Ngày 172",
             "tasks": [
               {
                 "type": "learn",
@@ -2532,7 +2550,7 @@
             ]
           },
           {
-            "name": "Ngày 171",
+            "name": "Ngày 173",
             "tasks": [
               {
                 "type": "learn",
@@ -2550,7 +2568,7 @@
         "name": "Tuần 61-62: CAPSTONE PROJECT GIAI ĐOẠN 5",
         "days": [
           {
-            "name": "Ngày 172",
+            "name": "Ngày 174",
             "tasks": [
               {
                 "type": "learn",
@@ -2597,7 +2615,7 @@
         "goal": "Viết API hiệu năng cao, bảo mật và chuẩn chỉnh.",
         "days": [
           {
-            "name": "Ngày 173",
+            "name": "Ngày 175",
             "tasks": [
               {
                 "type": "learn",
@@ -2610,7 +2628,7 @@
             ]
           },
           {
-            "name": "Ngày 174",
+            "name": "Ngày 176",
             "tasks": [
               {
                 "type": "learn",
@@ -2623,7 +2641,7 @@
             ]
           },
           {
-            "name": "Ngày 175",
+            "name": "Ngày 177",
             "tasks": [
               {
                 "type": "learn",
@@ -2642,7 +2660,7 @@
         "goal": "Tối ưu hóa Docker Image cho môi trường Production.",
         "days": [
           {
-            "name": "Ngày 176",
+            "name": "Ngày 178",
             "tasks": [
               {
                 "type": "learn",
@@ -2655,7 +2673,7 @@
             ]
           },
           {
-            "name": "Ngày 177",
+            "name": "Ngày 179",
             "tasks": [
               {
                 "type": "learn",
@@ -2668,7 +2686,7 @@
             ]
           },
           {
-            "name": "Ngày 178",
+            "name": "Ngày 180",
             "tasks": [
               {
                 "type": "learn",
@@ -2687,7 +2705,7 @@
         "goal": "Xử lý dữ liệu lớn và tác vụ nặng không làm treo API.",
         "days": [
           {
-            "name": "Ngày 179",
+            "name": "Ngày 181",
             "tasks": [
               {
                 "type": "learn",
@@ -2700,7 +2718,7 @@
             ]
           },
           {
-            "name": "Ngày 180",
+            "name": "Ngày 182",
             "tasks": [
               {
                 "type": "learn",
@@ -2719,7 +2737,7 @@
         "goal": "Tự động hóa quy trình kiểm thử và deploy.",
         "days": [
           {
-            "name": "Ngày 181",
+            "name": "Ngày 183",
             "tasks": [
               {
                 "type": "learn",
@@ -2732,7 +2750,7 @@
             ]
           },
           {
-            "name": "Ngày 182",
+            "name": "Ngày 184",
             "tasks": [
               {
                 "type": "learn",
@@ -2751,7 +2769,7 @@
         "goal": "Hiểu khái niệm để deploy lên Cloud (AWS EKS / GKE).",
         "days": [
           {
-            "name": "Ngày 183",
+            "name": "Ngày 185",
             "tasks": [
               {
                 "type": "learn",
@@ -2764,7 +2782,7 @@
             ]
           },
           {
-            "name": "Ngày 184",
+            "name": "Ngày 186",
             "tasks": [
               {
                 "type": "learn",
@@ -2782,7 +2800,7 @@
         "name": "Tuần 73-74: CAPSTONE PROJECT GIAI ĐOẠN 6",
         "days": [
           {
-            "name": "Ngày 185",
+            "name": "Ngày 187",
             "tasks": [
               {
                 "type": "learn",
@@ -2829,7 +2847,7 @@
         "goal": "Tối ưu hóa độ trễ (Latency) và thông lượng (Throughput) cho LLM.",
         "days": [
           {
-            "name": "Ngày 186",
+            "name": "Ngày 188",
             "tasks": [
               {
                 "type": "learn",
@@ -2842,7 +2860,7 @@
             ]
           },
           {
-            "name": "Ngày 187",
+            "name": "Ngày 189",
             "tasks": [
               {
                 "type": "learn",
@@ -2855,7 +2873,7 @@
             ]
           },
           {
-            "name": "Ngày 188",
+            "name": "Ngày 190",
             "tasks": [
               {
                 "type": "learn",
@@ -2874,7 +2892,7 @@
         "goal": "Chạy model lớn trên phần cứng rẻ tiền.",
         "days": [
           {
-            "name": "Ngày 189",
+            "name": "Ngày 191",
             "tasks": [
               {
                 "type": "learn",
@@ -2887,7 +2905,7 @@
             ]
           },
           {
-            "name": "Ngày 190",
+            "name": "Ngày 192",
             "tasks": [
               {
                 "type": "learn",
@@ -2906,7 +2924,7 @@
         "goal": "Quản lý hạ tầng bằng Code (Không click tay).",
         "days": [
           {
-            "name": "Ngày 191",
+            "name": "Ngày 193",
             "tasks": [
               {
                 "type": "learn",
@@ -2919,7 +2937,7 @@
             ]
           },
           {
-            "name": "Ngày 192",
+            "name": "Ngày 194",
             "tasks": [
               {
                 "type": "learn",
@@ -2932,7 +2950,7 @@
             ]
           },
           {
-            "name": "Ngày 193",
+            "name": "Ngày 195",
             "tasks": [
               {
                 "type": "learn",
@@ -2951,7 +2969,7 @@
         "goal": "Tự động hóa quy trình huấn luyện và triển khai.",
         "days": [
           {
-            "name": "Ngày 194",
+            "name": "Ngày 196",
             "tasks": [
               {
                 "type": "learn",
@@ -2964,7 +2982,7 @@
             ]
           },
           {
-            "name": "Ngày 195",
+            "name": "Ngày 197",
             "tasks": [
               {
                 "type": "learn",
@@ -2983,7 +3001,7 @@
         "goal": "Giám sát sức khỏe và đảm bảo an toàn cho AI.",
         "days": [
           {
-            "name": "Ngày 196",
+            "name": "Ngày 198",
             "tasks": [
               {
                 "type": "learn",
@@ -2996,7 +3014,7 @@
             ]
           },
           {
-            "name": "Ngày 197",
+            "name": "Ngày 199",
             "tasks": [
               {
                 "type": "learn",
@@ -3015,7 +3033,7 @@
         "goal": "Xây dựng nền tảng LLM nội bộ hoàn chỉnh trên AWS.",
         "days": [
           {
-            "name": "Ngày 198",
+            "name": "Ngày 200",
             "tasks": [
               {
                 "type": "learn",
@@ -3058,7 +3076,7 @@
         "goal": "Nắm được các thành phần chính của một hệ thống ML end-to-end từ Data đến Monitoring.",
         "days": [
           {
-            "name": "Ngày 199",
+            "name": "Ngày 201",
             "tasks": [
               {
                 "type": "learn",
@@ -3071,7 +3089,7 @@
             ]
           },
           {
-            "name": "Ngày 200",
+            "name": "Ngày 202",
             "tasks": [
               {
                 "type": "learn",
@@ -3084,7 +3102,7 @@
             ]
           },
           {
-            "name": "Ngày 201",
+            "name": "Ngày 203",
             "tasks": [
               {
                 "type": "learn",
@@ -3097,7 +3115,7 @@
             ]
           },
           {
-            "name": "Ngày 202",
+            "name": "Ngày 204",
             "tasks": [
               {
                 "type": "learn",
@@ -3116,7 +3134,7 @@
         "goal": "Hiểu cách huấn luyện và phục vụ model lớn trên nhiều GPU/máy, giảm lỗi Out-Of-Memory và tăng throughput.",
         "days": [
           {
-            "name": "Ngày 203",
+            "name": "Ngày 205",
             "tasks": [
               {
                 "type": "learn",
@@ -3129,7 +3147,7 @@
             ]
           },
           {
-            "name": "Ngày 204",
+            "name": "Ngày 206",
             "tasks": [
               {
                 "type": "learn",
@@ -3142,7 +3160,7 @@
             ]
           },
           {
-            "name": "Ngày 205",
+            "name": "Ngày 207",
             "tasks": [
               {
                 "type": "learn",
@@ -3155,7 +3173,7 @@
             ]
           },
           {
-            "name": "Ngày 206",
+            "name": "Ngày 208",
             "tasks": [
               {
                 "type": "learn",
@@ -3174,7 +3192,7 @@
         "goal": "Tổng hợp toàn bộ kiến thức để thiết kế một hệ thống AI gần với sản phẩm thực tế, có khả năng mở rộng.",
         "days": [
           {
-            "name": "Ngày 207",
+            "name": "Ngày 209",
             "tasks": [
               {
                 "type": "learn",
@@ -3187,7 +3205,7 @@
             ]
           },
           {
-            "name": "Ngày 208",
+            "name": "Ngày 210",
             "tasks": [
               {
                 "type": "code",
@@ -3196,7 +3214,7 @@
             ]
           },
           {
-            "name": "Ngày 209",
+            "name": "Ngày 211",
             "tasks": [
               {
                 "type": "code",
@@ -3205,7 +3223,7 @@
             ]
           },
           {
-            "name": "Ngày 210",
+            "name": "Ngày 212",
             "tasks": [
               {
                 "type": "code",
