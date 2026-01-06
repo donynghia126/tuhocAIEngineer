@@ -93,7 +93,7 @@ _Chuyển tư duy từ viết hàm rời rạc sang kiến trúc Class (rất qu
 
 #### Ngày 15
 
-- ✅ **LEARN**: OOP Basic: Class & Object: Hiểu Class, Object, self, Hàm __init__ constructor
+- ✅ **LEARN**: OOP Basic: Class & Object: Hiểu Class, Object, self, Hàm **init** constructor
 - ✅ **CODE**: Tạo class Student với các thuộc tính name, age, grades
 
 #### Ngày 16
@@ -103,7 +103,7 @@ _Chuyển tư duy từ viết hàm rời rạc sang kiến trúc Class (rất qu
 
 #### Ngày 17
 
-- ✅ **LEARN**: OOP: Encapsulation (Đóng gói): Private variables (__var), Getter & Setter methods
+- ✅ **LEARN**: OOP: Encapsulation (Đóng gói): Private variables (\_\_var), Getter & Setter methods
 - ✅ **CODE**: Bảo mật điểm số sinh viên, chỉ cho sửa qua hàm setter có validation
 - ✅ **LEARN**: Trừu tượng (Abstraction) & Đa hình (Polymorphism)
 - ✅ **CODE**: "Sở thú AI" (AI Model Zoo)
@@ -111,7 +111,7 @@ _Chuyển tư duy từ viết hàm rời rạc sang kiến trúc Class (rất qu
 #### Ngày 18
 
 - ✅ **LEARN**: Python Advanced: Decorators: Hiểu First-class functions,Higher-order Function, Viết Wrapper function, decorator
-- ✅ **CODE**: Higher-Order Function(Bước đệm),Wrapper Function (Cơ chế lõi),Decorator @debug (Thử thách) 
+- ✅ **CODE**: Higher-Order Function(Bước đệm),Wrapper Function (Cơ chế lõi),Decorator @debug (Thử thách)
 - ✅ **CODE**: Viết decorator @timer để đo thời gian chạy của một hàm (Quan trọng để tối ưu code AI)
 
 #### Ngày 19
@@ -135,7 +135,7 @@ _Chuyển tư duy từ viết hàm rời rạc sang kiến trúc Class (rất qu
 
 #### Ngày 23
 
-- 💻 **LEARN**: Ôn Tập: Tự ôn tập
+- ✅ **LEARN**: Ôn Tập: Tự ôn tập
 
 ### Tuần 4: Đại số tuyến tính (Linear Algebra) & Code Ma trận
 
@@ -143,8 +143,8 @@ _Hiểu cách máy tính nhìn dữ liệu (dưới dạng Vector và Matrix)._
 
 #### Ngày 24
 
-- 💻 **LEARN**: Scalar, Vector & Matrix: Khái niệm không gian vector, Biểu diễn ảnh dưới dạng ma trận
-- 💻 **CODE**: Dùng Python List of Lists để biểu diễn Ma trận 2x2, 3x3
+- ✅ **LEARN**: Scalar, Vector & Matrix: Khái niệm không gian vector, Biểu diễn ảnh dưới dạng ma trận
+- ✅ **CODE**: Dùng Python List of Lists để biểu diễn Ma trận 2x2, 3x3
 
 #### Ngày 25
 
@@ -159,7 +159,7 @@ _Hiểu cách máy tính nhìn dữ liệu (dưới dạng Vector và Matrix)._
 
 #### Ngày 27
 
-- 💻 **LEARN**: Matrix Multiplication (Nhân ma trận): Điều kiện nhân (mxn * nxp), Độ phức tạp tính toán
+- 💻 **LEARN**: Matrix Multiplication (Nhân ma trận): Điều kiện nhân (mxn \* nxp), Độ phức tạp tính toán
 - 💻 **CODE**: Viết hàm matrix_multiply(A, B) sử dụng 3 vòng for lồng nhau
 
 #### Ngày 28
@@ -735,7 +735,7 @@ _Code Deep Learning chuyên nghiệp & Quản lý thí nghiệm._
 
 #### Ngày 115
 
-- 💻 **LEARN**: Building Model: nn.Module: Hàm __init__ và forward(), nn.Linear, nn.Sequential
+- 💻 **LEARN**: Building Model: nn.Module: Hàm **init** và forward(), nn.Linear, nn.Sequential
 - 💻 **CODE**: Viết class ImageClassifier kế thừa nn.Module.
 
 #### Ngày 116
@@ -1343,4 +1343,3 @@ _Tổng hợp toàn bộ kiến thức để thiết kế một hệ thống AI 
 #### Ngày 212
 
 - 💻 **CODE**: Thực hiện load test nhỏ (giả lập 100–1000 request/phút tùy tài nguyên), ghi lại kết quả, bottleneck, và đề xuất hướng tối ưu (scale up/out, cache, batching). Viết Design Doc/Report hoàn chỉnh đưa lên GitHub.
-

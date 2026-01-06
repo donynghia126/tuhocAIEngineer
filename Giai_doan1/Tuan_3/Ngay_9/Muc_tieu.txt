@@ -1,0 +1,143 @@
+🟢 Bước 1: Viết file Backend (game_lib.py)
+File này chứa "khuôn mẫu" cho các đấu sĩ.
+
+Nhiệm vụ của bạn:
+
+Tạo Class tên là Character (Nhân vật).
+
+Hàm khởi tạo (__init__):
+
+Cần 3 thông tin: name (Tên), hp (Máu), damage (Sức mạnh).
+
+Gán chúng vào self.
+
+Hàm hiển thị (__str__):
+
+Trả về chuỗi giới thiệu, ví dụ: "Chiến binh Yasuo - HP: 100/100".
+
+Hàm quan trọng nhất: attack (Tấn công):
+
+Nhận vào một đối tượng khác làm mục tiêu, đặt tên là target (hoặc ke_thu).
+
+Logic gây sát thương: Máu của target sẽ bị trừ đi một lượng bằng self.damage của người đánh.
+
+Code: target.hp = target.hp - self.damage
+
+Xử lý máu âm: Nếu máu tụt xuống dưới 0, hãy gán nó bằng 0 cho đẹp.
+
+Thông báo: In ra màn hình ai đánh ai, mất bao nhiêu máu.
+
+Hàm kiểm tra sống/chết (is_alive):
+
+Trả về True nếu self.hp > 0, ngược lại trả về False.
+
+Gợi ý code (game_lib.py):
+
+Python
+
+class Character:
+    def __init__(self, name, hp, damage):
+        self.name = name
+        self.hp = hp
+        self.damage = damage
+
+    def attack(self, target):
+        # 1. Trừ máu kẻ thù
+        print(f"⚔️ {self.name} tung chiêu vào {target.name}!")
+        target.hp -= self.damage
+        
+        # 2. Không cho máu âm
+        if target.hp < 0:
+            target.hp = 0
+            
+        print(f"   => 💥 {target.name} mất {self.damage} máu. (Còn lại: {target.hp} HP)")
+
+    def is_alive(self):
+        return self.hp > 0
+
+    def __str__(self):
+        return f"🛡️ {self.name} [HP: {self.hp} - ATK: {self.damage}]"
+🟡 Bước 2: Viết file Frontend (main.py)
+File này điều khiển trận đấu theo lượt (Turn-based).
+
+Nhiệm vụ của bạn:
+
+Import: Lôi cái khuôn Character từ file game_lib sang.
+
+Chuẩn bị đấu sĩ:
+
+Tạo biến hero (người chơi): Tên tùy ý, Máu 100, Dame 20.
+
+Tạo biến monster (quái vật): Tên "Rồng Đất", Máu 150, Dame 15.
+
+Vòng lặp trận đấu (while True):
+
+Lượt 1: Người chơi đánh.
+
+Cho người dùng bấm Enter để đánh (dùng input()).
+
+Gọi lệnh: hero.attack(monster).
+
+Kiểm tra thắng: Nếu monster.is_alive() là False (chết rồi) -> In "Thắng rồi!" -> break.
+
+Lượt 2: Quái vật đánh trả.
+
+Gọi lệnh: monster.attack(hero).
+
+Kiểm tra thua: Nếu hero.is_alive() là False (chết rồi) -> In "Game Over!" -> break.
+
+Hiện trạng thái: Cuối mỗi hiệp, in thông tin (print(hero), print(monster)) để xem còn bao nhiêu máu.
+
+Gợi ý code (main.py):
+
+Python
+
+from game_lib import Character
+import time # Thư viện này để làm chậm game lại cho kịch tính (Optional)
+
+def main():
+    # 1. Khởi tạo nhân vật
+    print("=== TRẬN CHIẾN BẮT ĐẦU ===")
+    hero = Character("Hiệp Sĩ", hp=100, damage=25)
+    monster = Character("Quỷ Lửa", hp=120, damage=15)
+
+    # In ra thông tin ban đầu
+    print(hero)
+    print(monster)
+    print("-" * 30)
+
+    # 2. Vào trận (Vòng lặp)
+    turn = 1
+    while True:
+        print(f"\n--- HIỆP {turn} ---")
+        
+        # --- Lượt người chơi ---
+        action = input("👉 Nhấn Enter để tấn công (hoặc gõ 'q' để chạy trốn): ")
+        if action.lower() == 'q':
+            print("🏃 Bạn đã bỏ chạy!")
+            break
+
+        hero.attack(monster) # Anh hùng đánh quái
+
+        # Kiểm tra quái chết chưa
+        if not monster.is_alive():
+            print(f"\n🎉 CHÚC MỪNG! {monster.name} đã bị tiêu diệt!")
+            break
+        
+        time.sleep(1) # Ngủ 1 giây cho hồi hộp
+
+        # --- Lượt quái vật ---
+        print("\n👹 Quái vật phản công!")
+        monster.attack(hero) # Quái đánh lại anh hùng
+
+        # Kiểm tra mình chết chưa
+        if not hero.is_alive():
+            print(f"\n💀 BẠN ĐÃ HY SINH! Game Over.")
+            break
+
+        # Tăng số hiệp
+        turn += 1
+        print("-" * 30)
+
+if __name__ == "__main__":
+    main()

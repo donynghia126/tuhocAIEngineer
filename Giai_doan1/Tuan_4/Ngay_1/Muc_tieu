@@ -1,0 +1,120 @@
+1. Lý thuyết cốt lõi (Giải thích siêu dễ hiểu)
+Hãy tưởng tượng bạn đang quản lý số liệu:
+
+🟢 1. Scalar (Số vô hướng)
+Là gì? Nó chỉ là một con số duy nhất.
+
+Ví dụ: Nhiệt độ hôm nay là 30 độ. Tuổi của bạn là 25.
+
+Trong Python: x = 30 (Biến int hoặc float bình thường).
+
+🟡 2. Vector (Vectơ)
+Là gì? Là một danh sách các con số được xếp thành hàng (hoặc cột).
+
+Ví dụ: Để mô tả toạ độ nhà bạn trên bản đồ, cần 2 số: [Kinh độ, Vĩ độ]. Hoặc giá tiền của 3 món hàng: [10k, 20k, 50k].
+
+Trong Python: v = [10, 20, 50] (Đây là một List 1 chiều).
+
+🔴 3. Matrix (Ma trận)
+Là gì? Là một bảng các con số có hàng và cột (Giống bảng Excel).
+
+Ví dụ: Bảng điểm của 3 học sinh, mỗi người có 2 môn (Toán, Văn).
+
+Tư duy AI: Một bức ảnh đen trắng thực chất là một Ma trận. Mỗi ô trong bảng là độ sáng của một điểm ảnh (pixel).
+
+Số 0: Màu đen tuyền.
+
+Số 255: Màu trắng tinh.
+
+Trong Python: Chúng ta dùng "List lồng trong List" (List of Lists).
+
+Ví dụ Ma trận 2x2: [[1, 2], [3, 4]].
+
+Hiểu là: List to chứa 2 list nhỏ (tương ứng 2 hàng).
+
+2. Thực hành Code: "List of Lists"
+Bạn hãy tạo file day24_matrix_basic.py và gõ theo từng phần dưới đây để hiểu cơ chế lưu trữ của máy tính.
+
+✅ Phần 1: Tạo Ma trận (Matrix)
+Python
+
+# 1. Scalar (Số)
+a = 5
+print(f"Scalar: {a}")
+
+# 2. Vector (Danh sách 1 chiều)
+# Ví dụ: Một vector không gian 3 chiều (x, y, z)
+v = [1.5, 2.0, -3.2]
+print(f"Vector: {v}")
+
+# 3. Matrix (Danh sách lồng nhau - List of Lists)
+# Hãy tưởng tượng một ma trận 2x3 (2 hàng, 3 cột)
+# Hàng 0: [1, 2, 3]
+# Hàng 1: [4, 5, 6]
+
+matrix_2x3 = [
+    [1, 2, 3],  # Hàng 0
+    [4, 5, 6]   # Hàng 1
+]
+
+print("\nMa trận 2x3 nguyên bản:", matrix_2x3)
+✅ Phần 2: Truy xuất phần tử (Quan trọng)
+Làm sao để lấy số 6 trong ma trận trên?
+
+Quy tắc: Tên_ma_trận[chỉ_số_hàng][chỉ_số_cột]
+
+Python
+
+# Lấy hàng đầu tiên (Hàng 0)
+row_0 = matrix_2x3[0]
+print(f"Hàng 0: {row_0}") # Kết quả: [1, 2, 3]
+
+# Lấy số cụ thể: Hàng 1, Cột 2 (Số 6)
+# matrix[1] -> Lấy ra list [4, 5, 6]
+# matrix[1][2] -> Lấy phần tử index 2 trong list đó
+value = matrix_2x3[1][2]
+print(f"Phần tử ở hàng 1, cột 2 là: {value}")
+3. Bài tập Thực chiến (Hiểu bản chất ảnh)
+Đề bài: Hãy tạo một Ma trận 5x5 mô phỏng một dấu cộng (+) bằng số.
+
+Quy ước: Số 0 là nền đen, số 1 là nét vẽ màu trắng.
+
+Hãy thử tự code trước khi xem đáp án nhé! Tư duy là bạn cần tạo 5 cái list con, sắp xếp số 0 và 1 sao cho nó ra hình dấu cộng.
+
+Đáp án & Giải thích:
+
+Python
+
+print("\n--- BIỂU DIỄN ẢNH BẰNG MA TRẬN ---")
+
+# Tạo ảnh chữ thập (+) kích thước 5x5
+# List of Lists
+image_matrix = [
+    [0, 0, 1, 0, 0], # Hàng 0
+    [0, 0, 1, 0, 0], # Hàng 1
+    [1, 1, 1, 1, 1], # Hàng 2 (Nét ngang)
+    [0, 0, 1, 0, 0], # Hàng 3
+    [0, 0, 1, 0, 0]  # Hàng 4
+]
+
+# Code để in ma trận ra màn hình cho giống cái ảnh
+# (Dùng 2 vòng for lồng nhau)
+for row in image_matrix:
+    # row lúc này là một list, ví dụ [0, 0, 1, 0, 0]
+    for pixel in row:
+        if pixel == 1:
+            print("⬜", end=" ") # In ô trắng nếu là số 1
+        else:
+            print("⬛", end=" ") # In ô đen nếu là số 0
+    print() # Xuống dòng sau khi in hết 1 hàng
+🧠 Phân tích kỹ thuật (Tại sao phải học cái này?)
+Khi bạn dùng Photoshop hay filter Instagram, thực chất máy tính đang chạy vòng lặp for (như đoạn code trên) qua hàng triệu con số trong ma trận ảnh và thay đổi giá trị của chúng.
+
+Làm ảnh sáng lên? Cộng thêm 10 vào tất cả các ô (pixel + 10).
+
+Làm ảnh tối đi? Trừ bớt đi.
+
+🚀 Bài tập về nhà cho Ngày 24
+Chữ X: Hãy tạo một ma trận 5x5 biểu diễn hình chữ X (đường chéo là số 1, còn lại số 0).
+
+Tính tổng: Viết code tính tổng tất cả các con số trong matrix_2x3 ở phần 1 (Kết quả phải là 1+2+3+4+5+6 = 21). Gợi ý: Dùng 2 vòng for lồng nhau.
