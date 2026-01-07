@@ -148,8 +148,8 @@ _Hiểu cách máy tính nhìn dữ liệu (dưới dạng Vector và Matrix)._
 
 #### Ngày 25
 
-- 💻 **LEARN**: Các phép toán trên Ma trận (Cộng, Trừ, Scalar Multiply): Element-wise operations
-- 💻 **CODE**: Viết hàm matrix_add(A, B) và matrix_scalar_mul(A, k) không dùng thư viện
+- ✅ **LEARN**: Các phép toán trên Ma trận (Cộng, Trừ, Scalar Multiply): Element-wise operations
+- ✅ **CODE**: Viết hàm matrix_add(A, B) và matrix_scalar_mul(A, k) không dùng thư viện
 
 #### Ngày 26
 

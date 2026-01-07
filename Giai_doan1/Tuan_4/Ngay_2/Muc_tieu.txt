@@ -1,0 +1,57 @@
+1. Lý thuyết: Element-wise Operations (Tính toán từng phần tử)Các phép toán Cộng, Trừ, Nhân với một số (Scalar Multiply) trên Ma trận đều hoạt động theo nguyên tắc "Vị trí nào xử lý vị trí đó".🟢 Phép Cộng / Trừ hai Ma trận (Matrix Addition / Subtraction)Điều kiện: Hai ma trận phải có cùng kích thước (cùng số hàng, cùng số cột).Cách tính: Lấy phần tử ở dòng i, cột j của ma trận A cộng/trừ với phần tử tương ứng của ma trận B.Ví dụ:$$\begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix} + \begin{bmatrix} 10 & 20 \\ 30 & 40 \end{bmatrix} = \begin{bmatrix} 11 & 22 \\ 33 & 44 \end{bmatrix}$$Ý nghĩa: Trong xử lý ảnh, cộng hai ma trận giống như việc bạn chồng 2 bức ảnh lên nhau (lồng ảnh).🟡 Phép Nhân Ma trận với một số (Scalar Multiplication)Cách tính: Lấy số đó nhân với tất cả các phần tử trong ma trận.Ví dụ:$$2 \times \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix} = \begin{bmatrix} 2 & 4 \\ 6 & 8 \end{bmatrix}$$Ý nghĩa: Tăng độ tương phản hoặc độ sáng của toàn bộ bức ảnh.2. Thực hành Code (Không dùng thư viện)Bạn hãy tạo file mới hoặc viết tiếp vào file cũ để cài đặt 2 hàm này nhé. Tư duy vẫn là dùng 2 vòng for lồng nhau.✅ Bài tập 1: Hàm matrix_add(A, B)Gợi ý:Kiểm tra kích thước (số hàng, số cột) của A và B xem có bằng nhau không. Nếu không thì báo lỗi.Tạo một ma trận kết quả (ban đầu là list rỗng []).Duyệt từng hàng, rồi trong mỗi hàng duyệt từng cột để cộng.Pythondef matrix_add(matrix_a, matrix_b):
+    # 1. Kiểm tra kích thước (Optional nhưng nên làm cho quen tư duy)
+    rows_a = len(matrix_a)
+    cols_a = len(matrix_a[0])
+    rows_b = len(matrix_b)
+    cols_b = len(matrix_b[0])
+
+    if rows_a != rows_b or cols_a != cols_b:
+        return "Lỗi: Hai ma trận không cùng kích thước!"
+
+    # 2. Thực hiện phép cộng
+    result = []
+    for i in range(rows_a):
+        row_result = [] # Tạo hàng mới cho kết quả
+        for j in range(cols_a):
+            # Cộng phần tử tương ứng: A[i][j] + B[i][j]
+            sum_val = matrix_a[i][j] + matrix_b[i][j]
+            row_result.append(sum_val)
+        result.append(row_result) # Đưa hàng đã cộng xong vào kết quả
+    
+    return result
+
+# --- TEST THỬ ---
+A = [
+    [1, 2, 3],
+    [4, 5, 6]
+]
+
+B = [
+    [10, 20, 30],
+    [40, 50, 60]
+]
+
+print("Tổng 2 ma trận:")
+tong = matrix_add(A, B)
+for row in tong:
+    print(row)
+✅ Bài tập 2: Hàm matrix_scalar_mul(matrix, k)Gợi ý: Hàm này dễ hơn, chỉ cần lấy k nhân vào từng số là xong.Pythondef matrix_scalar_mul(matrix, k):
+    result = []
+    for row in matrix:
+        new_row = []
+        for val in row:
+            new_val = val * k
+            new_row.append(new_val)
+        result.append(new_row)
+    return result
+
+# --- TEST THỬ ---
+C = [
+    [1, -2],
+    [3, 0]
+]
+
+print("\nNhân ma trận với 3:")
+tich = matrix_scalar_mul(C, 3)
+for row in tich:
+    print(row)
